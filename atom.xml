@@ -1,0 +1,1634 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Not LSD</title>
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://notlsd.com/"/>
+  <updated>2017-11-07T11:34:13.000Z</updated>
+  <id>http://notlsd.com/</id>
+  
+  <author>
+    <name>LIU Sida</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Iron Marines - A Dynamic Tower Defense</title>
+    <link href="http://notlsd.com/2017/11/07/iron-marines/"/>
+    <id>http://notlsd.com/2017/11/07/iron-marines/</id>
+    <published>2017-11-07T11:30:35.000Z</published>
+    <updated>2017-11-07T11:34:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>KINGDOM RUSH series is one of notlsd’s favourite games </p>
+<a id="more"></a>
+<ul>
+<li><p>Likely Starcraft </p>
+</li>
+<li></li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;KINGDOM RUSH series is one of notlsd’s favourite games &lt;/p&gt;
+    
+    </summary>
+    
+      <category term="拆游戏" scheme="http://notlsd.com/categories/%E6%8B%86%E6%B8%B8%E6%88%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>胖子与瘦子</title>
+    <link href="http://notlsd.com/2017/07/14/the-fat-and-the-thin/"/>
+    <id>http://notlsd.com/2017/07/14/the-fat-and-the-thin/</id>
+    <published>2017-07-14T06:44:36.000Z</published>
+    <updated>2017-07-26T10:00:23.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>（零）</p>
+<p>有个胖子四处寻访，</p>
+<p>他早已死了；</p>
+<p>有个瘦子刚刚去世，</p>
+<p>他仍然活着。</p>
+<a id="more"></a> 
+<p>（一）</p>
+<p>胖子的体重是国家机密，</p>
+<p>不停地上涨；</p>
+<p>瘦子的体重也是国家机密，</p>
+<p>止不住地下降。</p>
+<p>（三）</p>
+<p>胖子总是出现在头条，</p>
+<p>人们不得不拍手；</p>
+<p>瘦子偶尔出现在头条，</p>
+<p>人们彻夜地狂欢。</p>
+<p>（三）</p>
+<p>胖子出门，</p>
+<p>别人都堵在路；</p>
+<p>瘦子出门，</p>
+<p>铁卫封堵了家。</p>
+<p>（四）</p>
+<p>胖子没有朋友，</p>
+<p>在哪里都有人放暗箭；</p>
+<p>瘦子没有敌人，</p>
+<p>全世界都是他的朋友。</p>
+<p>（五）</p>
+<p>朋友们在今天，</p>
+<p>将他送入天堂。<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="为纪念刘晓波逝世而作">[1]</span></a></sup></p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">为纪念刘晓波逝世而作<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;（零）&lt;/p&gt;
+&lt;p&gt;有个胖子四处寻访，&lt;/p&gt;
+&lt;p&gt;他早已死了；&lt;/p&gt;
+&lt;p&gt;有个瘦子刚刚去世，&lt;/p&gt;
+&lt;p&gt;他仍然活着。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="春秋笔" scheme="http://notlsd.com/categories/%E6%98%A5%E7%A7%8B%E7%AC%94/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Polytopia - A Mobilized Civilization (Draft)</title>
+    <link href="http://notlsd.com/2017/06/13/polytopia-a-mobilized-civilization/"/>
+    <id>http://notlsd.com/2017/06/13/polytopia-a-mobilized-civilization/</id>
+    <published>2017-06-13T07:40:27.000Z</published>
+    <updated>2017-07-26T09:45:34.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Sid Meir’s Civilization series are one of the greatest monuments in the history of PC games. However, due to that sophisticated mechanism with day and night “ One More Turn “, it’s extremely difficult to transplant it into mobile platform. Even 2k’s own transplantation is a failure.</p>
+<p>@notlsd recently have been addicted into “ The Battle of Polytopia ” - An indie game from one-man studio - Midjiwan in Sweden. It’s the best civilization-like game in mobile platform @notlsd have ever seen. </p>
+<p>This essay will analyze the game design of &lt; The Battle of Polytopia &gt; with widely acclaimed “ Sid Meir’s Civilization V - Brave New World “ <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Basic Civilzaiton V BNW experience will be great for reading this article">[1]</span></a></sup><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Abbravation as CivBNW in the following article">[2]</span></a></sup></p>
+<a id="more"></a>
+<h3 id="Game-Archtechure"><a href="#Game-Archtechure" class="headerlink" title="Game Archtechure"></a>Game Archtechure</h3><p>There are more than dozens sub-systems in CivBNW - Military, Population, Production, Culture, Gold, Food, Faith, Diplomacy, Terrain, Building, Wonder, Technology, Ideology …… even more.   </p>
+<p>Polytopia have skilled chosen some of CivBNW’s system as well as have created some of its own. All the following proper nouns are invented by @notlsd, not the game author.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">├── CITY SYSTEM</div><div class="line">│   ├── City Level Indication</div><div class="line">│   └── City Upgrade Bonus</div><div class="line">│</div><div class="line">├── MAP SYSTEM </div><div class="line">│   ├── Terrain Limitation</div><div class="line">│   ├── Terrain Modification </div><div class="line">│   ├── Visible Area</div><div class="line">│   ├── National Land Area</div><div class="line">│   └── Ruins Bonus</div><div class="line">│</div><div class="line">├── COMBAT SYSTEM </div><div class="line">│   ├── City Capture</div><div class="line">│   ├── XP System</div><div class="line">│   └── Unit System</div><div class="line">│</div><div class="line">├── TECHNOLOGY SYSTEM</div><div class="line">│   ├── New Army</div><div class="line">│   ├── New Facility </div><div class="line">│   └── New Bonus</div><div class="line">│</div><div class="line">├── SCORE SYSTEM </div><div class="line">│</div><div class="line">├── GENERAL EQUIVALENCE (STAR) SYSTEM</div><div class="line">│</div><div class="line">└── VICTORY SYSTEM</div></pre></td></tr></table></figure>
+<h4 id="City-System"><a href="#City-System" class="headerlink" title="City System"></a>City System</h4><p>City is the basic self-sufficient production unit in CivBNW as well as base on other RTS like StarCraft, Red Alert and Epire Times. Polytopia have copied the idea from civilization with great simplification. </p>
+<ul>
+<li><p><strong><em>City Level Indication</em></strong> combined Population and Production system of CivBNW to increase the population that city can carry and the income stars each turn (Customs Houses excluded). The step increase is linear. It is the most basic system of the whole game, it is the basic measurement of how many resources you empire carries. This system is really concise and elegant.</p>
+</li>
+<li><p><strong><em>City Upgrade Bonus</em></strong> Every time you update your city, you may have choose an update. Sid Meir have said “ GAME IS A SEIRES OF INTERESTING CHOICES “. This idea is great, it is really a choice, but in fact, , you may always choice one type, it becomes never interesting</p>
+</li>
+</ul>
+<h4 id="Map-System"><a href="#Map-System" class="headerlink" title="Map System"></a>Map System</h4><p>Map, with its bonus and limitation are the most critical system on 4x game. The Map System on Polytopia is almost the same as CivBNW</p>
+<ul>
+<li><p><strong><em>Terrain Limitation</em></strong> are fantasitic on Civilization series games. Basically, there are two limitation for units - visibility and mobility. There are + 1 visibility on mountain and reduction for mobibility on forest. Especially, Across the water request special technology which shallow sea and deep ocean on different level.   </p>
+</li>
+<li><p><strong><em>Terrain Modification</em></strong> As Karl Max sad “人活着的意义就是改造自然”. Modification on terrain are the most </p>
+</li>
+</ul>
+<h3 id="Pros-amp-Cons"><a href="#Pros-amp-Cons" class="headerlink" title="Pros &amp; Cons"></a>Pros &amp; Cons</h3><h4 id="Pros"><a href="#Pros" class="headerlink" title="Pros"></a>Pros</h4><ul>
+<li><p>Moble friendly action </p>
+</li>
+<li><p>concised design</p>
+</li>
+<li><p>Update 2.11, greeat in balance </p>
+</li>
+</ul>
+<h4 id="Cons"><a href="#Cons" class="headerlink" title="Cons"></a>Cons</h4><ul>
+<li><p>Only Combate, not multi-dimentsional choice</p>
+</li>
+<li><p>Stupid upgtation </p>
+</li>
+<li><p>No MMO</p>
+</li>
+<li><p>No Settler </p>
+</li>
+<li><p>No Hex </p>
+</li>
+</ul>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Basic Civilzaiton V BNW experience will be great for reading this article<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Abbravation as CivBNW in the following article<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Sid Meir’s Civilization series are one of the greatest monuments in the history of PC games. However, due to that sophisticated mechanism with day and night “ One More Turn “, it’s extremely difficult to transplant it into mobile platform. Even 2k’s own transplantation is a failure.&lt;/p&gt;
+&lt;p&gt;@notlsd recently have been addicted into “ The Battle of Polytopia ” - An indie game from one-man studio - Midjiwan in Sweden. It’s the best civilization-like game in mobile platform @notlsd have ever seen. &lt;/p&gt;
+&lt;p&gt;This essay will analyze the game design of &amp;lt; The Battle of Polytopia &amp;gt; with widely acclaimed “ Sid Meir’s Civilization V - Brave New World “ &lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;Basic Civilzaiton V BNW experience will be great for reading this article&quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;Abbravation as CivBNW in the following article&quot;&gt;[2]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="拆游戏" scheme="http://notlsd.com/categories/%E6%8B%86%E6%B8%B8%E6%88%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>环滇骑迹 [5] 湖风助吾翻书页（草稿）</title>
+    <link href="http://notlsd.com/2017/06/08/hdjq-5-reading-on-lakeside/"/>
+    <id>http://notlsd.com/2017/06/08/hdjq-5-reading-on-lakeside/</id>
+    <published>2017-06-08T07:49:48.000Z</published>
+    <updated>2017-07-14T06:38:24.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>一个人，一辆车，一本小册子<br><a id="more"></a><br>坐在湖边，悠哉游哉的阅读<br>这是中学时代以来便养成的习惯</p>
+<p>湖风很少是所谓「轻拂」，<br>在自然的狂暴下，更能感受到<br>书籍，或曰书籍中所凝聚的乃是人类文明的舍利子</p>
+<p><img src="/2017/06/08/hdjq-5-reading-on-lakeside/image126.jpg" alt="pic 波涛"><span class="imgTitle">pic 波涛</span></p>
+<p><img src="/2017/06/08/hdjq-5-reading-on-lakeside/image128.jpg" alt="pic 兄弟"><span class="imgTitle">pic 兄弟</span></p>
+<p><img src="/2017/06/08/hdjq-5-reading-on-lakeside/image130.jpg" alt="pic 孤影"><span class="imgTitle">pic 孤影</span></p>
+<p>此处阅毕 Die Deutsche Katastrophe - Betrachtungen und Erinnerungen, Friedrich Meinecke 德意志的浩劫 － 思考与回忆，梅尼克</p>
+<p>Chapter V 智人与强人<br>Chapter VI 军国主义与希特勒主义<br>Chapter VII 群众的马基雅维利主义<br>Chapter VIII 偶然性与普遍性</p>
+<p>鉴于国家社会主义德国工人党和中国共产党都曾修改宪法定自己为本国的唯一执政党，且都大言不惭的自诩为“党”。这本书的是对上一节 “class 低低飘扬的五星红旗”的绝佳注解</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;一个人，一辆车，一本小册子&lt;br&gt;&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="环滇骑迹" scheme="http://notlsd.com/categories/%E7%8E%AF%E6%BB%87%E9%AA%91%E8%BF%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>「光新路火车站」 -  一个地理学考据</title>
+    <link href="http://notlsd.com/2017/06/08/guangxinlu-railway-station/"/>
+    <id>http://notlsd.com/2017/06/08/guangxinlu-railway-station/</id>
+    <published>2017-06-08T03:36:31.000Z</published>
+    <updated>2017-06-08T07:22:13.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在前工作地点上海市岚皋路品尊国际的北面，有一个其实不小的火车站，大约十多道铁轨，岚皋路桥从其上跨过。但周围的居民一概把它叫做「沪宁线临时停车线」，火车站再小也是有名字的到底叫什么名字，进行了一番考据。</p>
+<a id="more"></a>
+<p>现有铁路线，才有火车站。要知道一座火车站的名字，首先需要确定他在哪一条线上。正可谓「纲举目张」。查阅地图可知，此站在应属沪宁线<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="即上海至南京的铁路线上。">[1]</span></a></sup>，上海站与上海西站之间。</p>
+<p>然而在所有的线路图上，上海站都是紧接着上海西站，中间被直接忽略了。陷入了死局，这个考据就此搁置了大半年。</p>
+<p>直到有一天看史书的时候，突然想起中国人民修地方志的传统，鉴于上海毕竟还算是大地方。试试，找到了</p>
+<p>在「上海市地方志办公室」网站找到了上海市全部的火车站表：</p>
+<p>专业志 &gt;&gt; 上海地名志 &gt;&gt; 第五篇交通地名（二） &gt;&gt; 第一章轨道交通 &gt;&gt; 节</p>
+<p>一一检索了「沪宁线」车站，无一在列。只好换一种思路，通过地理区域找。</p>
+<p>显见得，火车站在普陀区。普陀区总共有两个车站：上海西站；光新路站；没了 …..</p>
+<blockquote>
+<p>光新路站(Guangxinlu Zhan)　沪杭铁路车站。在普陀区境。1983年5月兴建，1985年6月建成。因路得名。为五等站。</p>
+</blockquote>
+<p>直线距离，以西三百米。</p>
+<p>但为什么会在沪杭线上 ？</p>
+<p>这个问题令 @notsld 百思不得其解</p>
+<p><a href="https://zh.wikipedia.org/zh-hans/沪杭铁路" target="_blank" rel="external">Wikipedia 的沪杭铁路词条</a>中有这样一段话</p>
+<blockquote>
+<p>沪杭铁路在1915年3月开始兴建连接沪宁铁路的接轨线，1916年12月建成通车，同时沪杭线起点由上海南站改到上海北站（今上海铁路局客技站），</p>
+<p>1965年，在南翔附近修建了至新桥的南北向的南新铁路环线，全线25.16公里，联结沪杭、沪宁铁路，使往来沪宁、沪杭线的货物列车直接到达南翔站，利用南翔站的驼峰设施重新编组，不必再绕经上海市区。</p>
+</blockquote>
+<p>这两段话说明了一个基本的问题：沪杭线与沪宁线在进入上海的时候并线</p>
+<p>又在这里</p>
+<p>专业志 &gt;&gt; 上海城市规划志 &gt;&gt; 第五篇城市对外交通规划</p>
+<p>看到了下面这段话：</p>
+<blockquote>
+<p>1983年修订铁路枢纽规划，建议加快沪杭复线、外环线建设，消除内环线与城市道路交通的干扰；继续改造沪宁线、沪杭线，提高通行能力和行车速度</p>
+</blockquote>
+<p>结合「光新路站」的说明，虽然站址落于沪宁线上，但光新路站被算作了沪杭外环线的一部分，至此，考据毕。</p>
+<p><a href="http://www.shtong.gov.cn/node2/node2245/node70862/node70871/node70928/node70936/userobject1ai73732.html" target="_blank" rel="external">http://www.shtong.gov.cn/node2/node2245/node70862/node70871/node70928/node70936/userobject1ai73732.html</a></p>
+<p><a href="http://www.shtong.gov.cn/node2/node2245/node64620/node64629/index.html" target="_blank" rel="external">http://www.shtong.gov.cn/node2/node2245/node64620/node64629/index.html</a></p>
+<p><a href="http://localhost-8080.com/about/" target="_blank" rel="external">http://localhost-8080.com/about/</a><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">即上海至南京的铁路线上。<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在前工作地点上海市岚皋路品尊国际的北面，有一个其实不小的火车站，大约十多道铁轨，岚皋路桥从其上跨过。但周围的居民一概把它叫做「沪宁线临时停车线」，火车站再小也是有名字的到底叫什么名字，进行了一番考据。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="考据癖" scheme="http://notlsd.com/categories/%E8%80%83%E6%8D%AE%E7%99%96/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>环滇骑迹 [4] 低低飘扬的五星红旗（草稿）</title>
+    <link href="http://notlsd.com/2017/06/08/hdjq-4-lowest-national-flag/"/>
+    <id>http://notlsd.com/2017/06/08/hdjq-4-lowest-national-flag/</id>
+    <published>2017-06-08T02:35:01.000Z</published>
+    <updated>2018-02-04T03:56:40.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在环滇的路上，恰巧偶遇晋宁农民抗议强行征地。四年后的今天，果真当地果真已经成为了一个巨大且空置的楼盘<a href="http://www.ynnsd.com/front/industry/296.whtml" target="_blank" rel="external">七彩云南·古滇文化旅游名城</a>。不禁想起那句著名的话：</p>
+<a id="more"></a>
+<blockquote>
+<p><a href="https://www.youtube.com/watch?v=Ze9sI2Put1U" target="_blank" rel="external">稍有常识的人都会看出：如果我们的铁骑继续前进，这些螳臂当车的歹徒难道能阻挡得了吗？</a></p>
+</blockquote>
+<h3 id="图集"><a href="#图集" class="headerlink" title="图集"></a>图集</h3><p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image110.jpg" alt="pic 晋宁农民抗议强行征地_全景_1"><span class="imgTitle">pic 晋宁农民抗议强行征地_全景_1</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image112.jpg" alt="pic 晋宁农民抗议强行征地_全景_2"><span class="imgTitle">pic 晋宁农民抗议强行征地_全景_2</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image114.jpg" alt="pic 晋宁农民抗议强行征地_全景_3"><span class="imgTitle">pic 晋宁农民抗议强行征地_全景_3</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image116.jpg" alt="pic 标语_脚踩土地奔小康_没有土地去逃荒"><span class="imgTitle">pic 标语_脚踩土地奔小康_没有土地去逃荒</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image118.jpg" alt="pic 红旗猎猎护身形_主席万岁照我心"><span class="imgTitle">pic 红旗猎猎护身形_主席万岁照我心</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image120.jpg" alt="pic 每一面国旗都是_一块党_伟大_光荣_正确的裆布"><span class="imgTitle">pic 每一面国旗都是_一块党_伟大_光荣_正确的裆布</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image122.jpg" alt="pic 突兀的国旗_鲜红的匕首"><span class="imgTitle">pic 突兀的国旗_鲜红的匕首</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image124.jpg" alt="pic 阻塞交通"><span class="imgTitle">pic 阻塞交通</span></p>
+<p>///农民手中不多的牌之一，却绝不是什么好牌</p>
+<h3 id="闲诗"><a href="#闲诗" class="headerlink" title="闲诗"></a>闲诗</h3><p>这是一个怎样的国家！？</p>
+<p>诚然，<br>神九上天，<br>蛟龙入海。</p>
+<p>国家主席手捧宪法<br>依然维护不了自己的人身安全！</p>
+<p>猛地，<br>想起了济南的铁弦，<br>将先帝的牌位挂起，<br>一时<br>停滞了<br>篡位者的步伐</p>
+<p>手无寸铁的农民，<br>更只有把国家的象征，<br>当作护身符般挂起。</p>
+<p>所能做的，<br>仅仅是，<br>暂时的堵塞，<br>一条几乎没有什么车辆的道路，<br>却仍要承担<br>城管的威胁</p>
+<p>在没有约束的强权面前，<br>任何的个体<br>犹如蚍蜉。</p>
+<h3 id="观点"><a href="#观点" class="headerlink" title="观点"></a>观点</h3><p>关于政治，仍然是如下观点：</p>
+<p>一，明君梦，清官梦，侠客梦，都是不符合现代政治逻辑的黄粱美梦与空中楼阁。</p>
+<p>二，党是当前中国最大的既得利益集团，令任何既得利益者将其既得利益自觉地，自愿地，主动地吐出来，都是痴心妄想。</p>
+<p>三，宪政的前提是各利益攸关方有规则的博弈，这在 CCP 一家独大的情况下是不可能的。</p>
+<p><a href="https://cn.nytimes.com/china/20141016/c16clash/" target="_blank" rel="external">https://cn.nytimes.com/china/20141016/c16clash/</a></p>
+<p><a href="http://www.bbc.com/zhongwen/simp/china/2013/10/131030_china_yunnan_stand_off" target="_blank" rel="external">http://www.bbc.com/zhongwen/simp/china/2013/10/131030_china_yunnan_stand_off</a></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在环滇的路上，恰巧偶遇晋宁农民抗议强行征地。四年后的今天，果真当地果真已经成为了一个巨大且空置的楼盘&lt;a href=&quot;http://www.ynnsd.com/front/industry/296.whtml&quot;&gt;七彩云南·古滇文化旅游名城&lt;/a&gt;。不禁想起那句著名的话：&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="环滇骑迹" scheme="http://notlsd.com/categories/%E7%8E%AF%E6%BB%87%E9%AA%91%E8%BF%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>「雄安新区」- 雄才大略的燕幕自安</title>
+    <link href="http://notlsd.com/2017/06/02/xiong-an-new-district/"/>
+    <id>http://notlsd.com/2017/06/02/xiong-an-new-district/</id>
+    <published>2017-06-02T07:02:42.000Z</published>
+    <updated>2017-06-02T07:04:11.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>「愚人节」听到这个消息，真诚的喊一声 April Fool !</p>
+<p>新华社写到：</p>
+<blockquote>
+<p>中共中央、国务院印发通知，决定设立河北雄安新区。这是以习近平同志为核心的党中央作出的一项重大的历史性战略选择，是继深圳经济特区和上海浦东新区之后又一具有全国意义的新区，是 <strong>千年大计、国家大事</strong>。</p>
+</blockquote>
+<p>第一反应是一句「史记」：</p>
+<a id="more"></a>
+<blockquote>
+<p>自今已来，除谥法。朕为始皇帝。后世以计数，二世三世至于万世，传之无穷。</p>
+</blockquote>
+<p>登基不足十年，建国不足百年，也只有雄才大略的始皇帝才配的上「千年大计，国家大事」。</p>
+<p>2013 年暑假，不知天高地厚的我，骑自行车从帝都北京一直到河南郑州。回来后却一直拖延症发作，没有写哪怕一个字，所以这篇文章的本质应该算是篇「迟到的游记」。</p>
+<h3 id="第三新北京市"><a href="#第三新北京市" class="headerlink" title="第三新北京市"></a>第三新北京市</h3><p><a href="https://zh.wikipedia.org/wiki/邓小平" target="_blank" rel="external">「太宗」</a> 在深圳画了一个圈儿，<a href="https://zh.wikipedia.org/wiki/江泽民" target="_blank" rel="external">「长者」</a> 在浦东画了一个圈儿，<a href="https://zh.wikipedia.org/wiki/习近平" target="_blank" rel="external">「今上」</a> 在白洋淀又画了一个圈儿。弗洛伊德是对的，毕竟「太宗」在法国留的学，「长者」在上海读的书，「今上」的仕途起于正定的县委书记。</p>
+<p>不说现在「国家级新区」已经高达十八个，就说当年画的四个圈儿 - 靠近香港的深圳；靠近澳门的珠海；依赖台资的厦门；依赖华侨的汕头，也只就有「深圳」算是真正成为了大都会，让世界刮目相看。不论你信不信，反正我是相信「雄安新区」能和「深圳经济特区」和「上海浦东新区」比肩的。毕竟「统计学」上有「幸存者偏差」嘛。</p>
+<p>当然，令世界刮目相看的还有上届力推的「天津滨海新区」，<a href="https://zh.wikipedia.org/zh-hans/2015年天津港危化品倉庫爆炸事故" target="_blank" rel="external">2015.8.12 的天津滨海</a>，那可是货真价实的火遍了全世界。</p>
+<p>「雄安新区」这个名字倒不如「第三新北京市」，替代<a href="https://zh.wikipedia.org/wiki/%E6%96%B0%E4%B8%96%E7%BA%AA%E7%A6%8F%E9%9F%B3%E6%88%98%E5%A3%AB%E5%90%8D%E8%AF%8D%E5%88%97%E8%A1%A8" target="_blank" rel="external">「第三新东京市」</a> 承载人类补完的希望。</p>
+<h3 id="中国特色的「迁都」"><a href="#中国特色的「迁都」" class="headerlink" title="中国特色的「迁都」"></a>中国特色的「迁都」</h3><p>还是在从北京到郑州的路上，偶遇 @ Martin Kohan，一个伯克利毕业的犹太人。中国到底算是什么主义？我们一路上都在讨论这个问题。Capitalism? Socialism? 最终的结论十分的官话 ” Socialism with Chinese Characteristics “。「中国特色社会主义」，这可是国际友人说的。</p>
+<p>新华社写到：</p>
+<blockquote>
+<p>设立雄安新区，是以习近平同志为核心的党中央深入推进京津冀协同发展作出的一项重大决策部署，对于集中疏解北京非首都功能，探索人口经济密集地区优化开发新模式，调整优化京津冀城市布局和空间结构，培育创新驱动发展新引擎，具有重大现实意义和深远历史意义。</p>
+</blockquote>
+<p>「集中疏解北京非首都功能」可真是个伟大的创举。</p>
+<p>在中国有信史记载的三千七百年文明史以来，平王东迁，拓跋南伐，蒋公西狩，成祖北定，无一例外都是最高领导人顶着全民的反对，一意孤行。有亡国灭种的，有昙花一现的，有力挽狂澜的，也有奠定基业的。但无论如何，你们先走，我留下吸雾霾，这种大无畏的革命精神真可谓「伟大」「光明」「正义」。</p>
+<p>翻遍 1900 年后的现代史，从最年轻世界遗产巴西「巴西利亚」，到土耳其「安卡拉」，哈萨克斯坦「阿斯塔纳」，无不是率先规划，全民讨论，最后在一片争议声中一举迁都。甚至连非洲兄弟，尼日利亚「阿布贾」与科特迪瓦「亚穆苏克罗」都是如此。这种秘密决策，突然宣布，举国震惊，也只有缅甸<a href="https://zh.wikipedia.org/wiki/%E5%9B%BD%E5%AE%B6%E5%92%8C%E5%B9%B3%E4%B8%8E%E5%8F%91%E5%B1%95%E5%A7%94%E5%91%98%E4%BC%9A" target="_blank" rel="external">「国家和平与发展委员会」</a>，这可是货真价实的「和平」与「发展」。</p>
+<p>中国毕竟是全球第二大经济体，比他们高到不知哪里去了。德国不就是「柏林」作为首都，「波恩」作为副首都么？你看，这才是我们学习的榜样。至于历史成因，这不是我们关心的问题，毕竟有个成语叫「东施效颦」。</p>
+<h3 id="没有雾霾的「雄安新区」"><a href="#没有雾霾的「雄安新区」" class="headerlink" title="没有雾霾的「雄安新区」"></a>没有雾霾的「雄安新区」</h3><p>分析一个地区的产业结构是一件非常复杂的事情，从股市大略可以看出一个轮廓。翻看公开资料可知，雄县、容城、安新，没有主板上市企业，共有四家新三版上市企业，如表。行业名称与行业代码依据「中华人民共和国国家统计局」的分类法。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">企业名称</th>
+<th style="text-align:center">股票代码</th>
+<th style="text-align:center">行业名称</th>
+<th style="text-align:center">行业代码   </th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">津海股份</td>
+<td style="text-align:center">833267.OC</td>
+<td style="text-align:center">纺织服装、服饰业</td>
+<td style="text-align:center">C18</td>
+</tr>
+<tr>
+<td style="text-align:center">澳森制衣</td>
+<td style="text-align:center">833603.OC</td>
+<td style="text-align:center">纺织服装、服饰业</td>
+<td style="text-align:center">C18</td>
+</tr>
+<tr>
+<td style="text-align:center">松赫股份</td>
+<td style="text-align:center">835995.OC</td>
+<td style="text-align:center">有色金属冶炼和压延加工业</td>
+<td style="text-align:center">C32</td>
+</tr>
+<tr>
+<td style="text-align:center">天宏股份</td>
+<td style="text-align:center">837702.OC</td>
+<td style="text-align:center">皮革、毛皮、羽毛及其制品和制鞋业</td>
+<td style="text-align:center">C19</td>
+</tr>
+</tbody>
+</table>
+<p>这大概就是为什么一路上，路边河沟中流淌着的彩色的河水，空气中弥漫着的醋一般的香味，口罩的颜色从白一直到了比黄河水还深。当然不要忘了穿越三北防护林，千里迢迢赶来的沙尘暴，至少比帝都好，没有 PM 2.5 这种慢性杀手，碎石打在脸上顶多就是些皮外伤嘛，无所谓啦。</p>
+<p>最值得一提的是「松赫股份」，根据公开消息</p>
+<blockquote>
+<p>松赫股份位于安新县老河头镇西地村，主要从事危废处理综合利用领域，以回收废旧铅酸蓄电池及铅酸蓄电池生产过程中产生的含铅废料等，通过熔炼还原处理成再生铅，再经过深加工形成生产蓄电池所需要的各类合金铅。</p>
+</blockquote>
+<p>既然我们绝不走「先污染，后治理」的老路，铅中毒什么的，当然只会在罪恶的资本主义国家发生啦。</p>
+<p>我相信，在「北京理工大学」同宿舍的北京和保定的室友，一定会乐意来到这没有雾霾的「雄安新区」。</p>
+<h3 id="世界是你们的，也是我们的，但是归根结底是「赵家」的"><a href="#世界是你们的，也是我们的，但是归根结底是「赵家」的" class="headerlink" title="世界是你们的，也是我们的，但是归根结底是「赵家」的"></a>世界是你们的，也是我们的，但是归根结底是「赵家」的</h3><p>「未庄」是谁的？</p>
+<p>相信读完「阿 Q 正传」的同学，心里都应该有数。</p>
+<p>大概是刚出「房山区」，刚进「涿州市」的时候，偶遇一老农，说了一句莫名其妙的话：</p>
+<blockquote>
+<p>北京要跳着收。</p>
+</blockquote>
+<p>后来才明白，老农的意思是北京准备绕过「涿州」「固安」「高碑店」，向南再收一片地，当时觉得是天方夜谭。</p>
+<p>我相信，2016 年去「白洋淀」大批屯别墅的北京人，是为了躲雾霾才去的。</p>
+<p>1957年11月17日，与希特勒总理，斯大林书记齐名的世界知名领袖毛泽东主席，在莫斯科大学向留苏学生发表著名演讲：</p>
+<blockquote>
+<p>世界是你们的，也是我们的，但是归根结底是你们的。你们青年人朝气蓬勃，正在兴旺时期，好像早晨八九点钟的太阳。</p>
+</blockquote>
+<p>1958年，「人民公社」和「大跃进」运动开始。</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;「愚人节」听到这个消息，真诚的喊一声 April Fool !&lt;/p&gt;
+&lt;p&gt;新华社写到：&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;中共中央、国务院印发通知，决定设立河北雄安新区。这是以习近平同志为核心的党中央作出的一项重大的历史性战略选择，是继深圳经济特区和上海浦东新区之后又一具有全国意义的新区，是 &lt;strong&gt;千年大计、国家大事&lt;/strong&gt;。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;第一反应是一句「史记」：&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="春秋笔" scheme="http://notlsd.com/categories/%E6%98%A5%E7%A7%8B%E7%AC%94/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>微型商业分析 | 教育机器人</title>
+    <link href="http://notlsd.com/2017/06/02/micro-business-educational-robots/"/>
+    <id>http://notlsd.com/2017/06/02/micro-business-educational-robots/</id>
+    <published>2017-06-02T03:10:36.000Z</published>
+    <updated>2017-06-07T13:52:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><a href="https://www.ed.gov/stem" target="_blank" rel="external">STEM</a><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Science & Technology & Engineering & Mathematics ">[1]</span></a></sup> 的教育几乎就等同于国家的明天，这个观点已经成为了某种「政治正确」，其中最典型的例子或许莫过于机器人教育的遍地开花。阴差阳错地，@notlsd 恰好认识两家从事上述行业的机构，初看伯仲之间，实则云泥之别。</p>
+<a id="more"></a>
+<p>为简述方便，下文分别用「昆」「京」分别代指两家机器人课程机构：</p>
+<ul>
+<li><p>「昆」初中电算课<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="___电___ 子计 ___算___ 机课程">[2]</span></a></sup>老师开设的「昆明艾克瑞特机器人教育」</p>
+</li>
+<li><p>「京」<a href="http://engineeringforkids.com/" target="_blank" rel="external">Engineering For Kids</a> 中国代理「北京熠卓儿童科学乐园」</p>
+</li>
+</ul>
+<h3 id="选址"><a href="#选址" class="headerlink" title="选址"></a>选址</h3><ul>
+<li><p>「昆」昆明市五华区小西门昆师路「百汇商场」三楼</p>
+</li>
+<li><p>「京」北京市朝阳区北苑清河营中街「福熙大道」底商</p>
+</li>
+</ul>
+<p>从某种意义上，「百汇商场」这个词在昆明就意味着商业化教育，这得要老昆明才能解释的清楚，且听我慢慢道来。</p>
+<p>最主要的原因大概有两个：一方面，「百汇商场」二三四楼一直有「新知书城」，曾经是中国最大的民营书店；另一方面，从幼儿园到大学，几乎昆明所有的顶级教育机构都在「百汇商场」的一点五公里半径辐射圈内。云南大学，昆明理工，云南师范，云大附中，师大实验，昆明一中，昆明二中，师大附小，武城小学，中华小学…… 这还只是不完全列表。因而在昆明俚语中，「去百汇」基本等同于去上课外学习班。</p>
+<p><img src="/2017/06/02/micro-business-educational-robots/BAIHUI_Circle.png" alt="百汇一点五公里辐射半径"><span class="imgTitle">百汇一点五公里辐射半径</span></p>
+<p>「福熙大道」并不是一条路，而是<a href="https://zh.wikipedia.org/wiki/帝都" target="_blank" rel="external">帝都</a>北郊十三号线沿线著名「睡城」中的一中产阶级小区，为了气派，正门只有两个门面。假设小区正门是天安门的话，那么「京」的店铺就是挂「世界人民大团结万岁」的地方。</p>
+<p>显见得，两个地方的租金都不便宜，流量也都不低，但资金的效率简直天差地别，关键的问题在于转化率:</p>
+<p>「昆」就在书店门口，而且去书店有不少是家长带着孩子去买教辅，一方面，是 @notlsd 亲自观察的结果；另一方面，从每年书籍销售的统计数据，「教辅类」冠绝群雄也可以作为佐证。而这些，都是目标客户。</p>
+<p>对于「京」来说，流量没有定位，虽然进出小区的几乎所有人都必须经过店铺门口，但这么高的流量几乎是被完全浪费掉的，没有任何转化率。@notlsd 在那儿调查的时候待了大约一个小时，近 500 平方米的店铺里一个客户都没有。</p>
+<p>餐饮业有个概念叫「翻桌率」:</p>
+<p><strong>结帐总数目 / 店内总桌数</strong><sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="一般的结算周期是以天为单位，亦可对午餐和晚餐单独结算">[3]</span></a></sup></p>
+<p>「翻桌率」的核心概念是场地复用率，套用这个概念，我们可以定义「日翻教室率」：</p>
+<p><strong>一周总课程数 / 店内教室数 / 7</strong></p>
+<p>「京」有四个教室，据称现在每星期有八堂课<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="@notlsd 甚至怀疑这个数据都是有水分的">[4]</span></a></sup>，「日翻教室率」低至 0.29，简直可以说是惨不忍睹。当 @notlsd 就这个问题询问店员的时候，他们的回复如下：</p>
+<blockquote>
+<p>打牌子，展示资金实力</p>
+</blockquote>
+<p>倘若真的要烧钱打品牌的话，那应该直接到各大 CBD，「西单」「王府井」，实在不行「朝阳大悦城」之类的也行。或者更简单的，Apple Store 开到哪里，你就开到哪里，在这大睡城砸钱，连个响儿都听不见啊！</p>
+<h3 id="人员"><a href="#人员" class="headerlink" title="人员"></a>人员</h3><ul>
+<li><p>「昆」雇员全是昆明不知道几本（也可能是专科）毕业的新生</p>
+</li>
+<li><p>「京」雇员大都三十岁左右，先前服务于各大企业（比如中银软开）</p>
+</li>
+</ul>
+<p>这一节「昆」和「京」的数据都是不完全数据，不过作为 <a href="http://www.ruanyifeng.com/blog/2011/08/bayesian_inference_part_one.html" target="_blank" rel="external">贝叶斯推断的先验概率</a> 总是可以的。</p>
+<p>现在总体而言雇佣成本是非常高的，「京」最关键的问题在于雇了很多工资很高但其对应技能完全无法应用的员工，并且这些雇员对行业极端不了解。他们甚至都不知道主要竞争对手之一「萝卜太辣」。在 @notlsd 去店铺现场调查的大约一个小时中，只有一个雇员在岗，还在玩手机，运营效率极其低下。</p>
+<p>认识这两家企业确实是「阴差阳错」，「昆」是因为创始人是 @notlsd 的初中老师；而「京」则是因为它去「北京理工大学」招聘。这其实是一件很滑稽的事情。首先，在现场他没法去和「滴滴」「百度」之类的互联网巨头拼「钱途」，也没法和各大研究所拼「前途」<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="此处主要指户口">[5]</span></a></sup>，并且实事求是的说，这个行业并不是非常的 Promissing。「京」和「滴滴」形成了鲜明的对比，「滴滴」只去了一个 HR 实习生，但队伍排成长龙；「京」去了三个人的团队却门可罗雀。@notlsd 为什么感兴趣仅仅是因为作为一个资深 LEGO 粉，工作的时候可以玩 LEGO ……</p>
+<p>反观「昆」的雇员都极其便宜，虽然名义上叫「机器人」，但这本身其实是一件有技术含量不高的事情；但数十年的从业经历，创始人本人对整个行业基本上已经吃透了，可以手把手的培训那些零基础的雇员，所以效率其实是不低的。</p>
+<h3 id="冷启动"><a href="#冷启动" class="headerlink" title="冷启动"></a>冷启动</h3><ul>
+<li><p>「昆」自带初始流量和种子用户</p>
+</li>
+<li><p>「京」没有看到任何有效的冷启动手段，唯一的微信入口也不明所以</p>
+</li>
+</ul>
+<p>「冷启动」对任何一个创业项目来说，都是个比<a href="https://zh.wikipedia.org/wiki/弗里德堡陨石坑" target="_blank" rel="external">弗里德堡陨石坑</a> 还大的天坑。某大佬曾经说过的一句话<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="具体已不可考，读者也可以认为是 @notlsd 编造的">[6]</span></a></sup></p>
+<blockquote>
+<p>创业这件事情大多数情况下不是拍脑袋「我有一个天才的想法」，而是商业的自然延伸。</p>
+</blockquote>
+<p>从 @notlsd 上初中时开始算起，电算老师已经在「机器人教育」这个行当浸淫了十年，而他的实际从业时间肯定还要更长。「云大附中」作为昆明市最好的初中（没有之一），本身在行业内就是制高点，他自己本身的 Reputation <sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="这词还真不太好翻译，粗略的可以翻译作「行业影响力」">[7]</span></a></sup> 以及与相关政府部门的「关系」显见得要比其它竞争对手高一大截。</p>
+<p>虽然 Engeering for Kids 本身是个很棒的品牌，但在中国其实并没有什么知名度。时代已经变了，现在已经不是代理一个国外知名品牌就可以躺着数钱的时候了。</p>
+<p>「冷启动」很多时候都关乎细节，下面是其中三个：</p>
+<ul>
+<li><p>「京」的中文名叫「熠卓」。Yi 的字母表顺序几乎是在最后，翻公众号的时候每次都得翻到最后才看见。如果直接用 Engeering for Kids 作为名称，在公众号订阅数量不多的情况下，每次翻公众号的时候都会直接呈现在首屏，这在一定意义上算是强制广告。</p>
+</li>
+<li><p>「昆」/「京」的宣传中都没有提及美国对 STEM 人才的网开一面，至少是 STEM 人才在签证和学校申请上的优势。「昆」没提及，昆明作为二三线城市，这种信息的闭塞也还算说的过去。但对于「京」这种目标客户定位于帝都中产的案例来说，不把这个作为营销点就有点说不过去了。</p>
+</li>
+<li><p>Google 两家企业的名字：「昆」明显是做过 SEO 的；「京」滑稽到连本文的原始文档 —— 一篇零赞的知乎专栏都能排到搜索结果首页<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="实际测试日期为 2016.7.2 ~ 7.4 ，基于 Google 的动态算法，结果可能不能重现">[8]</span></a></sup>。</p>
+</li>
+</ul>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Science &amp; Technology &amp; Engineering &amp; Mathematics<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><strong><em>电</em></strong> 子计 <strong><em>算</em></strong> 机课程<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">一般的结算周期是以天为单位，亦可对午餐和晚餐单独结算<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">@notlsd 甚至怀疑这个数据都是有水分的<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">此处主要指户口<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">具体已不可考，读者也可以认为是 @notlsd 编造的<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">这词还真不太好翻译，粗略的可以翻译作「行业影响力」<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">实际测试日期为 2016.7.2 ~ 7.4 ，基于 Google 的动态算法，结果可能不能重现<a href="#fnref:8" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;a href=&quot;https://www.ed.gov/stem&quot;&gt;STEM&lt;/a&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;Science &amp; Technology &amp; Engineering &amp; Mathematics &quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt; 的教育几乎就等同于国家的明天，这个观点已经成为了某种「政治正确」，其中最典型的例子或许莫过于机器人教育的遍地开花。阴差阳错地，@notlsd 恰好认识两家从事上述行业的机构，初看伯仲之间，实则云泥之别。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="产品论" scheme="http://notlsd.com/categories/%E4%BA%A7%E5%93%81%E8%AE%BA/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>微型商业分析 | 三平米的炸鸡店</title>
+    <link href="http://notlsd.com/2017/06/02/micro-business-copycat-kfc/"/>
+    <id>http://notlsd.com/2017/06/02/micro-business-copycat-kfc/</id>
+    <published>2017-06-02T01:21:53.000Z</published>
+    <updated>2017-06-04T03:15:03.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>北京理工大学南面有一条「民大西路」，街面上充斥着各种小吃，人称「堕落街」。@notlsd 最爱的是一家没有名字的炸鸡店，即下图中右半边的小店；图中左半边是一个贵州小伙开的小店，姑且称之为「啥都卖小店」吧，从「炸洋芋」到「丝娃娃[2]」再到「鲜扎果汁」。同样是瞄准学生市场的熟食生意，红火程度天壤地别。</p>
+<a id="more"></a>
+<p><img src="/2017/06/02/micro-business-copycat-kfc/ShopsResized.jpeg" alt="小店们"><span class="imgTitle">小店们</span></p>
+<p>为简述方便，下文用「炸」「啥」分别代指「炸鸡小店」「啥都卖小店」</p>
+<h3 id="爆款"><a href="#爆款" class="headerlink" title="爆款"></a>爆款</h3><ul>
+<li><p>「炸」「中华琵琶腿」十元三只 <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="其实就是炸鸡腿">[1]</span></a></sup></p>
+</li>
+<li><p>「啥」 无 <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="店主自认为开始是「炸洋芋」，后来是[「丝娃娃」](https://zh.wikipedi「炸」org/zh-hans/%E7%B5%B2%E5%A8%83%E5%A8%83)">[2]</span></a></sup></p>
+</li>
+</ul>
+<p>「爆款」其实自古有之，并不是互联网时代的专利，只是先前叫「拳头产品」罢。「爆款」有两项核心指标：一方面是性价比要足够高；另一方面是目标客户群要足够大，篡改一句「教父」的名言：</p>
+<blockquote>
+<p>I’m gonna make ( lots of people ) an offer he can’t refuse.</p>
+</blockquote>
+<p>然而爆款本身的销售并不是主要目的，更重要的目的在于流量的导入从而带动周边毛利更高的产品的销售，当然还有 Branding <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="对于这么小的案例来说，Branding 说实话还有些遥远">[3]</span></a></sup>。</p>
+<p>「炸」平日里鸡腿每天备五百个，周末备六百五十个，去晚了经常没有，就只好买十三块的鸡排或鸡柳。除去原料，「炸」最大的成本是月租金六千的房租，算下来，「炸」平均一个鸡腿大约赚五毛钱。</p>
+<p>从打造爆款的逻辑来说，「炸」做的很漂亮。人人都爱炸鸡腿，更何况「炸」甚至卖的比学校食堂（4RMB / 只）还便宜。反观「啥」，简直是反其道而行之，「炸洋芋」还算是整个西南地区<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="包括但不限于：云南，贵州，四川南部">[4]</span></a></sup> 受到广泛认可的小吃，而「丝娃娃」仅仅是贵阳一地的小吃，按照 Wikipedia 的说明看起来也没有什么技术门槛。不仅如此，售价还从七块涨到了十三块，而隔壁十三块几乎可以买半斤纯肉！</p>
+<h3 id="供应链"><a href="#供应链" class="headerlink" title="供应链"></a>供应链</h3><ul>
+<li><p>「炸」[可靠的供应链] 稳定的供应商与足够低廉的原料进价</p>
+</li>
+<li><p>「啥」[无供应链] 超市，与散货完全一致的进货渠道</p>
+</li>
+</ul>
+<p>继续追问下去，为何「炸」能打造爆款而「啥」不能 ？这就牵扯到供应链的问题了。</p>
+<p>根据 Martin Christopher 在「物流与供应链管理」中的定义:</p>
+<blockquote>
+<p>供应链是指涉及将产品或服务提供给最终消费者的过程和活动的上游及下游企业组织所构成的网络。</p>
+</blockquote>
+<p>显见得这两个店铺都仅仅是 2C 的终端，任何一家都不具备掌控整条供应链的能力。但至少「炸」已经试图做到了他所能做的极致，鸡腿来自于两家关系良好的批发商，就算其中一家突然断供，也仍然能维持正常运转<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="或用更为学术化的说法：「炸」的供应链有着更强的[鲁棒性](https://zh.wikipedia.org/zh-hans/鲁棒性)">[5]</span></a></sup>。与此同时，「啥」的渠道与散客完全一致。因为抗风险能力差，所以「啥」甚至对马铃薯价格正常的市场波动都十分敏感。为了避免<a href="https://zh.wikipedia.org/zh-hans/認知失調" target="_blank" rel="external">认知失调</a>，「啥」的老板将马铃薯的市场波动归结为投机客的炒作。</p>
+<p>「爆款」和「供应链」的关系构成了一个<a href="https://zh.wikipedia.org/zh/正回饋" target="_blank" rel="external">正反馈</a>的循环：</p>
+<p>对「炸」来说，这是个正的正反馈（良性循环）:</p>
+<blockquote>
+<p>更窄的产品线 -&gt; 更短的供应链 -&gt; 更大的议价权 -&gt; 更低的价格和更稳定的质量</p>
+</blockquote>
+<p>对「啥」来说，这是个负的正反馈（恶性循环）:</p>
+<blockquote>
+<p>更宽的产品线 -&gt; 更长的供应链 -&gt; 更小的议价权 -&gt; 更高的价格和更浮动的质量</p>
+</blockquote>
+<p>「炸」其实像极了上海老牌名小吃<a href="http://www.zhending-chicken.com/" target="_blank" rel="external">「振鼎鸡」</a>，除了白斩鸡啥都不做。不说百年老店，至少「振鼎鸡」已经在竞争激烈的上海存在了超过二十年。</p>
+<h3 id="思维模式"><a href="#思维模式" class="headerlink" title="思维模式"></a>思维模式</h3><ul>
+<li><p>「炸」成长型思维的大叔</p>
+</li>
+<li><p>「啥」僵固式思维的小伙</p>
+</li>
+</ul>
+<p>「不是老人变坏了，而是坏人变老了」，「心智模式」这种东西有的时候和年龄真的没有太大关系，二者思维模式的差异可以从对两件事的态度中看出来：</p>
+<h4 id="对执照的态度"><a href="#对执照的态度" class="headerlink" title="对执照的态度"></a>对执照的态度</h4><p>两家店我都调查过关于营业执照的事情。「炸」有「卫生许可证」；「啥」 啥都没有。中国政府从来操蛋，只要不是<a href="https://zh.wikipedia.org/wiki/趙家人" target="_blank" rel="external">「赵家人」</a>，对谁都一样。「炸」把执照办下来了，虽然费了些力气，但这样一来，「炸」就不必像「啥」一样，不得不面对基层行政人员的索贿。成本自然上去了不说，更大的麻烦在于这部分成本的不可控。</p>
+<p>当时，我去试着去问了一下「啥」，关于「卫生许可证」事情，得到了下面这句反问：</p>
+<blockquote>
+<p>你看这条街上哪一家有（卫生许可证）？</p>
+</blockquote>
+<p>（ @notlsd 内心 OS ) 大哥，您真的不知道隔壁就有么 ！？</p>
+<h4 id="对负面评价的态度"><a href="#对负面评价的态度" class="headerlink" title="对负面评价的态度"></a>对负面评价的态度</h4><p>@notlsd 曾经给「炸」提过一个建议：他完全可以将可乐，鸡腿，薯条打包成一份简餐一起卖，只卖鸡腿完全是捡了芝麻，丢了西瓜。以下是回复（大意）：</p>
+<blockquote>
+<p>我们有不成文的规定，不能和房东（隔壁的杂货店主）卖同样的东西。</p>
+</blockquote>
+<p>反观「啥」@notlsd 离开帝都的时候对他说，我写了篇文章分析了他的生意模式可能还可以有所改进，以下是原文回答<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="之所以还记得原文，是因为印象极其深刻">[7]</span></a></sup>：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">问：你写在哪里?</div><div class="line"></div><div class="line">答：知乎</div><div class="line"></div><div class="line">问：你这算不算恶意诽谤！？</div></pre></td></tr></table></figure>
+<p><sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="原以为「啥」老板准备参考改进，早知道就不回答了">[8]</span></a></sup> @notlsd 倒是希望可以有足够诽谤他的影响力，就是不知道他是从哪里看出我有恶意的。果真有些人虽然年轻，心已经老了，有些人虽然老了，心还是年轻的。这或许就是为什么 VC 总在说「创业者需要保持一颗永远年轻的心」吧。</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">其实就是炸鸡腿<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">店主自认为开始是「炸洋芋」，后来是<a href="https://zh.xn--wikipediorg-ri3jna3882u/zh-hans/%E7%B5%B2%E5%A8%83%E5%A8%83" target="_blank" rel="external">「丝娃娃」</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">对于这么小的案例来说，Branding 说实话还有些遥远<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">包括但不限于：云南，贵州，四川南部<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">或用更为学术化的说法：「炸」的供应链有着更强的<a href="https://zh.wikipedia.org/zh-hans/%E9%B2%81%E6%A3%92%E6%80%A7" target="_blank" rel="external">鲁棒性</a><a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">没错，「炸」还卖薯条，但这是唯一的非炸鸡类产品<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">之所以还记得原文，是因为印象极其深刻<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">原以为「啥」老板准备参考改进，早知道就不回答了<a href="#fnref:8" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;北京理工大学南面有一条「民大西路」，街面上充斥着各种小吃，人称「堕落街」。@notlsd 最爱的是一家没有名字的炸鸡店，即下图中右半边的小店；图中左半边是一个贵州小伙开的小店，姑且称之为「啥都卖小店」吧，从「炸洋芋」到「丝娃娃[2]」再到「鲜扎果汁」。同样是瞄准学生市场的熟食生意，红火程度天壤地别。&lt;/p&gt;
+    
+    </summary>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>微型商业分析 | 南北食堂瓦罐汤</title>
+    <link href="http://notlsd.com/2017/06/02/micro-business-waguantang/"/>
+    <id>http://notlsd.com/2017/06/02/micro-business-waguantang/</id>
+    <published>2017-06-02T01:10:39.000Z</published>
+    <updated>2017-06-04T02:53:41.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="「微型商业分析 Micro Business Analysis」缩写 M.B.A. 与「微商 WeChat Business」 无关">[1]</span></a></sup><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="「微型商业分析」系列文章分析了一系列微型商业案例，从某种意义上算是广义的对标。用 @OBTC 的话来说，这些微型商业案例算是「Entrepreneur 创业者」这个词的起源 —— 自给自足的杂货店主">[2]</span></a></sup>在北京理工大学上过学的都知道，学校分为「中关村」「良乡」两个校区，而「良乡」又分为南北两个子校区，南北校区中间隔了一条「良乡东路」，南北校区各有一个食堂。@notlsd 上学时常去北食堂，因为宿舍离北食堂更近，且南食堂总有一股令人作呕的「食堂味」。虽然如此，南食堂却有我酷爱喝的瓦罐汤，故而常常因此陷入纠结当中，直到北食堂开了一个瓦罐汤窗口……</p>
+<a id="more"></a>
+<p>为简述方便，下文用「南」「北」分别代指「南食堂瓦罐汤窗口」「北食堂瓦罐汤窗口」</p>
+<h3 id="售价"><a href="#售价" class="headerlink" title="售价"></a>售价</h3><ul>
+<li><p>「南」基本罐<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="借用服装业中的「基本款」的概念，用「基本罐」来表示占比最高，销量最大的瓦罐汤">[3]</span></a></sup>售价 3.5 RMB，部分达到 4.5 RMB</p>
+</li>
+<li><p>「北」基本罐售价 5 RMB，部分高达 8 RMB</p>
+</li>
+</ul>
+<p>瓦罐汤在校园中相对而言已经算是奢侈消费，一般情况下，学生一顿饭的预算也就 10 RMB 出头，这还是对于 @notlsd 这种习惯在食堂胡吃海喝的家伙。对于大部分极其价格敏感的学生，「北」相对「南」有将近百分之五十的涨幅！</p>
+<p>姑且不论部分过于昂贵的瓦罐，就以基本罐而言，「南」的售价基本还控制在单餐预算的三分之一，「北」就直接达到一半了，看来在「北」喝瓦罐汤的同学真的只有准备吃土了。更何况，作为先发优势的一部分，「南」已经变相的掌握了定价权，将消费者的心理价位牢牢地锚定在了 3.5 RMB 的范围。这种高价追赶策略，实在是 Excited ！</p>
+<p>在产品质量是基本一致的事实前提下，「北」售价比「南」高是有原因的。在很多地方，「北」的成本一眼就能看出还有降低的余地，比方说「北」的每一罐瓦罐汤都要用一次性的锡箔纸，「南」则是没有的。下面是 @notlsd 现场调查时的对话，时隔久远，但至今仍记忆犹新，因为「北」老板的逻辑实在让人目瞪口呆：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">问：老板，来一罐「萝卜排骨」</div><div class="line"></div><div class="line">答：好（准备刷卡）</div><div class="line"></div><div class="line">问：咦，为啥南边的只要三块五，你这里要五块？</div><div class="line"></div><div class="line">答：南边有补贴，而且我们的材料比他们好</div><div class="line"></div><div class="line">问：为啥每一罐都要用锡箔纸呢？这样成本不就上去了？</div><div class="line"></div><div class="line">答：不用怎么做！你有没有脑子啊！</div></pre></td></tr></table></figure>
+<p>现场调查过后，@notlsd 利用某些社会工程学技巧，伪装成一名正在写毕业设计的「管理与经济学院」同学，专门去后勤部门调查确认了以下事实：</p>
+<blockquote>
+<p>「南」「北」都没有补贴，且原料的审查标准是一样的，没有任何直接间接证据表明「北」的原料质量优于「南」。</p>
+</blockquote>
+<h3 id="库存"><a href="#库存" class="headerlink" title="库存"></a>库存</h3><ul>
+<li><p>「南」基本每日清空</p>
+</li>
+<li><p>「北」除冰雪或暴雨天气，基本每日都无法清空，估测余量在 5 ~ 50 罐之间</p>
+</li>
+</ul>
+<p>这一节其实和上一节「售价」有着逻辑上的递进关系，仅仅是锡箔纸的使用与否并不足以解释接近百分之五十的价格差。</p>
+<p>学校食堂难吃归难吃，但为了避免群体性中毒事件，卫生标准要求达到极高的 A 类<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="KFC / McDonalds 也仅仅是 B 类而已">[4]</span></a></sup>。如此高的卫生标准意味着每日没有卖完的成品熟食都得丢弃，所以没有卖完的瓦罐汤就成净亏损了。</p>
+<p>无论对「南」还是 「北」，每日清空库存就成为了重中之重。关于「南」是如何做到这一点的显然是商业机密，@notlsd 总不可能说「嘿，老板，北边的瓦罐汤要倒闭了，您能教教他怎么清空库存吗？」。</p>
+<p>毕竟 @notlsd 还是受过高等教育的，为了「喝上瓦罐汤，不闻食堂味」的伟大事业，通过外部的观测为 「北」制定了一整套整改方案，虽然最后的结果被证明 “ Too Young, Too Simple, Sometimes Naive. ”</p>
+<h3 id="时不变系统-Time-invariant-System-5"><a href="#时不变系统-Time-invariant-System-5" class="headerlink" title="时不变系统 Time-invariant System [5]"></a>时不变系统 Time-invariant System <sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="按课本上的定义：「时不变性」指如果将系统的输入信号延迟 𝛕 秒，那么得到的输出除了这 𝛕 秒延时以外是完全相同的，称这样的系统是「时不变」是的。即若系统输入 x(t)，对应的输出为 y(t)，则输入为 x(t+𝛕) 时系统的输出为 y(t+𝛕)">[5]</span></a></sup></h3><ul>
+<li><p>「南」生产序列与当前季节与天气动态关联</p>
+</li>
+<li><p>「北」静止生产序列</p>
+</li>
+</ul>
+<p>调查「南北食堂瓦罐汤」的时候，正巧在 Prof. Sune Soderkvist 的带领下没日没夜的捣鼓「信号与系统」，用课程中的术语，可以贴切的描述「南」「北」的生产序列：「南」是「时变系统」；「北」则是「时不变系统」。故而，相较而言，「南」有着更佳的 Dynamic Characteristics ，作为「时不变」系统的「北」，出现大冬天卖「银耳莲子汤」这种十分滑稽的行为<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="显然最后只能被倒掉">[6]</span></a></sup>也就不足为奇了。</p>
+<p>@notlsd 给「北」提供了一整套解决方案，核心思想就是将生产序列转换为一个可预测的时变系统 <sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="@notlsd 当然没有那么的大公无私，心里的小算盘是可以借机发 Paper，毕竟好歹这也算是 Data-Driven Entrepreneur">[7]</span></a></sup>：</p>
+<ol>
+<li><p>以学校是否开空调为界，将产品分为「热品」「凉品」 两季</p>
+</li>
+<li><p>记录每日的「日销量」和「日库存剩余」</p>
+</li>
+<li><p>关联变量 -「当日气温<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="变量的选取基于以下基本事实：周末有很多同学会回家或者出去玩 ">[8]</span></a></sup> 和「学校是否放假」<sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="变量的选取基于以下基本事实：在 @notlsd 去食堂的时间基本不变的前提下，平日里所有品种都有，下雨时则全部卖完">[9]</span></a></sup></p>
+</li>
+<li><p>做回归分析，利用天气预报和学校的教学日历分配次日的产能<sup id="fnref:10"><a href="#fn:10" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="一个显见得的结论是「下雨时增加产量」">[10]</span></a></sup></p>
+</li>
+</ol>
+<p>「北」完全没有采纳建议，现在回想起来也很自然，因为 @notlsd 算是相当的不接地气。「库存」「回归分析」这一类的专有名词，就不应该假设这些只有中学文化程度的个体户能听懂。在这个意义上，虽然「中国式大学」有着千万种的缺陷，但至少提供了一种知识和智识上的基础，以便系统的分析和表述某些问题。</p>
+<hr>
+<p>在 @notlsd 毕业的 2015 年，「南食堂瓦罐汤窗口」就已经成为了历史的尘埃。</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">「微型商业分析 Micro Business Analysis」缩写 M.B.A. 与「微商 WeChat Business」 无关<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">「微型商业分析」系列文章分析了一系列微型商业案例，从某种意义上算是广义的对标。用 @OBTC 的话来说，这些微型商业案例算是「Entrepreneur 创业者」这个词的起源 —— 自给自足的杂货店主<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">借用服装业中的「基本款」的概念，用「基本罐」来表示占比最高，销量最大的瓦罐汤<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">KFC / McDonalds 也仅仅是 B 类而已<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">按课本上的定义：「时不变性」指如果将系统的输入信号延迟 𝛕 秒，那么得到的输出除了这 𝛕 秒延时以外是完全相同的，称这样的系统是「时不变」是的。即若系统输入 x(t)，对应的输出为 y(t)，则输入为 x(t+𝛕) 时系统的输出为 y(t+𝛕)<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">显然最后只能被倒掉<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">@notlsd 当然没有那么的大公无私，心里的小算盘是可以借机发 Paper，毕竟好歹这也算是 Data-Driven Entrepreneur<a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">变量的选取基于以下基本事实：周末有很多同学会回家或者出去玩<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">变量的选取基于以下基本事实：在 @notlsd 去食堂的时间基本不变的前提下，平日里所有品种都有，下雨时则全部卖完<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">一个显见得的结论是「下雨时增加产量」<a href="#fnref:10" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;「微型商业分析 Micro Business Analysis」缩写 M.B.A. 与「微商 WeChat Business」 无关&quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;「微型商业分析」系列文章分析了一系列微型商业案例，从某种意义上算是广义的对标。用 @OBTC 的话来说，这些微型商业案例算是「Entrepreneur 创业者」这个词的起源 —— 自给自足的杂货店主&quot;&gt;[2]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;在北京理工大学上过学的都知道，学校分为「中关村」「良乡」两个校区，而「良乡」又分为南北两个子校区，南北校区中间隔了一条「良乡东路」，南北校区各有一个食堂。@notlsd 上学时常去北食堂，因为宿舍离北食堂更近，且南食堂总有一股令人作呕的「食堂味」。虽然如此，南食堂却有我酷爱喝的瓦罐汤，故而常常因此陷入纠结当中，直到北食堂开了一个瓦罐汤窗口……&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="产品论" scheme="http://notlsd.com/categories/%E4%BA%A7%E5%93%81%E8%AE%BA/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>环滇骑迹 [3] 尝十菜</title>
+    <link href="http://notlsd.com/2017/05/28/hdqj-3-ten-vagetable-taste/"/>
+    <id>http://notlsd.com/2017/05/28/hdqj-3-ten-vagetable-taste/</id>
+    <published>2017-05-28T12:21:59.000Z</published>
+    <updated>2017-05-28T13:23:00.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>本来这也发生在「石龙坝水电站」中的事，但实在无关宏旨，却又有几分雅趣，故单列之。其实本身很简单，便是「妇好」阿姨<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="再次感谢「妇好」阿姨">[1]</span></a></sup>邀请我品尝了她在空地上自行栽种的蔬菜。当然是生食。@notlsd 也借机过把博物学家的瘾。本文可视为品鉴报告。</p>
+<a id="more"></a>
+<h3 id="品鉴列表"><a href="#品鉴列表" class="headerlink" title="品鉴列表"></a>品鉴列表</h3><table>
+<thead>
+<tr>
+<th style="text-align:center">VEGETABLES</th>
+<th style="text-align:left">COMMENTS</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">苦菜</td>
+<td style="text-align:left">作为 @notsd 最爱的蔬菜，生食可真不怎么地，确有苦涩之感，疑为某植物碱</td>
+</tr>
+<tr>
+<td style="text-align:center">茼蒿</td>
+<td style="text-align:left">生食蔬菜最佳，清香之气，沁人心脾</td>
+</tr>
+<tr>
+<td style="text-align:center">胡萝卜</td>
+<td style="text-align:left">脆，无奇</td>
+</tr>
+<tr>
+<td style="text-align:center">萝卜</td>
+<td style="text-align:left">味佳，然不可过量。当心你的肚子！</td>
+</tr>
+<tr>
+<td style="text-align:center">葱</td>
+<td style="text-align:left">作为 @notlsd 最为厌恶之调料，刺鼻之气，扑面而来，未食</td>
+</tr>
+<tr>
+<td style="text-align:center">豌豆尖</td>
+<td style="text-align:left">清脆清香，仅次于茼蒿</td>
+</tr>
+</tbody>
+</table>
+<p><img src="/2017/05/28/hdqj-3-ten-vagetable-taste/image098.jpg" alt="pic 萝卜"><span class="imgTitle">pic 萝卜</span></p>
+<p><img src="/2017/05/28/hdqj-3-ten-vagetable-taste/image100.jpg" alt="pic 葱"><span class="imgTitle">pic 葱</span></p>
+<p><img src="/2017/05/28/hdqj-3-ten-vagetable-taste/image102.jpg" alt="pic 豌豆尖"><span class="imgTitle">pic 豌豆尖</span></p>
+<p><img src="/2017/05/28/hdqj-3-ten-vagetable-taste/image104.jpg" alt="pic 白菜"><span class="imgTitle">pic 白菜</span></p>
+<p><img src="/2017/05/28/hdqj-3-ten-vagetable-taste/image106.jpg" alt="pic 蚕豆"><span class="imgTitle">pic 蚕豆</span></p>
+<h3 id="期末考试"><a href="#期末考试" class="headerlink" title="期末考试"></a>期末考试</h3><p><img src="/2017/05/28/hdqj-3-ten-vagetable-taste/image108.jpg" alt="pic 你猜？"><span class="imgTitle">pic 你猜？</span> </p>
+<p>单选题：如上图所示是什么植物 ？<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="哈哈，答案是某著名牙膏品牌。「两面针」可做药材，本人食之，有涩感，因植物叶片两面均有针，故称之。以及，我被扎了 :(
+">[2]</span></a></sup></p>
+<p><strong>A.</strong> 小香瓜<br><strong>B.</strong> 两面针<br><strong>C.</strong> 某种灌木果实，可作为食材使用<br><strong>D.</strong> 警告！有毒，不可使用</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">再次感谢「妇好」阿姨<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">哈哈，答案是某著名牙膏品牌。「两面针」可做药材，本人食之，有涩感，因植物叶片两面均有针，故称之。以及，我被扎了 :(<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本来这也发生在「石龙坝水电站」中的事，但实在无关宏旨，却又有几分雅趣，故单列之。其实本身很简单，便是「妇好」阿姨&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;再次感谢「妇好」阿姨&quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;邀请我品尝了她在空地上自行栽种的蔬菜。当然是生食。@notlsd 也借机过把博物学家的瘾。本文可视为品鉴报告。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="环滇骑迹" scheme="http://notlsd.com/categories/%E7%8E%AF%E6%BB%87%E9%AA%91%E8%BF%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>环滇骑迹 [2] 石龙坝水电站</title>
+    <link href="http://notlsd.com/2017/05/27/hdqj-2-shilongba-hydropower-station/"/>
+    <id>http://notlsd.com/2017/05/27/hdqj-2-shilongba-hydropower-station/</id>
+    <published>2017-05-27T13:25:10.000Z</published>
+    <updated>2017-05-28T14:22:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>去「石龙坝水电站」的路基本等于没路。老安晋线 S215 被重车碾压的不成样子，到了水电站的岔口，只有一个年久失修，几近剥落的路牌，道路更变为了有假包换的乡间土路，若不是 GPS 定位，几近怀疑走错。真想问问中国这帮官僚们：该讲排场的时候，排场哪里去了！？</p>
+<a id="more"></a>
+<h3 id="机电工程-从-287430N-说开去"><a href="#机电工程-从-287430N-说开去" class="headerlink" title="机电工程 - 从 287430N 说开去"></a>机电工程 - 从 287430N 说开去</h3><h4 id="SIEMENS-SCHUCKERT-WERKE-287430N"><a href="#SIEMENS-SCHUCKERT-WERKE-287430N" class="headerlink" title="SIEMENS SCHUCKERT WERKE 287430N"></a>SIEMENS SCHUCKERT WERKE 287430N</h4><p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image012.jpg" alt="pic 石龙坝水电站铭牌"><span class="imgTitle">pic 石龙坝水电站铭牌</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image014.jpg" alt="pic 一车间对联「皓月之光」"><span class="imgTitle">pic 一车间对联「皓月之光」</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image016.jpg" alt="pic 主机铭牌"><span class="imgTitle">pic 主机铭牌</span></p>
+<p>鉴于诸君的观察力毕竟不如福尔摩斯，还是先做些说明罢，免得诸位看官，丈二和尚 —— 摸不着头脑。后文所指 287430N 为图示机器的 SN 编号，287430N 是中国第一台水轮发电机组。更为重要的是，时至今日，只要通电，送水，合上励磁开关，仍能正常运转发电。或许是从 Star Wars 学来的戏谑，以机器编号称呼之颇有几分「拟人」之感。</p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image018.jpg" alt="pic 主视图"><span class="imgTitle">pic 主视图</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image020.jpg" alt="pic 左视图"><span class="imgTitle">pic 左视图</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image022.jpg" alt="pic 调速器_主视图"><span class="imgTitle">pic 调速器_主视图</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image024.jpg" alt="pic 调速器_右视图"><span class="imgTitle">pic 调速器_右视图</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image026.jpg" alt="pic 励磁开关"><span class="imgTitle">pic 励磁开关</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image028.jpg" alt="pic 经销商铭牌"><span class="imgTitle">pic 经销商铭牌</span></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">古人的直译，总是那么的「喜感」</div></pre></td></tr></table></figure>  
+<p>男子汉大丈夫，鲜有落泪时。在这里，看着这本应冰冷无情的钢铁，猛地，热泪盈眶，甚至连我自己也无法知晓原因。能言说的只有这热泪背后的思绪。1908 ～ 2013，在这片古老而又深沉的土地上，车间前飘扬的旗帜从黄龙旗，变换到青天白日，再变换到五星红旗。然而，无论机器前的人推崇君主立宪，还是拥护全民共和；是剿共戡乱，还是解放人类，287430N 只做一件事 - 旋转 - 发电。它悄悄地，静静地，默默地旋转了百年，这才是真正的 <a href="https://music.163.com/#/song?id=2308499" target="_blank" rel="external">My Heart Will Go On</a>。           </p>
+<p>可惜，由于现在是枯水季，未能看到它的旋转，发出那自工业革命以来便推动人类进步的声音，但却因而得以近距离的观察，依然能清晰的见到电刷在线圈上留下的痕迹。或许诸君以为，我发此通感慨是号召向 287430N 学习，做一颗社会主义螺丝钉云云，而这显然这是不符合某同学的一贯做派的。「人」向「机器」学习，这本身就是对人的物化。我所想说的，是这台机器背后的人。</p>
+<h4 id="Hergestelt-in-Deutschland-1"><a href="#Hergestelt-in-Deutschland-1" class="headerlink" title="Hergestelt in Deutschland [1]"></a>Hergestelt in Deutschland <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="德语「德国制造」">[1]</span></a></sup></h4><p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image030.jpg" alt="pic 工业之花"><span class="imgTitle">pic 工业之花</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image032.jpg" alt="pic 几何图样般的防滑纹"><span class="imgTitle">pic 几何图样般的防滑纹</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image034.jpg" alt="pic 凭栏处"><span class="imgTitle">pic 凭栏处</span></p>
+<p>偶然间忆起两个洋文词：Worker &amp; Craftsman: Made In China 的制造者仅仅视自己为 Worker，工作仅为换薪水；In Deutschland Hergestelt 的制造者则将自己视为 Craftsman，工作成为了自我实现的方式。工业品 ＝ 艺术品，这就是德国制造的逻辑。运转逾百年的 287430N 便是 Craftsmen 所创造的奇迹</p>
+<h4 id="企业精神"><a href="#企业精神" class="headerlink" title="企业精神"></a>企业精神</h4><p>总觉着中国的企业永远停留在 Company 的级别，没有一家达到了 Enterprise 的境界，所谓大而不强<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="写文章的时候「阿里」还没上市，「腾讯」的「微信」也还没成气候。虽然不喜欢，但抛开个人的偏见，以 A / T 为代表的一批中国新兴企业确实做到了 Enterprise">[2]</span></a></sup>。究其原因，窃以为是少了些精神，所谓精神，在个人可以称之为 Spirit，在组织便是 Motto 。</p>
+<p>举例如下，两家类似的公司从某种程度上也算是竞争对手：</p>
+<ul>
+<li><p><strong>IBM</strong> – Smart World</p>
+</li>
+<li><p><strong>华为</strong> – 不仅仅是世界500强</p>
+</li>
+</ul>
+<p>作为一个从某种意义上发明了计算机的企业，IBM 所试图表达的可谓言简意赅，不证自明。而后者的口号怎么着都觉着都像一个暴发户一夜暴富后的沾沾自喜和急于炫耀，看完以后，第一反应便是「既然你不仅仅是世界500强，那你到底是啥！？”」</p>
+<p>所谓最有活力的民营企业都是如此，发改委的那几个硕大无朋儿子就更不必提了。</p>
+<p>似乎有些离题万里，回到 287430N。「为什么 287430N 能持续运转超过一个世纪！？」，我经不住发问。鄙人以为，很重要的一部分便是因为它是由 SIEMENS 所铸造的。</p>
+<ul>
+<li><p><strong>SIEMENS (Industrial Automation)</strong> – Answers For Industry</p>
+</li>
+<li><p><strong>西门子（中国）</strong> － 答长远，行更远</p>
+</li>
+</ul>
+<p>事实上，是看过的一则西门子在《中国国家地理》上的跨页广告，Push<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="实在找不到更合适的中文词相对应">[3]</span></a></sup>我骑行了此次的路线：</p>
+<blockquote>
+<p> 从云南石龙坝，到上海洋山港，再到北京首都国际机场T3航站楼，西门子始终与中国一道寻找可持续发展的答案。</p>
+</blockquote>
+<p>「摆事实」「讲道理」「无官腔」，至少我这个理科生，着实被「感性」了一阵子。如诸君所知，@notld 是如此的憎恶不经过思考的 ctrl + c / ctrl + v，以至于甚至都有些憎恶大规模的引用。但我却无法拒绝把西门子那则巨型跨页广告中石龙坝那部分原封不动的列出，因为那背后的，实在太多太多。</p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image036.gif" alt="pic 以水点灯，生生不息一百年"><span class="imgTitle">pic 以水点灯，生生不息一百年</span>          </p>
+<blockquote><p>「水能点灯，光大且久，或有风雨，其光亮皆不改变…… 」100年前，云南石龙坝，古老的滔滔河水化作源源电能；以水点灯，揭开了中国可再生能源发展的序幕。西门子工程师不远万里来到中国，带来当时世界先进的发电机组。中国历史上第一座水力发电站巍然屹立螳螂川上，点亮了中国水电百年之光。今天，古老的石龙坝水电站作为历史的见证者，向人们讲述着中国水电的沧桑历程，那件西门子百年前留给未来的礼物 —— 石龙坝第一台水轮发电机组，仍能正常运转。</p>
+</blockquote>
+<blockquote><p>早在19世纪，西门子创始人维尔纳•冯•西门子曾经说过：「我们绝不会为短期利益而出卖未来」。</p>
+</blockquote>
+<blockquote><p>当人们享受现代化的舒适生活，天空是否蔚蓝？当阡陌交通车如流水，人们的脚步是否一样从容？当医疗设备日趋先进，边远山区的百姓能否从中受益？西门子在回答今天的同时，从未停止对未来的思考。我们在高效能源、快捷交通、完善医疗、循环洁水、绿色城市、智能楼宇、数字工厂、节能照明等领域，积极为人们探求可持续发展的答案。我们深信，只有考虑答案后面人的福祉，答案才能引领我们走得更远。</p>
+</blockquote>
+<blockquote><p>西门子，答长远，行更远。</p>
+</blockquote>
+<h3 id="土木工程-不土亦不木"><a href="#土木工程-不土亦不木" class="headerlink" title="土木工程 - 不土亦不木"></a>土木工程 - 不土亦不木</h3><h4 id="砼-4"><a href="#砼-4" class="headerlink" title="砼[4]"></a>砼<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="@Mao @Quantum @Letter_Man 这三只友人应该第一眼就知道这字是什么意思">[4]</span></a></sup></h4><p>迄今为止，据我所知，这唯一的多音节汉字，曰「混凝土」，或曰「人工石」。然而我想说的是，石龙坝的建筑材料比混凝土更配得上「砼」的桂冠，因为那些「石砖」乃是工匠们硬生生造出来的，如假包换的「人工石」！凿刻痕迹至今仍清晰可见。这样的「砼」，百年风雨，工作如常；反衬当下，时而倒塌的「砼」大桥，人祸矣。</p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image038.jpg" alt="pic 渠堤"><span class="imgTitle">pic 渠堤</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image040.jpg" alt="pic 砼管"><span class="imgTitle">pic 砼管</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image042.jpg" alt="pic 微型堤坝"><span class="imgTitle">pic 微型堤坝</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image044.jpg" alt="pic 引水渠"><span class="imgTitle">pic 引水渠</span></p>
+<p>泄洪道的照片是站在一座架在泄洪道上的桥上拍摄的，故而泄洪道被「截」为了两半。  </p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image046.jpg" alt="pic 泄洪道上半部"><span class="imgTitle">pic 泄洪道上半部</span> </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">顶端是渠堤，清晰可见优美而符合工程力学的弧线。</div></pre></td></tr></table></figure>  
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image048.jpg" alt="pic 泄洪道下半部"><span class="imgTitle">pic 泄洪道下半部</span></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">为减轻水流对螳螂川河岸的冲刷，底端有一用于减缓流速的类蓄水池设计。</div></pre></td></tr></table></figure>  
+<h4 id="飞来池"><a href="#飞来池" class="headerlink" title="飞来池"></a>飞来池</h4><p>关于池塘的缘由，根据铭牌便可得知，在此不予赘述。「飞来池」三字的戏谑足以反映一个伟大民族在困难，甚至灾难面前的乐观，豁达，甚至一点点的玩世不恭。这便是一个民族的韧性所在。</p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image050.jpg" alt="pic 「飞来池」铭牌"><span class="imgTitle">pic 「飞来池」铭牌</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image052.jpg" alt="pic 「飞来池」匾额"><span class="imgTitle">pic 「飞来池」匾额</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image054.jpg" alt="pic 「飞来池」东半部"><span class="imgTitle">pic 「飞来池」东半部</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image056.jpg" alt="pic 「飞来池」西半部"><span class="imgTitle">pic 「飞来池」西半部</span></p>
+<h4 id="防空洞"><a href="#防空洞" class="headerlink" title="防空洞"></a>防空洞</h4><p>防空洞这类建筑，有时会有些说不清的阴郁惨暗，比方说六五重庆大轰炸。还记得飞来池的缘由，石龙坝的防空洞那可是正儿八经的战备工程，绝非绣花枕头。那阴森发绿的积水，不知会有些什么蝰蝮蟒蚺，还是早些离开为妙。</p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image058.jpg" alt="pic 防空洞全景"><span class="imgTitle">pic 防空洞全景</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image060.jpg" alt="pic 锈蚀的厚铁窗"><span class="imgTitle">pic 锈蚀的厚铁窗</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image062.jpg" alt="pic 阴森发绿的内景"><span class="imgTitle">pic 阴森发绿的内景</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image064.jpg" alt="pic 几度时光去，铁幕已入尘土中"><span class="imgTitle">pic 几度时光去，铁幕已入尘土中</span>            </p>
+<h4 id="民国遗风"><a href="#民国遗风" class="headerlink" title="民国遗风"></a>民国遗风</h4><p>我不知道「李文诚」是谁，但我知道民国三十四年九月十三日，一位中华民国公民为了他的国家而献出了宝贵的生命。诚然，生命的逝去有时无可避免，但对待生命的态度绝对，我敢说绝对，标示了一个文明的成熟度。反观当今大天朝的事故瞒报，我已经不想多说什么了。</p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image066.jpg" alt="pic 李文诚殉职纪念碑"><span class="imgTitle">pic 李文诚殉职纪念碑</span>   </p>
+<p>当年，有一条口号，叫「抗战建国」，即「抗战胜利之日，即是中华民国建成之时」。当是时，国都沦陷，偏安一隅，军阀四分五裂，确实可谓国将不国。更何况，三千年的封建走来，「皇帝的子民」一时间还难以适应「国家的公民」这一新的身份。中华民国所面对的，不仅是近代史上中华民族最为惨烈的一次全面战争，更有三千年来最为彻底的制度变革。任何一个政权只要能完成这两大历史任务中的一个，便足以镌刻在一个民族的凯旋门中，更何况，她两个都完成了，虽然并不是那么的完美。诚然，在某次众所周知，众说纷纭的内战中，中华民国输了。然而，当一种信仰成为全民的潜意识时，政府本身便已不那么的重要了。</p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image068.jpg" alt="pic 「建国必成」奠基碑"><span class="imgTitle">pic 「建国必成」奠基碑</span>    </p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image070.jpg" alt="pic 雕梁画栋的流程图"><span class="imgTitle">pic 雕梁画栋的流程图</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image072.jpg" alt="pic 雕梁画栋的地形图"><span class="imgTitle">pic 雕梁画栋的地形图</span></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">栏杆上的工程图，中西合璧，令我赞叹不已。这不仅仅是艺术，而是照进生活的艺术。</div></pre></td></tr></table></figure>   
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image074.jpg" alt="pic 有条件上，没有条件，创造条件也要上"><span class="imgTitle">pic 有条件上，没有条件，创造条件也要上</span>        </p>
+<h4 id="年久未失修的建筑与机械"><a href="#年久未失修的建筑与机械" class="headerlink" title="年久未失修的建筑与机械"></a>年久未失修的建筑与机械</h4><p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image076.jpg" alt="pic 木质办公楼，使用中"><span class="imgTitle">pic 木质办公楼，使用中</span></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">目测已逾百年</div></pre></td></tr></table></figure>   
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image078.jpg" alt="pic 二车间铭牌"><span class="imgTitle">pic 二车间铭牌</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image080.jpg" alt="pic 二车间主视图"><span class="imgTitle">pic 二车间主视图</span></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">可惜那些有关中华民国的字都在某次名为革命，实为破坏的浩劫中消失了，有些不伦不类。</div></pre></td></tr></table></figure> 
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image082.jpg" alt="pic 二车间左视图"><span class="imgTitle">pic 二车间左视图</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image084.jpg" alt="pic 二车间俯视图"><span class="imgTitle">pic 二车间俯视图</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image086.jpg" alt="pic 巨型水管"><span class="imgTitle">pic 巨型水管</span></p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image088.jpg" alt="pic 闸门吊车"><span class="imgTitle">pic 闸门吊车</span></p>
+<h3 id="物「是」人「非」"><a href="#物「是」人「非」" class="headerlink" title="物「是」人「非」"></a>物「是」人「非」</h3><p>石龙坝还在这静静的躺着，287430N 也在这默默的转着。中国却早已不是当时的中国，石龙坝的管理者身上再也找不到当年建设者的影子。正所谓「物是人非」。</p>
+<h4 id="person-妇悍"><a href="#person-妇悍" class="headerlink" title="person 妇悍"></a>person 妇悍</h4><p>某悍妇，堪比传说中的 Amazon，后经证实，为石龙坝水电站某官员家属。第一次去一车间没有看到 287430N 就是因为一车间操作员是这家伙。因为车间内除了 287430N，还有一台正在运转的发电机，所以需要人操控。 对话如下，请一定要用昆明话朗读：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">   </div><div class="line">我：阿姨好，我来转转，这地儿可以参观呢嘛。</div><div class="line">    </div><div class="line">妇悍：不给！不给！</div><div class="line">    </div><div class="line">我：买了票呢！</div><div class="line">    </div><div class="line">妇悍：一样不给！</div><div class="line">    </div><div class="line">我：......</div><div class="line">    </div></pre></td></tr></table></figure>
+<h4 id="person-妇憨"><a href="#person-妇憨" class="headerlink" title="person 妇憨"></a>person 妇憨</h4><p>第二次去第一车间，操作员换班了，从「妇悍」变为了「妇憨」，为什么叫「妇憨」，一张照片和一段对话或可说明。首先映入眼帘的是「妇憨」上班时候电脑屏幕上并不是监控数据而是 ——《甄嬛传》！”</p>
+<p>一张照片：</p>
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image090masked.jpg" alt="pic @notlsd &amp; 287430N"><span class="imgTitle">pic @notlsd &amp; 287430N</span></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">这张唯一的与 287430N 的合影，足足花了 20min，时间全用来教「妇憨」阿姨如何使用「傻瓜」相机给我照相，对此真的只能说一句 ” Beyond Idiot “。</div></pre></td></tr></table></figure> 
+<p>一段对话：</p>
+<p>因某个技术细节我不甚明白，故而问之，解释了半天，所问皆非所答，就听清楚一句话，亦是标准昆明话：</p>
+<blockquote>
+<p>这个原理，个明白，发电机的原理，就是摩擦起电。摩擦起电，个懂？</p>
+</blockquote>
+<p>这竟然是一个「水轮发电机组操作员」可以说出来的话，一脸懵逼，千万脸懵逼。</p>
+<h4 id="person-妇好"><a href="#person-妇好" class="headerlink" title="person 妇好"></a>person 妇好</h4><p>「妇好」阿姨是个很友善的中年妇女，她女儿和我一般大。她不仅邀请我品尝了她自己种的原生态蔬菜，还带领我参观了她所工作的第四车间，这是石龙坝最为现代化的车间，现在的主力发电车间。从电机层到水机层，我把那里转了个遍，看着实物，算是对水力发电的基本原理有了些许了解。总之，如果没有「妇好」阿姨的帮助，下面这一节 “ Long Live Automation ” 和后面一章 ” 环滇骑迹 [3] 尝十菜 “ 都将不复存在。</p>
+<h4 id="person-政工主任"><a href="#person-政工主任" class="headerlink" title="person 政工主任"></a>person 政工主任</h4><p>政工主任是个很友善<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="完了，褒义词好像只会用「友善」......">[5]</span></a></sup>的青年男子，他的几个电话帮了我几个大忙。诚然，他还有一个职衔是接待室主任，这也算部分是他的职责，但我仍然十分感谢他。有史以来第一次，@notlsd 会在某种程度上对官僚机构表达某种程度的感谢。</p>
+<h3 id="Long-Live-Automation"><a href="#Long-Live-Automation" class="headerlink" title="Long Live Automation !"></a>Long Live Automation !</h3><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">所谓自动化，就是把这个</div></pre></td></tr></table></figure>  
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image092.jpg" alt="pic 转速表"><span class="imgTitle">pic 转速表</span></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">变成了这个</div></pre></td></tr></table></figure> 
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image094.jpg" alt="pic 石龙坝水电站电路总图"><span class="imgTitle">pic 石龙坝水电站电路总图</span></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">教科书不是骗人的！@Prof. Sune Soderkvist @Prof. 柴森春</div></pre></td></tr></table></figure> 
+<p><img src="/2017/05/27/hdqj-2-shilongba-hydropower-station/image096.jpg" alt="pic 真实世界的检测参数"><span class="imgTitle">pic 真实世界的检测参数</span></p>
+<h3 id="国有企业要不得"><a href="#国有企业要不得" class="headerlink" title="国有企业要不得"></a>国有企业要不得</h3><p>对于 @notlsd 这样一个旁观者而言，中国华电集团云南公司石龙坝水电站作为一个典型范例，深刻而真实的证明了以国有企业为主体的国民经济是没有前途的。诚然，对企业员工而言，生活虽然有几分单调却也安逸悠闲；对 @notlsd 这个二〇一三年二月十八日唯一的访客而言，企业大规模的「官僚主义」「为上是从」「任人唯亲」实事求是的说，也是有利有弊，甚至利大于弊。下表统计数据表明，总计十条中受益五条，受害三条。以下的论据，仅仅是试图表明「以公有制为主体」的经济制度制度的失败，而绝无对石龙坝管理工作人员的人身攻击之意，尤其感谢「妇好阿姨」「政工主任」给予我的无私帮助。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">No.</th>
+<th style="text-align:left">EVENT</th>
+<th style="text-align:center">FLAG</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">[0]</td>
+<td style="text-align:left">作为一个如此有历史意义的全国重点文物保护单位，一个拥有丰富旅游资源的地方，竟然在所有地图软件<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="包括但不限于 Google Map，高德地图，百度地图">[6]</span></a></sup>上都搜索不到</td>
+<td style="text-align:center">深受其害</td>
+</tr>
+<tr>
+<td style="text-align:center">[1]</td>
+<td style="text-align:left">从 S215 到石龙坝的道路级别仅为村道，道路狭窄，路况差，甚至连小汽车都无法错车。唯一的路牌锈蚀的令人怀疑人生</td>
+<td style="text-align:center">深受其害</td>
+</tr>
+<tr>
+<td style="text-align:center">[2]</td>
+<td style="text-align:left">做为全国重点文物，287430N 竟然可以近距离拍照并触摸</td>
+<td style="text-align:center">大获裨益</td>
+</tr>
+<tr>
+<td style="text-align:center">[3]</td>
+<td style="text-align:left">五元的门票，各工作人员互相踢皮球，辗转多次，仍然未买到；然而在没有门票的情况下却完成了全部的参观，无一遗漏<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="听起有些匪夷所思，然而确是事实，详述过于冗长，略去">[7]</span></a></sup></td>
+<td style="text-align:center">大获裨益</td>
+</tr>
+<tr>
+<td style="text-align:center">[4]</td>
+<td style="text-align:left">「妇悍」之咆哮</td>
+<td style="text-align:center">深受其害</td>
+</tr>
+<tr>
+<td style="text-align:center">[5]</td>
+<td style="text-align:left">技术人员「妇憨」文化水平如此之低，且在上班时看《甄嬛传》</td>
+<td style="text-align:center">无关紧要</td>
+</tr>
+<tr>
+<td style="text-align:center">[6]</td>
+<td style="text-align:left">工作人员「妇好」利用厂区土地私自种植自家食用的蔬菜</td>
+<td style="text-align:center">大获裨益</td>
+</tr>
+<tr>
+<td style="text-align:center">[7]</td>
+<td style="text-align:left">访客 @notlsd 在石龙坝水电站的参观权限仅仅取决于「政工主任」的一个电话</td>
+<td style="text-align:center">大获裨益</td>
+</tr>
+<tr>
+<td style="text-align:center">[8]</td>
+<td style="text-align:left">我在食堂的饭钱十元直接落入了厨师的腰包，解决了令人头疼的午饭问题</td>
+<td style="text-align:center">大获裨益</td>
+</tr>
+<tr>
+<td style="text-align:center">[9]</td>
+<td style="text-align:left">厂区内挂着各式标语，但似乎没有一条被执行</td>
+<td style="text-align:center">无关紧要</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><p>Update Log 1.0 Initial Commit from .mht file</p>
+</li>
+<li><p>Update Log 2.0 Major modification for blog format; Information update          </p>
+</li>
+</ul>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">德语「德国制造」<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">写文章的时候「阿里」还没上市，「腾讯」的「微信」也还没成气候。虽然不喜欢，但抛开个人的偏见，以 A / T 为代表的一批中国新兴企业确实做到了 Enterprise<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">实在找不到更合适的中文词相对应<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">@Mao @Quantum @Letter_Man 这三只友人应该第一眼就知道这字是什么意思<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">完了，褒义词好像只会用「友善」……<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">包括但不限于 Google Map，高德地图，百度地图<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">听起有些匪夷所思，然而确是事实，详述过于冗长，略去<a href="#fnref:7" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;去「石龙坝水电站」的路基本等于没路。老安晋线 S215 被重车碾压的不成样子，到了水电站的岔口，只有一个年久失修，几近剥落的路牌，道路更变为了有假包换的乡间土路，若不是 GPS 定位，几近怀疑走错。真想问问中国这帮官僚们：该讲排场的时候，排场哪里去了！？&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="环滇骑迹" scheme="http://notlsd.com/categories/%E7%8E%AF%E6%BB%87%E9%AA%91%E8%BF%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>The Equivalence of Integral and Differential Form of Maxwell’s Equations</title>
+    <link href="http://notlsd.com/2017/05/27/maxwell-equations/"/>
+    <id>http://notlsd.com/2017/05/27/maxwell-equations/</id>
+    <published>2017-05-27T09:05:31.000Z</published>
+    <updated>2017-05-27T09:08:14.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>In this paper the author have proved the equivalence of integral and differential form of Maxwell’s equations with modern mathematical notation.</p>
+<a id="more"></a>
+<p><img src="/2017/05/27/maxwell-equations/P01.png" alt=""></p>
+<p><img src="/2017/05/27/maxwell-equations/P02.png" alt=""></p>
+<p><img src="/2017/05/27/maxwell-equations/P03.png" alt=""></p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;In this paper the author have proved the equivalence of integral and differential form of Maxwell’s equations with modern mathematical notation.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="科学家" scheme="http://notlsd.com/categories/%E7%A7%91%E5%AD%A6%E5%AE%B6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>利用「正则表达式」进行批量文本替换</title>
+    <link href="http://notlsd.com/2017/05/27/regx-in-massive-text/"/>
+    <id>http://notlsd.com/2017/05/27/regx-in-massive-text/</id>
+    <published>2017-05-27T09:02:43.000Z</published>
+    <updated>2017-06-02T07:05:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>利用「正则表达式」可以显著的提高文档处理的效率。本文围绕下列例子，简要的介绍了如何通过正则表达式进行文档的快速查找与替换。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">查找字符串 ^[►](\D*)(\d+).*</div><div class="line"></div><div class="line">替换字符串 -&gt; b\2 [label=&quot;\1&quot;];</div></pre></td></tr></table></figure>
+<a id="more"></a>
+<p>请注意，「正则表达式」Regular Expression 简称 Regx，是一门博大而深邃的艺术，本文只能算作入门教程的导论<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="本文默认读者知悉基本的计算机文本编码规则。">[1]</span></a></sup> <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="General Reference [正则表达式30分钟入门教程](http://deerchao.net/tutorials/regex/regex.htm) ">[2]</span></a></sup>。</p>
+<h3 id="最简单的例子-删除多余空行"><a href="#最简单的例子-删除多余空行" class="headerlink" title="最简单的例子 - 删除多余空行"></a>最简单的例子 - 删除多余空行</h3><p>最直接的想法即是查找「换行符」直接删除，如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">查找字符串 \n </div><div class="line">	</div><div class="line">替换字符串为空</div><div class="line"></div></pre></td></tr></table></figure>
+<p>然而，这样是行不通的：</p>
+<blockquote>
+<p>第一行文本</p>
+<p>第二行文本</p>
+<p>第三行文本</p>
+</blockquote>
+<p>经过处理后就成为了：</p>
+<blockquote>
+<p>第一行文本第二行文本第三行文本</p>
+</blockquote>
+<p>正常段落间换行也被删除了。不过，稍加变化即可解决问题：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">查找字符串 ^\n</div><div class="line"></div></pre></td></tr></table></figure>
+<p>在 Regx 中，<strong>^</strong> 标记行首；<strong>$</strong> 标记行尾。</p>
+<p>上述代码的意思即是查找出现在行首的「换行符」，从而解决了上述问题。</p>
+<h3 id="略微复杂的例子-删除行首行标"><a href="#略微复杂的例子-删除行首行标" class="headerlink" title="略微复杂的例子 - 删除行首行标"></a>略微复杂的例子 - 删除行首行标</h3><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">查找字符串 ^\d+</div><div class="line"></div></pre></td></tr></table></figure>
+<p>我们已经清楚通过 <strong>^</strong> 可以定位行首，现在新的问题是如何追踪到行标。凡事先问「是什么」，「行标」用自然语言来说，就是「出现在行首的一个或多个数字」。那么在 Regx 中可以用，\d+ 来表示。借此，引入「元字符」和「限定符」的概念，如下表：</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">元字符</th>
+<th style="text-align:left">匹配内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">.</td>
+<td style="text-align:left">匹配除换行符以外的任意字符</td>
+</tr>
+<tr>
+<td style="text-align:center">\ w</td>
+<td style="text-align:left">匹配字母或数字或下划线或汉字</td>
+</tr>
+<tr>
+<td style="text-align:center">\ b</td>
+<td style="text-align:left">匹配单词的开始或结束</td>
+</tr>
+<tr>
+<td style="text-align:center">\ s</td>
+<td style="text-align:left">匹配任意的空白符</td>
+</tr>
+<tr>
+<td style="text-align:center">\ d</td>
+<td style="text-align:left">匹配数字</td>
+</tr>
+</tbody>
+</table>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">限定符</th>
+<th style="text-align:left">重复次数</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">*</td>
+<td style="text-align:left">重复零次或更多次</td>
+</tr>
+<tr>
+<td style="text-align:center">+</td>
+<td style="text-align:left">重复一次或更多次</td>
+</tr>
+<tr>
+<td style="text-align:center">?</td>
+<td style="text-align:left">重复零次或一次</td>
+</tr>
+</tbody>
+</table>
+<h3 id="真实的应用：一堆文本与一个问题"><a href="#真实的应用：一堆文本与一个问题" class="headerlink" title="真实的应用：一堆文本与一个问题"></a>真实的应用：一堆文本与一个问题</h3><p>最近在处理一个超过十万字的 <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="OCR - Optical Character Recognition「光学字符识别」，通俗的说，就是扫描件。此外，[ABBYY](www.abbyy.com/en-us/) 真乃 OCR 神器。">[3]</span></a></sup> 文本，需要把它处理为某种计算机可用的格式。里面含有大量的类似于这样的文本：</p>
+<blockquote>
+<p>► 指向 1984 。</p>
+</blockquote>
+<p>需要替换为这个</p>
+<blockquote>
+<p>-&gt; 1984 [label = “ 指向 “];</p>
+</blockquote>
+<p>其中，文本和数字都是任意的。这是个有些复杂的问题，最终解决的办法就是开头的那串复杂的 Regx，如下：</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">查找字符串 ^[►](\D*)(\d+).*</div><div class="line">	</div><div class="line">替换字符串 -&gt; b\2 [label=&quot;\1&quot;];</div><div class="line"></div></pre></td></tr></table></figure>
+<p>除了上述章节已经提及的元素，首先映入眼帘的<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="这是「人民教育出版社九年制义务教育语文教科书」课文开头惯用语。">[4]</span></a></sup>，是一堆括号，那么就先来解释括号的意义。</p>
+<ul>
+<li><p>方括号 <strong>[ ]</strong> 指没有预定义的「元字符」集，比方说[►]就是指当匹配到任何一个「 ► 」的时候。同理， [aeiou]指匹配到任何一个元音字母的时候。</p>
+</li>
+<li><p>小括号 <strong>（ ）</strong> 指分组，每个组会被按照次序依次加上序号。替换字符串这里是最简单的应用，</p>
+</li>
+</ul>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">\1 指代 (\D*) 的内容</div><div class="line"></div><div class="line">\2 指代 (\d+) 的内容</div><div class="line"></div></pre></td></tr></table></figure>
+<p>显然，Regx 是大小写敏感的。再浏览一遍上面的 Regx，只有一个地方不清除了，<strong>\D</strong> 的意义。现在引入「反义字符」的概念</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">反义字符</th>
+<th style="text-align:left">匹配内容</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">\W</td>
+<td style="text-align:left">匹配任意不是字母，数字，下划线，汉字的字符</td>
+</tr>
+<tr>
+<td style="text-align:center">\B</td>
+<td style="text-align:left">匹配不是单词开头或结束的位置</td>
+</tr>
+<tr>
+<td style="text-align:center">\S</td>
+<td style="text-align:left">匹配任意不是空白符的字符</td>
+</tr>
+<tr>
+<td style="text-align:center">\D</td>
+<td style="text-align:left">匹配任意非数字的字符</td>
+</tr>
+<tr>
+<td style="text-align:center">^x</td>
+<td style="text-align:left">匹配除了x以外的任意字符</td>
+</tr>
+</tbody>
+</table>
+<p>同理 [^aeiou] 匹配除了 a e i o u 这几个字母以外的任意字符。那么，用自然语言解释这一串 Regx 的意义即是：</p>
+<p><strong>查找到行首；匹配 ► ；接着匹配任意数量非数字字符，编为第一组；接着匹配一个或多个数字，编为第二组；匹配任意数量的在本行的任意字符；完</strong></p>
+<h3 id="一只-BUG-与「贪婪模式」"><a href="#一只-BUG-与「贪婪模式」" class="headerlink" title="一只 BUG 与「贪婪模式」"></a>一只 BUG 与「贪婪模式」</h3><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">查找字符串 ^[►](*)(\d+).*</div><div class="line"></div></pre></td></tr></table></figure>
+<p>之前处理此问题的时候，用的是上面这个 Regx ，但最后替换的结果令人哭笑不得</p>
+<blockquote>
+<p>-&gt; b4 [label=” 指向198”];</p>
+</blockquote>
+<p>原因如下：</p>
+<blockquote>
+<p>通常当 Regx 中包含能接受重复的限定符时，在使整个 Regx 能得到匹配的前提下，匹配尽可能多的字符。这被称为「贪婪模式」Greedy Mode 。与此对应的称之为「懒惰模式」Lazy Mode 。</p>
+</blockquote>
+<p>这样的话，在「► 指向 1984 。」中，前面的 * 一直取到 8 也就不足为奇了。</p>
+<p>###</p>
+<p>思考题：Unix Command </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">rm image*[02468].jpg evenImage </div><div class="line"></div></pre></td></tr></table></figure>
+<p>是什么意思？<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="答案：将所有名称为偶数的 jpg 图像移动到同目录下的 evenImage 目录">[5]</span></a></sup></p>
+<h3 id="综上所述"><a href="#综上所述" class="headerlink" title="综上所述"></a>综上所述</h3><p>Regx 也应该可以算作「计算机科学」中的上古神器之一 — 简洁，优雅，烧脑。</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">本文默认读者知悉基本的计算机文本编码规则。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">General Reference <a href="http://deerchao.net/tutorials/regex/regex.htm" target="_blank" rel="external">正则表达式30分钟入门教程</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">OCR - Optical Character Recognition「光学字符识别」，通俗的说，就是扫描件。此外，<a href="www.abbyy.com/en-us/">ABBYY</a> 真乃 OCR 神器。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">这是「人民教育出版社九年制义务教育语文教科书」课文开头惯用语。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">答案：将所有名称为偶数的 jpg 图像移动到同目录下的 evenImage 目录<a href="#fnref:5" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;利用「正则表达式」可以显著的提高文档处理的效率。本文围绕下列例子，简要的介绍了如何通过正则表达式进行文档的快速查找与替换。&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;查找字符串 ^[►](\D*)(\d+).*&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;&lt;/div&gt;&lt;div class=&quot;line&quot;&gt;替换字符串 -&amp;gt; b\2 [label=&amp;quot;\1&amp;quot;];&lt;/div&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="技术栈" scheme="http://notlsd.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>十二怒局：拆解 Replica</title>
+    <link href="http://notlsd.com/2017/05/27/replica-analysis/"/>
+    <id>http://notlsd.com/2017/05/27/replica-analysis/</id>
+    <published>2017-05-27T09:02:20.000Z</published>
+    <updated>2017-10-23T14:30:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="英文标题应该更有神韵 12 Angry Endings - Replica Dismantled 不过为了标题和内容在语言层面的一致性，还是使用中文">[1]</span></a></sup> 这篇文章拆解了屡获殊荣的独立游戏 Replica。前面三节将 Replica 放到显微镜下去观察，去分析具体的每一个组件是什么，是以什么结构组织起来的。后面三节是作者 @notlsd 对 Replica 游戏设计的的评价。</p>
+<a id="more"></a>
+<p><strong>原文首发于 <a href="www.indienova.com">Indienova</a></strong> </p>
+<h3 id="Replica-故事线"><a href="#Replica-故事线" class="headerlink" title="Replica 故事线"></a>Replica 故事线</h3><p><img src="/2017/05/27/replica-analysis/Replica_Flow_Chart_WL.png" alt="REPLICA 故事线"><span class="imgTitle">REPLICA 故事线</span> </p>
+<h3 id="Replica-密码表"><a href="#Replica-密码表" class="headerlink" title="Replica 密码表"></a>Replica 密码表</h3><table>
+<thead>
+<tr>
+<th style="text-align:center">Lock</th>
+<th style="text-align:center">Key</th>
+<th style="text-align:center">Hint</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">锁屏密码</td>
+<td style="text-align:center">1105</td>
+<td style="text-align:center">Tom 本人生日</td>
+</tr>
+<tr>
+<td style="text-align:center">私密相册</td>
+<td style="text-align:center">1026</td>
+<td style="text-align:center">Tom 和女朋友 Marge 相遇的日子</td>
+</tr>
+<tr>
+<td style="text-align:center">登录 Like</td>
+<td style="text-align:center">1018</td>
+<td style="text-align:center">女朋友 Marge 的生日</td>
+</tr>
+<tr>
+<td style="text-align:center">登录 Follow</td>
+<td style="text-align:center">2255</td>
+<td style="text-align:center">密码找回短信中 BALL / CALL 在九宫格键盘上对应的数字</td>
+</tr>
+<tr>
+<td style="text-align:center">记者电话</td>
+<td style="text-align:center">0987</td>
+<td style="text-align:center">Like 里文章报道结尾的签名信息</td>
+</tr>
+<tr>
+<td style="text-align:center">蓝牙密码</td>
+<td style="text-align:center">1105</td>
+<td style="text-align:center">主线剧情 End 04 结尾 Tom 本人电话</td>
+</tr>
+<tr>
+<td style="text-align:center">莫尔斯码支线电话</td>
+<td style="text-align:center">4989</td>
+<td style="text-align:center">主线剧情 End 04 结尾的莫尔斯电码</td>
+</tr>
+<tr>
+<td style="text-align:center">莫尔斯码支线指令</td>
+<td style="text-align:center">knock</td>
+<td style="text-align:center"><a href="https://www.youtube.com/watch?v=Smwrw4sNCxE" target="_blank" rel="external">电影 The Matrix</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="Replica-致敬"><a href="#Replica-致敬" class="headerlink" title="Replica 致敬"></a>Replica 致敬</h3><p><strong>[小说] 1984</strong></p>
+<ul>
+<li><p>整体气氛的渲染</p>
+</li>
+<li><p>ENDING 8 : Big Brother Is Watching You</p>
+</li>
+</ul>
+<p><strong>[电影] The Matrix</strong></p>
+<ul>
+<li>整个「莫尔斯码」支线</li>
+</ul>
+<p><strong>[电影] V for Vendetta</strong> </p>
+<ul>
+<li><p>ENDING 10  </p>
+</li>
+<li><p>Tom 的生日 Nov 15th 在电影里是最后的 Big Day。这个是 @notlsd 在游戏中最喜欢的梗。</p>
+</li>
+</ul>
+<p><strong>[动漫] EVA</strong></p>
+<ul>
+<li>ENDING 11 死刑宣判过以后，主角一家的名字会变为「碇真嗣」「碇源堂」「碇唯」，碇一家终于在天堂相遇了</li>
+</ul>
+<p><strong>[游戏] 史丹利的寓言</strong> </p>
+<ul>
+<li>App 430 以及相应成就 <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="除了「史丹利的寓言」没有接触过，其它都是 @notlsd 的大爱">[2]</span></a></sup></li>
+</ul>
+<h3 id="Replica-Pros-and-Cons-3"><a href="#Replica-Pros-and-Cons-3" class="headerlink" title="Replica Pros and Cons [3]"></a>Replica Pros and Cons <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="找不到合适的中文，「利弊」显得诡异">[3]</span></a></sup></h3><h4 id="Pros"><a href="#Pros" class="headerlink" title="Pros"></a>Pros</h4><ul>
+<li><p>「手机中的手机」，Replica 是 @notlsd 所玩过的所有游戏当中，对「手游」这个概念诠释的最好的，没有之一，形式极其有创造力。 Steam 的移植反倒失去了游戏本身的神韵。</p>
+</li>
+<li><p>To Do List 作为任务系统与整个游戏的风格相得益彰，不唐突，营造了沉浸式体验。</p>
+</li>
+<li><p>四位数的电话号码。一方面，一眼就可以认出「电话号码」的性质；另一方面，减少了重复输入的Labour。不同国家的电话号码位数是不一样的，同时减轻了本地化的工作量。</p>
+</li>
+</ul>
+<h4 id="Cons"><a href="#Cons" class="headerlink" title="Cons"></a>Cons</h4><ul>
+<li><p>开机锁屏页面，完全一脸懵逼。游戏购买后，@notlsd 至少在手机里躺了半个月。完全没有新手引导，对新玩家相当不友善。</p>
+</li>
+<li><p>界面是 iOS 系统，但按键却是 Android 手机。这种混搭的感觉，只能说：It’s Weird<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="不排除是为了规避苹果爸爸的审查">[4]</span></a></sup>。</p>
+</li>
+<li><p>剧情过短且 Unbalanced，这一条是最为致命的。这点第一节的故事线流程图反应得很清楚。 </p>
+</li>
+</ul>
+<p>一句话总结，Replica 「形式天才，内容尚缺」。不过考虑到独立游戏的局限性，也可以理解<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="潜台词的意思是，@notlsd 制造的游戏，估计内容上还要单薄些">[5]</span></a></sup>。</p>
+<h3 id="Replica-的技术路线-与-somi-商榷"><a href="#Replica-的技术路线-与-somi-商榷" class="headerlink" title="Replica 的技术路线 - 与 @somi 商榷"></a>Replica 的技术路线 - 与 @somi 商榷</h3><h4 id="像素风-最好的表现形式-？"><a href="#像素风-最好的表现形式-？" class="headerlink" title="像素风 - 最好的表现形式 ？"></a>像素风 - 最好的表现形式 ？</h4><p>囿于成本的限制，独立游戏大量的使用像素风，在大部分的游戏中<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="这里主要指 RPG 和沙盒类游戏">[6]</span></a></sup>反倒别有风味。但在 Replica 这里反倒有些不合适，一方面，App 图标本身的设计难度并不高，甚至可能比像素化还要更容易些；另一方面，像素化后，为了风格的统一性，字体也需要做相应修改。然而，至少在中文的本地化上，因为汉字本身成千上万，本地化不可能专门去做单独的字体。不得不使用标准字体后的，整体风格反倒显得有些诡异。</p>
+<h4 id="Unity3D-最合适的引擎-？"><a href="#Unity3D-最合适的引擎-？" class="headerlink" title="Unity3D - 最合适的引擎 ？"></a>Unity3D - 最合适的引擎 ？</h4><p>Unity3D 引擎的优势自不必说，易上手，能 3D。然而 Replica 是个 2D 游戏，而且也没有任何必要转制为 3D 。更为重要的是，如果 @notlsd 没记错的话，Unity3D 的操作逻辑只有点击，这样下划出现状态栏这样的操作就无法实现。游戏中的解决方案是顶端出现可点击的下拉箭头，只能算是个差强人意的解决方案，仍然破坏了沉浸式的游戏体验。</p>
+<p>既然是模拟手机，更加底层语言不可避免的带来更加真实的模拟。在这个意义上，Apple 自己的 SpriteKit 显然是更好的选择。</p>
+<p>此外，Unity3D 游戏的安装包普遍巨大，这会给手机内存不够的用户带来很大的困扰。</p>
+<h3 id="Replica-的真实世界"><a href="#Replica-的真实世界" class="headerlink" title="Replica 的真实世界"></a>Replica 的真实世界</h3><p>所谓「神作」，虽然是游戏，但更像是真实世界的映射。玩家思考的很大程度上仍然是真实世界。逻辑和这个 <a href="https://www.zhihu.com/question/35539724/answer/88192357" target="_blank" rel="external">@notlsd 的知乎答案</a>，是一致的。  </p>
+<p>先看这个表，游戏中的每一个 App 都是真实世界中影子，看到后可谓会心一笑。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Mmail</th>
+<th style="text-align:center">Tele</th>
+<th style="text-align:center">ToDo</th>
+<th style="text-align:center">Tele</th>
+<th style="text-align:center">Search</th>
+<th style="text-align:center">Like</th>
+<th style="text-align:center">Follow</th>
+<th style="text-align:center">I’mStar</th>
+<th style="text-align:center">ChatIM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Gmail</td>
+<td style="text-align:center">Telegram</td>
+<td style="text-align:center">AnyDo</td>
+<td style="text-align:center">Telegram</td>
+<td style="text-align:center">Google</td>
+<td style="text-align:center">Facebook</td>
+<td style="text-align:center">Twitter</td>
+<td style="text-align:center">Instagram</td>
+<td style="text-align:center">WeChat</td>
+</tr>
+</tbody>
+</table>
+<p>更重要的是，游戏中蕴含了大量的「信息安全」和「社会工程学」的概念，或者说，整个游戏就是一场「社会工程学」实践<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="关于「社会工程学」的更详尽说明，参见 [编程君的这一系列帖子](https://program-think.blogspot.com/2009/05/social-engineering-0-overview.html)">[7]</span></a></sup>。</p>
+<ul>
+<li><p>信息安全第一步 <strong>永！远！不！要！用！生！日！做！密！码</strong> 游戏中至少有两个关键性密码是相关人物的生日。</p>
+</li>
+<li><p>更令 @notlsd 惊出一身冷汗的是，游戏中的某一个不起眼的解密方式即是 @notlsd 手机开机密码的加密方式（现已更改），曾经一直以为这是神不知鬼不觉的。</p>
+</li>
+</ul>
+<p>用一句我最喜欢的游戏里的话结尾吧</p>
+<blockquote>
+<p>仅仅是使用 Telegram 和 Gmail 的行为，就足令我们对其进行拘捕调查。他一定有不少的东西要藏着。莫非他妄图对国家造成恐怖主义威胁，否则为什么不使用政府批准的 WeChat 呢？<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="至少这句话的汉化没有体现出原文的神韵，自己重新翻译了一遍，并把游戏中的 App 换为了现实中的本体。英文原文参见注释九。">[8]</span></a></sup> <sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="We can do an arrest investigation just for using Telegram and Mmail. He's got a lot to hide. Why else would he refuse to use government approved ChatIM unless he intended to threaten and terrorize the nation ?">[9]</span></a></sup></p>
+</blockquote>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">英文标题应该更有神韵 12 Angry Endings - Replica Dismantled 不过为了标题和内容在语言层面的一致性，还是使用中文<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">除了「史丹利的寓言」没有接触过，其它都是 @notlsd 的大爱<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">找不到合适的中文，「利弊」显得诡异<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">不排除是为了规避苹果爸爸的审查<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">潜台词的意思是，@notlsd 制造的游戏，估计内容上还要单薄些<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">这里主要指 RPG 和沙盒类游戏<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">关于「社会工程学」的更详尽说明，参见 <a href="https://program-think.blogspot.com/2009/05/social-engineering-0-overview.html" target="_blank" rel="external">编程君的这一系列帖子</a><a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">至少这句话的汉化没有体现出原文的神韵，自己重新翻译了一遍，并把游戏中的 App 换为了现实中的本体。英文原文参见注释九。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">We can do an arrest investigation just for using Telegram and Mmail. He’s got a lot to hide. Why else would he refuse to use government approved ChatIM unless he intended to threaten and terrorize the nation ?<a href="#fnref:9" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;英文标题应该更有神韵 12 Angry Endings - Replica Dismantled 不过为了标题和内容在语言层面的一致性，还是使用中文&quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt; 这篇文章拆解了屡获殊荣的独立游戏 Replica。前面三节将 Replica 放到显微镜下去观察，去分析具体的每一个组件是什么，是以什么结构组织起来的。后面三节是作者 @notlsd 对 Replica 游戏设计的的评价。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="拆游戏" scheme="http://notlsd.com/categories/%E6%8B%86%E6%B8%B8%E6%88%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Quotes from &lt; The Snows of Kilimanjaro &gt;</title>
+    <link href="http://notlsd.com/2017/05/10/quote-snows-of-kilimanjaro/"/>
+    <id>http://notlsd.com/2017/05/10/quote-snows-of-kilimanjaro/</id>
+    <published>2017-05-10T03:25:36.000Z</published>
+    <updated>2017-05-28T09:49:08.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This post is my personal favorite quotes from Ernest Hemingway’s autobiographical novel &lt; THE SNOWS OF KILIMANJARO &gt; .</p>
+<a id="more"></a> 
+<h4 id="Cock-on-a-Dunghill"><a href="#Cock-on-a-Dunghill" class="headerlink" title="Cock on a Dunghill"></a>Cock on a Dunghill</h4><blockquote>
+<p>“Love is a dunghill<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Dung 动物粪便">[1]</span></a></sup>,” said Harry. “And I’m the cock that gets on it to crow.”</p>
+</blockquote>
+<h4 id="Fat-on-the-Soul"><a href="#Fat-on-the-Soul" class="headerlink" title="Fat on the Soul"></a>Fat on the Soul</h4><blockquote>
+<p>They had made this safari with the minimum of comfort. There was no hardship; but there was no luxury and he had thought that he could get back into training that way. That in some way he could work the fat off his soul the way a fighter went into the mountains to work and train in order to burn it out of his body.</p>
+</blockquote>
+<h4 id="Lying-A-Life-Style"><a href="#Lying-A-Life-Style" class="headerlink" title="Lying: A Life Style"></a>Lying: A Life Style</h4><blockquote>
+<p>If he lived by a lie he should try to die by it. </p>
+</blockquote>
+<h4 id="Talent-and-Money-A-Equality"><a href="#Talent-and-Money-A-Equality" class="headerlink" title="Talent and Money: A Equality"></a>Talent and Money: A Equality</h4><blockquote>
+<p>We must all be cut out for what we do, he thought. However you make your living is where your talent lies. He had sold vitality, in one form or another, all his life and when your affections are not too involved you give much better value for the money. </p>
+</blockquote>
+<h4 id="The-old-and-the-New"><a href="#The-old-and-the-New" class="headerlink" title="The old and the New"></a>The old and the New</h4><blockquote>
+<p>The steps by which she had acquired him and the way in which she had finally fallen in love with him were all part of a regular progression in which she had built herself a new life and he had traded away what remained of his old life.</p>
+</blockquote>
+<h4 id="Let’s-Destroy"><a href="#Let’s-Destroy" class="headerlink" title="Let’s Destroy"></a>Let’s Destroy</h4><blockquote><p>“ You wouldn’t want to destroy me again, would you? “  </p>
+</blockquote>
+<blockquote><p>“ I’d like to destroy you a few times in bed. “ he said.</p>
+</blockquote>
+<blockquote><p>“ Yes. That’s the good destruction. That’s the way we’re made to be destroyed. “ </p>
+</blockquote>
+<h4 id="The-Same-Affliction"><a href="#The-Same-Affliction" class="headerlink" title="The Same Affliction"></a>The Same Affliction</h4><blockquote><p>He knew his neighbors in that quarter then because they all were poor.</p>
+</blockquote>
+<blockquote><p>The drunkards<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Drunkard 酒鬼">[2]</span></a></sup> killed their poverty that way; the sportifs<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Sportif 运动狂">[3]</span></a></sup> took it out in exercise. </p>
+</blockquote>
+<h4 id="A-Dying-Man"><a href="#A-Dying-Man" class="headerlink" title="A Dying Man"></a>A Dying Man</h4><blockquote>
+<p>All right. Now he would not care for death. One thing he had always dreaded<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Dread 惧怕">[4]</span></a></sup> was the pain. He could stand pain as well as any man, until it went on too long, and wore him out, but here he had something that had hurt frightfully and just when he had felt it breaking him, the pain had stopped.</p>
+</blockquote>
+<ul>
+<li>Update Log 1.0 Initial Commit</li>
+<li>Update Log 1.1 Change format of “ preview “</li>
+<li>Update Log 1.2 Change format of “ Vocabulary Note “</li>
+<li>Update Log 2.0 Bug fix on comment cannot be correctly displayed</li>
+<li>Update Log 2.1 Delete Chinese subtitle</li>
+</ul>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Dung 动物粪便<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Drunkard 酒鬼<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Sportif 运动狂<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Dread 惧怕<a href="#fnref:4" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;This post is my personal favorite quotes from Ernest Hemingway’s autobiographical novel &amp;lt; THE SNOWS OF KILIMANJARO &amp;gt; .&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="万卷书" scheme="http://notlsd.com/categories/%E4%B8%87%E5%8D%B7%E4%B9%A6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Lettre à Z</title>
+    <link href="http://notlsd.com/2017/05/10/letter-to-z/"/>
+    <id>http://notlsd.com/2017/05/10/letter-to-z/</id>
+    <published>2017-05-10T02:50:34.000Z</published>
+    <updated>2017-05-28T08:53:28.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>本文是对 André Gorz 所著 Lettre à D. Histoire d’un amour 中译版的摘抄，部分语句进行了修改。<a href="https://book.douban.com/subject/4313207/" target="_blank" rel="external">此版本</a>翻译极其流畅，译者序亦文采飞扬<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="译者 [袁筱一](http://faculty.ecnu.edu.cn/s/1654/main.jspy) 是南京大学文学博士，华东师范大学外语学院院长。同样是翻译法语原文，比冯克利翻译的「乌合之众」不知高到哪里去了。">[1]</span></a></sup>。很少有什么小册子可以令 @notlsd 一见钟情。「致 D」算是一本，对爱情，对文学<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="当书中出现文学的时候，我总是自动替换为代码。毕竟嚷嚷着自己是 “ A poet, Coding is my language ” ">[2]</span></a></sup>，甚至对现代社会的态度都仿佛是 @notlsd 生在了「五月风暴」时的法国。</p>
+<a id="more"></a>
+<h3 id="译序"><a href="#译序" class="headerlink" title="译序"></a>译序</h3><h4 id="爱情"><a href="#爱情" class="headerlink" title="爱情"></a>爱情</h4><blockquote>
+<p>我不知道，如果自己已经把爱情的实质视作对谎言的维护，是否还能够投入一段他人的，在追寻生命本质层面上的爱情？</p>
+</blockquote>
+<h4 id="自杀"><a href="#自杀" class="headerlink" title="自杀"></a>自杀</h4><blockquote>
+<p>自杀不是一种反抗和姿态，而是一种接受、陪伴和主动的了结，是人作为「主体」的最后的、负责任的行动。我想，在这种前提下它可以是美丽的，并且具有积极意义的。</p>
+</blockquote>
+<h4 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h4><blockquote>
+<p>「致 D」中的爱情不是文学的爱情，也不是哲学的爱情。它离文学中所擅长的暧昧、罪恶、背叛、金钱以及由此带来的种种冲突很远；它与哲学所擅长的抽象也很远，没有所谓的伦理、道德以及解释的方法。它是生活的，是两个人走了五十八年，社会变迁，两个人也在不停的游走和变化，但维护「执子之手，与子偕老」的决心始终未变。</p>
+</blockquote>
+<h4 id="避处-3"><a href="#避处-3" class="headerlink" title="避处 [3]"></a>避处 <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="不太清楚法语原文，估计类似于英文中的 Shelter - 「一个遮风避雨的安身之所」">[3]</span></a></sup></h4><blockquote>
+<p>高兹或许从来不怀疑，D 的爱情为他提供了「避处」。社会没有给过他安全感，从童年开始，年轻时代所经历的一切：战争，生存。但仅仅作为「避处」，男人仍然会犹豫，因为他不知道这样的「避处」是否具有永恒的意义。<strong><em>然而如果他从来没有学会过承担，他又怎么能够指望女人来帮助他「承担自己的存在」?</em></strong></p>
+</blockquote>
+<h4 id="既定观念"><a href="#既定观念" class="headerlink" title="既定观念"></a>既定观念</h4><blockquote>
+<p>只要能够冷眼看待，我们一定知道，像萨特那样拒绝「既定观念」的婚姻，无非也不过是走入另一个自己铸就的「既定观念」而已。</p>
+</blockquote>
+<h4 id="开始与延续"><a href="#开始与延续" class="headerlink" title="开始与延续"></a>开始与延续</h4><blockquote>
+<p>相信就像所有女人在读完开头是梦想自己能够像 D 一样收到来世的要约，所有的男人在读完「致 D」之后大约也梦想着能有这样一个女人相伴终生吧。在故事的开始，又可以启动爱情的年轻和美丽；而在故事需要延续的时候，又可以延续随着岁月递增的智慧，温和与包容。</p>
+</blockquote>
+<h4 id="工业社会"><a href="#工业社会" class="headerlink" title="工业社会"></a>工业社会</h4><blockquote>
+<p>这个人类一手创建和推动的工业社会却恰恰对人不符有任何责任。</p>
+</blockquote>
+<h4 id="在世经验"><a href="#在世经验" class="headerlink" title="在世经验"></a>在世经验</h4><blockquote>
+<p>最美丽的爱情不是在所谓的两难选择中，选择为爱情舍弃其他的一切：声名、财富、乃至皇位，抑或是通过自己来改变这个世界的野心 - 这恰恰是文学里的爱情；而是通过自己的承担将所有自己认为重要的一切合为一体，合为最基本的「在世经验」…… 遗憾的是，我们大多数人也许一辈子也不可能拥有过这样的「在世经验」。因为我们不够努力，因为我们在下定决心的时候，没有迎来那个用 TA 的智慧赌你的智慧的人。</p>
+</blockquote>
+<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><h4 id="我们"><a href="#我们" class="headerlink" title="我们"></a>我们</h4><blockquote>
+<p>我需要重建我们的爱情故事，这样才能够抓住真正的意义。正是我们的爱情故事让我们成为今天的这个模样，经彼此而生，为彼此而生。给你写这封信，我就是为了弄明白我所经历的一切，我们所经历的一切。</p>
+</blockquote>
+<h4 id="天赋"><a href="#天赋" class="headerlink" title="天赋"></a>天赋</h4><blockquote>
+<p>你总是很快就能区分什么是主要的，什么是次要的。任何复杂的问题，似乎在你看来都很好解决。你从来不怀疑自己判断的准确性。</p>
+</blockquote>
+<h4 id="秉性"><a href="#秉性" class="headerlink" title="秉性"></a>秉性</h4><blockquote>
+<p>我不明白。我不知道是什么将我们联系在一起。你不喜欢谈论自己的过去。我是在以后才渐渐明白，究竟是怎样的根本经验让我们能够在瞬间靠近。</p>
+</blockquote>
+<h4 id="第一次亲密接触"><a href="#第一次亲密接触" class="headerlink" title="第一次亲密接触"></a>第一次亲密接触</h4><blockquote>
+<p>我们不急。我小心翼翼地脱去你的衣服。现实与想象竟然会有如此完美的吻合，米洛斯岛的 Aphrodite 鲜活的展现在我面前。你的颈部散发着珍珠色的光辉，照亮了你的脸庞，很久很久，我默不作声地欣赏着这充满生命力，同时又充满柔情的奇迹。和你在一起我才明白，欢愉不是得到或者给予，只有在相互给予并且能够唤起另一方赠与的愿望时，欢愉才能存在。那一天，我们彻底把自己交付给了对方。</p>
+</blockquote>
+<h4 id="你的世界"><a href="#你的世界" class="headerlink" title="你的世界"></a>你的世界</h4><blockquote>
+<p>在认识你之前，和其他女孩子待两个小时以上，我就会厌烦，而且我也会让他们感觉到我的厌烦。但和你在一起，你却带我进入了另外一个世界，这一点让我着迷，。我自童年时代所树立的价值观，在这个世界里不再发生效用。这个世界令我心醉神迷。进入它，我就能够逃离，没有所谓的义务，没有所谓归属。跟你在一起，我就到了别处，来到一个陌生的地方，甚至是一个与你自己完全不相干的地方。你带我进入了一个完全异质的空间 - 我是一个摒弃所有固定身份的人，将一个又一个的身份叠加起来，其中却没有一个是我的.</p>
+</blockquote>
+<h4 id="我们的世界"><a href="#我们的世界" class="headerlink" title="我们的世界"></a>我们的世界</h4><blockquote>
+<p>我觉得，我仿佛是在和你一起搭建一个完整的，得到很好保护的世界</p>
+</blockquote>
+<h4 id="不安全感"><a href="#不安全感" class="headerlink" title="不安全感"></a>不安全感</h4><blockquote>
+<p>…… 这一切都不能解释我们从一开始就形成的默契。我们之间没有一点相似之处，可一点关系也没有，我仍然能够感觉到，我们在本质上有相通之处，一种很特别的伤痕 —— 这就是我谓之「根本经验」的东西：一种不安全的经验。甚至于你我的这种经验究其本质也是有差别的。但这不重要：对于你我来说，它都意味着我们在世界上没有既定的位置。我们只有自己为自己打下的一小方天地，我们只有承担自己。是在后来，我发现比起我来，你对此更有准备。</p>
+</blockquote>
+<h4 id="软肋与铠甲-4"><a href="#软肋与铠甲-4" class="headerlink" title="软肋与铠甲 [4]"></a>软肋与铠甲 <sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="[知乎最著名答案之一](https://www.zhihu.com/question/20875474/answer/16603385) ">[4]</span></a></sup></h4><blockquote>
+<p>在大人世界里，你没有属于自己的位置。你必须强势，因为你的世界是一个不稳定的世界，我总是能够感觉到你的力量，同时我也能感觉到你深藏的脆弱。我喜欢你那种被克服的脆弱，欣赏你脆弱的力量。我们都是在不稳定和冲突中长大的孩子。我们注定要彼此保护。我们需要借助彼此，共同创造一个这个世界原本拒绝给予我们的位置。但是，为了这个，我们的爱情必须也是生活的契约。</p>
+</blockquote>
+<h4 id="回家"><a href="#回家" class="headerlink" title="回家"></a>回家</h4><blockquote>
+<p>某日，我对母亲说我要「回家」，回到洛桑的家去过生日。</p>
+<p>「那里到底有什么让你魂不守舍的？」她问我。</p>
+<p>「我的房间，我的书，我的朋友，还有一个我爱的女人」我说。</p>
+</blockquote>
+<h4 id="婚姻"><a href="#婚姻" class="headerlink" title="婚姻"></a>婚姻</h4><blockquote>
+<p>对于婚姻我有一种原则性的、观念性的偏见。我认为婚姻是一种资产阶级的固有习惯；是将一种关系法律化和社会化，一种原来仅凭爱情将两人联系在一起，完全没有社会性的关系。面对两个人的体验和情感，法律关系会产生自我管理的倾向 —— 甚至法律关系是将自我管理当成使命来完成的。我也一直说：「什么能够证明，在十年或二十年后，我们经历变化，而这种生活的契约仍然能够满足我们的欲望呢？」</p>
+<p>你的回答令我无法抵挡：「如果你和一个人结合在一起，打算度过一生，你们就将两个人的生命放在一起，不要做有损你们结合的事情。建构你们的夫妻关系就是你们共同的计划，你们永远都要根据环境的变化而不断加强、改变，重新调整方向。你们怎么做，就会成为怎样的人。」—— 这几乎就是萨特的哲学。</p>
+</blockquote>
+<h4 id="对比"><a href="#对比" class="headerlink" title="对比"></a>对比</h4><blockquote>
+<p>妳高高在上的自如与她故作姿态的高贵形成鲜明的对比 ～</p>
+</blockquote>
+<h4 id="爱情-1"><a href="#爱情-1" class="headerlink" title="爱情"></a>爱情</h4><blockquote>
+<p>爱情是两个主体彼此沉迷，它在某种程度上是无法描述的，也没有什么可社会化的地方，它可以抵抗住社会强加给主体的角色和镜像，可以抵挡住所谓文化的归属。我们几乎可以把所有的一切放在一起，因为开始时我们就会一无所有。只需我愿意再继续经历一直以来我所经历的一切，只需我再多爱一点，你的目光，你的声音，你的气味，你细长的手指，你穿衣服的方式，你的身体，你的一切，未来就会向我们张开怀抱。</p>
+<p>只需如此，你为我提供了逃避自我的可能。在「别处」—— 你是这里的特使 —— 安顿下来。和你在一起，我现实的那一面就可以放假了。你是使得现实「非现实化」的添加剂，包括我在内的现实，七八年以来我一直通过写作着手创造的现实。对于我来说，是你把一个充满威胁的世界 —— 在这个世界里，我只是一个非法存在的逃难者，在这个世界里，我的未来从来没有能超过三个月 —— 暂时放置在一边，我再也没有回到地面上的愿望，我在一种美妙绝伦的存在中找到了避处，我不愿意它被现实追赶上。</p>
+</blockquote>
+<h4 id="契约"><a href="#契约" class="headerlink" title="契约"></a>契约</h4><blockquote>
+<p>在你的脑海里，婚姻和我们结合的所谓法律化、社会化没有任何关系。它只是意味着我们确确实实地在一起了，意味着我已经和你签署了生活的契约，通过它，我们承诺彼此忠诚、付出，承诺彼此友情相待。</p>
+</blockquote>
+<h4 id="初恋"><a href="#初恋" class="headerlink" title="初恋"></a>初恋</h4><blockquote>
+<p>你是我第一个投入了全身心去爱的女人，我能够感受到你在我内心深处激起的共鸣；总之，是我真正的初恋。如果我不能真切地爱你，也许我再也不能爱任何人。我终于找到了从来都没能表达出的这些词语；我通过这些词语告诉你，我希望我们能够永远结合在一起。</p>
+</blockquote>
+<h4 id="累赘"><a href="#累赘" class="headerlink" title="累赘"></a>累赘</h4><blockquote>
+<p>没有我，你的生活会更容易。你不需要任何人的帮助就可以在这世界为自己构筑一席之地。你有一种天生的威严，有合约及组织意识。你幽默，无论在怎样的情况下，你都是那么自在，而且能够让别人也感到自在的。对于和你交往的人，你很快就能够得到他们的信任，能够向他们提供建议，仅凭直觉你就能够 —— 速度快得令人惊讶 —— 抓住别人的问题，帮助他们看清楚自己。</p>
+</blockquote>
+<h4 id="本体论的失效"><a href="#本体论的失效" class="headerlink" title="本体论的失效"></a>本体论的失效</h4><blockquote>
+<p>根据本体论意义的等级划分个人与他人之间的关系，在爱情的问题上我遇到了很大的困难（在「存在与虚无」中萨特用了三十页讨论这个问题），因为从哲学的角度，解释我们为什么要爱，为什么希望被某一个人爱而把其他所有人都排除在外，的确是不可能的。</p>
+</blockquote>
+<h4 id="共鸣"><a href="#共鸣" class="headerlink" title="共鸣"></a>共鸣</h4><blockquote>
+<p>爱情就是里面发生共鸣身体和灵魂的共鸣，而且只能与他或她发生的共鸣。</p>
+</blockquote>
+<h4 id="滚上床"><a href="#滚上床" class="headerlink" title="滚上床"></a>滚上床</h4><blockquote>
+<p>每天自晚上十点开始，我会埋首于「文集」的写作，直至凌晨两到三点。「上床来，」超过三点，你就会说。我回答道：「我马上来。」而你说：「不要马上来，而是这就来！」你的声音里没有一点责备。我喜欢你一边执着地要求着，一边总是留给我充足的时间。</p>
+</blockquote>
+<h4 id="写者与作家"><a href="#写者与作家" class="headerlink" title="写者与作家"></a>写者与作家</h4><blockquote>
+<p>如果一个写者的写作需求有一个合适的主题贯穿始终，并且让这需求有条理地组织起来，成为一项计划，那么写者就变成了作家。我们成千上万的人一生都在写，并且最终没有坚持到底，没有出版任何东西。</p>
+</blockquote>
+<h4 id="困苦"><a href="#困苦" class="headerlink" title="困苦"></a>困苦</h4><blockquote>
+<p>你做所有的事情的时候，都是以本色示人。困苦给了你翅膀，而我不一样，困苦总是让我陷入消沉。</p>
+</blockquote>
+<h4 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h4><blockquote>
+<p>我发现倘若没有「关系」我们根本找不到工作，但我们就是没有这所谓的关系。我在知识分子界没有任何交往，也没有可以与之交流哲学想象的人，虽然那时我在这方面的想象力是那么丰沃。我处于失败的境地。你的信任能够给我安慰，但还是不能让我彻底放下心来。</p>
+</blockquote>
+<h4 id="别处"><a href="#别处" class="headerlink" title="别处"></a>别处</h4><blockquote>
+<p>在这份工作中，我觉得我完全「找到了自己」：我可以在别处，只关心对于我周围、对我所服务的公众是完全陌生的事情；能够为自己制造不在场。我提炼出看待这个世界的一种外在的目光，我学会在事实面前隐身，让它们开口言说我的所想。我学会了客观性的诡计。我能够以不在的方式留存于自己的位置上。</p>
+</blockquote>
+<h4 id="使命"><a href="#使命" class="headerlink" title="使命"></a>使命</h4><blockquote>
+<p>「你的生活就是写作，所以写吧，」你重复道。仿佛你的使命就在于巩固我的存在。</p>
+</blockquote>
+<h4 id="常有理"><a href="#常有理" class="headerlink" title="常有理"></a>常有理</h4><blockquote>
+<p>我非常重视你的批评意见，虽然我喜欢低声抱怨：「为什么总是你有理？」</p>
+</blockquote>
+<h4 id="统计的悖论"><a href="#统计的悖论" class="headerlink" title="统计的悖论"></a>统计的悖论</h4><blockquote>
+<p>你反对一切理论建构，尤其反对所谓的数据统计。你说，数据统计只有在被阐释时才具有意义，因而他们根本没有什么说服力。但是阐释却根本不是以数学性的精确为目标的，虽然统计数据觉得自己所有权威性正来自于此。我需要借助理论来梳理我的思维，我反驳你说倘若思维没有清晰的结构，它就可能坠落在经验主义和琐碎无谓里。你则回答说，理论总是有成为枷锁的危险，会妨碍我们看见随时都在改变的现实的复杂性。我们就这个问题讨论过十几次，并且都很清楚对方会怎样回答。讨论更像是游戏。但是你玩这种游戏已经非常拿手。你无须认知科学作支撑就很清楚，如果没有直觉和情感，就无所谓智慧和意义。你的判断要求有真真实实的经验基础，是可以沟通的，而不是可以论证的。判断的权威性 —— 姑且让我们称之为伦理 —— 应该是无需辩论就可以成立的。而所谓理论判断的权威性却会因为没有能够在辩论占上风就立刻土崩瓦解，我的「为什么总是你有理」没有任何别的意思。我想，比起你需要我的判断而言，我更需要你的判断。</p>
+</blockquote>
+<h4 id="无辜与幼稚"><a href="#无辜与幼稚" class="headerlink" title="无辜与幼稚"></a>无辜与幼稚</h4><blockquote>
+<p>你一直比我要更像一个成人，而且越来越成熟。你在我的眼神中分辨出一种孩子般的「无辜」，你原本可以说我「幼稚」。</p>
+</blockquote>
+<h4 id="拒绝"><a href="#拒绝" class="headerlink" title="拒绝"></a>拒绝</h4><blockquote>
+<p>文学的魔术：就在于我描述自我，在拒绝存在中写作的同时，它让我得以进入存在。这本书是我拒绝的成果，它就是拒绝本身，那它的出版却阻止我在这拒绝中坚持下去。</p>
+</blockquote>
+<h4 id="书的有效性"><a href="#书的有效性" class="headerlink" title="书的有效性"></a>书的有效性</h4><blockquote>
+<p>因而，倘若仅仅是在写作的过程中，书是无效的。只有随着它让我遭遇各种可能性或是始料未及的其他人时，它才渐渐变得有效。</p>
+</blockquote>
+<h4 id="放弃"><a href="#放弃" class="headerlink" title="放弃"></a>放弃</h4><blockquote>
+<p>「衰老」则是我向青少年时代所作的永别，是我的放弃，放弃德勒兹-伽塔利后来所谓的「欲望的无休无止」，以及乔治-巴塔耶所谓的「可能性无处不在」，这种放弃只有通过对于限定的根本拒绝才能够达及：想要什么也不是的愿望与想要成为一切的愿望彼此混淆。在「衰老」的结尾，是这样一段自我勉励：「必须接受结束，必须接受是在这里，而不是在别的任何地方，是在做这个而不是别的什么事情，现在，永远，永远……必须接受这份生活，唯它而已。」</p>
+</blockquote>
+<h4 id="第三人称"><a href="#第三人称" class="headerlink" title="第三人称"></a>第三人称</h4><blockquote>
+<p>这不仅仅是因为关于自己的思考并没有把我卷入进去，更是因为我没有真正介入关于自己的思考。我决定用第三人称写，以避免成为自己的同谋，或者说避免取悦自己。第三人称让我与自己之间保留一定的距离，它让我能够树立一种中性的，编码式的语言，能够为自己的存在和运转方式画下一幅近乎诊断性质的肖像。这幅肖像往往是残忍的，充满了嘲讽。我避免取悦自己，却掉入了另一个陷阱：通过残酷的自我批评来取悦自己。我就是纯粹的、无形的目光，与这目光所见的东西完全不搭。我将把所能够了解的自己转化为关于自我的知识，如此一来，我永远无法与自己取得取得一致，我只能把自己当成他者来了解。</p>
+</blockquote>
+<h4 id="我的书"><a href="#我的书" class="headerlink" title="我的书"></a>我的书</h4><blockquote>
+<p>自己的文章一旦印成书，我就再也没有重新读过。我讨厌使用「我的书」这样的字眼：从中我看到的正是一种虚荣的特质，正是通过这种虚荣，主体会得意洋洋地吹嘘别人所赋予他的品质，殊不知这恰恰说明他已经成了他者。书已经不再是「我的思想」，既然他已经成了这个世界的某样东西，它属于别人，不属于我。</p>
+</blockquote>
+<h4 id="「对可说之事说清楚，对不可说之事，就只能保持沉默」-5"><a href="#「对可说之事说清楚，对不可说之事，就只能保持沉默」-5" class="headerlink" title="「对可说之事说清楚，对不可说之事，就只能保持沉默」[5]"></a>「对可说之事说清楚，对不可说之事，就只能保持沉默」[5]</h4><blockquote>
+<p>最重要的是有待陈述的，而不是已经言说的 —— 对于我来说，我已经写过的东西远远没有我接下去能够写的东西更重要。我想，对于所有的写者 / 作家来说，这一点都是一样真实的。</p>
+</blockquote>
+<h4 id="发现"><a href="#发现" class="headerlink" title="发现"></a>发现</h4><blockquote>
+<p>……这应该说明我是多么爱你，不，比这还要美好：是和你一起发现了爱，这份发现终于让我找到了存在的愿望；它还应该说明执子之手的承诺为什么在日后会成为我的存在得以皈依的原动力。</p>
+</blockquote>
+<h4 id="平庸与高贵"><a href="#平庸与高贵" class="headerlink" title="平庸与高贵"></a>平庸与高贵</h4><blockquote>
+<p>第一次深深地爱上一个人，同时也得到这个人的爱，以前我觉得这样的故事太平庸，太个人，太普通：这不是能够让我进入普遍意义的物质，相反，失败的、不可能的爱情才是高贵文学的范畴。</p>
+</blockquote>
+<h4 id="亏欠"><a href="#亏欠" class="headerlink" title="亏欠"></a>亏欠</h4><blockquote>
+<p>…… 我重新意识到我欠你的是什么，你把你的一切都给了我，帮助我成为现在的我。在给你的一册书上，我题道：「给你，我的凯，你把你给了我，你把我给了我」。</p>
+</blockquote>
+<h4 id="反消费主义"><a href="#反消费主义" class="headerlink" title="反消费主义"></a>反消费主义</h4><blockquote>
+<p>我记得我一直以来就很讨厌所谓「中产阶级」的生活方式，讨厌浪费。你也拒绝追随时尚，而事实上你一向有自己的看法。你拒绝为广告和营销所左右，只要你不觉得需要，你就不会买。</p>
+</blockquote>
+<h4 id="钱"><a href="#钱" class="headerlink" title="钱"></a>钱</h4><blockquote>
+<p>这让我想起你七岁时就已经得出的结论，如果是真爱，就不应该把钱放在眼里。你确实不把钱放在眼里。我们经常给对方钱。</p>
+</blockquote>
+<h4 id="感应"><a href="#感应" class="headerlink" title="感应"></a>感应</h4><blockquote>
+<p>你似乎与所有的生命都有种可以感知的默契，你教会了我欣赏和喜爱田野、树木和动物。你和它们说话的时候，它们总是专注地倾听，我觉得他们一定听懂了你的话。你让我发现了生活的丰富性，通过你，我爱上了生活 —— 如果不把这话反过来说（但这是一回事）。</p>
+</blockquote>
+<h4 id="「正在重新沦为工具的社会」"><a href="#「正在重新沦为工具的社会」" class="headerlink" title="「正在重新沦为工具的社会」"></a>「正在重新沦为工具的社会」</h4><blockquote>
+<p>工业的发展将社会变为一个巨大的机器，它不仅没有使人类得到解放，而且缩小了人类能够自我掌控的空间，为他们规定了什么是他们应该追求的目标，他们应该如何达成这样的目标。生产不再是为我们服务，我们倒过来为生产服务。因为一切类型的服务都有专业化的趋势，我们无法再承担起服务的责任，自行决定我们的需求，并且自己实现需求的满足：在所有的事情上，我们都取决于「让人濒于瘫痪的专业性」</p>
+</blockquote>
+<h4 id="孤独"><a href="#孤独" class="headerlink" title="孤独"></a>孤独</h4><blockquote>
+<p>我曾经想要相信我们的一切都是共同的，但是当你沉浸在痛苦中的时候，你却是那么孤独。</p>
+</blockquote>
+<h4 id="医学与疾病"><a href="#医学与疾病" class="headerlink" title="医学与疾病"></a>医学与疾病</h4><blockquote>
+<p>…… 你拒绝对镇痛剂的习惯和依赖。你决定由自己来承担你的身体，你的疾病和你的健康；决定将生活的权力收归己有，而不是听凭医学科学技术来影响你，影响你的身体。你不了解医学，可同时，你却因为遭遇了所谓医学体系的恶意而倍受伤害，于是你与一个国际病友互助组织取得了联系，就是想相互交换信息和建议的那种。你开始练瑜伽。你控制自己的身体，通过古老的自律方式来排遣病痛。在你看来，能够理解自己的疾病，并且由自己来负责，是唯一不受它、不受专家控制的方式，这是那些所谓的「砖家」把你变成了一台只会吞药的被动机器疾病。</p>
+<p>你的疾病将你带回了生态领域和技术批判领域。而当我为报纸准备写关于药物选择的专刊时，我也一直在想你的问题。在我看来，医药技术是福柯日后称之为「生物权利」的一种特殊形式。在这种权力中，技术控制已经直接影响到最为私密的，人和自身的关系。</p>
+</blockquote>
+<h4 id="沉默"><a href="#沉默" class="headerlink" title="沉默"></a>沉默</h4><blockquote>
+<p>在沉默中你是那么美，那么坚决，我根本无法想象你能够放弃生命。</p>
+</blockquote>
+<h4 id="富有与贫瘠"><a href="#富有与贫瘠" class="headerlink" title="富有与贫瘠"></a>富有与贫瘠</h4><blockquote>
+<p>生态在不断要求促进另一种文明的同时成了一种生活方式，一种日常的实践。我已经到了思考一生都做过些什么，原本是想做什么的年龄。我觉得我并不曾真正地生活过，我总是站在一定的距离之外观察我的生命，只拓展了自己的某一个侧面，作为个人，我是贫瘠的。而你一直以来都比我富有，你在所有空间里盛开。你的生活处于同一水平，而我却总是匆匆地奔赴下一项任务，仿佛我们的生活永远只能在稍后才真正开始。</p>
+</blockquote>
+<h4 id="在一起"><a href="#在一起" class="headerlink" title="在一起"></a>在一起</h4><blockquote>
+<p>我还记得我曾经写信给 E.，说归根到底只有一件事对我来说是最主要的：那就是和你在一起。</p>
+</blockquote>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">译者 <a href="http://faculty.ecnu.edu.cn/s/1654/main.jspy" target="_blank" rel="external">袁筱一</a> 是南京大学文学博士，华东师范大学外语学院院长。同样是翻译法语原文，比冯克利翻译的「乌合之众」不知高到哪里去了。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">当书中出现文学的时候，我总是自动替换为代码。毕竟嚷嚷着自己是 “ A poet, Coding is my language ”<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">不太清楚法语原文，估计类似于英文中的 Shelter - 「一个遮风避雨的安身之所」<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://www.zhihu.com/question/20875474/answer/16603385" target="_blank" rel="external">知乎最著名答案之一</a><a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">「逻辑哲学论」- 维特根斯坦<a href="#fnref:5" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本文是对 André Gorz 所著 Lettre à D. Histoire d’un amour 中译版的摘抄，部分语句进行了修改。&lt;a href=&quot;https://book.douban.com/subject/4313207/&quot;&gt;此版本&lt;/a&gt;翻译极其流畅，译者序亦文采飞扬&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;译者 [袁筱一](http://faculty.ecnu.edu.cn/s/1654/main.jspy) 是南京大学文学博士，华东师范大学外语学院院长。同样是翻译法语原文，比冯克利翻译的「乌合之众」不知高到哪里去了。&quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;。很少有什么小册子可以令 @notlsd 一见钟情。「致 D」算是一本，对爱情，对文学&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;当书中出现文学的时候，我总是自动替换为代码。毕竟嚷嚷着自己是 “ A poet, Coding is my language ” &quot;&gt;[2]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;，甚至对现代社会的态度都仿佛是 @notlsd 生在了「五月风暴」时的法国。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="万卷书" scheme="http://notlsd.com/categories/%E4%B8%87%E5%8D%B7%E4%B9%A6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>环滇骑迹 [1] 追忆似水年华</title>
+    <link href="http://notlsd.com/2017/05/09/hdqj-1-in-search-of-lost-time/"/>
+    <id>http://notlsd.com/2017/05/09/hdqj-1-in-search-of-lost-time/</id>
+    <published>2017-05-09T10:04:00.000Z</published>
+    <updated>2017-05-09T13:00:43.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这是「环滇骑迹」D1 的行程，与 @Pilot_B 骑车翻西山，走安宁，重叙少年志。</p>
+<a id="more"></a>
+<h3 id="翻西山"><a href="#翻西山" class="headerlink" title="翻西山"></a>翻西山</h3><p>沿着大学一年级寒假与 Pilot_B 步行翻越西山的路线，再一次骑行。同样的时节，同样的人，更遑论高中与大学的光阴，几重的时空在此重叠。沿着西山四季常青的道路，转眼间，我们已从少年变为了青年。虽然某同学总是高喊着 “Friendship Evergreen!”，也没有什么抵挡的了熵增；所能笃信的，也只有生命本身，因为，毕竟，这是个熵减的过程。</p>
+<p><img src="/2017/05/09/hdqj-1-in-search-of-lost-time/image004.jpg" alt="pic 泾渭分明"><span class="imgTitle">pic 泾渭分明</span><br><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">不知道是自然风化还是人工干预，似乎还嫌界限不够明显，又夹杂着一道森林防火警戒线</div></pre></td></tr></table></figure></p>
+<p><img src="/2017/05/09/hdqj-1-in-search-of-lost-time/image006.jpg" alt="pic 欧式厂房远景"><span class="imgTitle">pic 欧式厂房远景</span></p>
+<p><img src="/2017/05/09/hdqj-1-in-search-of-lost-time/image008.jpg" alt="pic 欧式厂房近景"><span class="imgTitle">pic 欧式厂房近景</span></p>
+<p><img src="/2017/05/09/hdqj-1-in-search-of-lost-time/image010.jpg" alt="pic 疑似白宫落九天"><span class="imgTitle">pic 疑似白宫落九天</span></p>
+<h3 id="走安宁"><a href="#走安宁" class="headerlink" title="走安宁"></a>走安宁</h3><ul>
+<li><p>耗资48RMB巨款买瓜，仅能食半，后尝转卖与余买瓜者，败</p>
+</li>
+<li><p>因某同学遗漏某身份证明，致使其两日花销约等于吾之三日</p>
+</li>
+<li><p>某同学与诸萝莉捕鱼于池，亦尝大呼「某同学害吾，失吾 Reservior」，终仍未能易鱼于池</p>
+</li>
+<li><p>适度低温提高神经系统兴奋性”至少在关于鱼类的对照试验中已被证实</p>
+</li>
+</ul>
+<p>@Pilot_B You’ve known who is whom.</p>
+<h3 id="少年志"><a href="#少年志" class="headerlink" title="少年志"></a>少年志</h3><p>泡着温泉，谈着理想，这怎么说都是一件很有 Feeling 的事情。少年时的挚友沿着几乎完全不同的两条道路前行，然而 Automan 和 Wingman 似乎觉着隔行如履平地，甚至还总想在对方的地盘插一脚。令人沮丧的是 Automen 拼命 coding 试图造福全人类，但最终的结果确是，Wingmen 在驾驶舱睡大觉。Come on, Automen! 总有一天 Wingmen 会因为我们的工作而失业的！</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这是「环滇骑迹」D1 的行程，与 @Pilot_B 骑车翻西山，走安宁，重叙少年志。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="环滇骑迹" scheme="http://notlsd.com/categories/%E7%8E%AF%E6%BB%87%E9%AA%91%E8%BF%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>环滇骑迹 [0] 作为前言的统计数据</title>
+    <link href="http://notlsd.com/2017/05/08/hdqj-0-statistics-as-preface/"/>
+    <id>http://notlsd.com/2017/05/08/hdqj-0-statistics-as-preface/</id>
+    <published>2017-05-08T15:50:08.000Z</published>
+    <updated>2017-05-28T00:55:38.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>「环滇骑迹」是一系列试验性作品，测试内容与形式的分离，通过代码的形式书写游记。整篇文章是可以通过编译的 C++ 源文件。2013 年文稿就已全部完工，超过 150 Mb 名为 “ Tour de Lac Dian ”的 mht 文件，但一直没有合适的渠道发布，只得静静的躺在硬盘里。Blog 2.0 工程正式完工后，终于得以上线，所谓「念念不忘，必有回响」。</p>
+<a id="more"></a>
+<figure class="highlight cpp"><table><tr><td class="code"><pre><div class="line"></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> statistics.h</span></div><div class="line"></div><div class="line"><span class="keyword">char</span>[] town</div><div class="line"></div><div class="line"><span class="keyword">struct</span> pic</div><div class="line"></div><div class="line"><span class="keyword">struct</span> spending</div><div class="line">&#123;     </div><div class="line">      <span class="keyword">int</span> cost; </div><div class="line">      <span class="keyword">char</span>[] addrr;</div><div class="line">      <span class="keyword">char</span>[] type;</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="keyword">class</span> <span class="built_in">log</span></div><div class="line">&#123;     </div><div class="line">      <span class="keyword">int</span> date; </div><div class="line">      <span class="keyword">char</span>[] person;</div><div class="line">      spending launch;</div><div class="line">      spending dinner;</div><div class="line">      spending shelter;</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="keyword">class</span> <span class="built_in">log</span> dianChiLog[<span class="number">3</span>];</div><div class="line"></div><div class="line">dianChiLog.date[<span class="number">0</span>]  = <span class="number">2013.2</span><span class="number">.17</span>;</div><div class="line">dianChiLog.date[<span class="number">1</span>]  = <span class="number">2013.2</span><span class="number">.18</span>;</div><div class="line">dianChiLog.date[<span class="number">2</span>]  = <span class="number">2013.2</span><span class="number">.19</span>;</div><div class="line"></div><div class="line">dianChiLog.person[<span class="number">0</span>] = <span class="string">" Myself &amp;&amp; Pilot_B 毕恩崇 "</span>;</div><div class="line">dianChiLog.person[<span class="number">1</span>] = <span class="string">" Myself "</span>;</div><div class="line">dianChiLog.person[<span class="number">2</span>] = <span class="string">" Myself &amp;&amp; Mr_Girl 刘诗颖 "</span>;</div><div class="line"></div><div class="line">dianChiLog.lunch.type[<span class="number">0</span>] = <span class="string">"农家乐"</span>;</div><div class="line">dianChiLog.lunch.addr[<span class="number">0</span>] = <span class="string">"猫猫箐"</span>;</div><div class="line">dianChiLog.lunch.cost[<span class="number">0</span>] = <span class="number">15</span> * <span class="number">2</span>;</div><div class="line"></div><div class="line">dianChiLog.dinner.type[<span class="number">0</span>] = <span class="string">"餐厅"</span>;</div><div class="line">dianChiLog.dinner.addr[<span class="number">0</span>] = <span class="string">"温泉镇"</span>;</div><div class="line">dianChiLog.dinner.cost[<span class="number">0</span>] = <span class="number">30</span> * <span class="number">2</span>;</div><div class="line"> </div><div class="line">dianChiLog.shelter.type[<span class="number">0</span>] = <span class="string">"小旅馆"</span>;</div><div class="line">dianChiLog.shelter.addr[<span class="number">0</span>] = <span class="string">"温泉镇"</span>;</div><div class="line">dianChiLog.shelter.cost[<span class="number">0</span>] = <span class="number">60</span> * <span class="number">2</span>;</div><div class="line"></div><div class="line"><span class="comment">// X * 2 means X is the cost for a single man, the cost in total is for two. </span></div><div class="line"> </div><div class="line">dianChiLog.lunch.type[<span class="number">1</span>] = <span class="string">"食堂"</span>;</div><div class="line">dianChiLog.lunch.addr[<span class="number">1</span>] = <span class="string">"石龙坝水电站"</span>;</div><div class="line">dianChiLog.lunch.cost[<span class="number">1</span>] = <span class="string">"10"</span>;</div><div class="line"> </div><div class="line">dianChiLog.dinner.type[<span class="number">1</span>] = <span class="string">"烧烤摊"</span>;</div><div class="line">dianChiLog.dinner.addr[<span class="number">1</span>] = <span class="string">"上蒜乡"</span>;</div><div class="line">dianChiLog.dinner.cost[<span class="number">1</span>] = <span class="number">32</span>;</div><div class="line"></div><div class="line"><span class="comment">//Delicious! 炒米线 = 6RMB; 番茄蛋汤 = 6RMB; 炸蚂蚱 = 20RMB; 小萝莉倒茶更令人受宠若惊。</span></div><div class="line"></div><div class="line"><span class="comment">//@ Mr_Girl 刘诗颖 I was calling you at this very time.</span></div><div class="line"> </div><div class="line">dianChiLog.shelter.type[<span class="number">1</span>] = <span class="string">"小旅馆"</span>;</div><div class="line">dianChiLog.shelter.addr[<span class="number">1</span>] = <span class="string">"上蒜乡"</span>;</div><div class="line">dianChiLog.shelter.cost[<span class="number">1</span>] = <span class="number">60</span>;</div><div class="line"></div><div class="line">dianChiLog.lunch.type[<span class="number">0</span>] = <span class="string">"啃干粮"</span>;</div><div class="line">dianChiLog.lunch.addr[<span class="number">0</span>] = <span class="string">"呈贡区"</span>;</div><div class="line">dianChiLog.lunch.cost[<span class="number">0</span>] = <span class="number">0</span>;</div><div class="line"></div><div class="line">dianChiLog.dinner.type[<span class="number">0</span>] = <span class="string">"Home"</span>;</div><div class="line">dianChiLog.dinner.addr[<span class="number">0</span>] = <span class="string">"Privacy"</span>;</div><div class="line">dianChiLog.dinner.cost[<span class="number">0</span>] = <span class="number">0</span> ;</div><div class="line"> </div><div class="line">dianChiLog.shelter.type[<span class="number">0</span>] = <span class="string">"Home"</span>;</div><div class="line">dianChiLog.shelter.addr[<span class="number">0</span>] = <span class="string">"Privacy"</span>;</div><div class="line">dianChiLog.shelter.cost[<span class="number">0</span>] = <span class="number">0</span> ;</div><div class="line"></div><div class="line"><span class="comment">// "0" means cannot be calculated</span></div><div class="line"></div><div class="line"><span class="keyword">class</span> route</div><div class="line">&#123;</div><div class="line"></div><div class="line">      town <span class="string">"昆明城区"</span>;</div><div class="line">      town <span class="string">"碧鸡镇"</span>;</div><div class="line">      town <span class="string">"太平镇"</span>;</div><div class="line">      town <span class="string">"连然镇"</span>;</div><div class="line">      town <span class="string">"温泉镇"</span>;</div><div class="line">      town <span class="string">"海口镇"</span>;</div><div class="line">      town <span class="string">"古城镇"</span>;</div><div class="line">      town <span class="string">"昆阳镇"</span>;</div><div class="line">      town <span class="string">"上蒜乡"</span>;</div><div class="line">      town <span class="string">"新街乡"</span>;</div><div class="line">      town <span class="string">"大渔乡"</span>;</div><div class="line">      town <span class="string">"龙城镇"</span>;</div><div class="line">      town <span class="string">"斗南镇"</span>;</div><div class="line">      town <span class="string">"六甲乡"</span>;</div><div class="line">      town <span class="string">"昆明城区"</span>;</div><div class="line"></div><div class="line">      <span class="keyword">int</span> mileageInKilometer = <span class="number">179</span>;</div><div class="line">&#125;;</div><div class="line"></div></pre></td></tr></table></figure>
+<p><img src="/2017/05/08/hdqj-0-statistics-as-preface/routeInGoogleMap.jpg" alt="pic routeInGoogleMap"><span class="imgTitle">pic routeInGoogleMap</span></p>
+<ul>
+<li><p>Update Log 1.0 Initial Commit </p>
+</li>
+<li><p>Update Log 1.1 Update Introduction</p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;「环滇骑迹」是一系列试验性作品，测试内容与形式的分离，通过代码的形式书写游记。整篇文章是可以通过编译的 C++ 源文件。2013 年文稿就已全部完工，超过 150 Mb 名为 “ Tour de Lac Dian ”的 mht 文件，但一直没有合适的渠道发布，只得静静的躺在硬盘里。Blog 2.0 工程正式完工后，终于得以上线，所谓「念念不忘，必有回响」。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="环滇骑迹" scheme="http://notlsd.com/categories/%E7%8E%AF%E6%BB%87%E9%AA%91%E8%BF%B9/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Blog 2.0 Update : Footnotes, Pdfs, Images and Captions in Hexo</title>
+    <link href="http://notlsd.com/2017/05/06/blog-2-0-update/"/>
+    <id>http://notlsd.com/2017/05/06/blog-2-0-update/</id>
+    <published>2017-05-06T08:23:47.000Z</published>
+    <updated>2017-05-10T09:08:44.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>As a jobless PM who knows little about html, CSS and JavaScript, After 4-day hardworking, blog 2.0 is finally completed delivery. Just forced myself becomming a half front-end engineer.</p>
+<a id="more"></a>
+<h3 id="Footnote"><a href="#Footnote" class="headerlink" title="Footnote"></a>Footnote</h3><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">npm install hexo-reference --save</div></pre></td></tr></table></figure>
+<p>Run it in the command shell. That’s all. </p>
+<p>Complicated footnote is my personal writhing style. I always use the quality of footnote to judge the quality of a new book. At least be a writer whom you like personally.</p>
+<h3 id="PDF"><a href="#PDF" class="headerlink" title="PDF"></a>PDF</h3><h4 id="1st-Try-hexo-pdf"><a href="#1st-Try-hexo-pdf" class="headerlink" title="1st Try : hexo-pdf"></a>1st Try : hexo-pdf</h4><p>Actually, there is a plug-in in Hexo called <strong><em>hexo-pdf</em></strong>. However, it is toooooooo ugly. Much more weird, if you adjust it’s source code, changing “ height “ from fixed 550px to 100% which is the same as “ width “ value. It will always be only 50 px displayed ! </p>
+<p><strong><del>1ST TRY FAILED</del></strong></p>
+<h4 id="2nd-Try-pdf-js"><a href="#2nd-Try-pdf-js" class="headerlink" title="2nd Try : pdf.js"></a>2nd Try : pdf.js</h4><p><a href="https://mozilla.github.io/pdf.js/" target="_blank" rel="external">pdf.js</a> is a great open-source project by Mozilla. As it said in homepage</p>
+<blockquote>
+<p>A general-purpose, web standards-based platform for parsing and rendering PDFs.</p>
+</blockquote>
+<p>However, it is very difficult to embed it into Hexo since command <strong><em>hexo d</em></strong> only uploads Hexo’s own file to the server.</p>
+<p><strong><del>2ND TRY FAILED</del></strong></p>
+<h4 id="3rd-Try-A-workaround"><a href="#3rd-Try-A-workaround" class="headerlink" title="3rd Try : A workaround"></a>3rd Try : A workaround</h4><p>There is a saying in Engineering: </p>
+<blockquote>
+<p>A clearly defined problem was half solved already</p>
+</blockquote>
+<p>In more clearly definition, the pdf problem can be separate into two parts - displaying a whole pdf file after clicking “ resume “ button and and display pdf pages in the posts. Actually, it is two totally different problems. “ There is a separate html page for resume, meanwhile other pdf in posts have to fit themselves into theme config.</p>
+<p>The final solution as following : </p>
+<ul>
+<li>For Resume Page </li>
+</ul>
+<p>Just set the main conifg file in themes.</p>
+<figure class="highlight plain"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="code"><pre><div class="line">menu:</div><div class="line">  Résumé: /Resume2017.pdf</div></pre></td></tr></table></figure>
+<p>Please note that <strong><em>SUFFIX IS PDF NOT HTML.</em></strong> This config directly call browser to render pdf and make download easier.</p>
+<ul>
+<li>For PDFs in post</li>
+</ul>
+<p>Just convert PDFs into images and then embed it into post. XD </p>
+<p><strong>3RD TRY SUCCEDED</strong></p>
+<h3 id="Image"><a href="#Image" class="headerlink" title="Image"></a>Image</h3><p>There are bugs on hexo. The syntax of images of Markdown will cause some unexpected result in some unexpected behavior after compiling. Official solution provided as following. </p>
+<p>In main config file make sure </p>
+<figure class="highlight plain"><figcaption><span>_config.yml</span></figcaption><table><tr><td class="code"><pre><div class="line">post_asset_folder: true</div></pre></td></tr></table></figure>
+<p>Hexo will then generate post’s corresponding asset folder. But syntax of images becomes </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">&#123;% asset_img slug [title] %&#125;</div></pre></td></tr></table></figure>
+<p>However, comparing with original syntax, it’s too redundant and breaks WYSIWYG<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="What You See Is What You Get">[1]</span></a></sup> law in Markdown editing. Fortunately, there is a plug-in to solve this, just run </p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">npm install hexo-asset-image --save</div></pre></td></tr></table></figure>
+<p>And then you can continuing use favorite ![title](image.jpg) syntax to deal with image.</p>
+<p>The only problem needs to pay attention is that put the source file in the asset folder during editing and then put it out before compiling.</p>
+<h3 id="Image-Caption"><a href="#Image-Caption" class="headerlink" title="Image Caption"></a>Image Caption</h3><p>There is a plug-in with really ugly display.</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">npm install hexo-asset-image --save</div></pre></td></tr></table></figure>
+<p>The following is copied from plug-in’s documentation</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">image_caption:</div><div class="line">  enable: true #false to disable</div><div class="line">  class_name: #if you wanna customize the style for the caption, you can assign a class name, default is &apos;image-caption&apos;</div></pre></td></tr></table></figure>
+<p>You can customize your own style. But where to set the class, the author provided nothing about it. <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="The author is a coder from Alibaba, after these days really do not like Chinese programmer.">[2]</span></a></sup> The following solution seems easy. In fact, solving this problem have really forced myself becoming a half front-end engineer with about a whole day.</p>
+<figure class="highlight css"><figcaption><span>/themes/alpha-dust/source/css/_partial/post-content.styl</span></figcaption><table><tr><td class="code"><pre><div class="line"></div><div class="line"><span class="selector-tag">section</span><span class="selector-class">.main</span></div><div class="line">  <span class="selector-class">.post</span></div><div class="line">    <span class="selector-class">.content</span></div><div class="line">    .........</div><div class="line">    <span class="selector-class">.imgTitle</span></div><div class="line">        <span class="selector-tag">text-align</span>: <span class="selector-tag">center</span>;</div><div class="line">        <span class="selector-tag">display</span>: <span class="selector-tag">block</span>;</div><div class="line">        <span class="selector-tag">text-weight</span>: <span class="selector-tag">bold</span></div><div class="line">        <span class="selector-tag">margin-top</span> 1<span class="selector-tag">em</span></div><div class="line">        <span class="selector-tag">margin-down</span> 1<span class="selector-tag">em</span> </div><div class="line"></div></pre></td></tr></table></figure>
+<p>Add the following code in the corresponding <strong><em>styl</em></strong> file as shown above. and then set “ class_name “ as imgTitle.</p>
+<p>Say a few words, <strong><em>styl</em></strong> is a simplified and modified CSS, which have removed all colons, semi-colons, commas and braces in CSS. <a href="http://stylus-lang.com/" target="_blank" rel="external">Here</a> is documentation.</p>
+<p>Have a look at the output html, you will see the following in the corresponding area</p>
+<figure class="highlight html"><table><tr><td class="code"><pre><div class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"imgTitle"</span>&gt;</span> imgName <span class="tag">&lt;/<span class="name">span</span>&gt;</span></div></pre></td></tr></table></figure>
+<p>Which means imgTitle class has been correctly resolved.</p>
+<h3 id="Modifying-Themes"><a href="#Modifying-Themes" class="headerlink" title="Modifying Themes"></a>Modifying Themes</h3><p>There are some configs on the original <a href="https://github.com/klugjo/hexo-theme-alpha-dust" target="_blank" rel="external">alpha-dust theme</a> do not suit my requirement, especially the footer. </p>
+<p>I have done lots of modification on the theme, using “ Recent Post” as example. </p>
+<figure class="highlight html"><figcaption><span>/themes/alpha-dust/layout/_partial/footer_recent_posts.ejs</span></figcaption><table><tr><td class="code"><pre><div class="line"></div><div class="line">/*01*/ <span class="tag">&lt;<span class="name">%</span> <span class="attr">if</span> (<span class="attr">site.posts.length</span>)&#123; %&gt;</span></div><div class="line">/*02*/     <span class="tag">&lt;<span class="name">div</span> <span class="attr">class</span>=<span class="string">"col-xs-6 col-sm-6 col-md-6 col-lg-6 recent-posts"</span>&gt;</span></div><div class="line">/*03*/         <span class="tag">&lt;<span class="name">h2</span>&gt;</span><span class="tag">&lt;<span class="name">%-</span> <span class="attr">__</span>('<span class="attr">recent_posts</span>') %&gt;</span><span class="tag">&lt;/<span class="name">h2</span>&gt;</span></div><div class="line">/*04*/         <span class="tag">&lt;<span class="name">ul</span>&gt;</span></div><div class="line">/*05*/             <span class="tag">&lt;<span class="name">%</span> <span class="attr">site.posts.sort</span>('<span class="attr">date</span>', <span class="attr">-1</span>)<span class="attr">.limit</span>(<span class="attr">10</span>)<span class="attr">.each</span>(<span class="attr">function</span>(<span class="attr">post</span>)&#123; %&gt;</span></div><div class="line">/*06*/             <span class="tag">&lt;<span class="name">li</span>&gt;</span></div><div class="line">/*07*/                 <span class="tag">&lt;<span class="name">a</span> <span class="attr">class</span>=<span class="string">"footer-post"</span> <span class="attr">href</span>=<span class="string">"&lt;%- url_for(post.path) %&gt;"</span>&gt;</span><span class="tag">&lt;<span class="name">%=</span> (<span class="attr">post.title</span> || <span class="attr">theme.default_post_title</span> || <span class="attr">__</span>('<span class="attr">default_post_title</span>'))<span class="attr">.substring</span>(<span class="attr">0</span>, <span class="attr">50</span>) %&gt;</span><span class="tag">&lt;/<span class="name">a</span>&gt;</span></div><div class="line">/*08*/             <span class="tag">&lt;/<span class="name">li</span>&gt;</span></div><div class="line">/*09*/             <span class="tag">&lt;<span class="name">%</span> &#125;) %&gt;</span></div><div class="line">/*10*/         <span class="tag">&lt;/<span class="name">ul</span>&gt;</span></div><div class="line">/*11*/     <span class="tag">&lt;/<span class="name">div</span>&gt;</span></div><div class="line">/*12*/ <span class="tag">&lt;<span class="name">%</span> &#125; %&gt;</span></div><div class="line"></div></pre></td></tr></table></figure>
+<ul>
+<li><p>Modifying line 02 to adjust display frame in different platform, see reference <a href="https://getbootstrap.com/examples/grid/" target="_blank" rel="external">here</a>.</p>
+</li>
+<li><p>Modifying Line 05 to add more items in “ Resent Post “</p>
+</li>
+<li><p>Modifying line 07 to add characters in title display</p>
+</li>
+</ul>
+<p>Documentation of ejs file is <a href="http://ejs.co/" target="_blank" rel="external">here</a></p>
+<h3 id="Blog-3-0-Outlook"><a href="#Blog-3-0-Outlook" class="headerlink" title="Blog 3.0 Outlook"></a>Blog 3.0 Outlook</h3><ul>
+<li><p>Adjust icon from default cube to the seal somebody gives me</p>
+</li>
+<li><p>Directly using <www.notlsd.com> instead of redirection <from www.notlsd.com=""> to <notlsd.github.io> This a huge task due to the deployment of server.</notlsd.github.io></from></www.notlsd.com></p>
+</li>
+<li><p>Add the independent category page <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Has been issued to the theme author  ">[3]</span></a></sup></p>
+</li>
+<li><p>Add some statistics <sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Has been issued to the theme author too">[4]</span></a></sup></p>
+</li>
+<li><p>Add Zhihu icon on footer</p>
+</li>
+</ul>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">What You See Is What You Get<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">The author is a coder from Alibaba, after these days really do not like Chinese programmer.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Has been issued to the theme author<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Has been issued to the theme author too<a href="#fnref:4" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;As a jobless PM who knows little about html, CSS and JavaScript, After 4-day hardworking, blog 2.0 is finally completed delivery. Just forced myself becomming a half front-end engineer.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="搭基建" scheme="http://notlsd.com/categories/%E6%90%AD%E5%9F%BA%E5%BB%BA/"/>
+    
+    
+  </entry>
+  
+</feed>
