@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://notlsd.com/"/>
-  <updated>2017-11-07T11:34:13.000Z</updated>
+  <updated>2017-07-26T10:00:23.000Z</updated>
   <id>http://notlsd.com/</id>
   
   <author>
@@ -14,33 +14,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>Iron Marines - A Dynamic Tower Defense</title>
-    <link href="http://notlsd.com/2017/11/07/iron-marines/"/>
-    <id>http://notlsd.com/2017/11/07/iron-marines/</id>
-    <published>2017-11-07T11:30:35.000Z</published>
-    <updated>2017-11-07T11:34:13.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>KINGDOM RUSH series is one of notlsd’s favourite games </p>
-<a id="more"></a>
-<ul>
-<li><p>Likely Starcraft </p>
-</li>
-<li></li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;KINGDOM RUSH series is one of notlsd’s favourite games &lt;/p&gt;
-    
-    </summary>
-    
-      <category term="拆游戏" scheme="http://notlsd.com/categories/%E6%8B%86%E6%B8%B8%E6%88%8F/"/>
-    
-    
-  </entry>
   
   <entry>
     <title>胖子与瘦子</title>
@@ -159,11 +132,11 @@
   </entry>
   
   <entry>
-    <title>环滇骑迹 [5] 湖风助吾翻书页（草稿）</title>
+    <title>环滇骑迹 [5] 湖风助吾翻书页</title>
     <link href="http://notlsd.com/2017/06/08/hdjq-5-reading-on-lakeside/"/>
     <id>http://notlsd.com/2017/06/08/hdjq-5-reading-on-lakeside/</id>
     <published>2017-06-08T07:49:48.000Z</published>
-    <updated>2017-07-14T06:38:24.000Z</updated>
+    <updated>2018-02-08T02:01:39.253Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>一个人，一辆车，一本小册子<br><a id="more"></a><br>坐在湖边，悠哉游哉的阅读<br>这是中学时代以来便养成的习惯</p>
 <p>湖风很少是所谓「轻拂」，<br>在自然的狂暴下，更能感受到<br>书籍，或曰书籍中所凝聚的乃是人类文明的舍利子</p>
@@ -171,8 +144,13 @@
 <p><img src="/2017/06/08/hdjq-5-reading-on-lakeside/image128.jpg" alt="pic 兄弟"><span class="imgTitle">pic 兄弟</span></p>
 <p><img src="/2017/06/08/hdjq-5-reading-on-lakeside/image130.jpg" alt="pic 孤影"><span class="imgTitle">pic 孤影</span></p>
 <p>此处阅毕 Die Deutsche Katastrophe - Betrachtungen und Erinnerungen, Friedrich Meinecke 德意志的浩劫 － 思考与回忆，梅尼克</p>
-<p>Chapter V 智人与强人<br>Chapter VI 军国主义与希特勒主义<br>Chapter VII 群众的马基雅维利主义<br>Chapter VIII 偶然性与普遍性</p>
-<p>鉴于国家社会主义德国工人党和中国共产党都曾修改宪法定自己为本国的唯一执政党，且都大言不惭的自诩为“党”。这本书的是对上一节 “class 低低飘扬的五星红旗”的绝佳注解</p>
+<ul>
+<li>Chapter V 智人与强人</li>
+<li>Chapter VI 军国主义与希特勒主义</li>
+<li>Chapter VII 群众的马基雅维利主义</li>
+<li>Chapter VIII 偶然性与普遍性</li>
+</ul>
+<p>鉴于「德国国家社会主义工人党」和「中国共产党」都曾修改宪法确定自己为本国的唯一执政党，且都大言不惭的自诩为「党」。这本书的是对「环滇骑迹 [4] 低低飘扬的五星红旗」的绝佳注解。</p>
 ]]></content>
     
     <summary type="html">
@@ -238,26 +216,26 @@
   </entry>
   
   <entry>
-    <title>环滇骑迹 [4] 低低飘扬的五星红旗（草稿）</title>
+    <title>环滇骑迹 [4] 低低飘扬的五星红旗</title>
     <link href="http://notlsd.com/2017/06/08/hdjq-4-lowest-national-flag/"/>
     <id>http://notlsd.com/2017/06/08/hdjq-4-lowest-national-flag/</id>
     <published>2017-06-08T02:35:01.000Z</published>
-    <updated>2018-02-04T03:56:40.000Z</updated>
+    <updated>2018-02-07T14:20:40.088Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在环滇的路上，恰巧偶遇晋宁农民抗议强行征地。四年后的今天，果真当地果真已经成为了一个巨大且空置的楼盘<a href="http://www.ynnsd.com/front/industry/296.whtml" target="_blank" rel="external">七彩云南·古滇文化旅游名城</a>。不禁想起那句著名的话：</p>
 <a id="more"></a>
 <blockquote>
 <p><a href="https://www.youtube.com/watch?v=Ze9sI2Put1U" target="_blank" rel="external">稍有常识的人都会看出：如果我们的铁骑继续前进，这些螳臂当车的歹徒难道能阻挡得了吗？</a></p>
 </blockquote>
-<h3 id="图集"><a href="#图集" class="headerlink" title="图集"></a>图集</h3><p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image110.jpg" alt="pic 晋宁农民抗议强行征地_全景_1"><span class="imgTitle">pic 晋宁农民抗议强行征地_全景_1</span></p>
-<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image112.jpg" alt="pic 晋宁农民抗议强行征地_全景_2"><span class="imgTitle">pic 晋宁农民抗议强行征地_全景_2</span></p>
-<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image114.jpg" alt="pic 晋宁农民抗议强行征地_全景_3"><span class="imgTitle">pic 晋宁农民抗议强行征地_全景_3</span></p>
-<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image116.jpg" alt="pic 标语_脚踩土地奔小康_没有土地去逃荒"><span class="imgTitle">pic 标语_脚踩土地奔小康_没有土地去逃荒</span></p>
-<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image118.jpg" alt="pic 红旗猎猎护身形_主席万岁照我心"><span class="imgTitle">pic 红旗猎猎护身形_主席万岁照我心</span></p>
-<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image120.jpg" alt="pic 每一面国旗都是_一块党_伟大_光荣_正确的裆布"><span class="imgTitle">pic 每一面国旗都是_一块党_伟大_光荣_正确的裆布</span></p>
-<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image122.jpg" alt="pic 突兀的国旗_鲜红的匕首"><span class="imgTitle">pic 突兀的国旗_鲜红的匕首</span></p>
-<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image124.jpg" alt="pic 阻塞交通"><span class="imgTitle">pic 阻塞交通</span></p>
-<p>///农民手中不多的牌之一，却绝不是什么好牌</p>
+<p>感谢「亡我之心不死」的帝国主义走狗，<a href="https://cn.nytimes.com/china/20141016/c16clash/" target="_blank" rel="external">纽约时报</a>，<a href="http://www.bbc.com/zhongwen/simp/china/2013/10/131030_china_yunnan_stand_off" target="_blank" rel="external">BBC</a> 竟然还能找到当时的报道。</p>
+<h3 id="图集"><a href="#图集" class="headerlink" title="图集"></a>图集</h3><p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image110.jpg" alt="pic 晋宁农民抗议强行征地-全景-1"><span class="imgTitle">pic 晋宁农民抗议强行征地-全景-1</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image112.jpg" alt="pic 晋宁农民抗议强行征地-全景-2"><span class="imgTitle">pic 晋宁农民抗议强行征地-全景-2</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image114.jpg" alt="pic 晋宁农民抗议强行征地-全景-3"><span class="imgTitle">pic 晋宁农民抗议强行征地-全景-3</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image116.jpg" alt="pic 标语「脚踩土地奔小康，没有土地去逃荒」"><span class="imgTitle">pic 标语「脚踩土地奔小康，没有土地去逃荒」</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image118.jpg" alt="pic 红旗猎猎护身形，主席万岁照我心"><span class="imgTitle">pic 红旗猎猎护身形，主席万岁照我心</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image120.jpg" alt="pic 每一面国旗都是一块伟大、光荣、正确的裆布"><span class="imgTitle">pic 每一面国旗都是一块伟大、光荣、正确的裆布</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image122.jpg" alt="pic 突兀的国旗，鲜红的匕首"><span class="imgTitle">pic 突兀的国旗，鲜红的匕首</span></p>
+<p><img src="/2017/06/08/hdjq-4-lowest-national-flag/image124.jpg" alt="pic 阻塞交通 - 农民手中不多的牌之一，却绝不是什么好牌"><span class="imgTitle">pic 阻塞交通 - 农民手中不多的牌之一，却绝不是什么好牌</span></p>
 <h3 id="闲诗"><a href="#闲诗" class="headerlink" title="闲诗"></a>闲诗</h3><p>这是一个怎样的国家！？</p>
 <p>诚然，<br>神九上天，<br>蛟龙入海。</p>
 <p>国家主席手捧宪法<br>依然维护不了自己的人身安全！</p>
@@ -266,11 +244,9 @@
 <p>所能做的，<br>仅仅是，<br>暂时的堵塞，<br>一条几乎没有什么车辆的道路，<br>却仍要承担<br>城管的威胁</p>
 <p>在没有约束的强权面前，<br>任何的个体<br>犹如蚍蜉。</p>
 <h3 id="观点"><a href="#观点" class="headerlink" title="观点"></a>观点</h3><p>关于政治，仍然是如下观点：</p>
-<p>一，明君梦，清官梦，侠客梦，都是不符合现代政治逻辑的黄粱美梦与空中楼阁。</p>
+<p>一，明君梦，清官梦，侠客梦，都是不符合现代政治逻辑的空中楼阁与黄粱美梦。</p>
 <p>二，党是当前中国最大的既得利益集团，令任何既得利益者将其既得利益自觉地，自愿地，主动地吐出来，都是痴心妄想。</p>
-<p>三，宪政的前提是各利益攸关方有规则的博弈，这在 CCP 一家独大的情况下是不可能的。</p>
-<p><a href="https://cn.nytimes.com/china/20141016/c16clash/" target="_blank" rel="external">https://cn.nytimes.com/china/20141016/c16clash/</a></p>
-<p><a href="http://www.bbc.com/zhongwen/simp/china/2013/10/131030_china_yunnan_stand_off" target="_blank" rel="external">http://www.bbc.com/zhongwen/simp/china/2013/10/131030_china_yunnan_stand_off</a></p>
+<p>三，宪政的前提是各利益攸关方有规则的博弈，这在中共一家独大的情况下是不可能的。</p>
 ]]></content>
     
     <summary type="html">
@@ -1627,6 +1603,81 @@
     </summary>
     
       <category term="搭基建" scheme="http://notlsd.com/categories/%E6%90%AD%E5%9F%BA%E5%BB%BA/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>iOS Note 1 Guideline</title>
+    <link href="http://notlsd.com/2017/03/16/ios-1-introduction/"/>
+    <id>http://notlsd.com/2017/03/16/ios-1-introduction/</id>
+    <published>2017-03-16T12:34:51.000Z</published>
+    <updated>2017-05-03T00:58:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><ul>
+<li><p>This Course Note Based on Stanford’s “ CS193P Developing iOS 10 Apps with Swift “ Which available in iTunes U.</p>
+</li>
+<li><p>This course note is trivial and scattered, If you are a non-CS engineering graduate as author, you may find it helps </p>
+</li>
+</ul>
+<a id="more"></a>
+<h3 id="PRESQITUIS"><a href="#PRESQITUIS" class="headerlink" title="PRESQITUIS"></a>PRESQITUIS</h3><ul>
+<li>Object-Oriented Programming experience mandatory</li>
+</ul>
+<h3 id="FUN-FACTS"><a href="#FUN-FACTS" class="headerlink" title="FUN FACTS"></a>FUN FACTS</h3><ul>
+<li><p>Swift already supports all Apple platforms as well as Linux</p>
+</li>
+<li><p>A demo with a thousand words is worth tens of thousands of words</p>
+</li>
+<li><p>Brevity is valuable, clarity is more critical</p>
+</li>
+</ul>
+<h3 id="IN-THE-IOS"><a href="#IN-THE-IOS" class="headerlink" title="IN THE IOS"></a>IN THE IOS</h3><table>
+<thead>
+<tr>
+<th style="text-align:center">LAYER</th>
+<th>FUNCTION</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">COCOA TOUCH</td>
+<td>Multi-Touch / Alerts / Core Motion / Web View / View Hierarchy / Map Kit / Localization / Image Picker / Controls / Camera</td>
+</tr>
+<tr>
+<td style="text-align:center">MEDIA</td>
+<td>Core Audio / OpenAL / Audio Mixing / Audio Recording / Video Playback / JPEG, PNG, TIFF PDF / Quartz (2D) / Core Animation / OpenGL ES</td>
+</tr>
+<tr>
+<td style="text-align:center">CORE SERVICES</td>
+<td>Collections / Address Book / Networking / File Access / SQLite /Core Location / Net Services / Threading / Preferences / URL Utilities</td>
+</tr>
+<tr>
+<td style="text-align:center">Core OS</td>
+<td>OSX Kernel / Mach 3.0 / BSD / Sockets / Security / Power Management / Keychain Access / Certificates / File System / Bonjour</td>
+</tr>
+</tbody>
+</table>
+<h3 id="TECH-NOTES"><a href="#TECH-NOTES" class="headerlink" title="TECH NOTES"></a>TECH NOTES</h3><ul>
+<li><p>nil = not set optional </p>
+</li>
+<li><p>It’s really KISS ( Keep It Simple Stupid ) that treat UI and logic code behind it differently which recalls me the catastrophe when modifying pixels in Turbo C </p>
+</li>
+</ul>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;ul&gt;
+&lt;li&gt;&lt;p&gt;This Course Note Based on Stanford’s “ CS193P Developing iOS 10 Apps with Swift “ Which available in iTunes U.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p&gt;This course note is trivial and scattered, If you are a non-CS engineering graduate as author, you may find it helps &lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+    
+    </summary>
+    
+      <category term="iOS 101" scheme="http://notlsd.com/categories/iOS-101/"/>
     
     
   </entry>

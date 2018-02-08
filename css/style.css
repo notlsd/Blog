@@ -6,7 +6,7 @@ body {
 }
 @media (max-width: 33.9em) {
   body {
-    font-size: 0.7em;
+    font-size: 1em;
   }
 }
 .bg-gradient {
