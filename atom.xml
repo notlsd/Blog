@@ -69,11 +69,11 @@
   </entry>
   
   <entry>
-    <title>Polytopia - A Mobilized Civilization (Draft)</title>
+    <title>Geneneral Archetecture of the Battle of Polytopia - A Mobilized Civilization (Draft)</title>
     <link href="http://notlsd.com/2017/06/13/polytopia-a-mobilized-civilization/"/>
     <id>http://notlsd.com/2017/06/13/polytopia-a-mobilized-civilization/</id>
     <published>2017-06-13T07:40:27.000Z</published>
-    <updated>2017-07-26T09:45:34.000Z</updated>
+    <updated>2018-02-13T14:32:43.831Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Sid Meir’s Civilization series are one of the greatest monuments in the history of PC games. However, due to that sophisticated mechanism with day and night “ One More Turn “, it’s extremely difficult to transplant it into mobile platform. Even 2k’s own transplantation is a failure.</p>
 <p>@notlsd recently have been addicted into “ The Battle of Polytopia ” - An indie game from one-man studio - Midjiwan in Sweden. It’s the best civilization-like game in mobile platform @notlsd have ever seen. </p>
@@ -81,12 +81,12 @@
 <a id="more"></a>
 <h3 id="Game-Archtechure"><a href="#Game-Archtechure" class="headerlink" title="Game Archtechure"></a>Game Archtechure</h3><p>There are more than dozens sub-systems in CivBNW - Military, Population, Production, Culture, Gold, Food, Faith, Diplomacy, Terrain, Building, Wonder, Technology, Ideology …… even more.   </p>
 <p>Polytopia have skilled chosen some of CivBNW’s system as well as have created some of its own. All the following proper nouns are invented by @notlsd, not the game author.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">├── CITY SYSTEM</div><div class="line">│   ├── City Level Indication</div><div class="line">│   └── City Upgrade Bonus</div><div class="line">│</div><div class="line">├── MAP SYSTEM </div><div class="line">│   ├── Terrain Limitation</div><div class="line">│   ├── Terrain Modification </div><div class="line">│   ├── Visible Area</div><div class="line">│   ├── National Land Area</div><div class="line">│   └── Ruins Bonus</div><div class="line">│</div><div class="line">├── COMBAT SYSTEM </div><div class="line">│   ├── City Capture</div><div class="line">│   ├── XP System</div><div class="line">│   └── Unit System</div><div class="line">│</div><div class="line">├── TECHNOLOGY SYSTEM</div><div class="line">│   ├── New Army</div><div class="line">│   ├── New Facility </div><div class="line">│   └── New Bonus</div><div class="line">│</div><div class="line">├── SCORE SYSTEM </div><div class="line">│</div><div class="line">├── GENERAL EQUIVALENCE (STAR) SYSTEM</div><div class="line">│</div><div class="line">└── VICTORY SYSTEM</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">├── CITY SYSTEM</div><div class="line">│   ├── City Level Indication</div><div class="line">│   └── City Upgrade Bonus</div><div class="line">│</div><div class="line">├── MAP SYSTEM </div><div class="line">│   ├── Terrain Limitation</div><div class="line">│   ├── Terrain Modification </div><div class="line">│   ├── Visible Area</div><div class="line">│   └── National Land Area</div><div class="line">│</div><div class="line">├── COMBAT SYSTEM </div><div class="line">│   ├── City Capture</div><div class="line">│   ├── XP System</div><div class="line">│   └── Unit System</div><div class="line">│</div><div class="line">├── TECHNOLOGY SYSTEM</div><div class="line">│  </div><div class="line">├── SCORE SYSTEM </div><div class="line">│</div><div class="line">├── GENERAL EQUIVALENCE (STAR) SYSTEM</div><div class="line">│</div><div class="line">└── VICTORY SYSTEM</div><div class="line"></div><div class="line">│   └── Ruins Bonus</div></pre></td></tr></table></figure>
 <h4 id="City-System"><a href="#City-System" class="headerlink" title="City System"></a>City System</h4><p>City is the basic self-sufficient production unit in CivBNW as well as base on other RTS like StarCraft, Red Alert and Epire Times. Polytopia have copied the idea from civilization with great simplification. </p>
 <ul>
-<li><p><strong><em>City Level Indication</em></strong> combined Population and Production system of CivBNW to increase the population that city can carry and the income stars each turn (Customs Houses excluded). The step increase is linear. It is the most basic system of the whole game, it is the basic measurement of how many resources you empire carries. This system is really concise and elegant.</p>
+<li><p><strong><em>City Level Indication</em></strong> Combined Population and Production system of CivBNW to increase the population that city can carry and the income stars each turn (Customs Houses excluded). The step increase is linear. It is the most basic system of the whole game, it is the basic measurement of how many resources you empire carries. This system is really concise and elegant. It’s the basic configration which meets “KISS” principle, Keep it simple and stupid</p>
 </li>
-<li><p><strong><em>City Upgrade Bonus</em></strong> Every time you update your city, you may have choose an update. Sid Meir have said “ GAME IS A SEIRES OF INTERESTING CHOICES “. This idea is great, it is really a choice, but in fact, , you may always choice one type, it becomes never interesting</p>
+<li><p><strong><em>City Upgrade Bonus</em></strong> Every time you update your city, you may have choose an update. Sid Meir have said “ GAME IS A SEIRES OF INTERESTING CHOICES “. This idea is great, it is really a choice, but in fact, , you may always choice one type, it becomes never interesting. 1st star, 2nd wall 3rd and more giant</p>
 </li>
 </ul>
 <h4 id="Map-System"><a href="#Map-System" class="headerlink" title="Map System"></a>Map System</h4><p>Map, with its bonus and limitation are the most critical system on 4x game. The Map System on Polytopia is almost the same as CivBNW</p>
@@ -95,8 +95,29 @@
 </li>
 <li><p><strong><em>Terrain Modification</em></strong> As Karl Max sad “人活着的意义就是改造自然”. Modification on terrain are the most </p>
 </li>
+<li><p><strong><em>Visibility</em></strong> As &lt; The Art of War &gt; said, “ Know yourself and know your enemy, and you will never be defeated. “ Recon are almost the most important thing in RTS / TBS game, even in the real woarld</p>
+</li>
+<li><p><strong><em>Territory</em></strong> is the most basic requirement of a sovereign state like traditional Chinese character “國” implied. In the game, player can do Terrain Modification their own territory to benifits the city which belongs, in the case where no enemy unit in.</p>
+</li>
 </ul>
-<h3 id="Pros-amp-Cons"><a href="#Pros-amp-Cons" class="headerlink" title="Pros &amp; Cons"></a>Pros &amp; Cons</h3><h4 id="Pros"><a href="#Pros" class="headerlink" title="Pros"></a>Pros</h4><ul>
+<h4 id="Combat-System"><a href="#Combat-System" class="headerlink" title="Combat System"></a>Combat System</h4><p>Combat system is the most basic configration in almost every war-like game, The combat system of Polytopia is adopted and briefed from civBNW. it’s much more concised system. </p>
+<ul>
+<li><strong><em>City Capture</em></strong></li>
+</ul>
+<p>We may use the following pseudo-code to describe the city capture</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">if ( you have an unit in enemy&apos;s city this turn &amp;&amp; it is still remains next turn)</div><div class="line"></div><div class="line">	you can capture this city</div><div class="line"></div></pre></td></tr></table></figure>
+<p>it is the almost the same in both Polytopia and CivBNW</p>
+<ul>
+<li><strong><em>XP System</em></strong></li>
+</ul>
+<p>CivBNW has a very complex xp system, so that some experienced player even raise vetran unit from acient era to information era to gain more bonus. Polytopia have done much more simplification of it, for every land unit, gain 5 HP when killing 3 units, due to that the attackting strenth is related to the remaining HP, the attacking power is also incresed.</p>
+<p>├── COMBAT SYSTEM<br>│   ├── City Capture<br>│   ├── XP System<br>│   └── Unit System</p>
+<p>#### </p>
+<h4 id="Technology-System"><a href="#Technology-System" class="headerlink" title="Technology System"></a>Technology System</h4><p>The technology system of Polytopia is copied from a not very well-known Civilization series game - “ Civilization - Beyond Earth “ which is a facious game based on Civlization V game engine. The major difference of CivBE between other Civilization series is that the tech-tree is not leainer but star-like. More techinally speaking, Polytopia is much more wider tree than Civ series。</p>
+<p>It is a very talented transformation to the mobile plant. One of the bigest problem of 4x game is that it is too time-consuming, easily lasting weeks even months. The star-lkie Tech system push player to make their choice in very early stage, thus the whole gaming pace has been accelerate.</p>
+<p>pic</p>
+<h4 id="SCORING-amp-VICTORY-SYSTEM"><a href="#SCORING-amp-VICTORY-SYSTEM" class="headerlink" title="SCORING &amp; VICTORY SYSTEM"></a>SCORING &amp; VICTORY SYSTEM</h4><p>As in CivBNW, everything have a score in the  </p>
+<h3 id="Pros"><a href="#Pros" class="headerlink" title="Pros"></a>Pros</h3><ul>
 <li><p>Moble friendly action </p>
 </li>
 <li><p>concised design</p>
@@ -104,7 +125,7 @@
 <li><p>Update 2.11, greeat in balance </p>
 </li>
 </ul>
-<h4 id="Cons"><a href="#Cons" class="headerlink" title="Cons"></a>Cons</h4><ul>
+<h3 id="Cons"><a href="#Cons" class="headerlink" title="Cons"></a>Cons</h3><ul>
 <li><p>Only Combate, not multi-dimentsional choice</p>
 </li>
 <li><p>Stupid upgtation </p>
