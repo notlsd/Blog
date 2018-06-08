@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://notlsd.com/"/>
-  <updated>2018-05-07T16:37:22.651Z</updated>
+  <updated>2018-06-08T16:15:55.904Z</updated>
   <id>http://notlsd.com/</id>
   
   <author>
@@ -14,6 +14,77 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>绕不开的房价：日本的 1990s 与中国的 2020s</title>
+    <link href="http://notlsd.com/2018/05/29/japan-1990s-china-2020s/"/>
+    <id>http://notlsd.com/2018/05/29/japan-1990s-china-2020s/</id>
+    <published>2018-05-29T15:23:09.000Z</published>
+    <updated>2018-06-08T16:15:55.904Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这篇文章算是最近读 Principles of Economics, N.Gregory Mankiw 的随笔以及 Sci-Hub 的使用练习。本文不完备，某种程度上只是一个 Note。论据核心是来自三篇论文的四张图。</p>
+<a id="more"></a>
+<h1 id="四十年，两代人"><a href="#四十年，两代人" class="headerlink" title="四十年，两代人"></a>四十年，两代人</h1><p>1989，三菱买下 Rockefeller Center；2015，安邦买下 Waldorf-Astoria Hotel。</p>
+<p>1950 年朝鲜战争爆发，日本自战后重建始，进入至今被称为<a href="https://en.wikipedia.org/wiki/Japanese_economic_miracle" target="_blank" rel="external">「日本经济奇迹」</a>的时代，直至 1985 年广场协议签订；1978 年中国自「改革开放」始， 至今被称为<a href="https://www.wikiwand.com/en/Chinese_economic_reform" target="_blank" rel="external">「中国经济奇迹」</a>。1985 年，2018 年中美贸易战开打。</p>
+<p>历史总是惊人的相似，尤其是历史进程中的人。日本经济奇迹的那一代人被称之为<a href="https://zh.wikipedia.org/wiki/%E5%9C%98%E5%A1%8A%E4%B8%96%E4%BB%A3" target="_blank" rel="external">「团块世代」</a>，像极了我们的父辈。</p>
+<p>以下内容直接引用自 Wikipedia「团块世代」词条，有所编辑和删减。 </p>
+<blockquote>
+<p>一般认为「团块世代」具有如下的特点：…… 没有体验过空袭等战争灾害。自小竞争意识强烈，自我意识较强，青年时期很多人参加过安保斗争、东大纷争等学生运动。进入社会后，和蓬勃发展的日本经济一样，「团块世代」的生活也愈来愈富足，成为日本经济腾飞的支柱性的一代。</p>
+<p>「团块世代」热爱工作，许多人甚至以企业为家；到了中年，日本泡沫经济破灭，大部份「团块世代」受到影响，但多数仍能维持以往的生活秩序，而且他们的房屋贷款大多在此之前已经还清。但是他们并没有成功的把社会经济制度及企业文化转型为永续性够高，能善待年轻人的制度，导致日本出生率不足。自2007年起，「团块世代」相继退休，年金、医疗保险等面临严峻挑战。</p>
+</blockquote>
+<p>上述描述除了需要把「安保斗争」「东大纷争」换为「八六学潮」和「六四事件」之外，几乎可以直接用来形容我们的父辈。</p>
+<p>到了我们这一辈，该佛系佛系，该宅家则宅家，以至于连新华社都不得不着急了。<a href="http://www.xinhuanet.com/world/2018-01/29/c_129800680.htm" target="_blank" rel="external">透视“佛系”日本：低欲望令社会陷入危机</a>；<a href="http://www.xinhuanet.com/2018-01/26/c_1122318349.htm" target="_blank" rel="external">佛系青年爱养蛙，只是没什么追求吗</a>这两篇新华社文章对比起来看很有意思。</p>
+<p>在一个上升通道已经关闭的社会，再让人像打了鸡血一样的所谓「奋斗」，凡是受过教育的，知道外面的世界是什么样的人，大概是没几个会这么傻的。</p>
+<h1 id="绕不过的房价"><a href="#绕不过的房价" class="headerlink" title="绕不过的房价"></a>绕不过的房价</h1><p>房价或许是观察这个问题最直观的角度，虽然没有时间将不同论文的图表化为同样的标尺，不同论文间的统计口径也不太一致。但是总体的趋势是不会变的 <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="图表来源见图表下之引用，依学术用格式">[1]</span></a></sup><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="两组对比其实很类似与信号分析中的「时域分析」与「频域分析」">[2]</span></a></sup>。</p>
+<h3 id="房价与时间的关系"><a href="#房价与时间的关系" class="headerlink" title="房价与时间的关系"></a>房价与时间的关系</h3><p><img src="/2018/05/29/japan-1990s-china-2020s/CN-Real-Estate-Price.png" alt="CN-Real-Estate-Price"><span class="imgTitle">CN-Real-Estate-Price</span></p>
+<blockquote>
+<p>D Ding, X Huang, T Jin and WR Lam, 2017, The Residential Real Estate Market in China: Assessment and<br>Policy Implications, Annals of Economics &amp; Finance</p>
+</blockquote>
+<p><img src="/2018/05/29/japan-1990s-china-2020s/JP-Real-Estate-Price.png" alt="CN-Real-Estate-Price"><span class="imgTitle">CN-Real-Estate-Price</span></p>
+<blockquote>
+<p>Bertrand Renaud, 1997, The 1985 to 1994 Global Real Estate Cycle: An Overview, Journal of Real Estate Literature</p>
+</blockquote>
+<p>如果没记错的话，2012 年以后国家统计局就不再公布房价有关的相关数据，所以 2017 年的论文也最后图表也只到 2012 :( 虽然就图上来说 1980 ~ 1990 的日本与 2000 ~ 2010 的中国的房价增长曲线基本一致，但并不可直接照搬。一方面因为中国经济的体量更大，另一方面在于中国有着完全独立的货币政策，所以房价有着更长的增长时间也是合理的。</p>
+<h3 id="房价占-GDP-的比例"><a href="#房价占-GDP-的比例" class="headerlink" title="房价占 GDP 的比例"></a>房价占 GDP 的比例</h3><p><img src="/2018/05/29/japan-1990s-china-2020s/CN-Real-Estate-GDP-Ratio.png" alt="CN-Real-Estate-Price"><span class="imgTitle">CN-Real-Estate-Price</span></p>
+<blockquote>
+<p>SXB Zhao, H Zhan, Y Jiang, W Pan, How big is China’s real estate bubble and why hasn’t it burst yet?, 2017, Land Use Policy</p>
+</blockquote>
+<p><img src="/2018/05/29/japan-1990s-china-2020s/JP-Real-Estate-GDP-Ratio.png" alt="CN-Real-Estate-Price"><span class="imgTitle">CN-Real-Estate-Price</span></p>
+<blockquote>
+<p>Bertrand Renaud, 1997, The 1985 to 1994 Global Real Estate Cycle: An Overview, Journal of Real Estate Literature</p>
+</blockquote>
+<p>同样，两张图表的统计口径仍然不一致。GDP / GNP 显然有着本质的区别，土地价值与房产投资也不可等效，一个是投入，一个是产出。但无论如何都可以看出房产市场在整个经济活动中的统治性地位。</p>
+<h1 id="致「房价只涨不跌」的信仰者"><a href="#致「房价只涨不跌」的信仰者" class="headerlink" title="致「房价只涨不跌」的信仰者"></a>致「房价只涨不跌」的信仰者</h1><p>在此引用「银河系漫游指南」作者 Douglas Adams 的科技三定律：</p>
+<blockquote>
+<p>任何在我出生时已经有的科技都是稀松平常的世界本来秩序的一部分</p>
+<p>任何在我15-35岁之间诞生的科技都是将会改变世界的革命性产物</p>
+<p>任何在我35岁之后诞生的科技都是违反自然规律要遭天谴的</p>
+</blockquote>
+<p>「科技」其实可以换乘任何一个随着时间演进的领域。数十年，或者说 Decades，对一个人来说或许就是一生，或者一生中的绝大部分，但对于所有可以称之为规律的事物，永远都只是沧海一粟。</p>
+<p>下面是第一篇论文的摘要，来自经济学家无奈而又声嘶力竭的警告。当然，任何人都没法叫醒装睡的人。</p>
+<blockquote>
+<p>…… China’s current situation is extremely alarming, though the country shows remarkable resilience to crisis as the government seems to possess the tools and capacity to avoid a hard landing. The findings of this research advance our understanding of the consequences of China’s real estate bubble and sound a clear warning to China’s policymakers.</p>
+</blockquote>
+<h1 id="一份来自匿名者的宣言"><a href="#一份来自匿名者的宣言" class="headerlink" title="一份来自匿名者的宣言"></a>一份来自匿名者的宣言</h1><p>引用<a href="https://www.zhihu.com/question/276591262/answer/400913208" target="_blank" rel="external">这个知乎高赞匿名答案</a>来结束这篇经济学笔记吧。这是一篇回答[「年轻人该不该接盘高房价」的现代诗.</p>
+<blockquote>
+<p>接个屁<br>我们九〇后已经踏入社会了<br>我们没钱没地位<br>但是有信心有能力有想法&gt; </p>
+<p>等着瞧吧！<br>我们这一代人会护住自己的钱包<br>戴好自己的套套熬他五年十年<br>亲手打破上一代的贪婪和愚蠢铸成的锁链&gt; </p>
+<p>房价崩了怎么样<br>经济崩了又怎么样&gt; </p>
+<p>我们还年轻有的是力气有的是知识有的是时间<br>而他们会老去会死亡会因恐慌而一触即溃<br>我们会踏着炒房者的尸体走出低谷<br>亲自创造美好的未来</p>
+</blockquote>
+<p>最后的最后，我们还有 Internet，某种程度上可以脱离这个国家的经济体系谋生。</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">图表来源见图表下之引用，依学术用格式<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">两组对比其实很类似与信号分析中的「时域分析」与「频域分析」<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这篇文章算是最近读 Principles of Economics, N.Gregory Mankiw 的随笔以及 Sci-Hub 的使用练习。本文不完备，某种程度上只是一个 Note。论据核心是来自三篇论文的四张图。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="科学家" scheme="http://notlsd.com/categories/%E7%A7%91%E5%AD%A6%E5%AE%B6/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>alibaba tencent morgan rockefeller</title>
@@ -1532,36 +1603,6 @@
     <summary type="html">
     
       &lt;p&gt;这是「环滇骑迹」D1 的行程，与 @Pilot_B 骑车翻西山，走安宁，重叙少年志。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="环滇骑迹" scheme="http://notlsd.com/categories/%E7%8E%AF%E6%BB%87%E9%AA%91%E8%BF%B9/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>环滇骑迹 [0] 作为前言的统计数据</title>
-    <link href="http://notlsd.com/2017/05/08/hdqj-0-statistics-as-preface/"/>
-    <id>http://notlsd.com/2017/05/08/hdqj-0-statistics-as-preface/</id>
-    <published>2017-05-08T15:50:08.000Z</published>
-    <updated>2017-05-28T00:55:38.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>「环滇骑迹」是一系列试验性作品，测试内容与形式的分离，通过代码的形式书写游记。整篇文章是可以通过编译的 C++ 源文件。2013 年文稿就已全部完工，超过 150 Mb 名为 “ Tour de Lac Dian ”的 mht 文件，但一直没有合适的渠道发布，只得静静的躺在硬盘里。Blog 2.0 工程正式完工后，终于得以上线，所谓「念念不忘，必有回响」。</p>
-<a id="more"></a>
-<figure class="highlight cpp"><table><tr><td class="code"><pre><div class="line"></div><div class="line"><span class="meta">#<span class="meta-keyword">include</span> statistics.h</span></div><div class="line"></div><div class="line"><span class="keyword">char</span>[] town</div><div class="line"></div><div class="line"><span class="keyword">struct</span> pic</div><div class="line"></div><div class="line"><span class="keyword">struct</span> spending</div><div class="line">&#123;     </div><div class="line">      <span class="keyword">int</span> cost; </div><div class="line">      <span class="keyword">char</span>[] addrr;</div><div class="line">      <span class="keyword">char</span>[] type;</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="keyword">class</span> <span class="built_in">log</span></div><div class="line">&#123;     </div><div class="line">      <span class="keyword">int</span> date; </div><div class="line">      <span class="keyword">char</span>[] person;</div><div class="line">      spending launch;</div><div class="line">      spending dinner;</div><div class="line">      spending shelter;</div><div class="line">&#125;;</div><div class="line"></div><div class="line"><span class="keyword">class</span> <span class="built_in">log</span> dianChiLog[<span class="number">3</span>];</div><div class="line"></div><div class="line">dianChiLog.date[<span class="number">0</span>]  = <span class="number">2013.2</span><span class="number">.17</span>;</div><div class="line">dianChiLog.date[<span class="number">1</span>]  = <span class="number">2013.2</span><span class="number">.18</span>;</div><div class="line">dianChiLog.date[<span class="number">2</span>]  = <span class="number">2013.2</span><span class="number">.19</span>;</div><div class="line"></div><div class="line">dianChiLog.person[<span class="number">0</span>] = <span class="string">" Myself &amp;&amp; Pilot_B 毕恩崇 "</span>;</div><div class="line">dianChiLog.person[<span class="number">1</span>] = <span class="string">" Myself "</span>;</div><div class="line">dianChiLog.person[<span class="number">2</span>] = <span class="string">" Myself &amp;&amp; Mr_Girl 刘诗颖 "</span>;</div><div class="line"></div><div class="line">dianChiLog.lunch.type[<span class="number">0</span>] = <span class="string">"农家乐"</span>;</div><div class="line">dianChiLog.lunch.addr[<span class="number">0</span>] = <span class="string">"猫猫箐"</span>;</div><div class="line">dianChiLog.lunch.cost[<span class="number">0</span>] = <span class="number">15</span> * <span class="number">2</span>;</div><div class="line"></div><div class="line">dianChiLog.dinner.type[<span class="number">0</span>] = <span class="string">"餐厅"</span>;</div><div class="line">dianChiLog.dinner.addr[<span class="number">0</span>] = <span class="string">"温泉镇"</span>;</div><div class="line">dianChiLog.dinner.cost[<span class="number">0</span>] = <span class="number">30</span> * <span class="number">2</span>;</div><div class="line"> </div><div class="line">dianChiLog.shelter.type[<span class="number">0</span>] = <span class="string">"小旅馆"</span>;</div><div class="line">dianChiLog.shelter.addr[<span class="number">0</span>] = <span class="string">"温泉镇"</span>;</div><div class="line">dianChiLog.shelter.cost[<span class="number">0</span>] = <span class="number">60</span> * <span class="number">2</span>;</div><div class="line"></div><div class="line"><span class="comment">// X * 2 means X is the cost for a single man, the cost in total is for two. </span></div><div class="line"> </div><div class="line">dianChiLog.lunch.type[<span class="number">1</span>] = <span class="string">"食堂"</span>;</div><div class="line">dianChiLog.lunch.addr[<span class="number">1</span>] = <span class="string">"石龙坝水电站"</span>;</div><div class="line">dianChiLog.lunch.cost[<span class="number">1</span>] = <span class="string">"10"</span>;</div><div class="line"> </div><div class="line">dianChiLog.dinner.type[<span class="number">1</span>] = <span class="string">"烧烤摊"</span>;</div><div class="line">dianChiLog.dinner.addr[<span class="number">1</span>] = <span class="string">"上蒜乡"</span>;</div><div class="line">dianChiLog.dinner.cost[<span class="number">1</span>] = <span class="number">32</span>;</div><div class="line"></div><div class="line"><span class="comment">//Delicious! 炒米线 = 6RMB; 番茄蛋汤 = 6RMB; 炸蚂蚱 = 20RMB; 小萝莉倒茶更令人受宠若惊。</span></div><div class="line"></div><div class="line"><span class="comment">//@ Mr_Girl 刘诗颖 I was calling you at this very time.</span></div><div class="line"> </div><div class="line">dianChiLog.shelter.type[<span class="number">1</span>] = <span class="string">"小旅馆"</span>;</div><div class="line">dianChiLog.shelter.addr[<span class="number">1</span>] = <span class="string">"上蒜乡"</span>;</div><div class="line">dianChiLog.shelter.cost[<span class="number">1</span>] = <span class="number">60</span>;</div><div class="line"></div><div class="line">dianChiLog.lunch.type[<span class="number">0</span>] = <span class="string">"啃干粮"</span>;</div><div class="line">dianChiLog.lunch.addr[<span class="number">0</span>] = <span class="string">"呈贡区"</span>;</div><div class="line">dianChiLog.lunch.cost[<span class="number">0</span>] = <span class="number">0</span>;</div><div class="line"></div><div class="line">dianChiLog.dinner.type[<span class="number">0</span>] = <span class="string">"Home"</span>;</div><div class="line">dianChiLog.dinner.addr[<span class="number">0</span>] = <span class="string">"Privacy"</span>;</div><div class="line">dianChiLog.dinner.cost[<span class="number">0</span>] = <span class="number">0</span> ;</div><div class="line"> </div><div class="line">dianChiLog.shelter.type[<span class="number">0</span>] = <span class="string">"Home"</span>;</div><div class="line">dianChiLog.shelter.addr[<span class="number">0</span>] = <span class="string">"Privacy"</span>;</div><div class="line">dianChiLog.shelter.cost[<span class="number">0</span>] = <span class="number">0</span> ;</div><div class="line"></div><div class="line"><span class="comment">// "0" means cannot be calculated</span></div><div class="line"></div><div class="line"><span class="keyword">class</span> route</div><div class="line">&#123;</div><div class="line"></div><div class="line">      town <span class="string">"昆明城区"</span>;</div><div class="line">      town <span class="string">"碧鸡镇"</span>;</div><div class="line">      town <span class="string">"太平镇"</span>;</div><div class="line">      town <span class="string">"连然镇"</span>;</div><div class="line">      town <span class="string">"温泉镇"</span>;</div><div class="line">      town <span class="string">"海口镇"</span>;</div><div class="line">      town <span class="string">"古城镇"</span>;</div><div class="line">      town <span class="string">"昆阳镇"</span>;</div><div class="line">      town <span class="string">"上蒜乡"</span>;</div><div class="line">      town <span class="string">"新街乡"</span>;</div><div class="line">      town <span class="string">"大渔乡"</span>;</div><div class="line">      town <span class="string">"龙城镇"</span>;</div><div class="line">      town <span class="string">"斗南镇"</span>;</div><div class="line">      town <span class="string">"六甲乡"</span>;</div><div class="line">      town <span class="string">"昆明城区"</span>;</div><div class="line"></div><div class="line">      <span class="keyword">int</span> mileageInKilometer = <span class="number">179</span>;</div><div class="line">&#125;;</div><div class="line"></div></pre></td></tr></table></figure>
-<p><img src="/2017/05/08/hdqj-0-statistics-as-preface/routeInGoogleMap.jpg" alt="pic routeInGoogleMap"><span class="imgTitle">pic routeInGoogleMap</span></p>
-<ul>
-<li><p>Update Log 1.0 Initial Commit </p>
-</li>
-<li><p>Update Log 1.1 Update Introduction</p>
-</li>
-</ul>
-]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;「环滇骑迹」是一系列试验性作品，测试内容与形式的分离，通过代码的形式书写游记。整篇文章是可以通过编译的 C++ 源文件。2013 年文稿就已全部完工，超过 150 Mb 名为 “ Tour de Lac Dian ”的 mht 文件，但一直没有合适的渠道发布，只得静静的躺在硬盘里。Blog 2.0 工程正式完工后，终于得以上线，所谓「念念不忘，必有回响」。&lt;/p&gt;
     
     </summary>
     
