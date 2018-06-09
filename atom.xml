@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://notlsd.com/"/>
-  <updated>2018-06-08T16:15:55.904Z</updated>
+  <updated>2018-06-09T01:11:06.184Z</updated>
   <id>http://notlsd.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://notlsd.com/2018/05/29/japan-1990s-china-2020s/"/>
     <id>http://notlsd.com/2018/05/29/japan-1990s-china-2020s/</id>
     <published>2018-05-29T15:23:09.000Z</published>
-    <updated>2018-06-08T16:15:55.904Z</updated>
+    <updated>2018-06-09T01:11:06.184Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这篇文章算是最近读 Principles of Economics, N.Gregory Mankiw 的随笔以及 Sci-Hub 的使用练习。本文不完备，某种程度上只是一个 Note。论据核心是来自三篇论文的四张图。</p>
 <a id="more"></a>
@@ -40,16 +40,16 @@
 <blockquote>
 <p>D Ding, X Huang, T Jin and WR Lam, 2017, The Residential Real Estate Market in China: Assessment and<br>Policy Implications, Annals of Economics &amp; Finance</p>
 </blockquote>
-<p><img src="/2018/05/29/japan-1990s-china-2020s/JP-Real-Estate-Price.png" alt="CN-Real-Estate-Price"><span class="imgTitle">CN-Real-Estate-Price</span></p>
+<p><img src="/2018/05/29/japan-1990s-china-2020s/JP-Real-Estate-Price.png" alt="JP-Real-Estate-Price"><span class="imgTitle">JP-Real-Estate-Price</span></p>
 <blockquote>
 <p>Bertrand Renaud, 1997, The 1985 to 1994 Global Real Estate Cycle: An Overview, Journal of Real Estate Literature</p>
 </blockquote>
 <p>如果没记错的话，2012 年以后国家统计局就不再公布房价有关的相关数据，所以 2017 年的论文也最后图表也只到 2012 :( 虽然就图上来说 1980 ~ 1990 的日本与 2000 ~ 2010 的中国的房价增长曲线基本一致，但并不可直接照搬。一方面因为中国经济的体量更大，另一方面在于中国有着完全独立的货币政策，所以房价有着更长的增长时间也是合理的。</p>
-<h3 id="房价占-GDP-的比例"><a href="#房价占-GDP-的比例" class="headerlink" title="房价占 GDP 的比例"></a>房价占 GDP 的比例</h3><p><img src="/2018/05/29/japan-1990s-china-2020s/CN-Real-Estate-GDP-Ratio.png" alt="CN-Real-Estate-Price"><span class="imgTitle">CN-Real-Estate-Price</span></p>
+<h3 id="房价占-GDP-的比例"><a href="#房价占-GDP-的比例" class="headerlink" title="房价占 GDP 的比例"></a>房价占 GDP 的比例</h3><p><img src="/2018/05/29/japan-1990s-china-2020s/CN-Real-Estate-GDP-Ratio.png" alt="CN-Real-Estate-GDP-Ratio"><span class="imgTitle">CN-Real-Estate-GDP-Ratio</span></p>
 <blockquote>
 <p>SXB Zhao, H Zhan, Y Jiang, W Pan, How big is China’s real estate bubble and why hasn’t it burst yet?, 2017, Land Use Policy</p>
 </blockquote>
-<p><img src="/2018/05/29/japan-1990s-china-2020s/JP-Real-Estate-GDP-Ratio.png" alt="CN-Real-Estate-Price"><span class="imgTitle">CN-Real-Estate-Price</span></p>
+<p><img src="/2018/05/29/japan-1990s-china-2020s/JP-Real-Estate-GDP-Ratio.png" alt="JP-Real-Estate-GNP-Ratio"><span class="imgTitle">JP-Real-Estate-GNP-Ratio</span></p>
 <blockquote>
 <p>Bertrand Renaud, 1997, The 1985 to 1994 Global Real Estate Cycle: An Overview, Journal of Real Estate Literature</p>
 </blockquote>
