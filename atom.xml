@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://notlsd.com/"/>
-  <updated>2018-06-23T19:16:07.137Z</updated>
+  <updated>2018-06-26T17:07:37.852Z</updated>
   <id>http://notlsd.com/</id>
   
   <author>
@@ -16,13 +16,14 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>强制性等待与拖延的乐趣 -「旅行青蛙」「生命线」共同的设计原理</title>
+    <title>强制性等待与拖延的乐趣 - Lifeline 旅かえる 共同的设计原理</title>
     <link href="http://notlsd.com/2018/06/24/travel-frog-lifeline/"/>
     <id>http://notlsd.com/2018/06/24/travel-frog-lifeline/</id>
     <published>2018-06-23T19:15:00.000Z</published>
-    <updated>2018-06-23T19:16:07.137Z</updated>
+    <updated>2018-06-26T17:07:37.852Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在 2015 年，「生命线」Lifeline 成为现象级产品，甚至带火了「文本冒险游戏」这个类别；同样，2018 年初「旅行青蛙」旅かえる 骤然爆红。看似毫无联系的两款游戏，设计上其实有着内在的一致性。</p>
+<p>原文首发于 <a href="https://indienova.com/indie-game-development/similarities-between-lifeline-and-traveling-frog/" target="_blank" rel="external">Indienova</a> </p>
 <a id="more"></a>
 <h3 id="作为始祖的「电子宠物」"><a href="#作为始祖的「电子宠物」" class="headerlink" title="作为始祖的「电子宠物」"></a>作为始祖的「电子宠物」</h3><p>明显，「旅行青蛙」的原型来自于二十年前的电子宠物。虽然中国玩家普遍称其为「蛙儿子」，不过根据<a href="http://play.163.com/18/0201/21/D9JEIH7J00318T0C.html" target="_blank" rel="external">网易对 旅かえる 设计师的专访</a>，其设计灵感源于「丈夫」，理由则和<a href="https://www.zhihu.com/question/266754019/answer/315623316" target="_blank" rel="external">这个充满怨气的知乎答案</a>差不多。而「生命线」则明显来自于 E.T. - 玩家陷入困境的外星朋友。</p>
 <p>无论是「电子宠物」、「旅行青蛙」还是「生命线」中，共同的模式即是通过强制玩家等待的方式实现了与角色共同成长的幻觉，@notlsd 称之为「非侵入式设计下的沉浸体验」<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="这句话的真实意思是这是 @notlsd 自己拍脑袋发明出来的，之后可能会有一篇文章来阐述这个问题">[1]</span></a></sup></p>
@@ -31,7 +32,7 @@
 </ul>
 <p>事先声明，侵入式 / 非侵入式设计并不是一个受到广泛认可专有名词 <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="用完全相反的逻辑也可能创造持久的乐趣，参见可能存在姊妹篇《成瘾性条件反射 - 「跳一跳」与「Flappy Bird」共同的设计原理 》
 ">[2]</span></a></sup></p>
-<p>简言之，非侵入式设计是在用户需要的的时候正好在手边。从正面说，Amazon 的推荐系统；从反面说，百度的竞价排名。侵入式设计则是随时无脑的提醒用户自己的存在，几乎所有重运营的 App 的 Push Notification 都有这个问题。如表：</p>
+<p>简言之，非侵入式设计是在用户需要的时候正好在手边。从正面说，Amazon 的推荐系统；从反面说，百度的竞价排名。侵入式设计则是随时无脑的提醒用户自己的存在，几乎所有重运营的 App 的 Push Notification 都有这个问题。如表：</p>
 <table>
 <thead>
 <tr>
@@ -71,7 +72,7 @@
 <p>现实世界足够复杂，本身即是一个足够完备的沉浸式的环境。设计者只需将游戏像「插件」一样嵌入真实环境中，并不需要「创造」一个新的环境，只需在现实世界中对玩家做有限的提醒，使得玩家混淆「游戏」与「现实」，从而达到实现「沉浸式体验」的目的。</p>
 <h3 id="强制等待-一种巧妙的实现"><a href="#强制等待-一种巧妙的实现" class="headerlink" title="强制等待 - 一种巧妙的实现"></a>强制等待 - 一种巧妙的实现</h3><p>利用强制等待的机制，「生命线」Life Lines 和「旅行青蛙」旅かえる 的设计者将游戏嵌入到了玩家生活当中，创造了一种「延时满足」的乐趣。虽然这种「延时满足」是被动的，与著名的<a href="https://zh.wikipedia.org/zh-hans/%E6%A3%89%E8%8A%B1%E7%B3%96%E5%AE%9E%E9%AA%8C" target="_blank" rel="external">斯坦福棉花糖实验</a>中的主动满足大相径庭。</p>
 <p>在用户因为不堪骚扰，而普遍关闭各个应用通知的今天，玩家却普遍是把 Life Line 和 旅かえる 的通知打开的。在各个网络社区，都有很多玩家表达自己对「泰勒」和「蛙儿子」归家的期待。<strong>通过强制等待的手段，这两个游戏把 Push Notification 这个操作系统本身的功能设定为了虚拟世界和现实世界的链接。</strong></p>
-<p>在有限的内容下显著的加强游戏性，最简单的办法就即是增加随机性，无论是 Rougelike Game 还是以 4X Game 的随机地图生成都是如此。但如果游戏的设定本身是线性的，不允许大量的随机性存在，「强制等待」的机制就成为了看起来好像是唯一的办法。</p>
+<p>在有限的内容下显著的加强游戏性，最简单的办法就即是增加随机性，无论是 Roguelike Game 还是以 4X Game 的随机地图生成都是如此。但如果游戏的设定本身是线性的，不允许大量的随机性存在，「强制等待」的机制就成为了看起来好像是唯一的办法。</p>
 <h3 id="会有的陪玩家一起长大的-Pikachu-么-？"><a href="#会有的陪玩家一起长大的-Pikachu-么-？" class="headerlink" title="会有的陪玩家一起长大的 Pikachu 么 ？"></a>会有的陪玩家一起长大的 Pikachu 么 ？</h3><p>前段时间在网络上大火的「真·蜘蛛侠」，被救小孩的父亲就是沉溺于 AR 游戏 Pokémon Go 而差点酿成不可挽回的后果，以下内容引用自<a href="https://www.nytimes.com/2018/05/28/world/europe/paris-migrant-hero-spiderman.html" target="_blank" rel="external">「纽约时报」相关报道</a></p>
 <blockquote>
 <p>巴黎检察官弗朗索瓦·莫兰(François Molins)称，加萨马救下的男孩当时独自待在公寓里，他的父亲去杂货店买东西了。男孩的母亲当时不在巴黎。</p>
@@ -86,6 +87,7 @@
     <summary type="html">
     
       &lt;p&gt;在 2015 年，「生命线」Lifeline 成为现象级产品，甚至带火了「文本冒险游戏」这个类别；同样，2018 年初「旅行青蛙」旅かえる 骤然爆红。看似毫无联系的两款游戏，设计上其实有着内在的一致性。&lt;/p&gt;
+&lt;p&gt;原文首发于 &lt;a href=&quot;https://indienova.com/indie-game-development/similarities-between-lifeline-and-traveling-frog/&quot;&gt;Indienova&lt;/a&gt; &lt;/p&gt;
     
     </summary>
     
@@ -99,11 +101,11 @@
     <link href="http://notlsd.com/2018/05/29/japan-1990s-china-2020s/"/>
     <id>http://notlsd.com/2018/05/29/japan-1990s-china-2020s/</id>
     <published>2018-05-29T15:23:09.000Z</published>
-    <updated>2018-06-09T01:11:06.184Z</updated>
+    <updated>2018-06-28T05:01:59.763Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这篇文章算是最近读 Principles of Economics, N.Gregory Mankiw 的随笔以及 Sci-Hub 的使用练习。本文不完备，某种程度上只是一个 Note。论据核心是来自三篇论文的四张图。</p>
 <a id="more"></a>
-<h1 id="四十年，两代人"><a href="#四十年，两代人" class="headerlink" title="四十年，两代人"></a>四十年，两代人</h1><p>1989，三菱买下 Rockefeller Center；2015，安邦买下 Waldorf-Astoria Hotel。</p>
+<h3 id="四十年，两代人"><a href="#四十年，两代人" class="headerlink" title="四十年，两代人"></a>四十年，两代人</h3><p>1989，三菱买下 Rockefeller Center；2015，安邦买下 Waldorf-Astoria Hotel。</p>
 <p>1950 年朝鲜战争爆发，日本自战后重建始，进入至今被称为<a href="https://en.wikipedia.org/wiki/Japanese_economic_miracle" target="_blank" rel="external">「日本经济奇迹」</a>的时代，直至 1985 年广场协议签订；1978 年中国自「改革开放」始， 至今被称为<a href="https://www.wikiwand.com/en/Chinese_economic_reform" target="_blank" rel="external">「中国经济奇迹」</a>。1985 年，2018 年中美贸易战开打。</p>
 <p>历史总是惊人的相似，尤其是历史进程中的人。日本经济奇迹的那一代人被称之为<a href="https://zh.wikipedia.org/wiki/%E5%9C%98%E5%A1%8A%E4%B8%96%E4%BB%A3" target="_blank" rel="external">「团块世代」</a>，像极了我们的父辈。</p>
 <p>以下内容直接引用自 Wikipedia「团块世代」词条，有所编辑和删减。 </p>
@@ -114,8 +116,11 @@
 <p>上述描述除了需要把「安保斗争」「东大纷争」换为「八六学潮」和「六四事件」之外，几乎可以直接用来形容我们的父辈。</p>
 <p>到了我们这一辈，该佛系佛系，该宅家则宅家，以至于连新华社都不得不着急了。<a href="http://www.xinhuanet.com/world/2018-01/29/c_129800680.htm" target="_blank" rel="external">透视“佛系”日本：低欲望令社会陷入危机</a>；<a href="http://www.xinhuanet.com/2018-01/26/c_1122318349.htm" target="_blank" rel="external">佛系青年爱养蛙，只是没什么追求吗</a>这两篇新华社文章对比起来看很有意思。</p>
 <p>在一个上升通道已经关闭的社会，再让人像打了鸡血一样的所谓「奋斗」，凡是受过教育的，知道外面的世界是什么样的人，大概是没几个会这么傻的。</p>
-<h1 id="绕不过的房价"><a href="#绕不过的房价" class="headerlink" title="绕不过的房价"></a>绕不过的房价</h1><p>房价或许是观察这个问题最直观的角度，虽然没有时间将不同论文的图表化为同样的标尺，不同论文间的统计口径也不太一致。但是总体的趋势是不会变的 <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="图表来源见图表下之引用，依学术用格式">[1]</span></a></sup><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="两组对比其实很类似与信号分析中的「时域分析」与「频域分析」">[2]</span></a></sup>。</p>
-<h3 id="房价与时间的关系"><a href="#房价与时间的关系" class="headerlink" title="房价与时间的关系"></a>房价与时间的关系</h3><p><img src="/2018/05/29/japan-1990s-china-2020s/CN-Real-Estate-Price.png" alt="CN-Real-Estate-Price"><span class="imgTitle">CN-Real-Estate-Price</span></p>
+<h3 id="绕不过的房价"><a href="#绕不过的房价" class="headerlink" title="绕不过的房价"></a>绕不过的房价</h3><p>房价或许是观察这个问题最直观的角度，虽然没有时间将不同论文的图表标准化为同样的标尺，不同论文间的统计口径也不太一致。但是总体的趋势是不会变的 <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="图表来源见图表下之引用，依学术用格式">[1]</span></a></sup><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="两组对比其实很类似与信号分析中的「时域分析」与「频域分析」">[2]</span></a></sup>。</p>
+<ul>
+<li>房价与时间的关系</li>
+</ul>
+<p><img src="/2018/05/29/japan-1990s-china-2020s/CN-Real-Estate-Price.png" alt="CN-Real-Estate-Price"><span class="imgTitle">CN-Real-Estate-Price</span></p>
 <blockquote>
 <p>D Ding, X Huang, T Jin and WR Lam, 2017, The Residential Real Estate Market in China: Assessment and<br>Policy Implications, Annals of Economics &amp; Finance</p>
 </blockquote>
@@ -123,8 +128,11 @@
 <blockquote>
 <p>Bertrand Renaud, 1997, The 1985 to 1994 Global Real Estate Cycle: An Overview, Journal of Real Estate Literature</p>
 </blockquote>
-<p>如果没记错的话，2012 年以后国家统计局就不再公布房价有关的相关数据，所以 2017 年的论文也最后图表也只到 2012 :( 虽然就图上来说 1980 ~ 1990 的日本与 2000 ~ 2010 的中国的房价增长曲线基本一致，但并不可直接照搬。一方面因为中国经济的体量更大，另一方面在于中国有着完全独立的货币政策，所以房价有着更长的增长时间也是合理的。</p>
-<h3 id="房价占-GDP-的比例"><a href="#房价占-GDP-的比例" class="headerlink" title="房价占 GDP 的比例"></a>房价占 GDP 的比例</h3><p><img src="/2018/05/29/japan-1990s-china-2020s/CN-Real-Estate-GDP-Ratio.png" alt="CN-Real-Estate-GDP-Ratio"><span class="imgTitle">CN-Real-Estate-GDP-Ratio</span></p>
+<p>如果没记错的话，2012 年以后国家统计局就不再公布房价有关的相关数据，所以 2017 年的论文中的图表最后也只到 2012 :( 虽然就图上来说 1980 ~ 1990 的日本与 2000 ~ 2010 的中国的房价增长曲线基本一致，但并不可直接照搬。一方面因为中国经济的体量更大，另一方面在于中国有着完全独立的货币政策，所以房价有着更长的增长时间也是合理的。</p>
+<ul>
+<li>房价占 GDP / GNP 的比例</li>
+</ul>
+<p><img src="/2018/05/29/japan-1990s-china-2020s/CN-Real-Estate-GDP-Ratio.png" alt="CN-Real-Estate-GDP-Ratio"><span class="imgTitle">CN-Real-Estate-GDP-Ratio</span></p>
 <blockquote>
 <p>SXB Zhao, H Zhan, Y Jiang, W Pan, How big is China’s real estate bubble and why hasn’t it burst yet?, 2017, Land Use Policy</p>
 </blockquote>
@@ -133,7 +141,7 @@
 <p>Bertrand Renaud, 1997, The 1985 to 1994 Global Real Estate Cycle: An Overview, Journal of Real Estate Literature</p>
 </blockquote>
 <p>同样，两张图表的统计口径仍然不一致。GDP / GNP 显然有着本质的区别，土地价值与房产投资也不可等效，一个是投入，一个是产出。但无论如何都可以看出房产市场在整个经济活动中的统治性地位。</p>
-<h1 id="致「房价只涨不跌」的信仰者"><a href="#致「房价只涨不跌」的信仰者" class="headerlink" title="致「房价只涨不跌」的信仰者"></a>致「房价只涨不跌」的信仰者</h1><p>在此引用「银河系漫游指南」作者 Douglas Adams 的科技三定律：</p>
+<h3 id="致「房价只涨不跌」的信仰者"><a href="#致「房价只涨不跌」的信仰者" class="headerlink" title="致「房价只涨不跌」的信仰者"></a>致「房价只涨不跌」的信仰者</h3><p>在此引用「银河系漫游指南」作者 Douglas Adams 的科技三定律：</p>
 <blockquote>
 <p>任何在我出生时已经有的科技都是稀松平常的世界本来秩序的一部分</p>
 <p>任何在我15-35岁之间诞生的科技都是将会改变世界的革命性产物</p>
@@ -144,12 +152,22 @@
 <blockquote>
 <p>…… China’s current situation is extremely alarming, though the country shows remarkable resilience to crisis as the government seems to possess the tools and capacity to avoid a hard landing. The findings of this research advance our understanding of the consequences of China’s real estate bubble and sound a clear warning to China’s policymakers.</p>
 </blockquote>
-<h1 id="一份来自匿名者的宣言"><a href="#一份来自匿名者的宣言" class="headerlink" title="一份来自匿名者的宣言"></a>一份来自匿名者的宣言</h1><p>引用<a href="https://www.zhihu.com/question/276591262/answer/400913208" target="_blank" rel="external">这个知乎高赞匿名答案</a>来结束这篇经济学笔记吧。这是一篇回答[「年轻人该不该接盘高房价」的现代诗.</p>
+<h3 id="一份来自匿名者的宣言"><a href="#一份来自匿名者的宣言" class="headerlink" title="一份来自匿名者的宣言"></a>一份来自匿名者的宣言</h3><p>引用<a href="https://www.zhihu.com/question/276591262/answer/400913208" target="_blank" rel="external">这个知乎高赞匿名答案</a>来结束这篇经济学笔记吧。这是一篇回答[「年轻人该不该接盘高房价」的现代诗.</p>
 <blockquote>
-<p>接个屁<br>我们九〇后已经踏入社会了<br>我们没钱没地位<br>但是有信心有能力有想法&gt; </p>
-<p>等着瞧吧！<br>我们这一代人会护住自己的钱包<br>戴好自己的套套熬他五年十年<br>亲手打破上一代的贪婪和愚蠢铸成的锁链&gt; </p>
-<p>房价崩了怎么样<br>经济崩了又怎么样&gt; </p>
-<p>我们还年轻有的是力气有的是知识有的是时间<br>而他们会老去会死亡会因恐慌而一触即溃<br>我们会踏着炒房者的尸体走出低谷<br>亲自创造美好的未来</p>
+<p>接个屁</p>
+<p>我们九〇后已经踏入社会了</p>
+<p>我们没钱没地位</p>
+<p>但是有信心有能力有想法&gt; </p>
+<p>等着瞧吧！</p>
+<p>我们这一代人会护住自己的钱包</p>
+<p>戴好自己的套套熬他五年十年</p>
+<p>亲手打破上一代的贪婪和愚蠢铸成的锁链&gt; </p>
+<p>房价崩了怎么样</p>
+<p>经济崩了又怎么样&gt; </p>
+<p>我们还年轻有的是力气有的是知识有的是时间</p>
+<p>而他们会老去会死亡会因恐慌而一触即溃</p>
+<p>我们会踏着炒房者的尸体走出低谷</p>
+<p>亲自创造美好的未来</p>
 </blockquote>
 <p>最后的最后，我们还有 Internet，某种程度上可以脱离这个国家的经济体系谋生。</p>
 <div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">图表来源见图表下之引用，依学术用格式<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">两组对比其实很类似与信号分析中的「时域分析」与「频域分析」<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
