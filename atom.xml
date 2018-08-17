@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://notlsd.com/"/>
-  <updated>2018-08-15T15:20:49.724Z</updated>
+  <updated>2018-08-17T01:19:16.606Z</updated>
   <id>http://notlsd.com/</id>
   
   <author>
@@ -14,6 +14,73 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>「佩戴」还是「配戴」？这是个问题</title>
+    <link href="http://notlsd.com/2018/08/17/wearing-glasses/"/>
+    <id>http://notlsd.com/2018/08/17/wearing-glasses/</id>
+    <published>2018-08-17T01:07:26.000Z</published>
+    <updated>2018-08-17T01:19:16.606Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>「佩戴」还是「配戴」？这是个问题。眼视光行业的诸位大 V 也莫衷一是。为了查证这个问题，只得求助于字典了。然而，翻遍「新华字典」仍然没有思路，这种时候只有靠 TA 了。</p>
+<a id="more"></a>
+<p><img src="/2018/08/17/wearing-glasses/xdhycd.jpg" alt="现代汉语词典"><span class="imgTitle">现代汉语词典</span></p>
+<p>以下引文直接来自于「现代汉语词典」第 7 版</p>
+<blockquote>
+<p>【眼镜】戴在眼睛上矫正视力或保护眼睛的透镜。</p>
+</blockquote>
+<p>pèi dài 牌皮球被「眼镜」词条成功的踢到不知哪里去了。那么，我们只得回到【佩】和【配】这两个字本身，看能不能有什么新的发现。</p>
+<p>还好，【佩戴】有专门的词条：</p>
+<blockquote>
+<p>【佩戴】（把徽章等）挂在胸前、臂上、肩上等部位：~ 校徽 | ~ 肩章 | ~ 袖标。也作佩带。</p>
+</blockquote>
+<p>看起来就 TA 了。</p>
+<p>且慢，虽然【配戴】没有专门的词条，但我们遍历一遍【配】字的释义应该是有意义的：</p>
+<ol>
+<li>两性结合</li>
+<li>配偶，多指妻子</li>
+<li>使（动物）交配</li>
+<li>按适当的标准或比例加以调和或凑在一起</li>
+<li>有计划地分派</li>
+<li>把缺少的一定规格的物品补足</li>
+<li>衬托；陪衬</li>
+<li>助动词。够得上；符合</li>
+<li>相当；般配：</li>
+<li>充军</li>
+</ol>
+<p>看起来比较贴切的释义是 4. 和 6.</p>
+<p>附以示例的解释如下：</p>
+<ol>
+<li><p>按适当的标准或比例加以调和或凑在一起：~ 颜色 | ~ 药 | 搭 ~</p>
+</li>
+<li><p>把缺少的一定规格的物品补足：~ 零件 | ~ 钥匙 | ~ 套</p>
+</li>
+</ol>
+<p>显见得，「配眼镜」的使用场景与 6. 一致。</p>
+<p>这么说来，「佩戴眼镜」和「配戴眼镜」都是合法的。</p>
+<p>What A Fxxk ! 简直和「光的波粒二象性」一样无耻！</p>
+<p>不过从语言学出发，这是可以解释的。从某种意义上，「佩戴眼镜」和「配戴眼镜」可以视为「异源同形词」的不完全演化。简单地说，「佩戴」和「配戴」在词源上是完全不同的，相似的词序引起了混淆。当然，如果汉字是拼音文字就只剩 pèi dài 了，这样字典上就会出现对不同词源的一长串解释。</p>
+<p>综上所述：</p>
+<ul>
+<li><p>「佩戴眼镜」指平日穿戴眼镜，眼镜作为一种饰物。</p>
+</li>
+<li><p>「配戴眼镜」指验光配镜。</p>
+</li>
+</ul>
+<p>原命题得解。</p>
+<p>Update Log 1.1 多谢 @Oasis_Bi 指正，更正错别字，多处细节修正<br>Update Log 1.2 原文发布于前公司的公众号，故而文风有所不同</p>
+]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;「佩戴」还是「配戴」？这是个问题。眼视光行业的诸位大 V 也莫衷一是。为了查证这个问题，只得求助于字典了。然而，翻遍「新华字典」仍然没有思路，这种时候只有靠 TA 了。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="考据癖" scheme="http://notlsd.com/categories/%E8%80%83%E6%8D%AE%E7%99%96/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>阿里巴巴 &amp; 腾讯 -「新时代」的摩根 &amp; 洛克菲勒</title>
@@ -1797,189 +1864,6 @@
     <summary type="html">
     
       &lt;p&gt;This post is my personal favorite quotes from Ernest Hemingway’s autobiographical novel &amp;lt; THE SNOWS OF KILIMANJARO &amp;gt; .&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="万卷书" scheme="http://notlsd.com/categories/%E4%B8%87%E5%8D%B7%E4%B9%A6/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Lettre à Z</title>
-    <link href="http://notlsd.com/2017/05/10/letter-to-z/"/>
-    <id>http://notlsd.com/2017/05/10/letter-to-z/</id>
-    <published>2017-05-10T02:50:34.000Z</published>
-    <updated>2017-05-28T08:53:28.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>本文是对 André Gorz 所著 Lettre à D. Histoire d’un amour 中译版的摘抄，部分语句进行了修改。<a href="https://book.douban.com/subject/4313207/" target="_blank" rel="external">此版本</a>翻译极其流畅，译者序亦文采飞扬<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="译者 [袁筱一](http://faculty.ecnu.edu.cn/s/1654/main.jspy) 是南京大学文学博士，华东师范大学外语学院院长。同样是翻译法语原文，比冯克利翻译的「乌合之众」不知高到哪里去了。">[1]</span></a></sup>。很少有什么小册子可以令 @notlsd 一见钟情。「致 D」算是一本，对爱情，对文学<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="当书中出现文学的时候，我总是自动替换为代码。毕竟嚷嚷着自己是 “ A poet, Coding is my language ” ">[2]</span></a></sup>，甚至对现代社会的态度都仿佛是 @notlsd 生在了「五月风暴」时的法国。</p>
-<a id="more"></a>
-<h3 id="译序"><a href="#译序" class="headerlink" title="译序"></a>译序</h3><h4 id="爱情"><a href="#爱情" class="headerlink" title="爱情"></a>爱情</h4><blockquote>
-<p>我不知道，如果自己已经把爱情的实质视作对谎言的维护，是否还能够投入一段他人的，在追寻生命本质层面上的爱情？</p>
-</blockquote>
-<h4 id="自杀"><a href="#自杀" class="headerlink" title="自杀"></a>自杀</h4><blockquote>
-<p>自杀不是一种反抗和姿态，而是一种接受、陪伴和主动的了结，是人作为「主体」的最后的、负责任的行动。我想，在这种前提下它可以是美丽的，并且具有积极意义的。</p>
-</blockquote>
-<h4 id="生活"><a href="#生活" class="headerlink" title="生活"></a>生活</h4><blockquote>
-<p>「致 D」中的爱情不是文学的爱情，也不是哲学的爱情。它离文学中所擅长的暧昧、罪恶、背叛、金钱以及由此带来的种种冲突很远；它与哲学所擅长的抽象也很远，没有所谓的伦理、道德以及解释的方法。它是生活的，是两个人走了五十八年，社会变迁，两个人也在不停的游走和变化，但维护「执子之手，与子偕老」的决心始终未变。</p>
-</blockquote>
-<h4 id="避处-3"><a href="#避处-3" class="headerlink" title="避处 [3]"></a>避处 <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="不太清楚法语原文，估计类似于英文中的 Shelter - 「一个遮风避雨的安身之所」">[3]</span></a></sup></h4><blockquote>
-<p>高兹或许从来不怀疑，D 的爱情为他提供了「避处」。社会没有给过他安全感，从童年开始，年轻时代所经历的一切：战争，生存。但仅仅作为「避处」，男人仍然会犹豫，因为他不知道这样的「避处」是否具有永恒的意义。<strong><em>然而如果他从来没有学会过承担，他又怎么能够指望女人来帮助他「承担自己的存在」?</em></strong></p>
-</blockquote>
-<h4 id="既定观念"><a href="#既定观念" class="headerlink" title="既定观念"></a>既定观念</h4><blockquote>
-<p>只要能够冷眼看待，我们一定知道，像萨特那样拒绝「既定观念」的婚姻，无非也不过是走入另一个自己铸就的「既定观念」而已。</p>
-</blockquote>
-<h4 id="开始与延续"><a href="#开始与延续" class="headerlink" title="开始与延续"></a>开始与延续</h4><blockquote>
-<p>相信就像所有女人在读完开头是梦想自己能够像 D 一样收到来世的要约，所有的男人在读完「致 D」之后大约也梦想着能有这样一个女人相伴终生吧。在故事的开始，又可以启动爱情的年轻和美丽；而在故事需要延续的时候，又可以延续随着岁月递增的智慧，温和与包容。</p>
-</blockquote>
-<h4 id="工业社会"><a href="#工业社会" class="headerlink" title="工业社会"></a>工业社会</h4><blockquote>
-<p>这个人类一手创建和推动的工业社会却恰恰对人不符有任何责任。</p>
-</blockquote>
-<h4 id="在世经验"><a href="#在世经验" class="headerlink" title="在世经验"></a>在世经验</h4><blockquote>
-<p>最美丽的爱情不是在所谓的两难选择中，选择为爱情舍弃其他的一切：声名、财富、乃至皇位，抑或是通过自己来改变这个世界的野心 - 这恰恰是文学里的爱情；而是通过自己的承担将所有自己认为重要的一切合为一体，合为最基本的「在世经验」…… 遗憾的是，我们大多数人也许一辈子也不可能拥有过这样的「在世经验」。因为我们不够努力，因为我们在下定决心的时候，没有迎来那个用 TA 的智慧赌你的智慧的人。</p>
-</blockquote>
-<h3 id="正文"><a href="#正文" class="headerlink" title="正文"></a>正文</h3><h4 id="我们"><a href="#我们" class="headerlink" title="我们"></a>我们</h4><blockquote>
-<p>我需要重建我们的爱情故事，这样才能够抓住真正的意义。正是我们的爱情故事让我们成为今天的这个模样，经彼此而生，为彼此而生。给你写这封信，我就是为了弄明白我所经历的一切，我们所经历的一切。</p>
-</blockquote>
-<h4 id="天赋"><a href="#天赋" class="headerlink" title="天赋"></a>天赋</h4><blockquote>
-<p>你总是很快就能区分什么是主要的，什么是次要的。任何复杂的问题，似乎在你看来都很好解决。你从来不怀疑自己判断的准确性。</p>
-</blockquote>
-<h4 id="秉性"><a href="#秉性" class="headerlink" title="秉性"></a>秉性</h4><blockquote>
-<p>我不明白。我不知道是什么将我们联系在一起。你不喜欢谈论自己的过去。我是在以后才渐渐明白，究竟是怎样的根本经验让我们能够在瞬间靠近。</p>
-</blockquote>
-<h4 id="第一次亲密接触"><a href="#第一次亲密接触" class="headerlink" title="第一次亲密接触"></a>第一次亲密接触</h4><blockquote>
-<p>我们不急。我小心翼翼地脱去你的衣服。现实与想象竟然会有如此完美的吻合，米洛斯岛的 Aphrodite 鲜活的展现在我面前。你的颈部散发着珍珠色的光辉，照亮了你的脸庞，很久很久，我默不作声地欣赏着这充满生命力，同时又充满柔情的奇迹。和你在一起我才明白，欢愉不是得到或者给予，只有在相互给予并且能够唤起另一方赠与的愿望时，欢愉才能存在。那一天，我们彻底把自己交付给了对方。</p>
-</blockquote>
-<h4 id="你的世界"><a href="#你的世界" class="headerlink" title="你的世界"></a>你的世界</h4><blockquote>
-<p>在认识你之前，和其他女孩子待两个小时以上，我就会厌烦，而且我也会让他们感觉到我的厌烦。但和你在一起，你却带我进入了另外一个世界，这一点让我着迷，。我自童年时代所树立的价值观，在这个世界里不再发生效用。这个世界令我心醉神迷。进入它，我就能够逃离，没有所谓的义务，没有所谓归属。跟你在一起，我就到了别处，来到一个陌生的地方，甚至是一个与你自己完全不相干的地方。你带我进入了一个完全异质的空间 - 我是一个摒弃所有固定身份的人，将一个又一个的身份叠加起来，其中却没有一个是我的.</p>
-</blockquote>
-<h4 id="我们的世界"><a href="#我们的世界" class="headerlink" title="我们的世界"></a>我们的世界</h4><blockquote>
-<p>我觉得，我仿佛是在和你一起搭建一个完整的，得到很好保护的世界</p>
-</blockquote>
-<h4 id="不安全感"><a href="#不安全感" class="headerlink" title="不安全感"></a>不安全感</h4><blockquote>
-<p>…… 这一切都不能解释我们从一开始就形成的默契。我们之间没有一点相似之处，可一点关系也没有，我仍然能够感觉到，我们在本质上有相通之处，一种很特别的伤痕 —— 这就是我谓之「根本经验」的东西：一种不安全的经验。甚至于你我的这种经验究其本质也是有差别的。但这不重要：对于你我来说，它都意味着我们在世界上没有既定的位置。我们只有自己为自己打下的一小方天地，我们只有承担自己。是在后来，我发现比起我来，你对此更有准备。</p>
-</blockquote>
-<h4 id="软肋与铠甲-4"><a href="#软肋与铠甲-4" class="headerlink" title="软肋与铠甲 [4]"></a>软肋与铠甲 <sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="[知乎最著名答案之一](https://www.zhihu.com/question/20875474/answer/16603385) ">[4]</span></a></sup></h4><blockquote>
-<p>在大人世界里，你没有属于自己的位置。你必须强势，因为你的世界是一个不稳定的世界，我总是能够感觉到你的力量，同时我也能感觉到你深藏的脆弱。我喜欢你那种被克服的脆弱，欣赏你脆弱的力量。我们都是在不稳定和冲突中长大的孩子。我们注定要彼此保护。我们需要借助彼此，共同创造一个这个世界原本拒绝给予我们的位置。但是，为了这个，我们的爱情必须也是生活的契约。</p>
-</blockquote>
-<h4 id="回家"><a href="#回家" class="headerlink" title="回家"></a>回家</h4><blockquote>
-<p>某日，我对母亲说我要「回家」，回到洛桑的家去过生日。</p>
-<p>「那里到底有什么让你魂不守舍的？」她问我。</p>
-<p>「我的房间，我的书，我的朋友，还有一个我爱的女人」我说。</p>
-</blockquote>
-<h4 id="婚姻"><a href="#婚姻" class="headerlink" title="婚姻"></a>婚姻</h4><blockquote>
-<p>对于婚姻我有一种原则性的、观念性的偏见。我认为婚姻是一种资产阶级的固有习惯；是将一种关系法律化和社会化，一种原来仅凭爱情将两人联系在一起，完全没有社会性的关系。面对两个人的体验和情感，法律关系会产生自我管理的倾向 —— 甚至法律关系是将自我管理当成使命来完成的。我也一直说：「什么能够证明，在十年或二十年后，我们经历变化，而这种生活的契约仍然能够满足我们的欲望呢？」</p>
-<p>你的回答令我无法抵挡：「如果你和一个人结合在一起，打算度过一生，你们就将两个人的生命放在一起，不要做有损你们结合的事情。建构你们的夫妻关系就是你们共同的计划，你们永远都要根据环境的变化而不断加强、改变，重新调整方向。你们怎么做，就会成为怎样的人。」—— 这几乎就是萨特的哲学。</p>
-</blockquote>
-<h4 id="对比"><a href="#对比" class="headerlink" title="对比"></a>对比</h4><blockquote>
-<p>妳高高在上的自如与她故作姿态的高贵形成鲜明的对比 ～</p>
-</blockquote>
-<h4 id="爱情-1"><a href="#爱情-1" class="headerlink" title="爱情"></a>爱情</h4><blockquote>
-<p>爱情是两个主体彼此沉迷，它在某种程度上是无法描述的，也没有什么可社会化的地方，它可以抵抗住社会强加给主体的角色和镜像，可以抵挡住所谓文化的归属。我们几乎可以把所有的一切放在一起，因为开始时我们就会一无所有。只需我愿意再继续经历一直以来我所经历的一切，只需我再多爱一点，你的目光，你的声音，你的气味，你细长的手指，你穿衣服的方式，你的身体，你的一切，未来就会向我们张开怀抱。</p>
-<p>只需如此，你为我提供了逃避自我的可能。在「别处」—— 你是这里的特使 —— 安顿下来。和你在一起，我现实的那一面就可以放假了。你是使得现实「非现实化」的添加剂，包括我在内的现实，七八年以来我一直通过写作着手创造的现实。对于我来说，是你把一个充满威胁的世界 —— 在这个世界里，我只是一个非法存在的逃难者，在这个世界里，我的未来从来没有能超过三个月 —— 暂时放置在一边，我再也没有回到地面上的愿望，我在一种美妙绝伦的存在中找到了避处，我不愿意它被现实追赶上。</p>
-</blockquote>
-<h4 id="契约"><a href="#契约" class="headerlink" title="契约"></a>契约</h4><blockquote>
-<p>在你的脑海里，婚姻和我们结合的所谓法律化、社会化没有任何关系。它只是意味着我们确确实实地在一起了，意味着我已经和你签署了生活的契约，通过它，我们承诺彼此忠诚、付出，承诺彼此友情相待。</p>
-</blockquote>
-<h4 id="初恋"><a href="#初恋" class="headerlink" title="初恋"></a>初恋</h4><blockquote>
-<p>你是我第一个投入了全身心去爱的女人，我能够感受到你在我内心深处激起的共鸣；总之，是我真正的初恋。如果我不能真切地爱你，也许我再也不能爱任何人。我终于找到了从来都没能表达出的这些词语；我通过这些词语告诉你，我希望我们能够永远结合在一起。</p>
-</blockquote>
-<h4 id="累赘"><a href="#累赘" class="headerlink" title="累赘"></a>累赘</h4><blockquote>
-<p>没有我，你的生活会更容易。你不需要任何人的帮助就可以在这世界为自己构筑一席之地。你有一种天生的威严，有合约及组织意识。你幽默，无论在怎样的情况下，你都是那么自在，而且能够让别人也感到自在的。对于和你交往的人，你很快就能够得到他们的信任，能够向他们提供建议，仅凭直觉你就能够 —— 速度快得令人惊讶 —— 抓住别人的问题，帮助他们看清楚自己。</p>
-</blockquote>
-<h4 id="本体论的失效"><a href="#本体论的失效" class="headerlink" title="本体论的失效"></a>本体论的失效</h4><blockquote>
-<p>根据本体论意义的等级划分个人与他人之间的关系，在爱情的问题上我遇到了很大的困难（在「存在与虚无」中萨特用了三十页讨论这个问题），因为从哲学的角度，解释我们为什么要爱，为什么希望被某一个人爱而把其他所有人都排除在外，的确是不可能的。</p>
-</blockquote>
-<h4 id="共鸣"><a href="#共鸣" class="headerlink" title="共鸣"></a>共鸣</h4><blockquote>
-<p>爱情就是里面发生共鸣身体和灵魂的共鸣，而且只能与他或她发生的共鸣。</p>
-</blockquote>
-<h4 id="滚上床"><a href="#滚上床" class="headerlink" title="滚上床"></a>滚上床</h4><blockquote>
-<p>每天自晚上十点开始，我会埋首于「文集」的写作，直至凌晨两到三点。「上床来，」超过三点，你就会说。我回答道：「我马上来。」而你说：「不要马上来，而是这就来！」你的声音里没有一点责备。我喜欢你一边执着地要求着，一边总是留给我充足的时间。</p>
-</blockquote>
-<h4 id="写者与作家"><a href="#写者与作家" class="headerlink" title="写者与作家"></a>写者与作家</h4><blockquote>
-<p>如果一个写者的写作需求有一个合适的主题贯穿始终，并且让这需求有条理地组织起来，成为一项计划，那么写者就变成了作家。我们成千上万的人一生都在写，并且最终没有坚持到底，没有出版任何东西。</p>
-</blockquote>
-<h4 id="困苦"><a href="#困苦" class="headerlink" title="困苦"></a>困苦</h4><blockquote>
-<p>你做所有的事情的时候，都是以本色示人。困苦给了你翅膀，而我不一样，困苦总是让我陷入消沉。</p>
-</blockquote>
-<h4 id="关系"><a href="#关系" class="headerlink" title="关系"></a>关系</h4><blockquote>
-<p>我发现倘若没有「关系」我们根本找不到工作，但我们就是没有这所谓的关系。我在知识分子界没有任何交往，也没有可以与之交流哲学想象的人，虽然那时我在这方面的想象力是那么丰沃。我处于失败的境地。你的信任能够给我安慰，但还是不能让我彻底放下心来。</p>
-</blockquote>
-<h4 id="别处"><a href="#别处" class="headerlink" title="别处"></a>别处</h4><blockquote>
-<p>在这份工作中，我觉得我完全「找到了自己」：我可以在别处，只关心对于我周围、对我所服务的公众是完全陌生的事情；能够为自己制造不在场。我提炼出看待这个世界的一种外在的目光，我学会在事实面前隐身，让它们开口言说我的所想。我学会了客观性的诡计。我能够以不在的方式留存于自己的位置上。</p>
-</blockquote>
-<h4 id="使命"><a href="#使命" class="headerlink" title="使命"></a>使命</h4><blockquote>
-<p>「你的生活就是写作，所以写吧，」你重复道。仿佛你的使命就在于巩固我的存在。</p>
-</blockquote>
-<h4 id="常有理"><a href="#常有理" class="headerlink" title="常有理"></a>常有理</h4><blockquote>
-<p>我非常重视你的批评意见，虽然我喜欢低声抱怨：「为什么总是你有理？」</p>
-</blockquote>
-<h4 id="统计的悖论"><a href="#统计的悖论" class="headerlink" title="统计的悖论"></a>统计的悖论</h4><blockquote>
-<p>你反对一切理论建构，尤其反对所谓的数据统计。你说，数据统计只有在被阐释时才具有意义，因而他们根本没有什么说服力。但是阐释却根本不是以数学性的精确为目标的，虽然统计数据觉得自己所有权威性正来自于此。我需要借助理论来梳理我的思维，我反驳你说倘若思维没有清晰的结构，它就可能坠落在经验主义和琐碎无谓里。你则回答说，理论总是有成为枷锁的危险，会妨碍我们看见随时都在改变的现实的复杂性。我们就这个问题讨论过十几次，并且都很清楚对方会怎样回答。讨论更像是游戏。但是你玩这种游戏已经非常拿手。你无须认知科学作支撑就很清楚，如果没有直觉和情感，就无所谓智慧和意义。你的判断要求有真真实实的经验基础，是可以沟通的，而不是可以论证的。判断的权威性 —— 姑且让我们称之为伦理 —— 应该是无需辩论就可以成立的。而所谓理论判断的权威性却会因为没有能够在辩论占上风就立刻土崩瓦解，我的「为什么总是你有理」没有任何别的意思。我想，比起你需要我的判断而言，我更需要你的判断。</p>
-</blockquote>
-<h4 id="无辜与幼稚"><a href="#无辜与幼稚" class="headerlink" title="无辜与幼稚"></a>无辜与幼稚</h4><blockquote>
-<p>你一直比我要更像一个成人，而且越来越成熟。你在我的眼神中分辨出一种孩子般的「无辜」，你原本可以说我「幼稚」。</p>
-</blockquote>
-<h4 id="拒绝"><a href="#拒绝" class="headerlink" title="拒绝"></a>拒绝</h4><blockquote>
-<p>文学的魔术：就在于我描述自我，在拒绝存在中写作的同时，它让我得以进入存在。这本书是我拒绝的成果，它就是拒绝本身，那它的出版却阻止我在这拒绝中坚持下去。</p>
-</blockquote>
-<h4 id="书的有效性"><a href="#书的有效性" class="headerlink" title="书的有效性"></a>书的有效性</h4><blockquote>
-<p>因而，倘若仅仅是在写作的过程中，书是无效的。只有随着它让我遭遇各种可能性或是始料未及的其他人时，它才渐渐变得有效。</p>
-</blockquote>
-<h4 id="放弃"><a href="#放弃" class="headerlink" title="放弃"></a>放弃</h4><blockquote>
-<p>「衰老」则是我向青少年时代所作的永别，是我的放弃，放弃德勒兹-伽塔利后来所谓的「欲望的无休无止」，以及乔治-巴塔耶所谓的「可能性无处不在」，这种放弃只有通过对于限定的根本拒绝才能够达及：想要什么也不是的愿望与想要成为一切的愿望彼此混淆。在「衰老」的结尾，是这样一段自我勉励：「必须接受结束，必须接受是在这里，而不是在别的任何地方，是在做这个而不是别的什么事情，现在，永远，永远……必须接受这份生活，唯它而已。」</p>
-</blockquote>
-<h4 id="第三人称"><a href="#第三人称" class="headerlink" title="第三人称"></a>第三人称</h4><blockquote>
-<p>这不仅仅是因为关于自己的思考并没有把我卷入进去，更是因为我没有真正介入关于自己的思考。我决定用第三人称写，以避免成为自己的同谋，或者说避免取悦自己。第三人称让我与自己之间保留一定的距离，它让我能够树立一种中性的，编码式的语言，能够为自己的存在和运转方式画下一幅近乎诊断性质的肖像。这幅肖像往往是残忍的，充满了嘲讽。我避免取悦自己，却掉入了另一个陷阱：通过残酷的自我批评来取悦自己。我就是纯粹的、无形的目光，与这目光所见的东西完全不搭。我将把所能够了解的自己转化为关于自我的知识，如此一来，我永远无法与自己取得取得一致，我只能把自己当成他者来了解。</p>
-</blockquote>
-<h4 id="我的书"><a href="#我的书" class="headerlink" title="我的书"></a>我的书</h4><blockquote>
-<p>自己的文章一旦印成书，我就再也没有重新读过。我讨厌使用「我的书」这样的字眼：从中我看到的正是一种虚荣的特质，正是通过这种虚荣，主体会得意洋洋地吹嘘别人所赋予他的品质，殊不知这恰恰说明他已经成了他者。书已经不再是「我的思想」，既然他已经成了这个世界的某样东西，它属于别人，不属于我。</p>
-</blockquote>
-<h4 id="「对可说之事说清楚，对不可说之事，就只能保持沉默」-5"><a href="#「对可说之事说清楚，对不可说之事，就只能保持沉默」-5" class="headerlink" title="「对可说之事说清楚，对不可说之事，就只能保持沉默」[5]"></a>「对可说之事说清楚，对不可说之事，就只能保持沉默」[5]</h4><blockquote>
-<p>最重要的是有待陈述的，而不是已经言说的 —— 对于我来说，我已经写过的东西远远没有我接下去能够写的东西更重要。我想，对于所有的写者 / 作家来说，这一点都是一样真实的。</p>
-</blockquote>
-<h4 id="发现"><a href="#发现" class="headerlink" title="发现"></a>发现</h4><blockquote>
-<p>……这应该说明我是多么爱你，不，比这还要美好：是和你一起发现了爱，这份发现终于让我找到了存在的愿望；它还应该说明执子之手的承诺为什么在日后会成为我的存在得以皈依的原动力。</p>
-</blockquote>
-<h4 id="平庸与高贵"><a href="#平庸与高贵" class="headerlink" title="平庸与高贵"></a>平庸与高贵</h4><blockquote>
-<p>第一次深深地爱上一个人，同时也得到这个人的爱，以前我觉得这样的故事太平庸，太个人，太普通：这不是能够让我进入普遍意义的物质，相反，失败的、不可能的爱情才是高贵文学的范畴。</p>
-</blockquote>
-<h4 id="亏欠"><a href="#亏欠" class="headerlink" title="亏欠"></a>亏欠</h4><blockquote>
-<p>…… 我重新意识到我欠你的是什么，你把你的一切都给了我，帮助我成为现在的我。在给你的一册书上，我题道：「给你，我的凯，你把你给了我，你把我给了我」。</p>
-</blockquote>
-<h4 id="反消费主义"><a href="#反消费主义" class="headerlink" title="反消费主义"></a>反消费主义</h4><blockquote>
-<p>我记得我一直以来就很讨厌所谓「中产阶级」的生活方式，讨厌浪费。你也拒绝追随时尚，而事实上你一向有自己的看法。你拒绝为广告和营销所左右，只要你不觉得需要，你就不会买。</p>
-</blockquote>
-<h4 id="钱"><a href="#钱" class="headerlink" title="钱"></a>钱</h4><blockquote>
-<p>这让我想起你七岁时就已经得出的结论，如果是真爱，就不应该把钱放在眼里。你确实不把钱放在眼里。我们经常给对方钱。</p>
-</blockquote>
-<h4 id="感应"><a href="#感应" class="headerlink" title="感应"></a>感应</h4><blockquote>
-<p>你似乎与所有的生命都有种可以感知的默契，你教会了我欣赏和喜爱田野、树木和动物。你和它们说话的时候，它们总是专注地倾听，我觉得他们一定听懂了你的话。你让我发现了生活的丰富性，通过你，我爱上了生活 —— 如果不把这话反过来说（但这是一回事）。</p>
-</blockquote>
-<h4 id="「正在重新沦为工具的社会」"><a href="#「正在重新沦为工具的社会」" class="headerlink" title="「正在重新沦为工具的社会」"></a>「正在重新沦为工具的社会」</h4><blockquote>
-<p>工业的发展将社会变为一个巨大的机器，它不仅没有使人类得到解放，而且缩小了人类能够自我掌控的空间，为他们规定了什么是他们应该追求的目标，他们应该如何达成这样的目标。生产不再是为我们服务，我们倒过来为生产服务。因为一切类型的服务都有专业化的趋势，我们无法再承担起服务的责任，自行决定我们的需求，并且自己实现需求的满足：在所有的事情上，我们都取决于「让人濒于瘫痪的专业性」</p>
-</blockquote>
-<h4 id="孤独"><a href="#孤独" class="headerlink" title="孤独"></a>孤独</h4><blockquote>
-<p>我曾经想要相信我们的一切都是共同的，但是当你沉浸在痛苦中的时候，你却是那么孤独。</p>
-</blockquote>
-<h4 id="医学与疾病"><a href="#医学与疾病" class="headerlink" title="医学与疾病"></a>医学与疾病</h4><blockquote>
-<p>…… 你拒绝对镇痛剂的习惯和依赖。你决定由自己来承担你的身体，你的疾病和你的健康；决定将生活的权力收归己有，而不是听凭医学科学技术来影响你，影响你的身体。你不了解医学，可同时，你却因为遭遇了所谓医学体系的恶意而倍受伤害，于是你与一个国际病友互助组织取得了联系，就是想相互交换信息和建议的那种。你开始练瑜伽。你控制自己的身体，通过古老的自律方式来排遣病痛。在你看来，能够理解自己的疾病，并且由自己来负责，是唯一不受它、不受专家控制的方式，这是那些所谓的「砖家」把你变成了一台只会吞药的被动机器疾病。</p>
-<p>你的疾病将你带回了生态领域和技术批判领域。而当我为报纸准备写关于药物选择的专刊时，我也一直在想你的问题。在我看来，医药技术是福柯日后称之为「生物权利」的一种特殊形式。在这种权力中，技术控制已经直接影响到最为私密的，人和自身的关系。</p>
-</blockquote>
-<h4 id="沉默"><a href="#沉默" class="headerlink" title="沉默"></a>沉默</h4><blockquote>
-<p>在沉默中你是那么美，那么坚决，我根本无法想象你能够放弃生命。</p>
-</blockquote>
-<h4 id="富有与贫瘠"><a href="#富有与贫瘠" class="headerlink" title="富有与贫瘠"></a>富有与贫瘠</h4><blockquote>
-<p>生态在不断要求促进另一种文明的同时成了一种生活方式，一种日常的实践。我已经到了思考一生都做过些什么，原本是想做什么的年龄。我觉得我并不曾真正地生活过，我总是站在一定的距离之外观察我的生命，只拓展了自己的某一个侧面，作为个人，我是贫瘠的。而你一直以来都比我富有，你在所有空间里盛开。你的生活处于同一水平，而我却总是匆匆地奔赴下一项任务，仿佛我们的生活永远只能在稍后才真正开始。</p>
-</blockquote>
-<h4 id="在一起"><a href="#在一起" class="headerlink" title="在一起"></a>在一起</h4><blockquote>
-<p>我还记得我曾经写信给 E.，说归根到底只有一件事对我来说是最主要的：那就是和你在一起。</p>
-</blockquote>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">译者 <a href="http://faculty.ecnu.edu.cn/s/1654/main.jspy" target="_blank" rel="external">袁筱一</a> 是南京大学文学博士，华东师范大学外语学院院长。同样是翻译法语原文，比冯克利翻译的「乌合之众」不知高到哪里去了。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">当书中出现文学的时候，我总是自动替换为代码。毕竟嚷嚷着自己是 “ A poet, Coding is my language ”<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">不太清楚法语原文，估计类似于英文中的 Shelter - 「一个遮风避雨的安身之所」<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://www.zhihu.com/question/20875474/answer/16603385" target="_blank" rel="external">知乎最著名答案之一</a><a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">「逻辑哲学论」- 维特根斯坦<a href="#fnref:5" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本文是对 André Gorz 所著 Lettre à D. Histoire d’un amour 中译版的摘抄，部分语句进行了修改。&lt;a href=&quot;https://book.douban.com/subject/4313207/&quot;&gt;此版本&lt;/a&gt;翻译极其流畅，译者序亦文采飞扬&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;译者 [袁筱一](http://faculty.ecnu.edu.cn/s/1654/main.jspy) 是南京大学文学博士，华东师范大学外语学院院长。同样是翻译法语原文，比冯克利翻译的「乌合之众」不知高到哪里去了。&quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;。很少有什么小册子可以令 @notlsd 一见钟情。「致 D」算是一本，对爱情，对文学&lt;sup id=&quot;fnref:2&quot;&gt;&lt;a href=&quot;#fn:2&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;当书中出现文学的时候，我总是自动替换为代码。毕竟嚷嚷着自己是 “ A poet, Coding is my language ” &quot;&gt;[2]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt;，甚至对现代社会的态度都仿佛是 @notlsd 生在了「五月风暴」时的法国。&lt;/p&gt;
     
     </summary>
     
