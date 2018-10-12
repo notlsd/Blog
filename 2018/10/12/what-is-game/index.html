@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Description-->
+    
+        <meta name="description" content="Before building a game, there’s a significance to understand “What is Game”. And “Game Maker Studio 2” (abbr. GMS) is @notlsd’s favourite game engine, the game engine’s architecture is a clue to understand this meta-question of game design. Some basic knowledge of GMS is good to understand but not required.">
+    
+
+    <!--Author-->
+    
+        <meta name="author" content="LIU Sida">
+    
+
+    <!--Open Graph Title-->
+    
+        <meta property="og:title" content="What is Game - An Inspiration from GMS Archetechture"/>
+    
+
+    <!--Open Graph Description-->
+    
+
+    <!--Open Graph Site Name-->
+    <meta property="og:site_name" content="Not LSD"/>
+
+    <!--Type page-->
+    
+        <meta property="og:type" content="article" />
+    
+
+    <!--Page Cover-->
+    
+
+    <meta name="twitter:card" content="summary" />
+    
+
+    <!-- Title -->
+    
+    <title>What is Game - An Inspiration from GMS Archetechture - Not LSD</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="//oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="//oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Gallery -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.css" type="text/css" rel="stylesheet" />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+
+    <!-- Google Analytics -->
+    
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-93818123-1', 'auto');
+        ga('send', 'pageview');
+
+    </script>
+
+
+
+</head>
+
+
+<body>
+
+<div class="bg-gradient"></div>
+<div class="bg-pattern"></div>
+
+<!-- Menu -->
+<!--Menu Links and Overlay-->
+<div class="menu-bg">
+    <div class="menu-container">
+        <ul>
+            
+            <li class="menu-item">
+                <a href="/">
+                    Home
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/Resume2017.pdf">
+                    Résumé
+                </a>
+            </li>
+            
+            <li class="menu-item">
+                <a href="/archives">
+                    Archives
+                </a>
+            </li>
+            
+        </ul>
+    </div>
+</div>
+
+<!--Hamburger Icon-->
+<nav>
+    <a href="#menu"></a>
+</nav>
+
+<div class="container">
+
+    <!-- Main Content -->
+    <div class="row">
+    <div class="col-sm-12">
+
+        <!--Title and Logo-->
+        <header>
+    <div class="logo">
+        <a href="/"><i class="logo-icon fa fa-cube" aria-hidden="true"></i></a>
+        
+    </div>
+</header>
+
+        <section class="main">
+            
+<div class="post">
+
+    <div class="post-header">
+        <h1 class="title">
+            <a href="/2018/10/12/what-is-game/">
+                What is Game - An Inspiration from GMS Archetechture
+            </a>
+        </h1>
+        <div class="post-info">
+            
+                <span class="date">2018-10-12</span>
+            
+            
+            
+                <span class="category">
+                    <a href="/categories/拆游戏/">拆游戏</a>
+                </span>
+            
+        </div>
+    </div>
+
+    <div class="content">
+
+        <!-- Gallery -->
+        
+
+        <!-- Post Content -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Before building a game, there’s a significance to understand “What is Game”. And “Game Maker Studio 2” (abbr. GMS) is @notlsd’s favourite game engine, the game engine’s architecture is a clue to understand this meta-question of game design. Some basic knowledge of GMS is good to understand but not required.</p>
+<a id="more"></a>
+<h3 id="Definition-of-game-from-“Rules-of-play-Game-design-fundamentals”-by-Salen-amp-Zimmerman"><a href="#Definition-of-game-from-“Rules-of-play-Game-design-fundamentals”-by-Salen-amp-Zimmerman" class="headerlink" title="Definition of game from “Rules of play : Game design fundamentals” by Salen &amp; Zimmerman"></a>Definition of game from “Rules of play : Game design fundamentals” by Salen &amp; Zimmerman</h3><blockquote>
+<p>A game is a system in which players engage in an artificial conflict, defined by rules, that results in a quantifiable outcome.</p>
+</blockquote>
+<p>This is one of the most widely recgonized academic definition of game. The key words there are <strong><em>SYSTEM / PLAYER / ARTIFICIAL CONFLICT / RULES / QUANTIFIABLE OUTCOM</em></strong>. We will compare it with GMS equation latter.</p>
+<h3 id="The-GMS’s-equation"><a href="#The-GMS’s-equation" class="headerlink" title="The GMS’s equation"></a>The GMS’s equation</h3><p><img src="/2018/10/12/what-is-game/Users/notlsd/Documents/game/GMS-Equation.png" alt=""></p>
+<p>These is the last page of the first chapter of official guide of <a href="https://www.youtube.com/watch?v=ubvrKQlI_1A" target="_blank" rel="external">GameMaker Studio 2</a> which introduces some basic configuration of GMS engine.</p>
+<h3 id="A-Graph-Definition-by-notlsd"><a href="#A-Graph-Definition-by-notlsd" class="headerlink" title="A Graph Definition by @notlsd"></a>A Graph Definition by @notlsd</h3><p><img src="/2018/10/12/what-is-game/Users/notlsd/Documents/game/General-Game-Architecture.png" alt="General-Game-Architecture"><span class="imgTitle">General-Game-Architecture</span></p>
+<p>The graph is drawn by pseudo-UML language, which defines a game, more specifically, one cell of a game, normally a level.</p>
+<p><strong><em>A game is one or more rooms under level-up conditions which includes sprites under event-action response</em></strong></p>
+<h3 id="Five-Key-Words-A-Detailed-Comparison-Between-Two-Definitions"><a href="#Five-Key-Words-A-Detailed-Comparison-Between-Two-Definitions" class="headerlink" title="Five Key Words - A Detailed Comparison Between Two Definitions"></a>Five Key Words - A Detailed Comparison Between Two Definitions</h3><ul>
+<li>ARTIFICIAL CONFLICT - Game design’s boundary </li>
+</ul>
+<p>There is a boundary in game design, which inside we call it a game. In other words, there is a clear deference we can distinguish an item whether in the game. In the boundary, is the artificial conflict which game designer have built<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="There is still a very clear boundry in AR / VR game, in other word we can clearly tell if we are in the game.
+">[1]</span></a></sup>. We call SYSTEM but more specifically ,it should be called boundry. “Finite-infinite games” inside system</p>
+<ul>
+<li>SYSTEM - Series of LEVEL-UP ROOMS</li>
+</ul>
+<p>Inside the boundary, the game designer have built systems. More specifically, we use system to implement previous artificial conflict, via programmer’s terminology “system is instantiation of artificial conflict”. </p>
+<p>The system consists a series of rooms in which contains one special envent-action response<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="We will discuss it detailly in " rules"="" section="" "="">[2]</span></a></sup>. As game going on, status in different rooms have been leveled up gradually. In extremely simple condition, game only consists one room and level-up just in that room.</p>
+<ul>
+<li>PLAYER - Human or Artificial SPIRITS</li>
+</ul>
+<p>According to Wikipedia </p>
+<p>It’s a little sophisticated about the important role sprites plays in game design. Mario is the sprite in Super Mario Bros; Pikachu is a sprites in Pokémon. It’s too important that Apple names iOS game design framework SpriteKit.</p>
+<p>In programming, player is sprits. These players can be controlled by Human which is player button in player’s view, or controlled by A.I. which simply called NPC (Non-player-contolled).</p>
+<ul>
+<li>RULES - EVENT-ACTION Response</li>
+</ul>
+<p>GMS is using Event-Action to represent basic game logic.  As we mentioned earlier the core difference between rooms is the different event-action response they contains</p>
+<p>The following is one of definitions in Wbester-Meriate’s dictionary of word “Play”, more specificaly the 4c item </p>
+<blockquote>
+<p>to perform an action during one’s turn in a game</p>
+</blockquote>
+<p>In the system the player plays. The key concept of “play” itself is to perform some action to respond some event, In Tetris when bricks drops off, the player move it, In Civilization player respond to massive number of event from “Declaration of War” to “Change Production Queue”</p>
+<ul>
+<li>QUANTIFIABLE OUTCOM - LEVEL-UP of everything</li>
+</ul>
+<p>Quantifiable outcom is the connection to everything in the game. The gaming terminology is “Level-up”. During the game process, players and enenimis are all become stronger. And if you cannot level up enough, you lose. These stepped level-up is the source of game’s rythms. </p>
+<h3 id="Instances-Analysis-Tetris-•-Civilization-•-Overwatch-•-Go"><a href="#Instances-Analysis-Tetris-•-Civilization-•-Overwatch-•-Go" class="headerlink" title="Instances Analysis - Tetris • Civilization • Overwatch • Go"></a>Instances Analysis - Tetris • Civilization • Overwatch • Go</h3><table>
+<thead>
+<tr>
+<th style="text-align:center">Game</th>
+<th style="text-align:center">Type</th>
+<th style="text-align:center">Room</th>
+<th style="text-align:center">Sprite</th>
+<th style="text-align:center">Event</th>
+<th style="text-align:center">Action</th>
+<th style="text-align:center">Quantitive Level Up</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tetris</td>
+<td style="text-align:center">Puzzle</td>
+<td style="text-align:center">Display box</td>
+<td style="text-align:center">Bricks</td>
+<td style="text-align:center">Dropping Bricks</td>
+<td style="text-align:center">Moving Bricks</td>
+<td style="text-align:center">Count of Elemination</td>
+</tr>
+<tr>
+<td style="text-align:center">Civilization</td>
+<td style="text-align:center">TBS</td>
+<td style="text-align:center">Geographic Map</td>
+<td style="text-align:center">Cities • Units</td>
+<td style="text-align:center">Turn-based Event</td>
+<td style="text-align:center">Player’s action</td>
+<td style="text-align:center">Culture • Food • Gold • Happiness • Production • Religion • Science • Tourism • Population etc</td>
+</tr>
+<tr>
+<td style="text-align:center">Overwatch<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Thanks to @Banaive for information about Overwatch">[4]</span></a></sup></td>
+<td style="text-align:center">FPS</td>
+<td style="text-align:center">Artificial Map</td>
+<td style="text-align:center">Hero</td>
+<td style="text-align:center">Others’ Action</td>
+<td style="text-align:center">Heros’ Action</td>
+<td style="text-align:center">Ultimate</td>
+</tr>
+<tr>
+<td style="text-align:center">Slay the Spire</td>
+<td style="text-align:center">Card</td>
+<td style="text-align:center">Battlefiled Box • Map</td>
+<td style="text-align:center">Player • Enemy</td>
+<td style="text-align:center">Enemy’s Action</td>
+<td style="text-align:center">Player’s Action</td>
+<td style="text-align:center">Coins • Relic • Card</td>
+</tr>
+<tr>
+<td style="text-align:center">Go</td>
+<td style="text-align:center">Board</td>
+<td style="text-align:center">Go board</td>
+<td style="text-align:center">Go stone</td>
+<td style="text-align:center">Enemy Play Stone</td>
+<td style="text-align:center">Play stone</td>
+<td style="text-align:center">Territory</td>
+</tr>
+</tbody>
+</table>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">There is still a very clear boundry in AR / VR game, in other word we can clearly tell if we are in the game.<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">We will discuss it detailly in &quot;RULES&quot; section<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">&gt; In computer graphics, a sprite is a two-dimensional bitmap that is integrated into a larger scene.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Sprite_(computer_graphics" target="_blank" rel="external">https://en.wikipedia.org/wiki/Sprite_(computer_graphics</a>)<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Thanks to @Banaive for information about Overwatch<a href="#fnref:4" rev="footnote"> ↩</a></span></li></ol></div></div>
+    </div>
+
+    
+
+    
+
+    <!-- Comments -->
+    
+
+</div>
+        </section>
+
+    </div>
+</div>
+
+</div>
+
+<!-- Footer -->
+<div class="push"></div>
+
+<footer class="footer-content">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-3 col-lg-3 footer-about">
+                <h2>About</h2>
+                <p>
+                    LIU Sida is an iOS developer under the name of one-man game studio Gamearning. Knowledge can be expressed &nbsp &nbsp by games. 
+                </p>
+            </div>
+            
+    <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6 recent-posts">
+        <h2>Recent Posts</h2>
+        <ul>
+            
+            <li>
+                <a class="footer-post" href="/2018/10/12/what-is-game/">What is Game - An Inspiration from GMS Archetechture</a>
+            </li>
+            
+            <li>
+                <a class="footer-post" href="/2018/09/03/state-machine-reigns/">state machine reigns</a>
+            </li>
+            
+            <li>
+                <a class="footer-post" href="/2018/08/17/wearing-glasses/">「佩戴」还是「配戴」？这是个问题</a>
+            </li>
+            
+            <li>
+                <a class="footer-post" href="/2018/08/03/alibaba-tencent-morgan-rockefeller/">阿里巴巴 &amp; 腾讯 -「新时代」的摩根 &amp; 洛克菲勒</a>
+            </li>
+            
+            <li>
+                <a class="footer-post" href="/2018/07/03/asimov-foundation-series-end/">Trevize and Fallom - An Etymological Interpretation of the End of Asimov&#39;s Foundation Series</a>
+            </li>
+            
+            <li>
+                <a class="footer-post" href="/2018/06/24/travel-frog-lifeline/">强制性等待与拖延的乐趣 - Lifeline 旅かえる 共同的设计原理</a>
+            </li>
+            
+            <li>
+                <a class="footer-post" href="/2018/05/29/japan-1990s-china-2020s/">绕不开的房价：日本的 1990s 与中国的 2020s</a>
+            </li>
+            
+            <li>
+                <a class="footer-post" href="/2017/07/14/the-fat-and-the-thin/">胖子与瘦子</a>
+            </li>
+            
+        </ul>
+    </div>
+
+
+            
+<div class="col-xs-6 col-sm-6 col-md-3 col-lg-3 footer-categories">
+    <h2>Categories</h2>
+    <ul>
+        
+        <li>
+            <a class="footer-post" href="/categories/iOS-101/">iOS 101</a>
+        </li>
+        
+        <li>
+            <a class="footer-post" href="/categories/技术栈/">技术栈</a>
+        </li>
+        
+        <li>
+            <a class="footer-post" href="/categories/搭基建/">搭基建</a>
+        </li>
+        
+        <li>
+            <a class="footer-post" href="/categories/科学家/">科学家</a>
+        </li>
+        
+        <li>
+            <a class="footer-post" href="/categories/万卷书/">万卷书</a>
+        </li>
+        
+        <li>
+            <a class="footer-post" href="/categories/产品论/">产品论</a>
+        </li>
+        
+        <li>
+            <a class="footer-post" href="/categories/春秋笔/">春秋笔</a>
+        </li>
+        
+        <li>
+            <a class="footer-post" href="/categories/考据癖/">考据癖</a>
+        </li>
+        
+        <li>
+            <a class="footer-post" href="/categories/拆游戏/">拆游戏</a>
+        </li>
+        
+        <li>
+            <a class="footer-post" href="/categories/环滇骑迹/">环滇骑迹</a>
+        </li>
+        
+    </ul>
+</div>
+
+
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <ul class="list-inline footer-social-icons">
+                    
+                    <li class="list-inline-item">
+                        <a href="https://github.com/notlsd">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-github"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="mailto:iamliusida@gmail.com">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-envelope-o"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    <li class="list-inline-item">
+                        <a href="https://notlsd.github.io/atom.xml">
+                            <span class="footer-icon-container">
+                                <i class="fa fa-rss"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                <div class="footer-copyright">
+                    © LIU Sida. All Rights Reserved | Powered by <a href="https://hexo.io/">Hexo</a> with <a href="https://github.com/klugjo/hexo-theme-alpha-dust">AlphaDust</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- After footer scripts -->
+
+<!-- jQuery -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+
+<!-- Tween Max -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/gsap/1.18.5/TweenMax.min.js"></script>
+
+<!-- Gallery -->
+<script src="//cdnjs.cloudflare.com/ajax/libs/featherlight/1.3.5/featherlight.min.js" type="text/javascript" charset="utf-8"></script>
+
+<!-- Custom JavaScript -->
+<script src="/js/main.js"></script>
+
+<!-- Disqus Comments -->
+
+
+
+</body>
+
+</html>

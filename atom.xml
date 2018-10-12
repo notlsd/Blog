@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://notlsd.com/"/>
-  <updated>2018-08-17T01:29:12.980Z</updated>
+  <updated>2018-10-12T04:06:10.371Z</updated>
   <id>http://notlsd.com/</id>
   
   <author>
@@ -14,6 +14,144 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>What is Game - An Inspiration from GMS Archetechture</title>
+    <link href="http://notlsd.com/2018/10/12/what-is-game/"/>
+    <id>http://notlsd.com/2018/10/12/what-is-game/</id>
+    <published>2018-10-12T04:00:39.000Z</published>
+    <updated>2018-10-12T04:06:10.371Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Before building a game, there’s a significance to understand “What is Game”. And “Game Maker Studio 2” (abbr. GMS) is @notlsd’s favourite game engine, the game engine’s architecture is a clue to understand this meta-question of game design. Some basic knowledge of GMS is good to understand but not required.</p>
+<a id="more"></a>
+<h3 id="Definition-of-game-from-“Rules-of-play-Game-design-fundamentals”-by-Salen-amp-Zimmerman"><a href="#Definition-of-game-from-“Rules-of-play-Game-design-fundamentals”-by-Salen-amp-Zimmerman" class="headerlink" title="Definition of game from “Rules of play : Game design fundamentals” by Salen &amp; Zimmerman"></a>Definition of game from “Rules of play : Game design fundamentals” by Salen &amp; Zimmerman</h3><blockquote>
+<p>A game is a system in which players engage in an artificial conflict, defined by rules, that results in a quantifiable outcome.</p>
+</blockquote>
+<p>This is one of the most widely recgonized academic definition of game. The key words there are <strong><em>SYSTEM / PLAYER / ARTIFICIAL CONFLICT / RULES / QUANTIFIABLE OUTCOM</em></strong>. We will compare it with GMS equation latter.</p>
+<h3 id="The-GMS’s-equation"><a href="#The-GMS’s-equation" class="headerlink" title="The GMS’s equation"></a>The GMS’s equation</h3><p><img src="/2018/10/12/what-is-game/Users/notlsd/Documents/game/GMS-Equation.png" alt=""></p>
+<p>These is the last page of the first chapter of official guide of <a href="https://www.youtube.com/watch?v=ubvrKQlI_1A" target="_blank" rel="external">GameMaker Studio 2</a> which introduces some basic configuration of GMS engine.</p>
+<h3 id="A-Graph-Definition-by-notlsd"><a href="#A-Graph-Definition-by-notlsd" class="headerlink" title="A Graph Definition by @notlsd"></a>A Graph Definition by @notlsd</h3><p><img src="/2018/10/12/what-is-game/Users/notlsd/Documents/game/General-Game-Architecture.png" alt="General-Game-Architecture"><span class="imgTitle">General-Game-Architecture</span></p>
+<p>The graph is drawn by pseudo-UML language, which defines a game, more specifically, one cell of a game, normally a level.</p>
+<p><strong><em>A game is one or more rooms under level-up conditions which includes sprites under event-action response</em></strong></p>
+<h3 id="Five-Key-Words-A-Detailed-Comparison-Between-Two-Definitions"><a href="#Five-Key-Words-A-Detailed-Comparison-Between-Two-Definitions" class="headerlink" title="Five Key Words - A Detailed Comparison Between Two Definitions"></a>Five Key Words - A Detailed Comparison Between Two Definitions</h3><ul>
+<li>ARTIFICIAL CONFLICT - Game design’s boundary </li>
+</ul>
+<p>There is a boundary in game design, which inside we call it a game. In other words, there is a clear deference we can distinguish an item whether in the game. In the boundary, is the artificial conflict which game designer have built<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="There is still a very clear boundry in AR / VR game, in other word we can clearly tell if we are in the game.
+">[1]</span></a></sup>. We call SYSTEM but more specifically ,it should be called boundry. “Finite-infinite games” inside system</p>
+<ul>
+<li>SYSTEM - Series of LEVEL-UP ROOMS</li>
+</ul>
+<p>Inside the boundary, the game designer have built systems. More specifically, we use system to implement previous artificial conflict, via programmer’s terminology “system is instantiation of artificial conflict”. </p>
+<p>The system consists a series of rooms in which contains one special envent-action response<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="We will discuss it detailly in " rules"="" section="" "="">[2]</span></a></sup>. As game going on, status in different rooms have been leveled up gradually. In extremely simple condition, game only consists one room and level-up just in that room.</p>
+<ul>
+<li>PLAYER - Human or Artificial SPIRITS</li>
+</ul>
+<p>According to Wikipedia </p>
+<p>It’s a little sophisticated about the important role sprites plays in game design. Mario is the sprite in Super Mario Bros; Pikachu is a sprites in Pokémon. It’s too important that Apple names iOS game design framework SpriteKit.</p>
+<p>In programming, player is sprits. These players can be controlled by Human which is player button in player’s view, or controlled by A.I. which simply called NPC (Non-player-contolled).</p>
+<ul>
+<li>RULES - EVENT-ACTION Response</li>
+</ul>
+<p>GMS is using Event-Action to represent basic game logic.  As we mentioned earlier the core difference between rooms is the different event-action response they contains</p>
+<p>The following is one of definitions in Wbester-Meriate’s dictionary of word “Play”, more specificaly the 4c item </p>
+<blockquote>
+<p>to perform an action during one’s turn in a game</p>
+</blockquote>
+<p>In the system the player plays. The key concept of “play” itself is to perform some action to respond some event, In Tetris when bricks drops off, the player move it, In Civilization player respond to massive number of event from “Declaration of War” to “Change Production Queue”</p>
+<ul>
+<li>QUANTIFIABLE OUTCOM - LEVEL-UP of everything</li>
+</ul>
+<p>Quantifiable outcom is the connection to everything in the game. The gaming terminology is “Level-up”. During the game process, players and enenimis are all become stronger. And if you cannot level up enough, you lose. These stepped level-up is the source of game’s rythms. </p>
+<h3 id="Instances-Analysis-Tetris-•-Civilization-•-Overwatch-•-Go"><a href="#Instances-Analysis-Tetris-•-Civilization-•-Overwatch-•-Go" class="headerlink" title="Instances Analysis - Tetris • Civilization • Overwatch • Go"></a>Instances Analysis - Tetris • Civilization • Overwatch • Go</h3><table>
+<thead>
+<tr>
+<th style="text-align:center">Game</th>
+<th style="text-align:center">Type</th>
+<th style="text-align:center">Room</th>
+<th style="text-align:center">Sprite</th>
+<th style="text-align:center">Event</th>
+<th style="text-align:center">Action</th>
+<th style="text-align:center">Quantitive Level Up</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Tetris</td>
+<td style="text-align:center">Puzzle</td>
+<td style="text-align:center">Display box</td>
+<td style="text-align:center">Bricks</td>
+<td style="text-align:center">Dropping Bricks</td>
+<td style="text-align:center">Moving Bricks</td>
+<td style="text-align:center">Count of Elemination</td>
+</tr>
+<tr>
+<td style="text-align:center">Civilization</td>
+<td style="text-align:center">TBS</td>
+<td style="text-align:center">Geographic Map</td>
+<td style="text-align:center">Cities • Units</td>
+<td style="text-align:center">Turn-based Event</td>
+<td style="text-align:center">Player’s action</td>
+<td style="text-align:center">Culture • Food • Gold • Happiness • Production • Religion • Science • Tourism • Population etc</td>
+</tr>
+<tr>
+<td style="text-align:center">Overwatch<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Thanks to @Banaive for information about Overwatch">[4]</span></a></sup></td>
+<td style="text-align:center">FPS</td>
+<td style="text-align:center">Artificial Map</td>
+<td style="text-align:center">Hero</td>
+<td style="text-align:center">Others’ Action</td>
+<td style="text-align:center">Heros’ Action</td>
+<td style="text-align:center">Ultimate</td>
+</tr>
+<tr>
+<td style="text-align:center">Slay the Spire</td>
+<td style="text-align:center">Card</td>
+<td style="text-align:center">Battlefiled Box • Map</td>
+<td style="text-align:center">Player • Enemy</td>
+<td style="text-align:center">Enemy’s Action</td>
+<td style="text-align:center">Player’s Action</td>
+<td style="text-align:center">Coins • Relic • Card</td>
+</tr>
+<tr>
+<td style="text-align:center">Go</td>
+<td style="text-align:center">Board</td>
+<td style="text-align:center">Go board</td>
+<td style="text-align:center">Go stone</td>
+<td style="text-align:center">Enemy Play Stone</td>
+<td style="text-align:center">Play stone</td>
+<td style="text-align:center">Territory</td>
+</tr>
+</tbody>
+</table>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">There is still a very clear boundry in AR / VR game, in other word we can clearly tell if we are in the game.<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">We will discuss it detailly in &quot;RULES&quot; section<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">&gt; In computer graphics, a sprite is a two-dimensional bitmap that is integrated into a larger scene.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Sprite_(computer_graphics" target="_blank" rel="external">https://en.wikipedia.org/wiki/Sprite_(computer_graphics</a>)<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Thanks to @Banaive for information about Overwatch<a href="#fnref:4" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Before building a game, there’s a significance to understand “What is Game”. And “Game Maker Studio 2” (abbr. GMS) is @notlsd’s favourite game engine, the game engine’s architecture is a clue to understand this meta-question of game design. Some basic knowledge of GMS is good to understand but not required.&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="拆游戏" scheme="http://notlsd.com/categories/%E6%8B%86%E6%B8%B8%E6%88%8F/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>state machine reigns</title>
+    <link href="http://notlsd.com/2018/09/03/state-machine-reigns/"/>
+    <id>http://notlsd.com/2018/09/03/state-machine-reigns/</id>
+    <published>2018-09-03T08:49:24.000Z</published>
+    <updated>2018-09-03T08:49:24.778Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a>]]></content>
+    
+    <summary type="html">
+    
+      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>「佩戴」还是「配戴」？这是个问题</title>
@@ -86,7 +224,7 @@
     <link href="http://notlsd.com/2018/08/03/alibaba-tencent-morgan-rockefeller/"/>
     <id>http://notlsd.com/2018/08/03/alibaba-tencent-morgan-rockefeller/</id>
     <published>2018-08-02T16:37:22.000Z</published>
-    <updated>2018-08-21T10:20:38.812Z</updated>
+    <updated>2018-08-21T15:58:42.816Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="引言：从-1918-到-2018"><a href="#引言：从-1918-到-2018" class="headerlink" title="引言：从 1918 到 2018"></a>引言：从 1918 到 2018</h3><p>下表是 <a href="https://www.forbes.com/sites/chasewithorn/2017/09/19/the-first-forbes-list-see-who-the-richest-americans-were-in-1918/#15dec5494c0d" target="_blank" rel="external">Forbes 美国 1918 的排名</a>，常有人说，中国仿佛「进步时代」的美国<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="@notlsd 倒不觉得，觉得更像「广场协议」之前的日本，参见 [这篇文章](https://notlsd.github.io/2018/05/29/japan-1990s-china-2020s/)">[1]</span></a></sup>，比照 <a href="https://www.forbes.com/china-billionaires/list/" target="_blank" rel="external">Forbes 中国 2018 最新的排名</a><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="表单上第十三 J.P.Morgan Jr. 是 J.P.Morgan 的儿子，史学家通常将 J.P.Morgan 于 1913 去世称之为「摩根财团」衰败的起点，1918 已远非巅峰。">[2]</span></a></sup>，从中或许可以窥之一二。</p>
 <a id="more"></a>
@@ -138,7 +276,7 @@
 <th style="text-align:center">原料</th>
 <th style="text-align:center">过程消耗资源</th>
 <th style="text-align:center">与资金的接口</th>
-<th style="text-align:center">P2P 通信 <sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="本节的思考框架来自于「联想之星」合伙人李明老师在「42章经」的分享">[4]</span></a></sup></th>
+<th style="text-align:center">P2P 通信 <sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="peer-to-peer / person-to-person 翻译成中文就变成了「人间通讯」......">[4]</span></a></sup></th>
 <th style="text-align:center">硬件基础</th>
 </tr>
 </thead>
@@ -184,7 +322,7 @@
 </tr>
 </tbody>
 </table>
-<p>在工业时代，这些 Infrastructure 都是国家的垄断行为，甚至 Infrastructure 这个词本身就是国家权力的象征，如同 <a href="https://www.aiib.org/en/index.html" target="_blank" rel="external">AIIB</a> 的名称所暗示的那样。<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="peer-to-peer / person-to-person 翻译成中文就变成了「人间通讯」......">[5]</span></a></sup></p>
+<p>在工业时代，这些 Infrastructure 都是国家的垄断行为，甚至 Infrastructure 这个词本身就是国家权力的象征，如同 <a href="https://www.aiib.org/en/index.html" target="_blank" rel="external">AIIB</a> 的名称所暗示的那样。<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="本节的思考框架来自于「联想之星」合伙人李明老师 2018.4.15 在「42章经」的分享">[5]</span></a></sup></p>
 <h3 id="从基建到税收"><a href="#从基建到税收" class="headerlink" title="从基建到税收"></a>从基建到税收</h3><p>前段时间，「腾讯」「阿里巴巴」要做「互联网的水和电」的言论甚嚣尘上，比方说下面的两篇报道：</p>
 <blockquote>
 <p><a href="https://www.digitaling.com/articles/12052.html" target="_blank" rel="external">马化腾：互联网像水和电一样成为「传统行业」</a></p>
@@ -207,7 +345,7 @@
 <p><strong><em>A Charge usually of money which an individual have to pay the ecosystem to ensure its existence within</em></strong> </p>
 <p>勉强翻译为中文，大致如下：</p>
 <p><em>生态系统中的个体不得不向系统所上交的资源以维持自身在系统内的存在</em></p>
-<p>税收永远是最好的商业模式，这也就是<a href="http://guancha.gmw.cn/2017-06/27/content_24906544.htm" target="_blank" rel="external">史上最牛创业团队</a>定义的由来。VC 最喜欢的永远是「轻资产的大平台」，这样才能以最低的成本收税，从 FANNG 到 BAT 再到 TMD<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="[沃尔玛和微软联手阻击亚马逊也是一部好戏](https://36kr.com/p/5144607.html)">[7]</span></a></sup> 莫不如此。</p>
+<p>税收永远是最好的商业模式，这也就是<a href="http://guancha.gmw.cn/2017-06/27/content_24906544.htm" target="_blank" rel="external">史上最牛创业团队</a>定义的由来。VC 最喜欢的永远是「轻资产的大平台」，这样才能以最低的成本收税，从 FANNG 到 BAT 再到 TMD<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="FANNG = Facebook + Amazon + Apple + Netflix + Google ; BAT = Baidu + Alibaba + Tencent ; TMD = 今日头条 + 美团 + 滴滴">[6]</span></a></sup> 莫不如此。</p>
 <ul>
 <li>三个例子：苹果税；阿里税；腾讯税</li>
 </ul>
@@ -253,7 +391,7 @@
 <td style="text-align:center">传统商业</td>
 <td style="text-align:center">集市</td>
 <td style="text-align:center">商业地产</td>
-<td style="text-align:center">沃尔玛<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="这只是个十分粗糙的，在数量级层面上有效的统计，数据来源 [Myip.ms](https://myip.ms/)">[8]</span></a></sup></td>
+<td style="text-align:center">沃尔玛<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="[沃尔玛和微软联手阻击亚马逊也是一部好戏](https://36kr.com/p/5144607.html)">[7]</span></a></sup></td>
 </tr>
 </tbody>
 </table>
@@ -354,7 +492,7 @@
 <p>Update Log 1.0 初始文章<br>Update Log 1.1 压缩图片<br>Update Log 1.2 内容增删，主要在「尾声：冷战」一节<br>Update Log 1.3 拼写错误修正，感谢 @Oasis_Bi</p>
 <h3 id="这其实是一篇软文"><a href="#这其实是一篇软文" class="headerlink" title="这其实是一篇软文"></a>这其实是一篇软文</h3><p>一句话介绍自己：毕业于北京某工科 985；在上海做过 PM，产品线被砍了；在北京创过业，被投资人坑了。六岁的时候开始看（我妈写的）关于 VC 的论文，不知道有 VC 肯收留不 ?</p>
 <p>请联系 iamliusida [AT] gmail.com，附赠一封为什么适合这个行业的 Cover Letter。</p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">@notlsd 倒不觉得，觉得更像「广场协议」之前的日本，参见 <a href="https://notlsd.github.io/2018/05/29/japan-1990s-china-2020s/" target="_blank" rel="external">这篇文章</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">表单上第十三 J.P.Morgan Jr. 是 J.P.Morgan 的儿子，史学家通常将 J.P.Morgan 于 1913 去世称之为「摩根财团」衰败的起点，1918 已远非巅峰。<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">对于中国特色的 GB 18030 / GBK 2312 编码格式，真的令人想暴粗口，几乎所有的中文编码乱码都是这玩意儿惹的，利用通行的，开放的国际标准怎么就成丧权辱国了 !?<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">本节的思考框架来自于「联想之星」合伙人李明老师在「42章经」的分享<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">peer-to-peer / person-to-person 翻译成中文就变成了「人间通讯」……<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">FANNG = Facebook + Amazon + Apple + Netflix + Google ; BAT = Baidu + Alibaba + Tencent ; TMD = 今日头条 + 美团 + 滴滴<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://36kr.com/p/5144607.html" target="_blank" rel="external">沃尔玛和微软联手阻击亚马逊也是一部好戏</a><a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">这只是个十分粗糙的，在数量级层面上有效的统计，数据来源 <a href="https://myip.ms/" target="_blank" rel="external">Myip.ms</a><a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">引用自 BAI投资副总裁「汪天凡」在「即刻」上的公开言论<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">互联网与冷战中的主要势力：阿里 ≈ 苏联 - 高度集权的帝国；腾讯 ≈ 美国 - 联邦帮主；美团 ≈ 中国 - 合纵连横，终成一极；滴滴 ≈ 印度，「不结盟」的大玩家<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">A General Reference <a href="https://www.yicai.com/news/5316903.html" target="_blank" rel="external">秦朔：当阿里和腾讯成为一种基础设施，它们会通往哪里?</a><a href="#fnref:11" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">@notlsd 倒不觉得，觉得更像「广场协议」之前的日本，参见 <a href="https://notlsd.github.io/2018/05/29/japan-1990s-china-2020s/" target="_blank" rel="external">这篇文章</a><a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">表单上第十三 J.P.Morgan Jr. 是 J.P.Morgan 的儿子，史学家通常将 J.P.Morgan 于 1913 去世称之为「摩根财团」衰败的起点，1918 已远非巅峰。<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">对于中国特色的 GB 18030 / GBK 2312 编码格式，真的令人想暴粗口，几乎所有的中文编码乱码都是这玩意儿惹的，利用通行的，开放的国际标准怎么就成丧权辱国了 !?<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">peer-to-peer / person-to-person 翻译成中文就变成了「人间通讯」……<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">本节的思考框架来自于「联想之星」合伙人李明老师 2018.4.15 在「42章经」的分享<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">FANNG = Facebook + Amazon + Apple + Netflix + Google ; BAT = Baidu + Alibaba + Tencent ; TMD = 今日头条 + 美团 + 滴滴<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://36kr.com/p/5144607.html" target="_blank" rel="external">沃尔玛和微软联手阻击亚马逊也是一部好戏</a><a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">这只是个十分粗糙的，在数量级层面上有效的统计，数据来源 <a href="https://myip.ms/" target="_blank" rel="external">Myip.ms</a><a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">引用自 BAI投资副总裁「汪天凡」在「即刻」上的公开言论<a href="#fnref:9" rev="footnote"> ↩</a></span></li><li id="fn:10"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">10.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">互联网与冷战中的主要势力：阿里 ≈ 苏联 - 高度集权的帝国；腾讯 ≈ 美国 - 联邦帮主；美团 ≈ 中国 - 合纵连横，终成一极；滴滴 ≈ 印度，「不结盟」的大玩家<a href="#fnref:10" rev="footnote"> ↩</a></span></li><li id="fn:11"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">11.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">A General Reference <a href="https://www.yicai.com/news/5316903.html" target="_blank" rel="external">秦朔：当阿里和腾讯成为一种基础设施，它们会通往哪里?</a><a href="#fnref:11" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
     
     <summary type="html">
     
@@ -1647,226 +1785,6 @@
     </summary>
     
       <category term="技术栈" scheme="http://notlsd.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>十二怒局：拆解 Replica</title>
-    <link href="http://notlsd.com/2017/05/27/replica-analysis/"/>
-    <id>http://notlsd.com/2017/05/27/replica-analysis/</id>
-    <published>2017-05-27T09:02:20.000Z</published>
-    <updated>2017-10-23T14:30:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="英文标题应该更有神韵 12 Angry Endings - Replica Dismantled 不过为了标题和内容在语言层面的一致性，还是使用中文">[1]</span></a></sup> 这篇文章拆解了屡获殊荣的独立游戏 Replica。前面三节将 Replica 放到显微镜下去观察，去分析具体的每一个组件是什么，是以什么结构组织起来的。后面三节是作者 @notlsd 对 Replica 游戏设计的的评价。</p>
-<a id="more"></a>
-<p><strong>原文首发于 <a href="www.indienova.com">Indienova</a></strong> </p>
-<h3 id="Replica-故事线"><a href="#Replica-故事线" class="headerlink" title="Replica 故事线"></a>Replica 故事线</h3><p><img src="/2017/05/27/replica-analysis/Replica_Flow_Chart_WL.png" alt="REPLICA 故事线"><span class="imgTitle">REPLICA 故事线</span> </p>
-<h3 id="Replica-密码表"><a href="#Replica-密码表" class="headerlink" title="Replica 密码表"></a>Replica 密码表</h3><table>
-<thead>
-<tr>
-<th style="text-align:center">Lock</th>
-<th style="text-align:center">Key</th>
-<th style="text-align:center">Hint</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">锁屏密码</td>
-<td style="text-align:center">1105</td>
-<td style="text-align:center">Tom 本人生日</td>
-</tr>
-<tr>
-<td style="text-align:center">私密相册</td>
-<td style="text-align:center">1026</td>
-<td style="text-align:center">Tom 和女朋友 Marge 相遇的日子</td>
-</tr>
-<tr>
-<td style="text-align:center">登录 Like</td>
-<td style="text-align:center">1018</td>
-<td style="text-align:center">女朋友 Marge 的生日</td>
-</tr>
-<tr>
-<td style="text-align:center">登录 Follow</td>
-<td style="text-align:center">2255</td>
-<td style="text-align:center">密码找回短信中 BALL / CALL 在九宫格键盘上对应的数字</td>
-</tr>
-<tr>
-<td style="text-align:center">记者电话</td>
-<td style="text-align:center">0987</td>
-<td style="text-align:center">Like 里文章报道结尾的签名信息</td>
-</tr>
-<tr>
-<td style="text-align:center">蓝牙密码</td>
-<td style="text-align:center">1105</td>
-<td style="text-align:center">主线剧情 End 04 结尾 Tom 本人电话</td>
-</tr>
-<tr>
-<td style="text-align:center">莫尔斯码支线电话</td>
-<td style="text-align:center">4989</td>
-<td style="text-align:center">主线剧情 End 04 结尾的莫尔斯电码</td>
-</tr>
-<tr>
-<td style="text-align:center">莫尔斯码支线指令</td>
-<td style="text-align:center">knock</td>
-<td style="text-align:center"><a href="https://www.youtube.com/watch?v=Smwrw4sNCxE" target="_blank" rel="external">电影 The Matrix</a></td>
-</tr>
-</tbody>
-</table>
-<h3 id="Replica-致敬"><a href="#Replica-致敬" class="headerlink" title="Replica 致敬"></a>Replica 致敬</h3><p><strong>[小说] 1984</strong></p>
-<ul>
-<li><p>整体气氛的渲染</p>
-</li>
-<li><p>ENDING 8 : Big Brother Is Watching You</p>
-</li>
-</ul>
-<p><strong>[电影] The Matrix</strong></p>
-<ul>
-<li>整个「莫尔斯码」支线</li>
-</ul>
-<p><strong>[电影] V for Vendetta</strong> </p>
-<ul>
-<li><p>ENDING 10  </p>
-</li>
-<li><p>Tom 的生日 Nov 15th 在电影里是最后的 Big Day。这个是 @notlsd 在游戏中最喜欢的梗。</p>
-</li>
-</ul>
-<p><strong>[动漫] EVA</strong></p>
-<ul>
-<li>ENDING 11 死刑宣判过以后，主角一家的名字会变为「碇真嗣」「碇源堂」「碇唯」，碇一家终于在天堂相遇了</li>
-</ul>
-<p><strong>[游戏] 史丹利的寓言</strong> </p>
-<ul>
-<li>App 430 以及相应成就 <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="除了「史丹利的寓言」没有接触过，其它都是 @notlsd 的大爱">[2]</span></a></sup></li>
-</ul>
-<h3 id="Replica-Pros-and-Cons-3"><a href="#Replica-Pros-and-Cons-3" class="headerlink" title="Replica Pros and Cons [3]"></a>Replica Pros and Cons <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="找不到合适的中文，「利弊」显得诡异">[3]</span></a></sup></h3><h4 id="Pros"><a href="#Pros" class="headerlink" title="Pros"></a>Pros</h4><ul>
-<li><p>「手机中的手机」，Replica 是 @notlsd 所玩过的所有游戏当中，对「手游」这个概念诠释的最好的，没有之一，形式极其有创造力。 Steam 的移植反倒失去了游戏本身的神韵。</p>
-</li>
-<li><p>To Do List 作为任务系统与整个游戏的风格相得益彰，不唐突，营造了沉浸式体验。</p>
-</li>
-<li><p>四位数的电话号码。一方面，一眼就可以认出「电话号码」的性质；另一方面，减少了重复输入的Labour。不同国家的电话号码位数是不一样的，同时减轻了本地化的工作量。</p>
-</li>
-</ul>
-<h4 id="Cons"><a href="#Cons" class="headerlink" title="Cons"></a>Cons</h4><ul>
-<li><p>开机锁屏页面，完全一脸懵逼。游戏购买后，@notlsd 至少在手机里躺了半个月。完全没有新手引导，对新玩家相当不友善。</p>
-</li>
-<li><p>界面是 iOS 系统，但按键却是 Android 手机。这种混搭的感觉，只能说：It’s Weird<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="不排除是为了规避苹果爸爸的审查">[4]</span></a></sup>。</p>
-</li>
-<li><p>剧情过短且 Unbalanced，这一条是最为致命的。这点第一节的故事线流程图反应得很清楚。 </p>
-</li>
-</ul>
-<p>一句话总结，Replica 「形式天才，内容尚缺」。不过考虑到独立游戏的局限性，也可以理解<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="潜台词的意思是，@notlsd 制造的游戏，估计内容上还要单薄些">[5]</span></a></sup>。</p>
-<h3 id="Replica-的技术路线-与-somi-商榷"><a href="#Replica-的技术路线-与-somi-商榷" class="headerlink" title="Replica 的技术路线 - 与 @somi 商榷"></a>Replica 的技术路线 - 与 @somi 商榷</h3><h4 id="像素风-最好的表现形式-？"><a href="#像素风-最好的表现形式-？" class="headerlink" title="像素风 - 最好的表现形式 ？"></a>像素风 - 最好的表现形式 ？</h4><p>囿于成本的限制，独立游戏大量的使用像素风，在大部分的游戏中<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="这里主要指 RPG 和沙盒类游戏">[6]</span></a></sup>反倒别有风味。但在 Replica 这里反倒有些不合适，一方面，App 图标本身的设计难度并不高，甚至可能比像素化还要更容易些；另一方面，像素化后，为了风格的统一性，字体也需要做相应修改。然而，至少在中文的本地化上，因为汉字本身成千上万，本地化不可能专门去做单独的字体。不得不使用标准字体后的，整体风格反倒显得有些诡异。</p>
-<h4 id="Unity3D-最合适的引擎-？"><a href="#Unity3D-最合适的引擎-？" class="headerlink" title="Unity3D - 最合适的引擎 ？"></a>Unity3D - 最合适的引擎 ？</h4><p>Unity3D 引擎的优势自不必说，易上手，能 3D。然而 Replica 是个 2D 游戏，而且也没有任何必要转制为 3D 。更为重要的是，如果 @notlsd 没记错的话，Unity3D 的操作逻辑只有点击，这样下划出现状态栏这样的操作就无法实现。游戏中的解决方案是顶端出现可点击的下拉箭头，只能算是个差强人意的解决方案，仍然破坏了沉浸式的游戏体验。</p>
-<p>既然是模拟手机，更加底层语言不可避免的带来更加真实的模拟。在这个意义上，Apple 自己的 SpriteKit 显然是更好的选择。</p>
-<p>此外，Unity3D 游戏的安装包普遍巨大，这会给手机内存不够的用户带来很大的困扰。</p>
-<h3 id="Replica-的真实世界"><a href="#Replica-的真实世界" class="headerlink" title="Replica 的真实世界"></a>Replica 的真实世界</h3><p>所谓「神作」，虽然是游戏，但更像是真实世界的映射。玩家思考的很大程度上仍然是真实世界。逻辑和这个 <a href="https://www.zhihu.com/question/35539724/answer/88192357" target="_blank" rel="external">@notlsd 的知乎答案</a>，是一致的。  </p>
-<p>先看这个表，游戏中的每一个 App 都是真实世界中影子，看到后可谓会心一笑。</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Mmail</th>
-<th style="text-align:center">Tele</th>
-<th style="text-align:center">ToDo</th>
-<th style="text-align:center">Tele</th>
-<th style="text-align:center">Search</th>
-<th style="text-align:center">Like</th>
-<th style="text-align:center">Follow</th>
-<th style="text-align:center">I’mStar</th>
-<th style="text-align:center">ChatIM</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Gmail</td>
-<td style="text-align:center">Telegram</td>
-<td style="text-align:center">AnyDo</td>
-<td style="text-align:center">Telegram</td>
-<td style="text-align:center">Google</td>
-<td style="text-align:center">Facebook</td>
-<td style="text-align:center">Twitter</td>
-<td style="text-align:center">Instagram</td>
-<td style="text-align:center">WeChat</td>
-</tr>
-</tbody>
-</table>
-<p>更重要的是，游戏中蕴含了大量的「信息安全」和「社会工程学」的概念，或者说，整个游戏就是一场「社会工程学」实践<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="关于「社会工程学」的更详尽说明，参见 [编程君的这一系列帖子](https://program-think.blogspot.com/2009/05/social-engineering-0-overview.html)">[7]</span></a></sup>。</p>
-<ul>
-<li><p>信息安全第一步 <strong>永！远！不！要！用！生！日！做！密！码</strong> 游戏中至少有两个关键性密码是相关人物的生日。</p>
-</li>
-<li><p>更令 @notlsd 惊出一身冷汗的是，游戏中的某一个不起眼的解密方式即是 @notlsd 手机开机密码的加密方式（现已更改），曾经一直以为这是神不知鬼不觉的。</p>
-</li>
-</ul>
-<p>用一句我最喜欢的游戏里的话结尾吧</p>
-<blockquote>
-<p>仅仅是使用 Telegram 和 Gmail 的行为，就足令我们对其进行拘捕调查。他一定有不少的东西要藏着。莫非他妄图对国家造成恐怖主义威胁，否则为什么不使用政府批准的 WeChat 呢？<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="至少这句话的汉化没有体现出原文的神韵，自己重新翻译了一遍，并把游戏中的 App 换为了现实中的本体。英文原文参见注释九。">[8]</span></a></sup> <sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="We can do an arrest investigation just for using Telegram and Mmail. He's got a lot to hide. Why else would he refuse to use government approved ChatIM unless he intended to threaten and terrorize the nation ?">[9]</span></a></sup></p>
-</blockquote>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">英文标题应该更有神韵 12 Angry Endings - Replica Dismantled 不过为了标题和内容在语言层面的一致性，还是使用中文<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">除了「史丹利的寓言」没有接触过，其它都是 @notlsd 的大爱<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">找不到合适的中文，「利弊」显得诡异<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">不排除是为了规避苹果爸爸的审查<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">潜台词的意思是，@notlsd 制造的游戏，估计内容上还要单薄些<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">这里主要指 RPG 和沙盒类游戏<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">关于「社会工程学」的更详尽说明，参见 <a href="https://program-think.blogspot.com/2009/05/social-engineering-0-overview.html" target="_blank" rel="external">编程君的这一系列帖子</a><a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">至少这句话的汉化没有体现出原文的神韵，自己重新翻译了一遍，并把游戏中的 App 换为了现实中的本体。英文原文参见注释九。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">We can do an arrest investigation just for using Telegram and Mmail. He’s got a lot to hide. Why else would he refuse to use government approved ChatIM unless he intended to threaten and terrorize the nation ?<a href="#fnref:9" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;英文标题应该更有神韵 12 Angry Endings - Replica Dismantled 不过为了标题和内容在语言层面的一致性，还是使用中文&quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt; 这篇文章拆解了屡获殊荣的独立游戏 Replica。前面三节将 Replica 放到显微镜下去观察，去分析具体的每一个组件是什么，是以什么结构组织起来的。后面三节是作者 @notlsd 对 Replica 游戏设计的的评价。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="拆游戏" scheme="http://notlsd.com/categories/%E6%8B%86%E6%B8%B8%E6%88%8F/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Quotes from &lt; The Snows of Kilimanjaro &gt;</title>
-    <link href="http://notlsd.com/2017/05/10/quote-snows-of-kilimanjaro/"/>
-    <id>http://notlsd.com/2017/05/10/quote-snows-of-kilimanjaro/</id>
-    <published>2017-05-10T03:25:36.000Z</published>
-    <updated>2017-05-28T09:49:08.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This post is my personal favorite quotes from Ernest Hemingway’s autobiographical novel &lt; THE SNOWS OF KILIMANJARO &gt; .</p>
-<a id="more"></a> 
-<h4 id="Cock-on-a-Dunghill"><a href="#Cock-on-a-Dunghill" class="headerlink" title="Cock on a Dunghill"></a>Cock on a Dunghill</h4><blockquote>
-<p>“Love is a dunghill<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Dung 动物粪便">[1]</span></a></sup>,” said Harry. “And I’m the cock that gets on it to crow.”</p>
-</blockquote>
-<h4 id="Fat-on-the-Soul"><a href="#Fat-on-the-Soul" class="headerlink" title="Fat on the Soul"></a>Fat on the Soul</h4><blockquote>
-<p>They had made this safari with the minimum of comfort. There was no hardship; but there was no luxury and he had thought that he could get back into training that way. That in some way he could work the fat off his soul the way a fighter went into the mountains to work and train in order to burn it out of his body.</p>
-</blockquote>
-<h4 id="Lying-A-Life-Style"><a href="#Lying-A-Life-Style" class="headerlink" title="Lying: A Life Style"></a>Lying: A Life Style</h4><blockquote>
-<p>If he lived by a lie he should try to die by it. </p>
-</blockquote>
-<h4 id="Talent-and-Money-A-Equality"><a href="#Talent-and-Money-A-Equality" class="headerlink" title="Talent and Money: A Equality"></a>Talent and Money: A Equality</h4><blockquote>
-<p>We must all be cut out for what we do, he thought. However you make your living is where your talent lies. He had sold vitality, in one form or another, all his life and when your affections are not too involved you give much better value for the money. </p>
-</blockquote>
-<h4 id="The-old-and-the-New"><a href="#The-old-and-the-New" class="headerlink" title="The old and the New"></a>The old and the New</h4><blockquote>
-<p>The steps by which she had acquired him and the way in which she had finally fallen in love with him were all part of a regular progression in which she had built herself a new life and he had traded away what remained of his old life.</p>
-</blockquote>
-<h4 id="Let’s-Destroy"><a href="#Let’s-Destroy" class="headerlink" title="Let’s Destroy"></a>Let’s Destroy</h4><blockquote><p>“ You wouldn’t want to destroy me again, would you? “  </p>
-</blockquote>
-<blockquote><p>“ I’d like to destroy you a few times in bed. “ he said.</p>
-</blockquote>
-<blockquote><p>“ Yes. That’s the good destruction. That’s the way we’re made to be destroyed. “ </p>
-</blockquote>
-<h4 id="The-Same-Affliction"><a href="#The-Same-Affliction" class="headerlink" title="The Same Affliction"></a>The Same Affliction</h4><blockquote><p>He knew his neighbors in that quarter then because they all were poor.</p>
-</blockquote>
-<blockquote><p>The drunkards<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Drunkard 酒鬼">[2]</span></a></sup> killed their poverty that way; the sportifs<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Sportif 运动狂">[3]</span></a></sup> took it out in exercise. </p>
-</blockquote>
-<h4 id="A-Dying-Man"><a href="#A-Dying-Man" class="headerlink" title="A Dying Man"></a>A Dying Man</h4><blockquote>
-<p>All right. Now he would not care for death. One thing he had always dreaded<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Dread 惧怕">[4]</span></a></sup> was the pain. He could stand pain as well as any man, until it went on too long, and wore him out, but here he had something that had hurt frightfully and just when he had felt it breaking him, the pain had stopped.</p>
-</blockquote>
-<ul>
-<li>Update Log 1.0 Initial Commit</li>
-<li>Update Log 1.1 Change format of “ preview “</li>
-<li>Update Log 1.2 Change format of “ Vocabulary Note “</li>
-<li>Update Log 2.0 Bug fix on comment cannot be correctly displayed</li>
-<li>Update Log 2.1 Delete Chinese subtitle</li>
-</ul>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Dung 动物粪便<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Drunkard 酒鬼<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Sportif 运动狂<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Dread 惧怕<a href="#fnref:4" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;This post is my personal favorite quotes from Ernest Hemingway’s autobiographical novel &amp;lt; THE SNOWS OF KILIMANJARO &amp;gt; .&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="万卷书" scheme="http://notlsd.com/categories/%E4%B8%87%E5%8D%B7%E4%B9%A6/"/>
     
     
   </entry>
