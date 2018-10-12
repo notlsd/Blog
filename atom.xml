@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://notlsd.com/"/>
-  <updated>2018-10-12T04:18:54.092Z</updated>
+  <updated>2018-10-12T04:22:36.958Z</updated>
   <id>http://notlsd.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://notlsd.com/2018/10/12/what-is-game/"/>
     <id>http://notlsd.com/2018/10/12/what-is-game/</id>
     <published>2018-10-12T04:00:39.000Z</published>
-    <updated>2018-10-12T04:18:54.092Z</updated>
+    <updated>2018-10-12T04:22:36.958Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Before building a game, there’s a significance to understand “What is Game”. And “Game Maker Studio 2” (abbr. GMS) is @notlsd’s favourite game engine, the game engine’s architecture is a clue to understand this meta-question of game design. Some basic knowledge of GMS is good to understand but not required.</p>
 <a id="more"></a>
@@ -30,7 +30,7 @@
 <p>This is one of the most widely recgonized academic definition of game. The key words there are <strong><em>SYSTEM / PLAYER / ARTIFICIAL CONFLICT / RULES / QUANTIFIABLE OUTCOM</em></strong>. We will compare it with GMS equation latter.</p>
 <h3 id="The-GMS’s-equation"><a href="#The-GMS’s-equation" class="headerlink" title="The GMS’s equation"></a>The GMS’s equation</h3><p><img src="/2018/10/12/what-is-game/GMS-Equation.png" alt=""></p>
 <p>These is the last page of the first chapter of official guide of <a href="https://www.youtube.com/watch?v=ubvrKQlI_1A" target="_blank" rel="external">GameMaker Studio 2</a> which introduces some basic configuration of GMS engine.</p>
-<h3 id="A-Graph-Definition-by-notlsd"><a href="#A-Graph-Definition-by-notlsd" class="headerlink" title="A Graph Definition by @notlsd"></a>A Graph Definition by @notlsd</h3><p><img src="/2018/10/12/what-is-game/General-Game-Architecture.png" alt=""></p>
+<h3 id="A-Graph-Definition-by-notlsd"><a href="#A-Graph-Definition-by-notlsd" class="headerlink" title="A Graph Definition by @notlsd"></a>A Graph Definition by @notlsd</h3><p><img src="/2018/10/12/what-is-game/General-Game-Architecture.jpg" alt=""></p>
 <p>The graph is drawn by pseudo-UML language, which defines a game, more specifically, one cell of a game, normally a level.</p>
 <p><strong><em>A game is one or more rooms under level-up conditions which includes sprites under event-action response</em></strong></p>
 <h3 id="Five-Key-Words-A-Detailed-Comparison-Between-Two-Definitions"><a href="#Five-Key-Words-A-Detailed-Comparison-Between-Two-Definitions" class="headerlink" title="Five Key Words - A Detailed Comparison Between Two Definitions"></a>Five Key Words - A Detailed Comparison Between Two Definitions</h3><ul>
