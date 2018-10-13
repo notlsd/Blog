@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://notlsd.com/"/>
-  <updated>2018-10-12T04:22:36.958Z</updated>
+  <updated>2018-10-13T10:41:29.789Z</updated>
   <id>http://notlsd.com/</id>
   
   <author>
@@ -20,49 +20,54 @@
     <link href="http://notlsd.com/2018/10/12/what-is-game/"/>
     <id>http://notlsd.com/2018/10/12/what-is-game/</id>
     <published>2018-10-12T04:00:39.000Z</published>
-    <updated>2018-10-12T04:22:36.958Z</updated>
+    <updated>2018-10-13T10:41:29.789Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Before building a game, there’s a significance to understand “What is Game”. And “Game Maker Studio 2” (abbr. GMS) is @notlsd’s favourite game engine, the game engine’s architecture is a clue to understand this meta-question of game design. Some basic knowledge of GMS is good to understand but not required.</p>
 <a id="more"></a>
 <h3 id="Definition-of-game-from-“Rules-of-play-Game-design-fundamentals”-by-Salen-amp-Zimmerman"><a href="#Definition-of-game-from-“Rules-of-play-Game-design-fundamentals”-by-Salen-amp-Zimmerman" class="headerlink" title="Definition of game from “Rules of play : Game design fundamentals” by Salen &amp; Zimmerman"></a>Definition of game from “Rules of play : Game design fundamentals” by Salen &amp; Zimmerman</h3><blockquote>
 <p>A game is a system in which players engage in an artificial conflict, defined by rules, that results in a quantifiable outcome.</p>
 </blockquote>
-<p>This is one of the most widely recgonized academic definition of game. The key words there are <strong><em>SYSTEM / PLAYER / ARTIFICIAL CONFLICT / RULES / QUANTIFIABLE OUTCOM</em></strong>. We will compare it with GMS equation latter.</p>
-<h3 id="The-GMS’s-equation"><a href="#The-GMS’s-equation" class="headerlink" title="The GMS’s equation"></a>The GMS’s equation</h3><p><img src="/2018/10/12/what-is-game/GMS-Equation.png" alt=""></p>
-<p>These is the last page of the first chapter of official guide of <a href="https://www.youtube.com/watch?v=ubvrKQlI_1A" target="_blank" rel="external">GameMaker Studio 2</a> which introduces some basic configuration of GMS engine.</p>
-<h3 id="A-Graph-Definition-by-notlsd"><a href="#A-Graph-Definition-by-notlsd" class="headerlink" title="A Graph Definition by @notlsd"></a>A Graph Definition by @notlsd</h3><p><img src="/2018/10/12/what-is-game/General-Game-Architecture.jpg" alt=""></p>
-<p>The graph is drawn by pseudo-UML language, which defines a game, more specifically, one cell of a game, normally a level.</p>
-<p><strong><em>A game is one or more rooms under level-up conditions which includes sprites under event-action response</em></strong></p>
+<p>This is one of the most widely recgonized academic definition of game. The key words there are <strong>SYSTEM / PLAYER / ARTIFICIAL CONFLICT / RULES / QUANTIFIABLE OUTCOM</strong>. We will compare it with GMS equation later.</p>
+<h3 id="The-GMS-Equation"><a href="#The-GMS-Equation" class="headerlink" title="The GMS Equation"></a>The GMS Equation</h3><p>This is the last page of the first chapter of official guide of <a href="https://www.youtube.com/watch?v=ubvrKQlI_1A" target="_blank" rel="external">GameMaker Studio 2</a> which introduces some basic configuration of GMS engine which @notlsd call it “GMS equation”</p>
+<p><img src="/2018/10/12/what-is-game/Users/notlsd/Blog/source/_posts/what-is-game/GMS-Equation.png" alt=""></p>
+<h3 id="A-Graph-Definition-by-notlsd"><a href="#A-Graph-Definition-by-notlsd" class="headerlink" title="A Graph Definition by @notlsd"></a>A Graph Definition by @notlsd</h3><p><img src="/2018/10/12/what-is-game/Users/notlsd/Blog/source/_posts/what-is-game/General-Game-Architecture.jpg" alt="img"><span class="imgTitle">img</span></p>
+<p>This graph is drawn by pseudo-UML language, which defines a game.</p>
+<p><strong>A game is  finite number of rooms under level-up conditions which includes sprites under event-action responses</strong></p>
 <h3 id="Five-Key-Words-A-Detailed-Comparison-Between-Two-Definitions"><a href="#Five-Key-Words-A-Detailed-Comparison-Between-Two-Definitions" class="headerlink" title="Five Key Words - A Detailed Comparison Between Two Definitions"></a>Five Key Words - A Detailed Comparison Between Two Definitions</h3><ul>
-<li>ARTIFICIAL CONFLICT - Game design’s boundary </li>
+<li>SYSTEM - FINITY of Game Design</li>
 </ul>
-<p>There is a boundary in game design, which inside we call it a game. In other words, there is a clear deference we can distinguish an item whether in the game. In the boundary, is the artificial conflict which game designer have built<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="There is still a very clear boundry in AR / VR game, in other word we can clearly tell if we are in the game.
-">[1]</span></a></sup>. We call SYSTEM but more specifically ,it should be called boundry. “Finite-infinite games” inside system</p>
+<p>There are two type games, finite game and infinite game<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="This conecept comes from " finite="" and="" infinite="" games"="" by="" james="" carse="" "="">[1]</span></a></sup>, but only the first type can be designed. </p>
+<p>The following is definition in Wbester-Meriate’s dictionary of word “System”, more specificaly the 1d item </p>
+<blockquote>
+<p>A group of devices or artificial objects or an organization forming a network especially for distributing something or serving a common purpose</p>
+</blockquote>
+<p>What we designed is a system. If and only if we use the finity resoures the system can be built. The apperance of this finity is the limited quantity of game rooms<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="There is still a very clear boundry in AR / VR game, in other word we can clearly tell if we are in the game.
+">[2]</span></a></sup>.</p>
 <ul>
-<li>SYSTEM - Series of LEVEL-UP ROOMS</li>
+<li>ARTIFICIAL CONFLICT - Series of LEVEL-UP ROOMS</li>
 </ul>
-<p>Inside the boundary, the game designer have built systems. More specifically, we use system to implement previous artificial conflict, via programmer’s terminology “system is instantiation of artificial conflict”. </p>
-<p>The system consists a series of rooms in which contains one special envent-action response<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="We will discuss it detailly in " rules"="" section="" "="">[2]</span></a></sup>. As game going on, status in different rooms have been leveled up gradually. In extremely simple condition, game only consists one room and level-up just in that room.</p>
+<p>What game designer have built is an artificial conflicts. More specifically, we use system to implement it, via programmer’s terminology “system is instantiation of an artificial conflict”. </p>
+<p>The artificial conflicts consists a series of rooms in which contains it’s own envent-action response<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="There is more detailed discussion in " rules"="" section="" "="">[3]</span></a></sup>. A room is a physical or virtual space where game take place. As game going on, status in different rooms have been leveled up gradually. In extremely simple condition, game only consists one room and level-up just in that room.</p>
 <ul>
-<li>PLAYER - Human or Artificial SPIRITS</li>
+<li>PLAYER - Human or Artificial SPIRITES</li>
 </ul>
-<p>According to Wikipedia </p>
-<p>It’s a little sophisticated about the important role sprites plays in game design. Mario is the sprite in Super Mario Bros; Pikachu is a sprites in Pokémon. It’s too important that Apple names iOS game design framework SpriteKit.</p>
-<p>In programming, player is sprits. These players can be controlled by Human which is player button in player’s view, or controlled by A.I. which simply called NPC (Non-player-contolled).</p>
+<p>According to Wikipedia</p>
+<p>It’s a little sophisticated about the important role which sprites plays in game design. Mario is the sprite in Super Mario Bros; Pikachu is a sprites in Pokémon; Pac-man is the sprite in the Pac-man. Sprites is  too important in game design that Apple names iOS game design framework “SpriteKit”.</p>
+<p>in the view of programming perspective, players in game is sprites. These players can be controlled by Human which is player’s avatar itself , or controlled by A.I. which simply called NPC (Non-player-contolled).</p>
 <ul>
 <li>RULES - EVENT-ACTION Response</li>
 </ul>
 <p>GMS is using Event-Action to represent basic game logic.  As we mentioned earlier the core difference between rooms is the different event-action response they contains</p>
-<p>The following is one of definitions in Wbester-Meriate’s dictionary of word “Play”, more specificaly the 4c item </p>
+<p>The following is definition in Wbester-Meriate’s dictionary of word “Play”, more specificaly the 4c item </p>
 <blockquote>
 <p>to perform an action during one’s turn in a game</p>
 </blockquote>
-<p>In the system the player plays. The key concept of “play” itself is to perform some action to respond some event, In Tetris when bricks drops off, the player move it, In Civilization player respond to massive number of event from “Declaration of War” to “Change Production Queue”</p>
+<p>In the system the player plays. The key concept of “play” itself is to perform some action to respond some event, In “Tetris” when bricks drops off, the player move it, In “Civilization” player respond to massive number of event from “Declaration of War” to “Change Production Queue”</p>
 <ul>
 <li>QUANTIFIABLE OUTCOM - LEVEL-UP of everything</li>
 </ul>
-<p>Quantifiable outcom is the connection to everything in the game. The gaming terminology is “Level-up”. During the game process, players and enenimis are all become stronger. And if you cannot level up enough, you lose. These stepped level-up is the source of game’s rythms. </p>
-<h3 id="Instances-Analysis-Tetris-•-Civilization-•-Overwatch-•-Go"><a href="#Instances-Analysis-Tetris-•-Civilization-•-Overwatch-•-Go" class="headerlink" title="Instances Analysis - Tetris • Civilization • Overwatch • Go"></a>Instances Analysis - Tetris • Civilization • Overwatch • Go</h3><table>
+<p>Quantifiable outcom is the connection of everything in the game. The gaming terminology is “Level-up”. During the game process, players and enenimis are all become stronger. And if you cannot level up enough, you lose. These stepped level-up is also the source of game’s rythms. </p>
+<h3 id="Instances-Analysis-Tetris-•-Civilization-•-Overwatch-•-Go-•-Slay-Spire"><a href="#Instances-Analysis-Tetris-•-Civilization-•-Overwatch-•-Go-•-Slay-Spire" class="headerlink" title="Instances Analysis - Tetris • Civilization • Overwatch • Go • Slay Spire"></a>Instances Analysis - Tetris • Civilization • Overwatch • Go • Slay Spire</h3><table>
 <thead>
 <tr>
 <th style="text-align:center">Game</th>
@@ -72,6 +77,7 @@
 <th style="text-align:center">Event</th>
 <th style="text-align:center">Action</th>
 <th style="text-align:center">Quantitive Level Up</th>
+<th style="text-align:center">Finity  Criterion</th>
 </tr>
 </thead>
 <tbody>
@@ -83,6 +89,7 @@
 <td style="text-align:center">Dropping Bricks</td>
 <td style="text-align:center">Moving Bricks</td>
 <td style="text-align:center">Count of Elemination</td>
+<td style="text-align:center">No Space</td>
 </tr>
 <tr>
 <td style="text-align:center">Civilization</td>
@@ -92,37 +99,44 @@
 <td style="text-align:center">Turn-based Event</td>
 <td style="text-align:center">Player’s action</td>
 <td style="text-align:center">Culture • Food • Gold • Happiness • Production • Religion • Science • Tourism • Population etc</td>
+<td style="text-align:center">Any Civilization Win</td>
 </tr>
 <tr>
-<td style="text-align:center">Overwatch<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Thanks to @Banaive for information about Overwatch">[4]</span></a></sup></td>
+<td style="text-align:center">Overwatch <sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Thanks to @Banaive for information about Overwatch">[5]</span></a></sup></td>
 <td style="text-align:center">FPS</td>
 <td style="text-align:center">Artificial Map</td>
 <td style="text-align:center">Hero</td>
 <td style="text-align:center">Others’ Action</td>
 <td style="text-align:center">Heros’ Action</td>
 <td style="text-align:center">Ultimate</td>
+<td style="text-align:center">Time Up / Map Control</td>
 </tr>
 <tr>
-<td style="text-align:center">Slay the Spire</td>
+<td style="text-align:center">Slay Spire</td>
 <td style="text-align:center">Card</td>
 <td style="text-align:center">Battlefiled Box • Map</td>
 <td style="text-align:center">Player • Enemy</td>
 <td style="text-align:center">Enemy’s Action</td>
 <td style="text-align:center">Player’s Action</td>
 <td style="text-align:center">Coins • Relic • Card</td>
+<td style="text-align:center">50th Floor / Death</td>
 </tr>
 <tr>
 <td style="text-align:center">Go</td>
 <td style="text-align:center">Board</td>
 <td style="text-align:center">Go board</td>
 <td style="text-align:center">Go stone</td>
-<td style="text-align:center">Enemy Play Stone</td>
-<td style="text-align:center">Play stone</td>
+<td style="text-align:center">Opponent ‘s Stone</td>
+<td style="text-align:center">Play Stone</td>
 <td style="text-align:center">Territory</td>
+<td style="text-align:center">No Space</td>
 </tr>
 </tbody>
 </table>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">There is still a very clear boundry in AR / VR game, in other word we can clearly tell if we are in the game.<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">We will discuss it detailly in &quot;RULES&quot; section<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">&gt; In computer graphics, a sprite is a two-dimensional bitmap that is integrated into a larger scene.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Sprite_(computer_graphics" target="_blank" rel="external">https://en.wikipedia.org/wiki/Sprite_(computer_graphics</a>)<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Thanks to @Banaive for information about Overwatch<a href="#fnref:4" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+<ul>
+<li>Update Log 2.0 - Add Everthing related about “Finity” including but not limited to words, graph and table</li>
+</ul>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">This conecept comes from &quot;Finite and Infinite Games&quot; by James Carse<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">There is still a very clear boundry in AR / VR game, in other word we can clearly tell if we are in the game.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">There is more detailed discussion in &quot;RULES&quot; section<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">&gt; In computer graphics, a sprite is a two-dimensional bitmap that is integrated into a larger scene.<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Sprite_" target="_blank" rel="external">https://en.wikipedia.org/wiki/Sprite_</a>(computer_graphics)<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Thanks to @Banaive for information about Overwatch<a href="#fnref:5" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
     
     <summary type="html">
     
@@ -800,7 +814,7 @@
     <link href="http://notlsd.com/2017/06/13/polytopia-a-mobilized-civilization/"/>
     <id>http://notlsd.com/2017/06/13/polytopia-a-mobilized-civilization/</id>
     <published>2017-06-13T07:40:27.000Z</published>
-    <updated>2018-02-13T14:32:43.831Z</updated>
+    <updated>2018-10-12T10:29:57.094Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Sid Meir’s Civilization series are one of the greatest monuments in the history of PC games. However, due to that sophisticated mechanism with day and night “ One More Turn “, it’s extremely difficult to transplant it into mobile platform. Even 2k’s own transplantation is a failure.</p>
 <p>@notlsd recently have been addicted into “ The Battle of Polytopia ” - An indie game from one-man studio - Midjiwan in Sweden. It’s the best civilization-like game in mobile platform @notlsd have ever seen. </p>
@@ -808,7 +822,7 @@
 <a id="more"></a>
 <h3 id="Game-Archtechure"><a href="#Game-Archtechure" class="headerlink" title="Game Archtechure"></a>Game Archtechure</h3><p>There are more than dozens sub-systems in CivBNW - Military, Population, Production, Culture, Gold, Food, Faith, Diplomacy, Terrain, Building, Wonder, Technology, Ideology …… even more.   </p>
 <p>Polytopia have skilled chosen some of CivBNW’s system as well as have created some of its own. All the following proper nouns are invented by @notlsd, not the game author.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">├── CITY SYSTEM</div><div class="line">│   ├── City Level Indication</div><div class="line">│   └── City Upgrade Bonus</div><div class="line">│</div><div class="line">├── MAP SYSTEM </div><div class="line">│   ├── Terrain Limitation</div><div class="line">│   ├── Terrain Modification </div><div class="line">│   ├── Visible Area</div><div class="line">│   └── National Land Area</div><div class="line">│</div><div class="line">├── COMBAT SYSTEM </div><div class="line">│   ├── City Capture</div><div class="line">│   ├── XP System</div><div class="line">│   └── Unit System</div><div class="line">│</div><div class="line">├── TECHNOLOGY SYSTEM</div><div class="line">│  </div><div class="line">├── SCORE SYSTEM </div><div class="line">│</div><div class="line">├── GENERAL EQUIVALENCE (STAR) SYSTEM</div><div class="line">│</div><div class="line">└── VICTORY SYSTEM</div><div class="line"></div><div class="line">│   └── Ruins Bonus</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">├── ROOMS </div><div class="line">|	└── MAP SYSTEM </div><div class="line">│   	├── TERRAIN </div><div class="line">│   	└── VISIBILITY</div><div class="line">│</div><div class="line">├── SIPIRTES</div><div class="line">|	└── UNIT SYSTEM </div><div class="line">│</div><div class="line">├── OBJECTS (EVENT-ACTION CHAIN)</div><div class="line">|	└── COMBAT SYSTEM  </div><div class="line">|</div><div class="line">├── EVENT </div><div class="line">|	└── RUINS SYSTEM</div><div class="line">|</div><div class="line">├── ACTION </div><div class="line">|	└── TECHNOLOGY SYSTEM</div><div class="line">│</div><div class="line">├── LEVEL-UP</div><div class="line">│	├── CITY SYSTEM</div><div class="line">│	├── CURRENCY SYSTEM（STARS）</div><div class="line">│   └── XP SYSTEM</div><div class="line">|</div><div class="line">└── FINITE</div><div class="line">	├── SCORE SYSTEM </div><div class="line">	└── CAPTURE SYSTEM</div></pre></td></tr></table></figure>
 <h4 id="City-System"><a href="#City-System" class="headerlink" title="City System"></a>City System</h4><p>City is the basic self-sufficient production unit in CivBNW as well as base on other RTS like StarCraft, Red Alert and Epire Times. Polytopia have copied the idea from civilization with great simplification. </p>
 <ul>
 <li><p><strong><em>City Level Indication</em></strong> Combined Population and Production system of CivBNW to increase the population that city can carry and the income stars each turn (Customs Houses excluded). The step increase is linear. It is the most basic system of the whole game, it is the basic measurement of how many resources you empire carries. This system is really concise and elegant. It’s the basic configration which meets “KISS” principle, Keep it simple and stupid</p>
