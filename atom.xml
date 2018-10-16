@@ -154,24 +154,6 @@
   </entry>
   
   <entry>
-    <title>state machine reigns</title>
-    <link href="http://notlsd.com/2018/09/03/state-machine-reigns/"/>
-    <id>http://notlsd.com/2018/09/03/state-machine-reigns/</id>
-    <published>2018-09-03T08:49:24.000Z</published>
-    <updated>2018-09-03T08:49:24.778Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><a id="more"></a>]]></content>
-    
-    <summary type="html">
-    
-      &lt;link rel=&quot;stylesheet&quot; type=&quot;text/css&quot; href=&quot;https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css&quot;&gt;&lt;a id=&quot;more&quot;&gt;&lt;/a&gt;
-    
-    </summary>
-    
-    
-  </entry>
-  
-  <entry>
     <title>「佩戴」还是「配戴」？这是个问题</title>
     <link href="http://notlsd.com/2018/08/17/wearing-glasses/"/>
     <id>http://notlsd.com/2018/08/17/wearing-glasses/</id>
@@ -1804,6 +1786,169 @@
     </summary>
     
       <category term="技术栈" scheme="http://notlsd.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>十二怒局：拆解 Replica</title>
+    <link href="http://notlsd.com/2017/05/27/replica-analysis/"/>
+    <id>http://notlsd.com/2017/05/27/replica-analysis/</id>
+    <published>2017-05-27T09:02:20.000Z</published>
+    <updated>2017-10-23T14:30:58.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="英文标题应该更有神韵 12 Angry Endings - Replica Dismantled 不过为了标题和内容在语言层面的一致性，还是使用中文">[1]</span></a></sup> 这篇文章拆解了屡获殊荣的独立游戏 Replica。前面三节将 Replica 放到显微镜下去观察，去分析具体的每一个组件是什么，是以什么结构组织起来的。后面三节是作者 @notlsd 对 Replica 游戏设计的的评价。</p>
+<a id="more"></a>
+<p><strong>原文首发于 <a href="www.indienova.com">Indienova</a></strong> </p>
+<h3 id="Replica-故事线"><a href="#Replica-故事线" class="headerlink" title="Replica 故事线"></a>Replica 故事线</h3><p><img src="/2017/05/27/replica-analysis/Replica_Flow_Chart_WL.png" alt="REPLICA 故事线"><span class="imgTitle">REPLICA 故事线</span> </p>
+<h3 id="Replica-密码表"><a href="#Replica-密码表" class="headerlink" title="Replica 密码表"></a>Replica 密码表</h3><table>
+<thead>
+<tr>
+<th style="text-align:center">Lock</th>
+<th style="text-align:center">Key</th>
+<th style="text-align:center">Hint</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">锁屏密码</td>
+<td style="text-align:center">1105</td>
+<td style="text-align:center">Tom 本人生日</td>
+</tr>
+<tr>
+<td style="text-align:center">私密相册</td>
+<td style="text-align:center">1026</td>
+<td style="text-align:center">Tom 和女朋友 Marge 相遇的日子</td>
+</tr>
+<tr>
+<td style="text-align:center">登录 Like</td>
+<td style="text-align:center">1018</td>
+<td style="text-align:center">女朋友 Marge 的生日</td>
+</tr>
+<tr>
+<td style="text-align:center">登录 Follow</td>
+<td style="text-align:center">2255</td>
+<td style="text-align:center">密码找回短信中 BALL / CALL 在九宫格键盘上对应的数字</td>
+</tr>
+<tr>
+<td style="text-align:center">记者电话</td>
+<td style="text-align:center">0987</td>
+<td style="text-align:center">Like 里文章报道结尾的签名信息</td>
+</tr>
+<tr>
+<td style="text-align:center">蓝牙密码</td>
+<td style="text-align:center">1105</td>
+<td style="text-align:center">主线剧情 End 04 结尾 Tom 本人电话</td>
+</tr>
+<tr>
+<td style="text-align:center">莫尔斯码支线电话</td>
+<td style="text-align:center">4989</td>
+<td style="text-align:center">主线剧情 End 04 结尾的莫尔斯电码</td>
+</tr>
+<tr>
+<td style="text-align:center">莫尔斯码支线指令</td>
+<td style="text-align:center">knock</td>
+<td style="text-align:center"><a href="https://www.youtube.com/watch?v=Smwrw4sNCxE" target="_blank" rel="external">电影 The Matrix</a></td>
+</tr>
+</tbody>
+</table>
+<h3 id="Replica-致敬"><a href="#Replica-致敬" class="headerlink" title="Replica 致敬"></a>Replica 致敬</h3><p><strong>[小说] 1984</strong></p>
+<ul>
+<li><p>整体气氛的渲染</p>
+</li>
+<li><p>ENDING 8 : Big Brother Is Watching You</p>
+</li>
+</ul>
+<p><strong>[电影] The Matrix</strong></p>
+<ul>
+<li>整个「莫尔斯码」支线</li>
+</ul>
+<p><strong>[电影] V for Vendetta</strong> </p>
+<ul>
+<li><p>ENDING 10  </p>
+</li>
+<li><p>Tom 的生日 Nov 15th 在电影里是最后的 Big Day。这个是 @notlsd 在游戏中最喜欢的梗。</p>
+</li>
+</ul>
+<p><strong>[动漫] EVA</strong></p>
+<ul>
+<li>ENDING 11 死刑宣判过以后，主角一家的名字会变为「碇真嗣」「碇源堂」「碇唯」，碇一家终于在天堂相遇了</li>
+</ul>
+<p><strong>[游戏] 史丹利的寓言</strong> </p>
+<ul>
+<li>App 430 以及相应成就 <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="除了「史丹利的寓言」没有接触过，其它都是 @notlsd 的大爱">[2]</span></a></sup></li>
+</ul>
+<h3 id="Replica-Pros-and-Cons-3"><a href="#Replica-Pros-and-Cons-3" class="headerlink" title="Replica Pros and Cons [3]"></a>Replica Pros and Cons <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="找不到合适的中文，「利弊」显得诡异">[3]</span></a></sup></h3><h4 id="Pros"><a href="#Pros" class="headerlink" title="Pros"></a>Pros</h4><ul>
+<li><p>「手机中的手机」，Replica 是 @notlsd 所玩过的所有游戏当中，对「手游」这个概念诠释的最好的，没有之一，形式极其有创造力。 Steam 的移植反倒失去了游戏本身的神韵。</p>
+</li>
+<li><p>To Do List 作为任务系统与整个游戏的风格相得益彰，不唐突，营造了沉浸式体验。</p>
+</li>
+<li><p>四位数的电话号码。一方面，一眼就可以认出「电话号码」的性质；另一方面，减少了重复输入的Labour。不同国家的电话号码位数是不一样的，同时减轻了本地化的工作量。</p>
+</li>
+</ul>
+<h4 id="Cons"><a href="#Cons" class="headerlink" title="Cons"></a>Cons</h4><ul>
+<li><p>开机锁屏页面，完全一脸懵逼。游戏购买后，@notlsd 至少在手机里躺了半个月。完全没有新手引导，对新玩家相当不友善。</p>
+</li>
+<li><p>界面是 iOS 系统，但按键却是 Android 手机。这种混搭的感觉，只能说：It’s Weird<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="不排除是为了规避苹果爸爸的审查">[4]</span></a></sup>。</p>
+</li>
+<li><p>剧情过短且 Unbalanced，这一条是最为致命的。这点第一节的故事线流程图反应得很清楚。 </p>
+</li>
+</ul>
+<p>一句话总结，Replica 「形式天才，内容尚缺」。不过考虑到独立游戏的局限性，也可以理解<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="潜台词的意思是，@notlsd 制造的游戏，估计内容上还要单薄些">[5]</span></a></sup>。</p>
+<h3 id="Replica-的技术路线-与-somi-商榷"><a href="#Replica-的技术路线-与-somi-商榷" class="headerlink" title="Replica 的技术路线 - 与 @somi 商榷"></a>Replica 的技术路线 - 与 @somi 商榷</h3><h4 id="像素风-最好的表现形式-？"><a href="#像素风-最好的表现形式-？" class="headerlink" title="像素风 - 最好的表现形式 ？"></a>像素风 - 最好的表现形式 ？</h4><p>囿于成本的限制，独立游戏大量的使用像素风，在大部分的游戏中<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="这里主要指 RPG 和沙盒类游戏">[6]</span></a></sup>反倒别有风味。但在 Replica 这里反倒有些不合适，一方面，App 图标本身的设计难度并不高，甚至可能比像素化还要更容易些；另一方面，像素化后，为了风格的统一性，字体也需要做相应修改。然而，至少在中文的本地化上，因为汉字本身成千上万，本地化不可能专门去做单独的字体。不得不使用标准字体后的，整体风格反倒显得有些诡异。</p>
+<h4 id="Unity3D-最合适的引擎-？"><a href="#Unity3D-最合适的引擎-？" class="headerlink" title="Unity3D - 最合适的引擎 ？"></a>Unity3D - 最合适的引擎 ？</h4><p>Unity3D 引擎的优势自不必说，易上手，能 3D。然而 Replica 是个 2D 游戏，而且也没有任何必要转制为 3D 。更为重要的是，如果 @notlsd 没记错的话，Unity3D 的操作逻辑只有点击，这样下划出现状态栏这样的操作就无法实现。游戏中的解决方案是顶端出现可点击的下拉箭头，只能算是个差强人意的解决方案，仍然破坏了沉浸式的游戏体验。</p>
+<p>既然是模拟手机，更加底层语言不可避免的带来更加真实的模拟。在这个意义上，Apple 自己的 SpriteKit 显然是更好的选择。</p>
+<p>此外，Unity3D 游戏的安装包普遍巨大，这会给手机内存不够的用户带来很大的困扰。</p>
+<h3 id="Replica-的真实世界"><a href="#Replica-的真实世界" class="headerlink" title="Replica 的真实世界"></a>Replica 的真实世界</h3><p>所谓「神作」，虽然是游戏，但更像是真实世界的映射。玩家思考的很大程度上仍然是真实世界。逻辑和这个 <a href="https://www.zhihu.com/question/35539724/answer/88192357" target="_blank" rel="external">@notlsd 的知乎答案</a>，是一致的。  </p>
+<p>先看这个表，游戏中的每一个 App 都是真实世界中影子，看到后可谓会心一笑。</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Mmail</th>
+<th style="text-align:center">Tele</th>
+<th style="text-align:center">ToDo</th>
+<th style="text-align:center">Tele</th>
+<th style="text-align:center">Search</th>
+<th style="text-align:center">Like</th>
+<th style="text-align:center">Follow</th>
+<th style="text-align:center">I’mStar</th>
+<th style="text-align:center">ChatIM</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Gmail</td>
+<td style="text-align:center">Telegram</td>
+<td style="text-align:center">AnyDo</td>
+<td style="text-align:center">Telegram</td>
+<td style="text-align:center">Google</td>
+<td style="text-align:center">Facebook</td>
+<td style="text-align:center">Twitter</td>
+<td style="text-align:center">Instagram</td>
+<td style="text-align:center">WeChat</td>
+</tr>
+</tbody>
+</table>
+<p>更重要的是，游戏中蕴含了大量的「信息安全」和「社会工程学」的概念，或者说，整个游戏就是一场「社会工程学」实践<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="关于「社会工程学」的更详尽说明，参见 [编程君的这一系列帖子](https://program-think.blogspot.com/2009/05/social-engineering-0-overview.html)">[7]</span></a></sup>。</p>
+<ul>
+<li><p>信息安全第一步 <strong>永！远！不！要！用！生！日！做！密！码</strong> 游戏中至少有两个关键性密码是相关人物的生日。</p>
+</li>
+<li><p>更令 @notlsd 惊出一身冷汗的是，游戏中的某一个不起眼的解密方式即是 @notlsd 手机开机密码的加密方式（现已更改），曾经一直以为这是神不知鬼不觉的。</p>
+</li>
+</ul>
+<p>用一句我最喜欢的游戏里的话结尾吧</p>
+<blockquote>
+<p>仅仅是使用 Telegram 和 Gmail 的行为，就足令我们对其进行拘捕调查。他一定有不少的东西要藏着。莫非他妄图对国家造成恐怖主义威胁，否则为什么不使用政府批准的 WeChat 呢？<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="至少这句话的汉化没有体现出原文的神韵，自己重新翻译了一遍，并把游戏中的 App 换为了现实中的本体。英文原文参见注释九。">[8]</span></a></sup> <sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="We can do an arrest investigation just for using Telegram and Mmail. He's got a lot to hide. Why else would he refuse to use government approved ChatIM unless he intended to threaten and terrorize the nation ?">[9]</span></a></sup></p>
+</blockquote>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">英文标题应该更有神韵 12 Angry Endings - Replica Dismantled 不过为了标题和内容在语言层面的一致性，还是使用中文<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">除了「史丹利的寓言」没有接触过，其它都是 @notlsd 的大爱<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">找不到合适的中文，「利弊」显得诡异<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">不排除是为了规避苹果爸爸的审查<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">潜台词的意思是，@notlsd 制造的游戏，估计内容上还要单薄些<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">这里主要指 RPG 和沙盒类游戏<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">关于「社会工程学」的更详尽说明，参见 <a href="https://program-think.blogspot.com/2009/05/social-engineering-0-overview.html" target="_blank" rel="external">编程君的这一系列帖子</a><a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">至少这句话的汉化没有体现出原文的神韵，自己重新翻译了一遍，并把游戏中的 App 换为了现实中的本体。英文原文参见注释九。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">We can do an arrest investigation just for using Telegram and Mmail. He’s got a lot to hide. Why else would he refuse to use government approved ChatIM unless he intended to threaten and terrorize the nation ?<a href="#fnref:9" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;英文标题应该更有神韵 12 Angry Endings - Replica Dismantled 不过为了标题和内容在语言层面的一致性，还是使用中文&quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt; 这篇文章拆解了屡获殊荣的独立游戏 Replica。前面三节将 Replica 放到显微镜下去观察，去分析具体的每一个组件是什么，是以什么结构组织起来的。后面三节是作者 @notlsd 对 Replica 游戏设计的的评价。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="拆游戏" scheme="http://notlsd.com/categories/%E6%8B%86%E6%B8%B8%E6%88%8F/"/>
     
     
   </entry>
