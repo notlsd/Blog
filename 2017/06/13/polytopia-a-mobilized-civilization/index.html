@@ -10,9 +10,9 @@
 
     <!--Description-->
     
-        <meta name="description" content="Sid Meir’s Civilization series are one of the greatest monuments in the history of PC games. However, due to that sophisticated mechanism with day and night “ One More Turn “, it’s extremely difficult to transplant it into mobile platform. Even 2k’s own transplantation is a failure.
+        <meta name="description" content="Sid Meir’s Civilization series are one of the greatest monuments in the history of PC games. However, due to that sophisticated mechanism with day and night “ One More Turn “, it’s extremely difficult to transplant it into mobile platform. Even 2k’s own transplantation was a failure.
 @notlsd recently have been addicted into “ The Battle of Polytopia ” - An indie game from one-man studio - Midjiwan in Sweden. It’s the best civilization-like game in mobile platform @notlsd have ever seen. 
-This essay will analyze the game design of &amp;lt; The Battle of Polytopia &amp;gt; with widely acclaimed “ Sid Meir’s Civilization V - Brave New World “ [1][2]">
+This essay will is using @notlsd’s game archeteture here to analyze the game archetecture of &amp;lt; The Battle of Polytopia &amp;gt; with widely acclaimed “ Sid Meir’s Civilization V - Brave New World ( abbr. as Civ5-BNW in following article )” [1]">
     
 
     <!--Author-->
@@ -22,7 +22,7 @@ This essay will analyze the game design of &amp;lt; The Battle of Polytopia &amp
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Geneneral Archetecture of the Battle of Polytopia - A Mobilized Civilization (Draft)"/>
+        <meta property="og:title" content="Geneneral Archetecture of the Battle of Polytopia - A Mobilized Civilization"/>
     
 
     <!--Open Graph Description-->
@@ -44,7 +44,7 @@ This essay will analyze the game design of &amp;lt; The Battle of Polytopia &amp
 
     <!-- Title -->
     
-    <title>Geneneral Archetecture of the Battle of Polytopia - A Mobilized Civilization (Draft) - Not LSD</title>
+    <title>Geneneral Archetecture of the Battle of Polytopia - A Mobilized Civilization - Not LSD</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -142,7 +142,7 @@ This essay will analyze the game design of &amp;lt; The Battle of Polytopia &amp
     <div class="post-header">
         <h1 class="title">
             <a href="/2017/06/13/polytopia-a-mobilized-civilization/">
-                Geneneral Archetecture of the Battle of Polytopia - A Mobilized Civilization (Draft)
+                Geneneral Archetecture of the Battle of Polytopia - A Mobilized Civilization
             </a>
         </h1>
         <div class="post-info">
@@ -164,30 +164,29 @@ This essay will analyze the game design of &amp;lt; The Battle of Polytopia &amp
         
 
         <!-- Post Content -->
-        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Sid Meir’s Civilization series are one of the greatest monuments in the history of PC games. However, due to that sophisticated mechanism with day and night “ One More Turn “, it’s extremely difficult to transplant it into mobile platform. Even 2k’s own transplantation is a failure.</p>
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Sid Meir’s Civilization series are one of the greatest monuments in the history of PC games. However, due to that sophisticated mechanism with day and night “ One More Turn “, it’s extremely difficult to transplant it into mobile platform. Even 2k’s own transplantation was a failure.</p>
 <p>@notlsd recently have been addicted into “ The Battle of Polytopia ” - An indie game from one-man studio - Midjiwan in Sweden. It’s the best civilization-like game in mobile platform @notlsd have ever seen. </p>
-<p>This essay will analyze the game design of &lt; The Battle of Polytopia &gt; with widely acclaimed “ Sid Meir’s Civilization V - Brave New World “ <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Basic Civilzaiton V BNW experience will be great for reading this article">[1]</span></a></sup><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Abbravation as CivBNW in the following article">[2]</span></a></sup></p>
+<p>This essay will is using <a href="https://notlsd.github.io/2018/10/12/what-is-game/" target="_blank" rel="external">@notlsd’s game archeteture here</a> to analyze the game archetecture of &lt; The Battle of Polytopia &gt; with widely acclaimed “ Sid Meir’s Civilization V - Brave New World ( abbr. as Civ5-BNW in following article )” <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Basic Civ5-BNW experience will be great for reading this article">[1]</span></a></sup></p>
 <a id="more"></a>
-<h3 id="Game-Archtechure"><a href="#Game-Archtechure" class="headerlink" title="Game Archtechure"></a>Game Archtechure</h3><p>There are more than dozens sub-systems in CivBNW - Military, Population, Production, Culture, Gold, Food, Faith, Diplomacy, Terrain, Building, Wonder, Technology, Ideology …… even more.   </p>
-<p>Polytopia have skilled chosen some of CivBNW’s system as well as have created some of its own. All the following proper nouns are invented by @notlsd, not the game author.</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">├── ROOMS </div><div class="line">|	└── MAP SYSTEM </div><div class="line">│   	├── TERRAIN </div><div class="line">│   	└── VISIBILITY</div><div class="line">│</div><div class="line">├── SIPIRTES</div><div class="line">|	└── UNIT SYSTEM </div><div class="line">│</div><div class="line">├── OBJECTS (EVENT-ACTION CHAIN)</div><div class="line">|	└── COMBAT SYSTEM  </div><div class="line">|</div><div class="line">├── EVENT </div><div class="line">|	└── RUINS SYSTEM</div><div class="line">|</div><div class="line">├── ACTION </div><div class="line">|	└── TECHNOLOGY SYSTEM</div><div class="line">│</div><div class="line">├── LEVEL-UP</div><div class="line">│	├── CITY SYSTEM</div><div class="line">│	├── CURRENCY SYSTEM（STARS）</div><div class="line">│   └── XP SYSTEM</div><div class="line">|</div><div class="line">└── FINITE</div><div class="line">	├── SCORE SYSTEM </div><div class="line">	└── CAPTURE SYSTEM</div></pre></td></tr></table></figure>
-<h4 id="City-System"><a href="#City-System" class="headerlink" title="City System"></a>City System</h4><p>City is the basic self-sufficient production unit in CivBNW as well as base on other RTS like StarCraft, Red Alert and Epire Times. Polytopia have copied the idea from civilization with great simplification. </p>
+<h3 id="Game-Archtechure"><a href="#Game-Archtechure" class="headerlink" title="Game Archtechure"></a>Game Archtechure</h3><p>There are more than dozens sub-systems in Civ5-BNW - Military, Population, Production, Culture, Gold, Food, Faith, Diplomacy, Terrain, Building, Wonder, Technology, Ideology …… even more.   </p>
+<p>Polytopia have skilled chosen some of Civ5-BNW’s system as well as created some of its own. All the following proper nouns are invented by @notlsd, not the game author.</p>
+<p><img src="/2017/06/13/polytopia-a-mobilized-civilization/Users/notlsd/Blog/source/_posts/what-is-game/General-Game-Architecture.jpg" alt="General-Game-Architecture"><span class="imgTitle">General-Game-Architecture</span></p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">├── ROOMS </div><div class="line">|	└── MAP SYSTEM </div><div class="line">│   	├── TERRAIN </div><div class="line">│   	└── VISIBILITY</div><div class="line">│</div><div class="line">├── SIPIRTES</div><div class="line">|	└── UNIT SYSTEM </div><div class="line">│</div><div class="line">├── OBJECTS (EVENT-ACTION CHAIN)</div><div class="line">|	└── COMBAT SYSTEM  </div><div class="line">|</div><div class="line">├── EVENT </div><div class="line">|	└── RUINS SYSTEM</div><div class="line">|</div><div class="line">├── ACTION </div><div class="line">|	└── TECHNOLOGY SYSTEM</div><div class="line">│</div><div class="line">├── LEVEL-UP</div><div class="line">│	├── CITY SYSTEM</div><div class="line">│	├── CURRENCY SYSTEM（STARS）</div><div class="line">│   └── XP SYSTEM</div><div class="line">|</div><div class="line">└── FINITY</div><div class="line">	├── SCORE SYSTEM </div><div class="line">	└── CAPTURE SYSTEM</div></pre></td></tr></table></figure>
+<h3 id="1-Map-System"><a href="#1-Map-System" class="headerlink" title="1. Map System"></a>1. Map System</h3><p>Map, with its bonus and limitation are the most critical system on 4x games. The Map System on Polytopia is almost the same as Civ5-BNW</p>
 <ul>
-<li><p><strong><em>City Level Indication</em></strong> Combined Population and Production system of CivBNW to increase the population that city can carry and the income stars each turn (Customs Houses excluded). The step increase is linear. It is the most basic system of the whole game, it is the basic measurement of how many resources you empire carries. This system is really concise and elegant. It’s the basic configration which meets “KISS” principle, Keep it simple and stupid</p>
-</li>
-<li><p><strong><em>City Upgrade Bonus</em></strong> Every time you update your city, you may have choose an update. Sid Meir have said “ GAME IS A SEIRES OF INTERESTING CHOICES “. This idea is great, it is really a choice, but in fact, , you may always choice one type, it becomes never interesting. 1st star, 2nd wall 3rd and more giant</p>
-</li>
-</ul>
-<h4 id="Map-System"><a href="#Map-System" class="headerlink" title="Map System"></a>Map System</h4><p>Map, with its bonus and limitation are the most critical system on 4x game. The Map System on Polytopia is almost the same as CivBNW</p>
-<ul>
-<li><p><strong><em>Terrain Limitation</em></strong> are fantasitic on Civilization series games. Basically, there are two limitation for units - visibility and mobility. There are + 1 visibility on mountain and reduction for mobibility on forest. Especially, Across the water request special technology which shallow sea and deep ocean on different level.   </p>
-</li>
+<li><strong><em>Terrain Limitation</em></strong> are fantasitic on Civilization series games. Basically, there are two limitation for units - visibility and mobility. There are + 1 visibility on mountain and reduction for mobibility on forest. Especially, Across the water request special technology which shallow sea and deep ocean on different level.   </li>
 <li><p><strong><em>Terrain Modification</em></strong> As Karl Max sad “人活着的意义就是改造自然”. Modification on terrain are the most </p>
 </li>
 <li><p><strong><em>Visibility</em></strong> As &lt; The Art of War &gt; said, “ Know yourself and know your enemy, and you will never be defeated. “ Recon are almost the most important thing in RTS / TBS game, even in the real woarld</p>
 </li>
-<li><p><strong><em>Territory</em></strong> is the most basic requirement of a sovereign state like traditional Chinese character “國” implied. In the game, player can do Terrain Modification their own territory to benifits the city which belongs, in the case where no enemy unit in.</p>
-</li>
+<li><strong><em>Territory</em></strong> is the most basic requirement of a sovereign state like traditional Chinese character “國” implied. In the game, player can do Terrain Modification their own territory to benifits the city which belongs, in the case where no enemy unit in.</li>
+</ul>
+<h3 id="2-Unit-System"><a href="#2-Unit-System" class="headerlink" title="2. Unit System"></a>2. Unit System</h3><p>There are 12 types of unites excluded the special tribes - Warrior, Rider, Defender, Swordsman, Archer, Catapult, Knight, Gigant, Boat, Ship, Battleship. The balance of unit is well-done, espicially update 1.7.0. The following is directly copied from update log  1.7.0 in iOS store. () is my note</p>
+<ul>
+<li>A new technology, PHILOSOPHY, enters the tech tree and introduces the MIND BENDER UNIT that can flip any enemy unit to your team. ( Mind Bender Unit is actually Priest in other strategy game, it brings more dramaty in Battle, especially when David have met Goliath)</li>
+<li>You can now upgrade your boats to ships and if you are really rich you can evolve them further into mighty BATTLE SHIPS for 15 stars. ( Battleship give a chance to D-Day, in previous version, if one made full of Catapult in one island, nobody can log in again )</li>
+<li>The KNIGHTS now have the ability to attack several weak units in a row, clearing the field of enemies. ( Knight becomes no more than a tastles unit again)</li>
+<li>The attack of the CATAPULTS have been balanced to provide better gameplay. (Same problem of D-Day)</li>
 </ul>
 <h4 id="Combat-System"><a href="#Combat-System" class="headerlink" title="Combat System"></a>Combat System</h4><p>Combat system is the most basic configration in almost every war-like game, The combat system of Polytopia is adopted and briefed from civBNW. it’s much more concised system. </p>
 <ul>
@@ -201,8 +200,12 @@ This essay will analyze the game design of &amp;lt; The Battle of Polytopia &amp
 </ul>
 <p>CivBNW has a very complex xp system, so that some experienced player even raise vetran unit from acient era to information era to gain more bonus. Polytopia have done much more simplification of it, for every land unit, gain 5 HP when killing 3 units, due to that the attackting strenth is related to the remaining HP, the attacking power is also incresed.</p>
 <p>├── COMBAT SYSTEM<br>│   ├── City Capture<br>│   ├── XP System<br>│   └── Unit System</p>
-<p>#### </p>
-<h4 id="Technology-System"><a href="#Technology-System" class="headerlink" title="Technology System"></a>Technology System</h4><p>The technology system of Polytopia is copied from a not very well-known Civilization series game - “ Civilization - Beyond Earth “ which is a facious game based on Civlization V game engine. The major difference of CivBE between other Civilization series is that the tech-tree is not leainer but star-like. More techinally speaking, Polytopia is much more wider tree than Civ series。</p>
+<h4 id="City-System"><a href="#City-System" class="headerlink" title="City System"></a>City System</h4><p>City is the basic self-sufficient production unit in CivBNW as well as base on other RTS like StarCraft, Red Alert and Epire Times. Polytopia have copied the idea from civilization with great simplification. </p>
+<ul>
+<li><strong><em>City Level Indication</em></strong> Combined Population and Production system of CivBNW to increase the population that city can carry and the income stars each turn (Customs Houses excluded). The step increase is linear. It is the most basic system of the whole game, it is the basic measurement of how many resources you empire carries. This system is really concise and elegant. It’s the basic configration which meets “KISS” principle, Keep it simple and stupid</li>
+<li><strong><em>City Upgrade Bonus</em></strong> Every time you update your city, you may have choose an update. Sid Meir have said “ GAME IS A SEIRES OF INTERESTING CHOICES “. This idea is great, it is really a choice, but in fact, , you may always choice one type, it becomes never interesting. 1st star, 2nd wall 3rd and more giant</li>
+</ul>
+<h4 id="Technology-System-tech-web"><a href="#Technology-System-tech-web" class="headerlink" title="Technology System - tech web"></a>Technology System - tech web</h4><p>The technology system of Polytopia is copied from a not very well-known Civilization series game - “ Civilization - Beyond Earth “ which is a facious game based on Civlization V game engine. The major difference of CivBE between other Civilization series is that the tech-tree is not leainer but star-like. More techinally speaking, Polytopia is much more wider tree than Civ series。</p>
 <p>It is a very talented transformation to the mobile plant. One of the bigest problem of 4x game is that it is too time-consuming, easily lasting weeks even months. The star-lkie Tech system push player to make their choice in very early stage, thus the whole gaming pace has been accelerate.</p>
 <p>pic</p>
 <h4 id="SCORING-amp-VICTORY-SYSTEM"><a href="#SCORING-amp-VICTORY-SYSTEM" class="headerlink" title="SCORING &amp; VICTORY SYSTEM"></a>SCORING &amp; VICTORY SYSTEM</h4><p>As in CivBNW, everything have a score in the  </p>
@@ -210,8 +213,6 @@ This essay will analyze the game design of &amp;lt; The Battle of Polytopia &amp
 <li><p>Moble friendly action </p>
 </li>
 <li><p>concised design</p>
-</li>
-<li><p>Update 2.11, greeat in balance </p>
 </li>
 </ul>
 <h3 id="Cons"><a href="#Cons" class="headerlink" title="Cons"></a>Cons</h3><ul>
@@ -226,7 +227,7 @@ This essay will analyze the game design of &amp;lt; The Battle of Polytopia &amp
 <li><p>No Hex </p>
 </li>
 </ul>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Basic Civilzaiton V BNW experience will be great for reading this article<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Abbravation as CivBNW in the following article<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Basic Civ5-BNW experience will be great for reading this article<a href="#fnref:1" rev="footnote"> ↩</a></span></li></ol></div></div>
     </div>
 
     
