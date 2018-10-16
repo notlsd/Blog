@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://notlsd.com/"/>
-  <updated>2018-10-16T16:58:03.017Z</updated>
+  <updated>2018-10-16T17:05:01.885Z</updated>
   <id>http://notlsd.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://notlsd.com/2018/10/12/what-is-game/"/>
     <id>http://notlsd.com/2018/10/12/what-is-game/</id>
     <published>2018-10-12T04:00:39.000Z</published>
-    <updated>2018-10-16T16:58:03.017Z</updated>
+    <updated>2018-10-16T17:05:01.885Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Before building a game, there’s a significance to understand “What is Game”. And “Game Maker Studio 2” (abbr. GMS) is @notlsd’s favourite game engine, the game engine’s architecture is a clue to understand this meta-question of game design. Some basic knowledge of GMS is good to understand but not required.</p>
 <a id="more"></a>
@@ -51,7 +51,10 @@
 <ul>
 <li>PLAYER - Human or Artificial SPIRITES</li>
 </ul>
-<p>According to Wikipedia </p>
+<p>According to <a href="https://en.wikipedia.org/wiki/Sprite_(computer_graphics" target="_blank" rel="external">Wikipedia</a>):</p>
+<blockquote>
+<p>In computer graphics, a sprite is a two-dimensional bitmap that is integrated into a larger scene</p>
+</blockquote>
 <p>It’s a little sophisticated about the important role which sprites plays in game design. Mario is the sprite in Super Mario Bros; Pikachu is a sprites in Pokémon; Pac-man is the sprite in the Pac-man. Sprites is  too important in game design that Apple names iOS game design framework “SpriteKit”.</p>
 <p>in the view of programming perspective, players in game is sprites. These players can be controlled by Human which is player’s avatar itself , or controlled by A.I. which simply called NPC (Non-player-contolled).</p>
 <ul>
@@ -102,7 +105,7 @@
 <td style="text-align:center">Any Civilization Win</td>
 </tr>
 <tr>
-<td style="text-align:center">Overwatch <sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Thanks to @Banaive for information about Overwatch">[5]</span></a></sup></td>
+<td style="text-align:center">Overwatch <sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Thanks to @Banaive for information about Overwatch">[4]</span></a></sup></td>
 <td style="text-align:center">FPS</td>
 <td style="text-align:center">Artificial Map</td>
 <td style="text-align:center">Hero</td>
@@ -135,8 +138,9 @@
 </table>
 <ul>
 <li>Update Log 2.0 - Add Everthing related about “Finity” including but not limited to words, graph and table</li>
+<li>Update Log 2.1 - Fix Wikipedia link problem</li>
 </ul>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">This conecept comes from &quot;Finite and Infinite Games&quot; by James Carse<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">There is still a very clear boundry in AR / VR game, in other word we can clearly tell if we are in the game.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">There is more detailed discussion in &quot;RULES&quot; section<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">&gt; In computer graphics, a sprite is a two-dimensional bitmap that is integrated into a larger scene.<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;"><a href="https://en.wikipedia.org/wiki/Sprite_" target="_blank" rel="external">https://en.wikipedia.org/wiki/Sprite_</a>(computer_graphics)<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Thanks to @Banaive for information about Overwatch<a href="#fnref:5" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">This conecept comes from &quot;Finite and Infinite Games&quot; by James Carse<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">There is still a very clear boundry in AR / VR game, in other word we can clearly tell if we are in the game.<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">There is more detailed discussion in &quot;RULES&quot; section<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Thanks to @Banaive for information about Overwatch<a href="#fnref:4" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
     
     <summary type="html">
     
