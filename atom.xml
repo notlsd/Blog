@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://notlsd.com/"/>
-  <updated>2019-05-08T04:49:20.860Z</updated>
+  <updated>2019-05-08T04:59:55.946Z</updated>
   <id>http://notlsd.com/</id>
   
   <author>
@@ -20,7 +20,7 @@
     <link href="http://notlsd.com/2019/01/15/reigns-state-machine/"/>
     <id>http://notlsd.com/2019/01/15/reigns-state-machine/</id>
     <published>2019-01-14T22:31:37.000Z</published>
-    <updated>2019-05-08T04:49:20.860Z</updated>
+    <updated>2019-05-08T04:59:55.946Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Reigns 有一个令玩家十分诟病的地方 — 不同的选择仍然经常会导致同样的结局，以致于了无趣味。Reigns 的主创认为这是 Feature，然而不少玩家却认为这是 Bug。不过这从侧面说明了 Reigns 的后台并非一般「文本冒险游戏」所使用的「决策树」。</p>
 <a id="more"></a>
@@ -37,7 +37,7 @@
 ">[3]</span></a></sup>，真实世界是没有 S/L 大法的<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="为什么 Roguelike 现在受到普遍的欢迎，尤其是在硬核玩家之中？至少 @notlsd 认为，在运算资源和美术资源如此冗余的今天，一个成功的游戏，尤其是成本十分有限的独立游戏，应该回归到 Gameplay 本身。Rogue-like 用极致的随机性创造了 Life-like 的体验，使得游戏中的情感体验总是很充沛
 ">[4]</span></a></sup>。</p>
 <p>抽离上述的哲学讨论或者说关于 Reigns 后台系统的 Why；我们回到具体的，Reigns 的作者是如何搭建这个系统的，或者说关于这个系统 How。</p>
-<p><img src="/2019/01/15/reigns-state-machine/./reigns-state-machine/tree-vs-state-machine.png" alt="Tree vs State Machine"><span class="imgTitle">Tree vs State Machine</span></p>
+<p><img src="/2019/01/15/reigns-state-machine/tree-vs-state-machine.png" alt="Tree vs State Machine"><span class="imgTitle">Tree vs State Machine</span></p>
 <p>左图是概率包，右图是决策树。显见得，上图中「红色边框」代表玩家的选择，「蓝色边框」代表可能但实际上并没有发生的选择。卡牌的大小代表可能被抽到的权重，Bag 的总权重是单位一。</p>
 <p>比起「决策树」，「概率包」引入了随机的过程和权重的概念，同时，「概率包」本身又是有限的，故而实现了<strong><em>「可控的随机」</em></strong>。</p>
 <p>「决策树」背后的世界观是机械的，命定论的，玩家的每一个选择必定确定了游戏之后的走向。只要做同样的选择，无论玩家重来多少次都会走上同样的结局。</p>
@@ -60,7 +60,7 @@
 <p>即使只有少数卡牌因为玩家之前的选择而被放入卡牌包中，整个故事也会以诡异和意料之外的方式运行，这会鼓励玩家制作自己的叙事。</p>
 </blockquote>
 <h3 id="数据库-—-卡牌包的实现"><a href="#数据库-—-卡牌包的实现" class="headerlink" title="数据库 — 卡牌包的实现"></a>数据库 — 卡牌包的实现</h3><p>游戏中几乎所有的设定都在下面这张图里</p>
-<p><img src="/2019/01/15/reigns-state-machine/Users/notlsd/Desktop/Screen Shot 2019-01-11 at 6.23.14 AM.png" alt="Screen Shot 2019-01-11 at 6.23.14 AM"><span class="imgTitle">Screen Shot 2019-01-11 at 6.23.14 AM</span></p>
+<p><img src="/2019/01/15/reigns-state-machine/core-database.png" alt="Core Database"><span class="imgTitle">Core Database</span></p>
 <p>概率包的实现是靠的数据库，我们拆开一个一个字段地看：</p>
 <p>前七个字段是数据库的核心部分：</p>
 <ul>
@@ -85,13 +85,13 @@
 <li>Trick from Reigns</li>
 </ul>
 <p>在 Reigns 中实现 Doungen，其实质是在一个概率系统中实现一个确定性路径。这是一个困难的任务，然而作者的实现十分的巧妙，或者说  Tricky ，如下图：</p>
-<p><img src="/2019/01/15/reigns-state-machine/Users/notlsd/Google Drive/Blog/source/_posts/reigns-state-machine/database-dungeon.png" alt="Database-Dungeon1"><span class="imgTitle">Database-Dungeon1</span></p>
+<p><img src="/2019/01/15/reigns-state-machine/Users/notlsd/Google Drive/Blog/source/_posts/reigns-state-machine/database-dungeon.png" alt="Dungeon Database"><span class="imgTitle">Dungeon Database</span></p>
 <p>解法其实非常简单：一般意义的场景是同一个持牌者 Bearer ，对应着不同的卡牌 Card ；然而在 Dungeon 里却是同一张 Card 对应着不同的 Bearer。</p>
 <p>这样就解决了确定性路径的问题，并实现了后端结构的一致性。但这么做仍然是有问题的，这样不具有可扩展性。Reigns 中的 Dungeon，复杂度其实很小，最多也就十张卡牌。然而在这个结构下，随着卡牌数量的增加，其复杂度的增加是指数级的<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="非算法意义上的，粗略估计，未经计算">[7]</span></a></sup>。</p>
 <ul>
 <li>Another Trick from @notlsd </li>
 </ul>
-<p><img src="/2019/01/15/reigns-state-machine/./reigns-state-machine/card-bag-flowchart.png" alt="Tree vs State Machine"><span class="imgTitle">Tree vs State Machine</span></p>
+<p><img src="/2019/01/15/reigns-state-machine/card-bag-flowchart.png" alt="Card Bag Flow Chart"><span class="imgTitle">Card Bag Flow Chart</span></p>
 <p>在每一次进入依赖于随机概率的「主卡牌包」前，放置一个「前置卡牌包」，先抽取「前置卡牌包」中的卡牌，若「前置卡牌包」为空，抽取「主卡牌包」，这样能把复杂度降到线性。</p>
 <h3 id="多说几句"><a href="#多说几句" class="headerlink" title="多说几句"></a>多说几句</h3><ul>
 <li><p>作者在 GDC 的演讲中说，Reigns 统共 707 张卡。以每张卡牌对应的文本描述大约 10 个单词记，7000 正好是短篇小说的标准长度。</p>
