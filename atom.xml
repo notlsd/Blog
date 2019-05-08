@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://notlsd.com/"/>
-  <updated>2018-10-17T09:51:40.140Z</updated>
+  <updated>2019-05-08T04:49:20.860Z</updated>
   <id>http://notlsd.com/</id>
   
   <author>
@@ -14,6 +14,126 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>「概率状态机」- 「王权」之下的铁王座</title>
+    <link href="http://notlsd.com/2019/01/15/reigns-state-machine/"/>
+    <id>http://notlsd.com/2019/01/15/reigns-state-machine/</id>
+    <published>2019-01-14T22:31:37.000Z</published>
+    <updated>2019-05-08T04:49:20.860Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Reigns 有一个令玩家十分诟病的地方 — 不同的选择仍然经常会导致同样的结局，以致于了无趣味。Reigns 的主创认为这是 Feature，然而不少玩家却认为这是 Bug。不过这从侧面说明了 Reigns 的后台并非一般「文本冒险游戏」所使用的「决策树」。</p>
+<a id="more"></a>
+<p>@notlsd 找到了 Reigns 作者在 GDC 的演讲 <a href="https://www.youtube.com/watch?v=tDdtbh-oUTU" target="_blank" rel="external">「The Casual (but Regal) Swipe: Creating Game Mechanics in Reigns」</a>以及中央美术学院「重识游戏 — 首届功能与艺术游戏大展」Reigns 展位的说明文章「在「王权」中创造自适应叙事」，从而证实了这一点，并发现了 Reigns 背后的数据结构<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="未经特殊说明时，本文的截图来自于上述 GDC 演讲，引文来自于上述展板说明文章
+">[1]</span></a></sup>。Reigns 的游戏体验将显著降低対文章的理解难度，但非必要。</p>
+<h3 id="概率包-VS-决策树-—-两种世界观"><a href="#概率包-VS-决策树-—-两种世界观" class="headerlink" title="概率包 VS 决策树 — 两种世界观"></a>概率包 VS 决策树 — 两种世界观</h3><p>我们从一个対游戏的定义说起：</p>
+<blockquote>
+<p>A Game Is a Series of Interesting Decisions. </p>
+</blockquote>
+<p>这是 Sid Meir 老爷子给游戏的定义。那么问题来了，当玩家重复同样的选择，他还能到达同样的结局么？这其实是个哲学问题，或者说在游戏这个给定系统中，是否存在「拉普拉斯妖」？物理世界是有内禀的随机性的，游戏世界有么？在游戏设计中，确定性与随机性之间怎么平衡？</p>
+<p><strong><em>「可控随机」是游戏性的核心组成部分<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="@notlsd 正在撰写的一篇文章 Controlled Randomness - One Essiential Part of Gameplay，详尽的讨论了这个问题，完工后链接附于文后评论区
+">[2]</span></a></sup>。</em></strong></p>
+<p>某种程度上，游戏的起源即是于此。「动物世界」里，母狮捕猎到幼年羚羊总是先丢给幼崽蹂躏玩弄，而这个游戏又何尝不是幼师的「模拟人生」？最原始的游戏就是对真实的随机世界降低难度后的模拟，如象棋之于战争，过家家之于成人生活。就像 Rogue-like Game 一样<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="「S/L 大法」指在单人游戏中大规模使用 Save / Load 以对抗高难度 A.I.
+">[3]</span></a></sup>，真实世界是没有 S/L 大法的<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="为什么 Roguelike 现在受到普遍的欢迎，尤其是在硬核玩家之中？至少 @notlsd 认为，在运算资源和美术资源如此冗余的今天，一个成功的游戏，尤其是成本十分有限的独立游戏，应该回归到 Gameplay 本身。Rogue-like 用极致的随机性创造了 Life-like 的体验，使得游戏中的情感体验总是很充沛
+">[4]</span></a></sup>。</p>
+<p>抽离上述的哲学讨论或者说关于 Reigns 后台系统的 Why；我们回到具体的，Reigns 的作者是如何搭建这个系统的，或者说关于这个系统 How。</p>
+<p><img src="/2019/01/15/reigns-state-machine/./reigns-state-machine/tree-vs-state-machine.png" alt="Tree vs State Machine"><span class="imgTitle">Tree vs State Machine</span></p>
+<p>左图是概率包，右图是决策树。显见得，上图中「红色边框」代表玩家的选择，「蓝色边框」代表可能但实际上并没有发生的选择。卡牌的大小代表可能被抽到的权重，Bag 的总权重是单位一。</p>
+<p>比起「决策树」，「概率包」引入了随机的过程和权重的概念，同时，「概率包」本身又是有限的，故而实现了<strong><em>「可控的随机」</em></strong>。</p>
+<p>「决策树」背后的世界观是机械的，命定论的，玩家的每一个选择必定确定了游戏之后的走向。只要做同样的选择，无论玩家重来多少次都会走上同样的结局。</p>
+<p>「概率包」背后的世界观则是「可控的随机」。内秉的随机性使得每次游戏流程都有可能不同，可选项的边界却又保证了不同选择之间内在逻辑的自洽。</p>
+<h3 id="用概率写一个叙事"><a href="#用概率写一个叙事" class="headerlink" title="用概率写一个叙事"></a>用概率写一个叙事</h3><p>以下内容全文引用自中央美术学院「重识游戏 — 首届功能与艺术游戏大展」Reigns 展位的说明文章<a href="https://www.gamasutra.com/view/news/283967/Game_Design_Deep_Dive_Creating_an_adaptive_narrative_in_Reigns.php" target="_blank" rel="external">「在「王权」中创造自适应叙事」</a><sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Reigns 在央美游戏大展展位上的说明文章，基本上是 [gamasutra 这篇文章](](https://www.gamasutra.com/view/news/283967/Game_Design_Deep_Dive_Creating_an_adaptive_narrative_in_Reigns.php )) 的翻译。但翻译的质量真的是差强人意中的差强人意，也就勉强能看，一股浓浓的中国大学生赶作业的 Feeling ......
+">[5]</span></a></sup><sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="最后证实，翻译就是 Google Translate 的机翻。引文翻译经过 @notsld 的大规模修正和润色，部分段落完全重写">[6]</span></a></sup>，有大规模删改：</p>
+<blockquote>
+<p>为了用概率写一个叙事，我们将随机选择的卡牌转换为概率系统。这是一个看起来相当复杂的表达，实际上却非常简单：</p>
+<p>想象一下，有一个「卡牌包」，它拥有伸缩的能力以适应你放入其中的内容。默认情况下，「卡牌包」中包含游戏中所有的可用卡牌。当我选择显示给玩家的下一张牌时，我首先要从包中取出所有不符合当前状态的卡牌。</p>
+<p>这样会出现很多的变化。然而，例如，如果一系列卡牌与王后的存在相关但你尚未结婚，我会删除它们；如果一张卡牌在教堂富丽堂皇，但教会却很孱弱的情况下才会被触发，我也会将其删除。同时我会删除所有最近打得太频繁的卡牌。</p>
+<p>玩家最终会得到一袋混合卡，包含着各种大小不一的卡，然后我从包中随机抽取一张卡牌井将其显示给玩家。</p>
+<p>卡牌的虚拟尺寸创造了有趣的可能性，较大的卡最终成为所选择的卡的概率大于较小的卡的概率。但是如果较大的卡牌不在包中，因为它们已经在前一步骤中被移除，那么较小的卡牌被抽取的总体概率会增加许多。</p>
+<p>这就是为什么「卡牌包」伸缩的能力变得如此重要。如果你和你的邻居发生了一场战争，那么与这个特定事件相关的十几张卡牌就会变得「很大」，在卡牌包中占用大量虚拟空间的就是它们，而不是与任何特定条件无关的卡牌，比方说小丑牌。这样可以最大限度地提高在战争期间选中战争牌的可能性，并最大限度地减少选中小丑牌的可能性。一旦战争结束，战争牌就会被从卡牌包中移除，因此系统有更多的机会再次选择小丑卡，因为它们被抽取的概率增加了。</p>
+<p>一些事件，如地牢或决斗将把游戏锁定在一个较小的子系统中，此时卡牌包将变得非常小，只包含几张牌。这个子系统也可能只是一张卡牌，创造线性路径，就像游戏中遇到魔鬼时那样。</p>
+<p>我不介意 Reigns 的不完美之处，这些不完美之处对游戏古怪的品味反而异常重要。我们总是小心翼翼地围绕核心玩法，可玩性和游戏本身古怪的品味，构建关于游戏的一切。但我们没有对我们想要在游戏中放置的东西的数量进行任何限制，这使得我们的玩家有时会感到些许的惊讶和混乱。</p>
+<p>制作 Reigns 的「卡牌包」实际上非常类似于一个探索的过程。你选择尽可能少的东西，并报以最好的希望。我从写常规的「一次性」卡牌开始；然后尝试了一组卡牌来构建短时间内触发的「迷你故事支线」；之后扩展到永久性添加到牌组中新的角色和事件，最后是「魔鬼支线」。围绕着游戏的核心玩法，我们旨在将玩家带入意想不到的地方和情境。</p>
+<p>通过这个系统，我们有机的结合了深度叙事与「卡牌包」，「卡牌包」中有着大量的主题卡牌与围绕特定故事线的子包。这种机制在几个世纪中一直是隐藏在不同游戏幕后的「元游戏」机制。</p>
+<p>Reigns 非常谦卑和狡猾地遵循 Failbetter Games 基于质量的叙事方法。Reigns 中「质量」就是「每次玩家滑动时重新编译的可用卡牌包」。这会影响全局的游戏状态。</p>
+<p>最后，在核心循环中，从纯粹的随机卡牌，到由之前选择触发的确定性路径，Regins 每次都会加入一系列新的卡牌混入卡牌包中。这种混合会引发非常有趣的后果。当玩家发现某些卡牌是因为他之前的选择而被放入卡牌包中时，因为很难从卡牌中辨别出哪张卡牌是随机的，哪张卡牌是在确定性的路径上的，所以每张卡牌都变得有意义。</p>
+<p>即使只有少数卡牌因为玩家之前的选择而被放入卡牌包中，整个故事也会以诡异和意料之外的方式运行，这会鼓励玩家制作自己的叙事。</p>
+</blockquote>
+<h3 id="数据库-—-卡牌包的实现"><a href="#数据库-—-卡牌包的实现" class="headerlink" title="数据库 — 卡牌包的实现"></a>数据库 — 卡牌包的实现</h3><p>游戏中几乎所有的设定都在下面这张图里</p>
+<p><img src="/2019/01/15/reigns-state-machine/Users/notlsd/Desktop/Screen Shot 2019-01-11 at 6.23.14 AM.png" alt="Screen Shot 2019-01-11 at 6.23.14 AM"><span class="imgTitle">Screen Shot 2019-01-11 at 6.23.14 AM</span></p>
+<p>概率包的实现是靠的数据库，我们拆开一个一个字段地看：</p>
+<p>前七个字段是数据库的核心部分：</p>
+<ul>
+<li>card <strong>卡牌名称</strong></li>
+<li>ID <strong>数据库索引</strong></li>
+<li>bearer <strong>持牌者</strong>，Reigns 里决策即是接受或拒绝「持牌者」的提议</li>
+<li>condition <strong>先验判断条件</strong>，卡牌能否被激活</li>
+<li>ckturn <strong>存活时间</strong>，全称应该是 Continous Kill TURN，这即是作者在文章中提及的「删除所有最近打得太频繁的卡牌」</li>
+<li>weight <strong>权重</strong>，即是虚拟的卡牌「大小」，决定卡牌被抽取的概率</li>
+<li>question <strong>文本描述</strong></li>
+</ul>
+<p>后面十四个字段是关于 Yes / No 的选择及其対卡牌包的影响</p>
+<ul>
+<li>override_yes / override_no 更换前端文本</li>
+<li>answer_yes / answer_no 如题</li>
+<li>yes_spritual / yes_military / yes_demography / yes_treasure 选择「是」对四个维度的影响</li>
+<li>no_spritual / no_military / no_demography / no_treasure 选择「否」对四个维度的影响</li>
+<li>yes_custom / no_custom 选择后是否进入自定义的子包</li>
+</ul>
+<p>上述机制实现了 Reigns 的绝大部分内容 —— 除了 Doungen</p>
+<h3 id="Doungen-—-A-Trick-and-Another-Trick"><a href="#Doungen-—-A-Trick-and-Another-Trick" class="headerlink" title="Doungen — A Trick and Another Trick"></a>Doungen — A Trick and Another Trick</h3><ul>
+<li>Trick from Reigns</li>
+</ul>
+<p>在 Reigns 中实现 Doungen，其实质是在一个概率系统中实现一个确定性路径。这是一个困难的任务，然而作者的实现十分的巧妙，或者说  Tricky ，如下图：</p>
+<p><img src="/2019/01/15/reigns-state-machine/Users/notlsd/Google Drive/Blog/source/_posts/reigns-state-machine/database-dungeon.png" alt="Database-Dungeon1"><span class="imgTitle">Database-Dungeon1</span></p>
+<p>解法其实非常简单：一般意义的场景是同一个持牌者 Bearer ，对应着不同的卡牌 Card ；然而在 Dungeon 里却是同一张 Card 对应着不同的 Bearer。</p>
+<p>这样就解决了确定性路径的问题，并实现了后端结构的一致性。但这么做仍然是有问题的，这样不具有可扩展性。Reigns 中的 Dungeon，复杂度其实很小，最多也就十张卡牌。然而在这个结构下，随着卡牌数量的增加，其复杂度的增加是指数级的<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="非算法意义上的，粗略估计，未经计算">[7]</span></a></sup>。</p>
+<ul>
+<li>Another Trick from @notlsd </li>
+</ul>
+<p><img src="/2019/01/15/reigns-state-machine/./reigns-state-machine/card-bag-flowchart.png" alt="Tree vs State Machine"><span class="imgTitle">Tree vs State Machine</span></p>
+<p>在每一次进入依赖于随机概率的「主卡牌包」前，放置一个「前置卡牌包」，先抽取「前置卡牌包」中的卡牌，若「前置卡牌包」为空，抽取「主卡牌包」，这样能把复杂度降到线性。</p>
+<h3 id="多说几句"><a href="#多说几句" class="headerlink" title="多说几句"></a>多说几句</h3><ul>
+<li><p>作者在 GDC 的演讲中说，Reigns 统共 707 张卡。以每张卡牌对应的文本描述大约 10 个单词记，7000 正好是短篇小说的标准长度。</p>
+</li>
+<li><p>除了后端的「概率状态机」，Reigns 的前端交互也值得一提。Reigns 将前端交互简化为了 Tinder-like 的「左右滑动」。然而，这种改造的优秀之处在于并不在于使游戏的体验变得类似于 Tinder，事实上也并不可比。关键之处在于「左右滑动」的形式显著减轻了玩家的决策成本与认知负担。</p>
+</li>
+<li><p>在 GDC 的演讲里，作者有一句很有趣的论断</p>
+<blockquote>
+<p>The player stop reading the text and they were just optimazing their own service syste</p>
+</blockquote>
+<p>翻译大致是「玩家不会阅读文字，他们只会调整自己的周遭」，这大概解释了为什么纯粹的「文本冒险游戏」 Text Adventure Game 这个类别一直火不起来，当然 GAL Game 除外。GAL Game 是一些更为本质的动机了。</p>
+</li>
+<li><p>Reigns 的游戏机制，姑且称之为「概率卡牌包」，完全有潜力成为一个独立的游戏类型，至少成为卡牌游戏下的一个子类型。同样的结构，除了「维持政权稳定」外，可以承载的内容还有许多。然而，开发者 François Alliot 把这个类型完全给窄化了。不客气的说 Reigns: Her Majesty / Reigns: GoT 都是「换皮游戏」，最多算是 DLC。</p>
+</li>
+<li>一个有趣的摹仿反倒是在中国，一个「华农兄弟」粉丝向游戏：<a href="https://www.taptap.tw/app/145214" target="_blank" rel="external">「竹鼠：活下去」</a>，但总的来说也能称得上「拙劣」。在前端，将滑动改为了点击；在后端，玩家的选择与四个评判标准并没有逻辑上的对应关系。</li>
+</ul>
+<h3 id="One-More-Thing"><a href="#One-More-Thing" class="headerlink" title="One More Thing"></a>One More Thing</h3><p>在上面的引文中，我刻意的漏掉了下面这段话：</p>
+<blockquote>
+<p>The versatility of that probabilistic system was essential to build the game. I really considered it as a tool or a grammar to push the game in wacky and unexpected ways rather than a closed system that needed a defined amount of content to be “perfect”.</p>
+</blockquote>
+<p>中文翻译大致如下：</p>
+<blockquote>
+<p>这种概率系统的多功能性对于构建游戏至关重要。我确实认为它是一种以古灵精怪和意料之外的方式推动游戏进程的工具或语法，而不是一个需要「数值策划」的「完美」的封闭系统。</p>
+</blockquote>
+<p>这和 @notlsd 的游戏观如出一辙，是的，这是一种工具或语法，包罗万象。</p>
+<p><strong>Reigns × Animal Farm</strong> 是什么样子 ？</p>
+<p>George Orwell 的食材配上「中国特色」的调料，用 Reigns 的炊具一顿爆炒，会是什么味道？</p>
+<p><a href="https://indienova.com/g/afcc" target="_blank" rel="external">2019「中国特色动物农场」</a> 敬请期待 ~</p>
+<p>推翻独裁猪！</p>
+<p>猪年大吉吧！</p>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">未经特殊说明时，本文的截图来自于上述 GDC 演讲，引文来自于上述展板说明文章<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">@notlsd 正在撰写的一篇文章 Controlled Randomness - One Essiential Part of Gameplay，详尽的讨论了这个问题，完工后链接附于文后评论区<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">「S/L 大法」指在单人游戏中大规模使用 Save / Load 以对抗高难度 A.I.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">为什么 Roguelike 现在受到普遍的欢迎，尤其是在硬核玩家之中？至少 @notlsd 认为，在运算资源和美术资源如此冗余的今天，一个成功的游戏，尤其是成本十分有限的独立游戏，应该回归到 Gameplay 本身。Rogue-like 用极致的随机性创造了 Life-like 的体验，使得游戏中的情感体验总是很充沛<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Reigns 在央美游戏大展展位上的说明文章，基本上是 <a href="%5D(https://www.gamasutra.com/view/news/283967/Game_Design_Deep_Dive_Creating_an_adaptive_narrative_in_Reigns.php">gamasutra 这篇文章</a>) 的翻译。但翻译的质量真的是差强人意中的差强人意，也就勉强能看，一股浓浓的中国大学生赶作业的 Feeling ……<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">最后证实，翻译就是 Google Translate 的机翻。引文翻译经过 @notsld 的大规模修正和润色，部分段落完全重写<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">非算法意义上的，粗略估计，未经计算<a href="#fnref:7" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Reigns 有一个令玩家十分诟病的地方 — 不同的选择仍然经常会导致同样的结局，以致于了无趣味。Reigns 的主创认为这是 Feature，然而不少玩家却认为这是 Bug。不过这从侧面说明了 Reigns 的后台并非一般「文本冒险游戏」所使用的「决策树」。&lt;/p&gt;
+    
+    </summary>
+    
+      <category term="拆游戏" scheme="http://notlsd.com/categories/%E6%8B%86%E6%B8%B8%E6%88%8F/"/>
+    
+    
+  </entry>
   
   <entry>
     <title>What is Game - An Inspiration from GMS Archetechture</title>
@@ -224,7 +344,7 @@
     <link href="http://notlsd.com/2018/08/03/alibaba-tencent-morgan-rockefeller/"/>
     <id>http://notlsd.com/2018/08/03/alibaba-tencent-morgan-rockefeller/</id>
     <published>2018-08-02T16:37:22.000Z</published>
-    <updated>2018-08-21T15:58:42.816Z</updated>
+    <updated>2018-08-21T15:58:42.810Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><h3 id="引言：从-1918-到-2018"><a href="#引言：从-1918-到-2018" class="headerlink" title="引言：从 1918 到 2018"></a>引言：从 1918 到 2018</h3><p>下表是 <a href="https://www.forbes.com/sites/chasewithorn/2017/09/19/the-first-forbes-list-see-who-the-richest-americans-were-in-1918/#15dec5494c0d" target="_blank" rel="external">Forbes 美国 1918 的排名</a>，常有人说，中国仿佛「进步时代」的美国<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="@notlsd 倒不觉得，觉得更像「广场协议」之前的日本，参见 [这篇文章](https://notlsd.github.io/2018/05/29/japan-1990s-china-2020s/)">[1]</span></a></sup>，比照 <a href="https://www.forbes.com/china-billionaires/list/" target="_blank" rel="external">Forbes 中国 2018 最新的排名</a><sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="表单上第十三 J.P.Morgan Jr. 是 J.P.Morgan 的儿子，史学家通常将 J.P.Morgan 于 1913 去世称之为「摩根财团」衰败的起点，1918 已远非巅峰。">[2]</span></a></sup>，从中或许可以窥之一二。</p>
 <a id="more"></a>
@@ -510,7 +630,7 @@
     <link href="http://notlsd.com/2018/07/03/asimov-foundation-series-end/"/>
     <id>http://notlsd.com/2018/07/03/asimov-foundation-series-end/</id>
     <published>2018-07-02T17:00:56.000Z</published>
-    <updated>2018-08-12T07:36:47.552Z</updated>
+    <updated>2018-08-12T07:36:47.550Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>The ending of the Asimov’s Foundation series in “ Foundation and Earth “ (abbr. as”F&amp;E” in following) is really a anticlimax. Asimov have lost his standard in his most important, even the most important science fiction epic in history. </p>
 <a id="more"></a>
@@ -579,7 +699,7 @@
     <link href="http://notlsd.com/2018/06/24/travel-frog-lifeline/"/>
     <id>http://notlsd.com/2018/06/24/travel-frog-lifeline/</id>
     <published>2018-06-23T19:15:00.000Z</published>
-    <updated>2018-06-26T17:07:37.852Z</updated>
+    <updated>2018-06-26T17:07:37.850Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在 2015 年，「生命线」Lifeline 成为现象级产品，甚至带火了「文本冒险游戏」这个类别；同样，2018 年初「旅行青蛙」旅かえる 骤然爆红。看似毫无联系的两款游戏，设计上其实有着内在的一致性。</p>
 <p>原文首发于 <a href="https://indienova.com/indie-game-development/similarities-between-lifeline-and-traveling-frog/" target="_blank" rel="external">Indienova</a> </p>
@@ -660,7 +780,7 @@
     <link href="http://notlsd.com/2018/05/29/japan-1990s-china-2020s/"/>
     <id>http://notlsd.com/2018/05/29/japan-1990s-china-2020s/</id>
     <published>2018-05-29T15:23:09.000Z</published>
-    <updated>2018-06-28T05:01:59.763Z</updated>
+    <updated>2018-06-28T05:01:59.760Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>这篇文章算是最近读 Principles of Economics, N.Gregory Mankiw 的随笔以及 Sci-Hub 的使用练习。本文不完备，某种程度上只是一个 Note。论据核心是来自三篇论文的四张图。</p>
 <a id="more"></a>
@@ -800,7 +920,7 @@
     <link href="http://notlsd.com/2017/06/13/polytopia-a-mobilized-civilization/"/>
     <id>http://notlsd.com/2017/06/13/polytopia-a-mobilized-civilization/</id>
     <published>2017-06-13T07:40:27.000Z</published>
-    <updated>2018-10-15T09:09:29.458Z</updated>
+    <updated>2018-10-15T09:09:29.450Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Sid Meir’s Civilization series are one of the greatest monuments in the history of PC games. However, due to that sophisticated mechanism with day and night “ One More Turn “, it’s extremely difficult to transplant it into mobile platform. Even 2k’s own transplantation was a failure.</p>
 <p>@notlsd recently have been addicted into “ The Battle of Polytopia ” - An indie game from one-man studio - Midjiwan in Sweden. It’s the best civilization-like game in mobile platform @notlsd have ever seen. </p>
@@ -885,7 +1005,7 @@
     <link href="http://notlsd.com/2017/06/08/hdjq-5-reading-on-lakeside/"/>
     <id>http://notlsd.com/2017/06/08/hdjq-5-reading-on-lakeside/</id>
     <published>2017-06-08T07:49:48.000Z</published>
-    <updated>2018-02-08T02:01:39.253Z</updated>
+    <updated>2018-02-08T02:01:39.250Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>一个人，一辆车，一本小册子<br><a id="more"></a><br>坐在湖边，悠哉游哉的阅读<br>这是中学时代以来便养成的习惯</p>
 <p>湖风很少是所谓「轻拂」，<br>在自然的狂暴下，更能感受到<br>书籍，或曰书籍中所凝聚的乃是人类文明的舍利子</p>
@@ -969,7 +1089,7 @@
     <link href="http://notlsd.com/2017/06/08/hdjq-4-lowest-national-flag/"/>
     <id>http://notlsd.com/2017/06/08/hdjq-4-lowest-national-flag/</id>
     <published>2017-06-08T02:35:01.000Z</published>
-    <updated>2018-02-07T14:20:40.088Z</updated>
+    <updated>2018-02-07T14:20:40.080Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>在环滇的路上，恰巧偶遇晋宁农民抗议强行征地。四年后的今天，果真当地果真已经成为了一个巨大且空置的楼盘<a href="http://www.ynnsd.com/front/industry/296.whtml" target="_blank" rel="external">七彩云南·古滇文化旅游名城</a>。不禁想起那句著名的话：</p>
 <a id="more"></a>
@@ -1014,7 +1134,7 @@
     <link href="http://notlsd.com/2017/06/02/xiong-an-new-district/"/>
     <id>http://notlsd.com/2017/06/02/xiong-an-new-district/</id>
     <published>2017-06-02T07:02:42.000Z</published>
-    <updated>2018-04-16T11:45:19.061Z</updated>
+    <updated>2018-04-16T11:45:19.060Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>「愚人节」听到这个消息，真诚的喊一声 April Fool !</p>
 <p>新华社写到：</p>
@@ -1203,7 +1323,7 @@
     <link href="http://notlsd.com/2017/06/02/micro-business-copycat-kfc/"/>
     <id>http://notlsd.com/2017/06/02/micro-business-copycat-kfc/</id>
     <published>2017-06-02T01:21:53.000Z</published>
-    <updated>2017-06-04T03:15:03.000Z</updated>
+    <updated>2019-01-14T23:37:46.207Z</updated>
     
     <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>北京理工大学南面有一条「民大西路」，街面上充斥着各种小吃，人称「堕落街」。@notlsd 最爱的是一家没有名字的炸鸡店，即下图中右半边的小店；图中左半边是一个贵州小伙开的小店，姑且称之为「啥都卖小店」吧，从「炸洋芋」到「丝娃娃[2]」再到「鲜扎果汁」。同样是瞄准学生市场的熟食生意，红火程度天壤地别。</p>
 <a id="more"></a>
@@ -1271,6 +1391,8 @@
       &lt;p&gt;北京理工大学南面有一条「民大西路」，街面上充斥着各种小吃，人称「堕落街」。@notlsd 最爱的是一家没有名字的炸鸡店，即下图中右半边的小店；图中左半边是一个贵州小伙开的小店，姑且称之为「啥都卖小店」吧，从「炸洋芋」到「丝娃娃[2]」再到「鲜扎果汁」。同样是瞄准学生市场的熟食生意，红火程度天壤地别。&lt;/p&gt;
     
     </summary>
+    
+      <category term="产品论" scheme="http://notlsd.com/categories/%E4%BA%A7%E5%93%81%E8%AE%BA/"/>
     
     
   </entry>
@@ -1786,169 +1908,6 @@
     </summary>
     
       <category term="技术栈" scheme="http://notlsd.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
-    
-    
-  </entry>
-  
-  <entry>
-    <title>十二怒局：拆解 Replica</title>
-    <link href="http://notlsd.com/2017/05/27/replica-analysis/"/>
-    <id>http://notlsd.com/2017/05/27/replica-analysis/</id>
-    <published>2017-05-27T09:02:20.000Z</published>
-    <updated>2017-10-23T14:30:58.000Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p><sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="英文标题应该更有神韵 12 Angry Endings - Replica Dismantled 不过为了标题和内容在语言层面的一致性，还是使用中文">[1]</span></a></sup> 这篇文章拆解了屡获殊荣的独立游戏 Replica。前面三节将 Replica 放到显微镜下去观察，去分析具体的每一个组件是什么，是以什么结构组织起来的。后面三节是作者 @notlsd 对 Replica 游戏设计的的评价。</p>
-<a id="more"></a>
-<p><strong>原文首发于 <a href="www.indienova.com">Indienova</a></strong> </p>
-<h3 id="Replica-故事线"><a href="#Replica-故事线" class="headerlink" title="Replica 故事线"></a>Replica 故事线</h3><p><img src="/2017/05/27/replica-analysis/Replica_Flow_Chart_WL.png" alt="REPLICA 故事线"><span class="imgTitle">REPLICA 故事线</span> </p>
-<h3 id="Replica-密码表"><a href="#Replica-密码表" class="headerlink" title="Replica 密码表"></a>Replica 密码表</h3><table>
-<thead>
-<tr>
-<th style="text-align:center">Lock</th>
-<th style="text-align:center">Key</th>
-<th style="text-align:center">Hint</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">锁屏密码</td>
-<td style="text-align:center">1105</td>
-<td style="text-align:center">Tom 本人生日</td>
-</tr>
-<tr>
-<td style="text-align:center">私密相册</td>
-<td style="text-align:center">1026</td>
-<td style="text-align:center">Tom 和女朋友 Marge 相遇的日子</td>
-</tr>
-<tr>
-<td style="text-align:center">登录 Like</td>
-<td style="text-align:center">1018</td>
-<td style="text-align:center">女朋友 Marge 的生日</td>
-</tr>
-<tr>
-<td style="text-align:center">登录 Follow</td>
-<td style="text-align:center">2255</td>
-<td style="text-align:center">密码找回短信中 BALL / CALL 在九宫格键盘上对应的数字</td>
-</tr>
-<tr>
-<td style="text-align:center">记者电话</td>
-<td style="text-align:center">0987</td>
-<td style="text-align:center">Like 里文章报道结尾的签名信息</td>
-</tr>
-<tr>
-<td style="text-align:center">蓝牙密码</td>
-<td style="text-align:center">1105</td>
-<td style="text-align:center">主线剧情 End 04 结尾 Tom 本人电话</td>
-</tr>
-<tr>
-<td style="text-align:center">莫尔斯码支线电话</td>
-<td style="text-align:center">4989</td>
-<td style="text-align:center">主线剧情 End 04 结尾的莫尔斯电码</td>
-</tr>
-<tr>
-<td style="text-align:center">莫尔斯码支线指令</td>
-<td style="text-align:center">knock</td>
-<td style="text-align:center"><a href="https://www.youtube.com/watch?v=Smwrw4sNCxE" target="_blank" rel="external">电影 The Matrix</a></td>
-</tr>
-</tbody>
-</table>
-<h3 id="Replica-致敬"><a href="#Replica-致敬" class="headerlink" title="Replica 致敬"></a>Replica 致敬</h3><p><strong>[小说] 1984</strong></p>
-<ul>
-<li><p>整体气氛的渲染</p>
-</li>
-<li><p>ENDING 8 : Big Brother Is Watching You</p>
-</li>
-</ul>
-<p><strong>[电影] The Matrix</strong></p>
-<ul>
-<li>整个「莫尔斯码」支线</li>
-</ul>
-<p><strong>[电影] V for Vendetta</strong> </p>
-<ul>
-<li><p>ENDING 10  </p>
-</li>
-<li><p>Tom 的生日 Nov 15th 在电影里是最后的 Big Day。这个是 @notlsd 在游戏中最喜欢的梗。</p>
-</li>
-</ul>
-<p><strong>[动漫] EVA</strong></p>
-<ul>
-<li>ENDING 11 死刑宣判过以后，主角一家的名字会变为「碇真嗣」「碇源堂」「碇唯」，碇一家终于在天堂相遇了</li>
-</ul>
-<p><strong>[游戏] 史丹利的寓言</strong> </p>
-<ul>
-<li>App 430 以及相应成就 <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="除了「史丹利的寓言」没有接触过，其它都是 @notlsd 的大爱">[2]</span></a></sup></li>
-</ul>
-<h3 id="Replica-Pros-and-Cons-3"><a href="#Replica-Pros-and-Cons-3" class="headerlink" title="Replica Pros and Cons [3]"></a>Replica Pros and Cons <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="找不到合适的中文，「利弊」显得诡异">[3]</span></a></sup></h3><h4 id="Pros"><a href="#Pros" class="headerlink" title="Pros"></a>Pros</h4><ul>
-<li><p>「手机中的手机」，Replica 是 @notlsd 所玩过的所有游戏当中，对「手游」这个概念诠释的最好的，没有之一，形式极其有创造力。 Steam 的移植反倒失去了游戏本身的神韵。</p>
-</li>
-<li><p>To Do List 作为任务系统与整个游戏的风格相得益彰，不唐突，营造了沉浸式体验。</p>
-</li>
-<li><p>四位数的电话号码。一方面，一眼就可以认出「电话号码」的性质；另一方面，减少了重复输入的Labour。不同国家的电话号码位数是不一样的，同时减轻了本地化的工作量。</p>
-</li>
-</ul>
-<h4 id="Cons"><a href="#Cons" class="headerlink" title="Cons"></a>Cons</h4><ul>
-<li><p>开机锁屏页面，完全一脸懵逼。游戏购买后，@notlsd 至少在手机里躺了半个月。完全没有新手引导，对新玩家相当不友善。</p>
-</li>
-<li><p>界面是 iOS 系统，但按键却是 Android 手机。这种混搭的感觉，只能说：It’s Weird<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="不排除是为了规避苹果爸爸的审查">[4]</span></a></sup>。</p>
-</li>
-<li><p>剧情过短且 Unbalanced，这一条是最为致命的。这点第一节的故事线流程图反应得很清楚。 </p>
-</li>
-</ul>
-<p>一句话总结，Replica 「形式天才，内容尚缺」。不过考虑到独立游戏的局限性，也可以理解<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="潜台词的意思是，@notlsd 制造的游戏，估计内容上还要单薄些">[5]</span></a></sup>。</p>
-<h3 id="Replica-的技术路线-与-somi-商榷"><a href="#Replica-的技术路线-与-somi-商榷" class="headerlink" title="Replica 的技术路线 - 与 @somi 商榷"></a>Replica 的技术路线 - 与 @somi 商榷</h3><h4 id="像素风-最好的表现形式-？"><a href="#像素风-最好的表现形式-？" class="headerlink" title="像素风 - 最好的表现形式 ？"></a>像素风 - 最好的表现形式 ？</h4><p>囿于成本的限制，独立游戏大量的使用像素风，在大部分的游戏中<sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="这里主要指 RPG 和沙盒类游戏">[6]</span></a></sup>反倒别有风味。但在 Replica 这里反倒有些不合适，一方面，App 图标本身的设计难度并不高，甚至可能比像素化还要更容易些；另一方面，像素化后，为了风格的统一性，字体也需要做相应修改。然而，至少在中文的本地化上，因为汉字本身成千上万，本地化不可能专门去做单独的字体。不得不使用标准字体后的，整体风格反倒显得有些诡异。</p>
-<h4 id="Unity3D-最合适的引擎-？"><a href="#Unity3D-最合适的引擎-？" class="headerlink" title="Unity3D - 最合适的引擎 ？"></a>Unity3D - 最合适的引擎 ？</h4><p>Unity3D 引擎的优势自不必说，易上手，能 3D。然而 Replica 是个 2D 游戏，而且也没有任何必要转制为 3D 。更为重要的是，如果 @notlsd 没记错的话，Unity3D 的操作逻辑只有点击，这样下划出现状态栏这样的操作就无法实现。游戏中的解决方案是顶端出现可点击的下拉箭头，只能算是个差强人意的解决方案，仍然破坏了沉浸式的游戏体验。</p>
-<p>既然是模拟手机，更加底层语言不可避免的带来更加真实的模拟。在这个意义上，Apple 自己的 SpriteKit 显然是更好的选择。</p>
-<p>此外，Unity3D 游戏的安装包普遍巨大，这会给手机内存不够的用户带来很大的困扰。</p>
-<h3 id="Replica-的真实世界"><a href="#Replica-的真实世界" class="headerlink" title="Replica 的真实世界"></a>Replica 的真实世界</h3><p>所谓「神作」，虽然是游戏，但更像是真实世界的映射。玩家思考的很大程度上仍然是真实世界。逻辑和这个 <a href="https://www.zhihu.com/question/35539724/answer/88192357" target="_blank" rel="external">@notlsd 的知乎答案</a>，是一致的。  </p>
-<p>先看这个表，游戏中的每一个 App 都是真实世界中影子，看到后可谓会心一笑。</p>
-<table>
-<thead>
-<tr>
-<th style="text-align:center">Mmail</th>
-<th style="text-align:center">Tele</th>
-<th style="text-align:center">ToDo</th>
-<th style="text-align:center">Tele</th>
-<th style="text-align:center">Search</th>
-<th style="text-align:center">Like</th>
-<th style="text-align:center">Follow</th>
-<th style="text-align:center">I’mStar</th>
-<th style="text-align:center">ChatIM</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td style="text-align:center">Gmail</td>
-<td style="text-align:center">Telegram</td>
-<td style="text-align:center">AnyDo</td>
-<td style="text-align:center">Telegram</td>
-<td style="text-align:center">Google</td>
-<td style="text-align:center">Facebook</td>
-<td style="text-align:center">Twitter</td>
-<td style="text-align:center">Instagram</td>
-<td style="text-align:center">WeChat</td>
-</tr>
-</tbody>
-</table>
-<p>更重要的是，游戏中蕴含了大量的「信息安全」和「社会工程学」的概念，或者说，整个游戏就是一场「社会工程学」实践<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="关于「社会工程学」的更详尽说明，参见 [编程君的这一系列帖子](https://program-think.blogspot.com/2009/05/social-engineering-0-overview.html)">[7]</span></a></sup>。</p>
-<ul>
-<li><p>信息安全第一步 <strong>永！远！不！要！用！生！日！做！密！码</strong> 游戏中至少有两个关键性密码是相关人物的生日。</p>
-</li>
-<li><p>更令 @notlsd 惊出一身冷汗的是，游戏中的某一个不起眼的解密方式即是 @notlsd 手机开机密码的加密方式（现已更改），曾经一直以为这是神不知鬼不觉的。</p>
-</li>
-</ul>
-<p>用一句我最喜欢的游戏里的话结尾吧</p>
-<blockquote>
-<p>仅仅是使用 Telegram 和 Gmail 的行为，就足令我们对其进行拘捕调查。他一定有不少的东西要藏着。莫非他妄图对国家造成恐怖主义威胁，否则为什么不使用政府批准的 WeChat 呢？<sup id="fnref:8"><a href="#fn:8" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="至少这句话的汉化没有体现出原文的神韵，自己重新翻译了一遍，并把游戏中的 App 换为了现实中的本体。英文原文参见注释九。">[8]</span></a></sup> <sup id="fnref:9"><a href="#fn:9" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="We can do an arrest investigation just for using Telegram and Mmail. He's got a lot to hide. Why else would he refuse to use government approved ChatIM unless he intended to threaten and terrorize the nation ?">[9]</span></a></sup></p>
-</blockquote>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">英文标题应该更有神韵 12 Angry Endings - Replica Dismantled 不过为了标题和内容在语言层面的一致性，还是使用中文<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">除了「史丹利的寓言」没有接触过，其它都是 @notlsd 的大爱<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">找不到合适的中文，「利弊」显得诡异<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">不排除是为了规避苹果爸爸的审查<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">潜台词的意思是，@notlsd 制造的游戏，估计内容上还要单薄些<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">这里主要指 RPG 和沙盒类游戏<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">关于「社会工程学」的更详尽说明，参见 <a href="https://program-think.blogspot.com/2009/05/social-engineering-0-overview.html" target="_blank" rel="external">编程君的这一系列帖子</a><a href="#fnref:7" rev="footnote"> ↩</a></span></li><li id="fn:8"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">8.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">至少这句话的汉化没有体现出原文的神韵，自己重新翻译了一遍，并把游戏中的 App 换为了现实中的本体。英文原文参见注释九。<a href="#fnref:8" rev="footnote"> ↩</a></span></li><li id="fn:9"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">9.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">We can do an arrest investigation just for using Telegram and Mmail. He’s got a lot to hide. Why else would he refuse to use government approved ChatIM unless he intended to threaten and terrorize the nation ?<a href="#fnref:9" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&lt;sup id=&quot;fnref:1&quot;&gt;&lt;a href=&quot;#fn:1&quot; rel=&quot;footnote&quot;&gt;&lt;span class=&quot;hint--top-right hint--error hint--large&quot; aria-label=&quot;英文标题应该更有神韵 12 Angry Endings - Replica Dismantled 不过为了标题和内容在语言层面的一致性，还是使用中文&quot;&gt;[1]&lt;/span&gt;&lt;/a&gt;&lt;/sup&gt; 这篇文章拆解了屡获殊荣的独立游戏 Replica。前面三节将 Replica 放到显微镜下去观察，去分析具体的每一个组件是什么，是以什么结构组织起来的。后面三节是作者 @notlsd 对 Replica 游戏设计的的评价。&lt;/p&gt;
-    
-    </summary>
-    
-      <category term="拆游戏" scheme="http://notlsd.com/categories/%E6%8B%86%E6%B8%B8%E6%88%8F/"/>
     
     
   </entry>
