@@ -164,11 +164,11 @@
 
         <!-- Post Content -->
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>利用「正则表达式」可以显著的提高文档处理的效率。本文围绕下列例子，简要的介绍了如何通过正则表达式进行文档的快速查找与替换。</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">查找字符串 ^[►](\D*)(\d+).*</div><div class="line"></div><div class="line">替换字符串 -&gt; b\2 [label=&quot;\1&quot;];</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">查找字符串 ^[►](\D*)(\d+).*</span><br><span class="line"></span><br><span class="line">替换字符串 -&gt; b\2 [label=&quot;\1&quot;];</span><br></pre></td></tr></table></figure>
 <a id="more"></a>
-<p>请注意，「正则表达式」Regular Expression 简称 Regx，是一门博大而深邃的艺术，本文只能算作入门教程的导论<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="本文默认读者知悉基本的计算机文本编码规则。">[1]</span></a></sup> <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="General Reference [正则表达式30分钟入门教程](http://deerchao.net/tutorials/regex/regex.htm) ">[2]</span></a></sup>。</p>
+<p>请注意，「正则表达式」Regular Expression 简称 Regx，是一门博大而深邃的艺术，本文只能算作入门教程的导论<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="本文默认读者知悉基本的计算机文本编码规则。">[1]</span></a></sup> <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="General Reference [正则表达式30分钟入门教程](http://deerchao.net/tutorials/regex/regex.htm) ">[2]</span></a></sup>。</p>
 <h3 id="最简单的例子-删除多余空行"><a href="#最简单的例子-删除多余空行" class="headerlink" title="最简单的例子 - 删除多余空行"></a>最简单的例子 - 删除多余空行</h3><p>最直接的想法即是查找「换行符」直接删除，如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">查找字符串 \n </div><div class="line">	</div><div class="line">替换字符串为空</div><div class="line"></div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">查找字符串 \n </span><br><span class="line">	</span><br><span class="line">替换字符串为空</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>然而，这样是行不通的：</p>
 <blockquote>
 <p>第一行文本</p>
@@ -180,10 +180,10 @@
 <p>第一行文本第二行文本第三行文本</p>
 </blockquote>
 <p>正常段落间换行也被删除了。不过，稍加变化即可解决问题：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">查找字符串 ^\n</div><div class="line"></div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">查找字符串 ^\n</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>在 Regx 中，<strong>^</strong> 标记行首；<strong>$</strong> 标记行尾。</p>
 <p>上述代码的意思即是查找出现在行首的「换行符」，从而解决了上述问题。</p>
-<h3 id="略微复杂的例子-删除行首行标"><a href="#略微复杂的例子-删除行首行标" class="headerlink" title="略微复杂的例子 - 删除行首行标"></a>略微复杂的例子 - 删除行首行标</h3><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">查找字符串 ^\d+</div><div class="line"></div></pre></td></tr></table></figure>
+<h3 id="略微复杂的例子-删除行首行标"><a href="#略微复杂的例子-删除行首行标" class="headerlink" title="略微复杂的例子 - 删除行首行标"></a>略微复杂的例子 - 删除行首行标</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">查找字符串 ^\d+</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>我们已经清楚通过 <strong>^</strong> 可以定位行首，现在新的问题是如何追踪到行标。凡事先问「是什么」，「行标」用自然语言来说，就是「出现在行首的一个或多个数字」。那么在 Regx 中可以用，\d+ 来表示。借此，引入「元字符」和「限定符」的概念，如下表：</p>
 <table>
 <thead>
@@ -237,7 +237,7 @@
 </tr>
 </tbody>
 </table>
-<h3 id="真实的应用：一堆文本与一个问题"><a href="#真实的应用：一堆文本与一个问题" class="headerlink" title="真实的应用：一堆文本与一个问题"></a>真实的应用：一堆文本与一个问题</h3><p>最近在处理一个超过十万字的 <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="OCR - Optical Character Recognition「光学字符识别」，通俗的说，就是扫描件。此外，[ABBYY](www.abbyy.com/en-us/) 真乃 OCR 神器。">[3]</span></a></sup> 文本，需要把它处理为某种计算机可用的格式。里面含有大量的类似于这样的文本：</p>
+<h3 id="真实的应用：一堆文本与一个问题"><a href="#真实的应用：一堆文本与一个问题" class="headerlink" title="真实的应用：一堆文本与一个问题"></a>真实的应用：一堆文本与一个问题</h3><p>最近在处理一个超过十万字的 <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="OCR - Optical Character Recognition「光学字符识别」，通俗的说，就是扫描件。此外，[ABBYY](www.abbyy.com/en-us/) 真乃 OCR 神器。">[3]</span></a></sup> 文本，需要把它处理为某种计算机可用的格式。里面含有大量的类似于这样的文本：</p>
 <blockquote>
 <p>► 指向 1984 。</p>
 </blockquote>
@@ -246,15 +246,15 @@
 <p>-&gt; 1984 [label = “ 指向 “];</p>
 </blockquote>
 <p>其中，文本和数字都是任意的。这是个有些复杂的问题，最终解决的办法就是开头的那串复杂的 Regx，如下：</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">查找字符串 ^[►](\D*)(\d+).*</div><div class="line">	</div><div class="line">替换字符串 -&gt; b\2 [label=&quot;\1&quot;];</div><div class="line"></div></pre></td></tr></table></figure>
-<p>除了上述章节已经提及的元素，首先映入眼帘的<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="这是「人民教育出版社九年制义务教育语文教科书」课文开头惯用语。">[4]</span></a></sup>，是一堆括号，那么就先来解释括号的意义。</p>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">查找字符串 ^[►](\D*)(\d+).*</span><br><span class="line">	</span><br><span class="line">替换字符串 -&gt; b\2 [label=&quot;\1&quot;];</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>除了上述章节已经提及的元素，首先映入眼帘的<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="这是「人民教育出版社九年制义务教育语文教科书」课文开头惯用语。">[4]</span></a></sup>，是一堆括号，那么就先来解释括号的意义。</p>
 <ul>
 <li><p>方括号 <strong>[ ]</strong> 指没有预定义的「元字符」集，比方说[►]就是指当匹配到任何一个「 ► 」的时候。同理， [aeiou]指匹配到任何一个元音字母的时候。</p>
 </li>
 <li><p>小括号 <strong>（ ）</strong> 指分组，每个组会被按照次序依次加上序号。替换字符串这里是最简单的应用，</p>
 </li>
 </ul>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">\1 指代 (\D*) 的内容</div><div class="line"></div><div class="line">\2 指代 (\d+) 的内容</div><div class="line"></div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">\1 指代 (\D*) 的内容</span><br><span class="line"></span><br><span class="line">\2 指代 (\d+) 的内容</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>显然，Regx 是大小写敏感的。再浏览一遍上面的 Regx，只有一个地方不清除了，<strong>\D</strong> 的意义。现在引入「反义字符」的概念</p>
 <table>
 <thead>
@@ -288,7 +288,7 @@
 </table>
 <p>同理 [^aeiou] 匹配除了 a e i o u 这几个字母以外的任意字符。那么，用自然语言解释这一串 Regx 的意义即是：</p>
 <p><strong>查找到行首；匹配 ► ；接着匹配任意数量非数字字符，编为第一组；接着匹配一个或多个数字，编为第二组；匹配任意数量的在本行的任意字符；完</strong></p>
-<h3 id="一只-BUG-与「贪婪模式」"><a href="#一只-BUG-与「贪婪模式」" class="headerlink" title="一只 BUG 与「贪婪模式」"></a>一只 BUG 与「贪婪模式」</h3><figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">查找字符串 ^[►](*)(\d+).*</div><div class="line"></div></pre></td></tr></table></figure>
+<h3 id="一只-BUG-与「贪婪模式」"><a href="#一只-BUG-与「贪婪模式」" class="headerlink" title="一只 BUG 与「贪婪模式」"></a>一只 BUG 与「贪婪模式」</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">查找字符串 ^[►](*)(\d+).*</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>之前处理此问题的时候，用的是上面这个 Regx ，但最后替换的结果令人哭笑不得</p>
 <blockquote>
 <p>-&gt; b4 [label=” 指向198”];</p>
@@ -300,10 +300,10 @@
 <p>这样的话，在「► 指向 1984 。」中，前面的 * 一直取到 8 也就不足为奇了。</p>
 <p>###</p>
 <p>思考题：Unix Command </p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">rm image*[02468].jpg evenImage </div><div class="line"></div></pre></td></tr></table></figure>
-<p>是什么意思？<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="答案：将所有名称为偶数的 jpg 图像移动到同目录下的 evenImage 目录">[5]</span></a></sup></p>
+<figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">rm image*[02468].jpg evenImage </span><br><span class="line"></span><br></pre></td></tr></table></figure>
+<p>是什么意思？<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="答案：将所有名称为偶数的 jpg 图像移动到同目录下的 evenImage 目录">[5]</span></a></sup></p>
 <h3 id="综上所述"><a href="#综上所述" class="headerlink" title="综上所述"></a>综上所述</h3><p>Regx 也应该可以算作「计算机科学」中的上古神器之一 — 简洁，优雅，烧脑。</p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">本文默认读者知悉基本的计算机文本编码规则。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">General Reference <a href="http://deerchao.net/tutorials/regex/regex.htm" target="_blank" rel="external">正则表达式30分钟入门教程</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">OCR - Optical Character Recognition「光学字符识别」，通俗的说，就是扫描件。此外，<a href="www.abbyy.com/en-us/">ABBYY</a> 真乃 OCR 神器。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">这是「人民教育出版社九年制义务教育语文教科书」课文开头惯用语。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">答案：将所有名称为偶数的 jpg 图像移动到同目录下的 evenImage 目录<a href="#fnref:5" rev="footnote"> ↩</a></span></li></ol></div></div>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">本文默认读者知悉基本的计算机文本编码规则。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">General Reference <a href="http://deerchao.net/tutorials/regex/regex.htm" target="_blank" rel="noopener">正则表达式30分钟入门教程</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">OCR - Optical Character Recognition「光学字符识别」，通俗的说，就是扫描件。此外，<a href="www.abbyy.com/en-us/">ABBYY</a> 真乃 OCR 神器。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">这是「人民教育出版社九年制义务教育语文教科书」课文开头惯用语。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">答案：将所有名称为偶数的 jpg 图像移动到同目录下的 evenImage 目录<a href="#fnref:5" rev="footnote"> ↩</a></span></li></ol></div></div>
     </div>
 
     
@@ -339,6 +339,10 @@
         <ul>
             
             <li>
+                <a class="footer-post" href="/2019/09/27/macos-external-drive/">MacOS Solution - External Drive Cannot Mount After Plug Off without Eject</a>
+            </li>
+            
+            <li>
                 <a class="footer-post" href="/2019/01/15/reigns-state-machine/">「概率状态机」- 「王权」之下的铁王座</a>
             </li>
             
@@ -366,10 +370,6 @@
                 <a class="footer-post" href="/2018/05/29/japan-1990s-china-2020s/">绕不开的房价：日本的 1990s 与中国的 2020s</a>
             </li>
             
-            <li>
-                <a class="footer-post" href="/2017/07/14/the-fat-and-the-thin/">胖子与瘦子</a>
-            </li>
-            
         </ul>
     </div>
 
@@ -384,10 +384,6 @@
         </li>
         
         <li>
-            <a class="footer-post" href="/categories/技术栈/">技术栈</a>
-        </li>
-        
-        <li>
             <a class="footer-post" href="/categories/搭基建/">搭基建</a>
         </li>
         
@@ -396,7 +392,15 @@
         </li>
         
         <li>
+            <a class="footer-post" href="/categories/技术栈/">技术栈</a>
+        </li>
+        
+        <li>
             <a class="footer-post" href="/categories/万卷书/">万卷书</a>
+        </li>
+        
+        <li>
+            <a class="footer-post" href="/categories/春秋笔/">春秋笔</a>
         </li>
         
         <li>
@@ -405,10 +409,6 @@
         
         <li>
             <a class="footer-post" href="/categories/产品论/">产品论</a>
-        </li>
-        
-        <li>
-            <a class="footer-post" href="/categories/春秋笔/">春秋笔</a>
         </li>
         
         <li>

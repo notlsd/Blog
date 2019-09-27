@@ -166,12 +166,12 @@ This essay will is using @notlsd’s game archeteture here to analyze the game a
         <!-- Post Content -->
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Sid Meir’s Civilization series are one of the greatest monuments in the history of PC games. However, due to that sophisticated mechanism with day and night “ One More Turn “, it’s extremely difficult to transplant it into mobile platform. Even 2k’s own transplantation was a failure.</p>
 <p>@notlsd recently have been addicted into “ The Battle of Polytopia ” - An indie game from one-man studio - Midjiwan in Sweden. It’s the best civilization-like game in mobile platform @notlsd have ever seen. </p>
-<p>This essay will is using <a href="https://notlsd.github.io/2018/10/12/what-is-game/" target="_blank" rel="external">@notlsd’s game archeteture here</a> to analyze the game archetecture of &lt; The Battle of Polytopia &gt; with widely acclaimed “ Sid Meir’s Civilization V - Brave New World ( abbr. as Civ5-BNW in following article )” <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Basic Civ5-BNW experience will be great for reading this article">[1]</span></a></sup></p>
+<p>This essay will is using <a href="https://notlsd.github.io/2018/10/12/what-is-game/" target="_blank" rel="noopener">@notlsd’s game archeteture here</a> to analyze the game archetecture of &lt; The Battle of Polytopia &gt; with widely acclaimed “ Sid Meir’s Civilization V - Brave New World ( abbr. as Civ5-BNW in following article )” <sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Basic Civ5-BNW experience will be great for reading this article">[1]</span></a></sup></p>
 <a id="more"></a>
 <h3 id="Game-Archtechure"><a href="#Game-Archtechure" class="headerlink" title="Game Archtechure"></a>Game Archtechure</h3><p>There are more than dozens sub-systems in Civ5-BNW - Military, Population, Production, Culture, Gold, Food, Faith, Diplomacy, Terrain, Building, Wonder, Technology, Ideology …… even more.   </p>
 <p>Polytopia have skilled chosen some of Civ5-BNW’s system as well as created some of its own. All the following proper nouns are invented by @notlsd, not the game author.</p>
 <p><img src="/2017/06/13/polytopia-a-mobilized-civilization/Users/notlsd/Blog/source/_posts/what-is-game/General-Game-Architecture.jpg" alt="General-Game-Architecture"><span class="imgTitle">General-Game-Architecture</span></p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line">├── ROOMS </div><div class="line">|	└── MAP SYSTEM </div><div class="line">│   	├── TERRAIN </div><div class="line">│   	└── VISIBILITY</div><div class="line">│</div><div class="line">├── SIPIRTES</div><div class="line">|	└── UNIT SYSTEM </div><div class="line">│</div><div class="line">├── OBJECTS (EVENT-ACTION CHAIN)</div><div class="line">|	└── COMBAT SYSTEM  </div><div class="line">|</div><div class="line">├── EVENT </div><div class="line">|	└── RUINS SYSTEM</div><div class="line">|</div><div class="line">├── ACTION </div><div class="line">|	└── TECHNOLOGY SYSTEM</div><div class="line">│</div><div class="line">├── LEVEL-UP</div><div class="line">│	├── CITY SYSTEM</div><div class="line">│	├── CURRENCY SYSTEM（STARS）</div><div class="line">│   └── XP SYSTEM</div><div class="line">|</div><div class="line">└── FINITY</div><div class="line">	├── SCORE SYSTEM </div><div class="line">	└── CAPTURE SYSTEM</div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">├── ROOMS </span><br><span class="line">|	└── MAP SYSTEM </span><br><span class="line">│   	├── TERRAIN </span><br><span class="line">│   	└── VISIBILITY</span><br><span class="line">│</span><br><span class="line">├── SIPIRTES</span><br><span class="line">|	└── UNIT SYSTEM </span><br><span class="line">│</span><br><span class="line">├── OBJECTS (EVENT-ACTION CHAIN)</span><br><span class="line">|	└── COMBAT SYSTEM  </span><br><span class="line">|</span><br><span class="line">├── EVENT </span><br><span class="line">|	└── RUINS SYSTEM</span><br><span class="line">|</span><br><span class="line">├── ACTION </span><br><span class="line">|	└── TECHNOLOGY SYSTEM</span><br><span class="line">│</span><br><span class="line">├── LEVEL-UP</span><br><span class="line">│	├── CITY SYSTEM</span><br><span class="line">│	├── CURRENCY SYSTEM（STARS）</span><br><span class="line">│   └── XP SYSTEM</span><br><span class="line">|</span><br><span class="line">└── FINITY</span><br><span class="line">	├── SCORE SYSTEM </span><br><span class="line">	└── CAPTURE SYSTEM</span><br></pre></td></tr></table></figure>
 <h3 id="1-Map-System"><a href="#1-Map-System" class="headerlink" title="1. Map System"></a>1. Map System</h3><p>Map, with its bonus and limitation are the most critical system on 4x games. The Map System on Polytopia is almost the same as Civ5-BNW</p>
 <ul>
 <li><strong><em>Terrain Limitation</em></strong> are fantasitic on Civilization series games. Basically, there are two limitation for units - visibility and mobility. There are + 1 visibility on mountain and reduction for mobibility on forest. Especially, Across the water request special technology which shallow sea and deep ocean on different level.   </li>
@@ -193,7 +193,7 @@ This essay will is using @notlsd’s game archeteture here to analyze the game a
 <li><strong><em>City Capture</em></strong></li>
 </ul>
 <p>We may use the following pseudo-code to describe the city capture</p>
-<figure class="highlight plain"><table><tr><td class="code"><pre><div class="line"></div><div class="line">if ( you have an unit in enemy&apos;s city this turn &amp;&amp; it is still remains next turn)</div><div class="line"></div><div class="line">	you can capture this city</div><div class="line"></div></pre></td></tr></table></figure>
+<figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">if ( you have an unit in enemy&apos;s city this turn &amp;&amp; it is still remains next turn)</span><br><span class="line"></span><br><span class="line">	you can capture this city</span><br><span class="line"></span><br></pre></td></tr></table></figure>
 <p>it is the almost the same in both Polytopia and CivBNW</p>
 <ul>
 <li><strong><em>XP System</em></strong></li>
@@ -263,6 +263,10 @@ This essay will is using @notlsd’s game archeteture here to analyze the game a
         <ul>
             
             <li>
+                <a class="footer-post" href="/2019/09/27/macos-external-drive/">MacOS Solution - External Drive Cannot Mount After Plug Off without Eject</a>
+            </li>
+            
+            <li>
                 <a class="footer-post" href="/2019/01/15/reigns-state-machine/">「概率状态机」- 「王权」之下的铁王座</a>
             </li>
             
@@ -290,10 +294,6 @@ This essay will is using @notlsd’s game archeteture here to analyze the game a
                 <a class="footer-post" href="/2018/05/29/japan-1990s-china-2020s/">绕不开的房价：日本的 1990s 与中国的 2020s</a>
             </li>
             
-            <li>
-                <a class="footer-post" href="/2017/07/14/the-fat-and-the-thin/">胖子与瘦子</a>
-            </li>
-            
         </ul>
     </div>
 
@@ -308,10 +308,6 @@ This essay will is using @notlsd’s game archeteture here to analyze the game a
         </li>
         
         <li>
-            <a class="footer-post" href="/categories/技术栈/">技术栈</a>
-        </li>
-        
-        <li>
             <a class="footer-post" href="/categories/搭基建/">搭基建</a>
         </li>
         
@@ -320,7 +316,15 @@ This essay will is using @notlsd’s game archeteture here to analyze the game a
         </li>
         
         <li>
+            <a class="footer-post" href="/categories/技术栈/">技术栈</a>
+        </li>
+        
+        <li>
             <a class="footer-post" href="/categories/万卷书/">万卷书</a>
+        </li>
+        
+        <li>
+            <a class="footer-post" href="/categories/春秋笔/">春秋笔</a>
         </li>
         
         <li>
@@ -329,10 +333,6 @@ This essay will is using @notlsd’s game archeteture here to analyze the game a
         
         <li>
             <a class="footer-post" href="/categories/产品论/">产品论</a>
-        </li>
-        
-        <li>
-            <a class="footer-post" href="/categories/春秋笔/">春秋笔</a>
         </li>
         
         <li>

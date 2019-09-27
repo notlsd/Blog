@@ -10,6 +10,8 @@
 
     <!--Description-->
     
+        <meta name="description" content="This problem is caused by system utility fsck which is abbrevation of File System Consistency Check, a tool for checking consistency of a file system in Unix and Unix-like operating systems, such as Linux, macOS, and FreeBSD. This Solution is based on This StackExchange Question but with detailed steps.">
+    
 
     <!--Author-->
     
@@ -18,7 +20,7 @@
 
     <!--Open Graph Title-->
     
-        <meta property="og:title" content="Not LSD">
+        <meta property="og:title" content="MacOS Solution - External Drive Cannot Mount After Plug Off without Eject">
     
 
     <!--Open Graph Description-->
@@ -29,7 +31,7 @@
 
     <!--Type page-->
     
-        <meta property="og:type" content="website">
+        <meta property="og:type" content="article">
     
 
     <!--Page Cover-->
@@ -40,7 +42,7 @@
 
     <!-- Title -->
     
-    <title>iOS 101 - Not LSD</title>
+    <title>MacOS Solution - External Drive Cannot Mount After Plug Off without Eject - Not LSD</title>
 
     <!-- Bootstrap Core CSS -->
     <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
@@ -120,9 +122,7 @@
 <div class="container">
 
     <!-- Main Content -->
-    
-
-<div class="row">
+    <div class="row">
     <div class="col-sm-12">
 
         <!--Title and Logo-->
@@ -130,23 +130,58 @@
     <div class="logo">
         <a href="/"><i class="logo-icon fa fa-cube" aria-hidden="true"></i></a>
         
-            <h1 id="main-title" class="title">iOS 101</h1>
-        
     </div>
 </header>
 
-        <section class="main archive-container">
+        <section class="main">
             
-                <div class="archive-post">
-    <a href="/2017/03/16/ios-1-introduction/">
-        <span class="archive-date">
-            Mar 2017
-        </span>
-        iOS Note 1 Guideline
-    </a>
+<div class="post">
+
+    <div class="post-header">
+        <h1 class="title">
+            <a href="/2019/09/27/macos-external-drive/">
+                MacOS Solution - External Drive Cannot Mount After Plug Off without Eject
+            </a>
+        </h1>
+        <div class="post-info">
+            
+                <span class="date">2019-09-27</span>
+            
+            
+            
+                <span class="category">
+                    <a href="/categories/技术栈/">技术栈</a>
+                </span>
+            
+        </div>
+    </div>
+
+    <div class="content">
+
+        <!-- Gallery -->
+        
+
+        <!-- Post Content -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This problem is caused by system utility <strong>fsck</strong> which is abbrevation of <strong>F</strong>ile <strong>S</strong>ystem <strong>C</strong>onsistency Chec<strong>k</strong>, a tool for checking consistency of a file system in Unix and Unix-like operating systems, such as Linux, macOS, and FreeBSD. This Solution is based on <a href="https://apple.stackexchange.com/questions/235309/external-drive-does-not-mount-after-plug-off-without-eject" target="_blank" rel="noopener">This StackExchange Question</a> but with detailed steps.</p>
+<a id="more"></a>
+<h3 id="STEP-1"><a href="#STEP-1" class="headerlink" title="STEP 1"></a>STEP 1</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo pkill -f fsck</span><br></pre></td></tr></table></figure>
+<p>Kill <strong>fsck</strong> process. After doing this, Mac will give you a warning as following, just ignore it. Now you may see your external drive in FINDER.</p>
+<p><img src="/2019/09/27/macos-external-drive/macos-warning.png" alt="img"><span class="imgTitle">img</span></p>
+<h3 id="STEP-2"><a href="#STEP-2" class="headerlink" title="STEP 2"></a>STEP 2</h3><p>Use DISK UTILITY App macOS provide, Click FIRST AID on your external drive. This may take some time, after this, the problem is solved.</p>
+<p>This Sulution is working on macOS Mojave 10.14.6. The external drive is ExFAT format.</p>
+
+    </div>
+
+    
+
+    
+
+    <!-- Comments -->
+    
+
 </div>
-            
         </section>
+
     </div>
 </div>
 

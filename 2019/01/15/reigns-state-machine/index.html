@@ -164,17 +164,17 @@
         <!-- Post Content -->
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Reigns 有一个令玩家十分诟病的地方 — 不同的选择仍然经常会导致同样的结局，以致于了无趣味。Reigns 的主创认为这是 Feature，然而不少玩家却认为这是 Bug。不过这从侧面说明了 Reigns 的后台并非一般「文本冒险游戏」所使用的「决策树」。</p>
 <a id="more"></a>
-<p>@notlsd 找到了 Reigns 作者在 GDC 的演讲 <a href="https://www.youtube.com/watch?v=tDdtbh-oUTU" target="_blank" rel="external">「The Casual (but Regal) Swipe: Creating Game Mechanics in Reigns」</a>以及中央美术学院「重识游戏 — 首届功能与艺术游戏大展」Reigns 展位的说明文章「在「王权」中创造自适应叙事」，从而证实了这一点，并发现了 Reigns 背后的数据结构<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="未经特殊说明时，本文的截图来自于上述 GDC 演讲，引文来自于上述展板说明文章
+<p>@notlsd 找到了 Reigns 作者在 GDC 的演讲 <a href="https://www.youtube.com/watch?v=tDdtbh-oUTU" target="_blank" rel="noopener">「The Casual (but Regal) Swipe: Creating Game Mechanics in Reigns」</a>以及中央美术学院「重识游戏 — 首届功能与艺术游戏大展」Reigns 展位的说明文章「在「王权」中创造自适应叙事」，从而证实了这一点，并发现了 Reigns 背后的数据结构<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="未经特殊说明时，本文的截图来自于上述 GDC 演讲，引文来自于上述展板说明文章
 ">[1]</span></a></sup>。Reigns 的游戏体验将显著降低対文章的理解难度，但非必要。</p>
 <h3 id="概率包-VS-决策树-—-两种世界观"><a href="#概率包-VS-决策树-—-两种世界观" class="headerlink" title="概率包 VS 决策树 — 两种世界观"></a>概率包 VS 决策树 — 两种世界观</h3><p>我们从一个対游戏的定义说起：</p>
 <blockquote>
 <p>A Game Is a Series of Interesting Decisions. </p>
 </blockquote>
 <p>这是 Sid Meir 老爷子给游戏的定义。那么问题来了，当玩家重复同样的选择，他还能到达同样的结局么？这其实是个哲学问题，或者说在游戏这个给定系统中，是否存在「拉普拉斯妖」？物理世界是有内禀的随机性的，游戏世界有么？在游戏设计中，确定性与随机性之间怎么平衡？</p>
-<p><strong><em>「可控随机」是游戏性的核心组成部分<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="@notlsd 正在撰写的一篇文章 Controlled Randomness - One Essiential Part of Gameplay，详尽的讨论了这个问题，完工后链接附于文后评论区
+<p><strong><em>「可控随机」是游戏性的核心组成部分<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="@notlsd 正在撰写的一篇文章 Controlled Randomness - One Essiential Part of Gameplay，详尽的讨论了这个问题，完工后链接附于文后评论区
 ">[2]</span></a></sup>。</em></strong></p>
-<p>某种程度上，游戏的起源即是于此。「动物世界」里，母狮捕猎到幼年羚羊总是先丢给幼崽蹂躏玩弄，而这个游戏又何尝不是幼师的「模拟人生」？最原始的游戏就是对真实的随机世界降低难度后的模拟，如象棋之于战争，过家家之于成人生活。就像 Rogue-like Game 一样<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="「S/L 大法」指在单人游戏中大规模使用 Save / Load 以对抗高难度 A.I.
-">[3]</span></a></sup>，真实世界是没有 S/L 大法的<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="为什么 Roguelike 现在受到普遍的欢迎，尤其是在硬核玩家之中？至少 @notlsd 认为，在运算资源和美术资源如此冗余的今天，一个成功的游戏，尤其是成本十分有限的独立游戏，应该回归到 Gameplay 本身。Rogue-like 用极致的随机性创造了 Life-like 的体验，使得游戏中的情感体验总是很充沛
+<p>某种程度上，游戏的起源即是于此。「动物世界」里，母狮捕猎到幼年羚羊总是先丢给幼崽蹂躏玩弄，而这个游戏又何尝不是幼师的「模拟人生」？最原始的游戏就是对真实的随机世界降低难度后的模拟，如象棋之于战争，过家家之于成人生活。就像 Rogue-like Game 一样<sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="「S/L 大法」指在单人游戏中大规模使用 Save / Load 以对抗高难度 A.I.
+">[3]</span></a></sup>，真实世界是没有 S/L 大法的<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="为什么 Roguelike 现在受到普遍的欢迎，尤其是在硬核玩家之中？至少 @notlsd 认为，在运算资源和美术资源如此冗余的今天，一个成功的游戏，尤其是成本十分有限的独立游戏，应该回归到 Gameplay 本身。Rogue-like 用极致的随机性创造了 Life-like 的体验，使得游戏中的情感体验总是很充沛
 ">[4]</span></a></sup>。</p>
 <p>抽离上述的哲学讨论或者说关于 Reigns 后台系统的 Why；我们回到具体的，Reigns 的作者是如何搭建这个系统的，或者说关于这个系统 How。</p>
 <p><img src="/2019/01/15/reigns-state-machine/tree-vs-state-machine.png" alt="Tree vs State Machine"><span class="imgTitle">Tree vs State Machine</span></p>
@@ -182,8 +182,8 @@
 <p>比起「决策树」，「概率包」引入了随机的过程和权重的概念，同时，「概率包」本身又是有限的，故而实现了<strong><em>「可控的随机」</em></strong>。</p>
 <p>「决策树」背后的世界观是机械的，命定论的，玩家的每一个选择必定确定了游戏之后的走向。只要做同样的选择，无论玩家重来多少次都会走上同样的结局。</p>
 <p>「概率包」背后的世界观则是「可控的随机」。内秉的随机性使得每次游戏流程都有可能不同，可选项的边界却又保证了不同选择之间内在逻辑的自洽。</p>
-<h3 id="用概率写一个叙事"><a href="#用概率写一个叙事" class="headerlink" title="用概率写一个叙事"></a>用概率写一个叙事</h3><p>以下内容全文引用自中央美术学院「重识游戏 — 首届功能与艺术游戏大展」Reigns 展位的说明文章<a href="https://www.gamasutra.com/view/news/283967/Game_Design_Deep_Dive_Creating_an_adaptive_narrative_in_Reigns.php" target="_blank" rel="external">「在「王权」中创造自适应叙事」</a><sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="Reigns 在央美游戏大展展位上的说明文章，基本上是 [gamasutra 这篇文章](](https://www.gamasutra.com/view/news/283967/Game_Design_Deep_Dive_Creating_an_adaptive_narrative_in_Reigns.php )) 的翻译。但翻译的质量真的是差强人意中的差强人意，也就勉强能看，一股浓浓的中国大学生赶作业的 Feeling ......
-">[5]</span></a></sup><sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="最后证实，翻译就是 Google Translate 的机翻。引文翻译经过 @notsld 的大规模修正和润色，部分段落完全重写">[6]</span></a></sup>，有大规模删改：</p>
+<h3 id="用概率写一个叙事"><a href="#用概率写一个叙事" class="headerlink" title="用概率写一个叙事"></a>用概率写一个叙事</h3><p>以下内容全文引用自中央美术学院「重识游戏 — 首届功能与艺术游戏大展」Reigns 展位的说明文章<a href="https://www.gamasutra.com/view/news/283967/Game_Design_Deep_Dive_Creating_an_adaptive_narrative_in_Reigns.php" target="_blank" rel="noopener">「在「王权」中创造自适应叙事」</a><sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="Reigns 在央美游戏大展展位上的说明文章，基本上是 [gamasutra 这篇文章](](https://www.gamasutra.com/view/news/283967/Game_Design_Deep_Dive_Creating_an_adaptive_narrative_in_Reigns.php )) 的翻译。但翻译的质量真的是差强人意中的差强人意，也就勉强能看，一股浓浓的中国大学生赶作业的 Feeling ......
+">[5]</span></a></sup><sup id="fnref:6"><a href="#fn:6" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="最后证实，翻译就是 Google Translate 的机翻。引文翻译经过 @notsld 的大规模修正和润色，部分段落完全重写">[6]</span></a></sup>，有大规模删改：</p>
 <blockquote>
 <p>为了用概率写一个叙事，我们将随机选择的卡牌转换为概率系统。这是一个看起来相当复杂的表达，实际上却非常简单：</p>
 <hr>
@@ -239,7 +239,7 @@
 <p>在 Reigns 中实现 Doungen，其实质是在一个概率系统中实现一个确定性路径。这是一个困难的任务，然而作者的实现十分的巧妙，或者说  Tricky ，如下图：</p>
 <p><img src="/2019/01/15/reigns-state-machine/database-dungeon.png" alt="Dungeon Database"><span class="imgTitle">Dungeon Database</span></p>
 <p>解法其实非常简单：一般意义的场景是同一个持牌者 Bearer ，对应着不同的卡牌 Card ；然而在 Dungeon 里却是同一张 Card 对应着不同的 Bearer。</p>
-<p>这样就解决了确定性路径的问题，并实现了后端结构的一致性。但这么做仍然是有问题的，这样不具有可扩展性。Reigns 中的 Dungeon，复杂度其实很小，最多也就十张卡牌。然而在这个结构下，随着卡牌数量的增加，其复杂度的增加是指数级的<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top-right hint--error hint--large" aria-label="非算法意义上的，粗略估计，未经计算">[7]</span></a></sup>。</p>
+<p>这样就解决了确定性路径的问题，并实现了后端结构的一致性。但这么做仍然是有问题的，这样不具有可扩展性。Reigns 中的 Dungeon，复杂度其实很小，最多也就十张卡牌。然而在这个结构下，随着卡牌数量的增加，其复杂度的增加是指数级的<sup id="fnref:7"><a href="#fn:7" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="非算法意义上的，粗略估计，未经计算">[7]</span></a></sup>。</p>
 <ul>
 <li>Another Trick from @notlsd </li>
 </ul>
@@ -258,7 +258,7 @@
 </li>
 <li><p>Reigns 的游戏机制，姑且称之为「概率卡牌包」，完全有潜力成为一个独立的游戏类型，至少成为卡牌游戏下的一个子类型。同样的结构，除了「维持政权稳定」外，可以承载的内容还有许多。然而，开发者 François Alliot 把这个类型完全给窄化了。不客气的说 Reigns: Her Majesty / Reigns: GoT 都是「换皮游戏」，最多算是 DLC。</p>
 </li>
-<li>一个有趣的摹仿反倒是在中国，一个「华农兄弟」粉丝向游戏：<a href="https://www.taptap.tw/app/145214" target="_blank" rel="external">「竹鼠：活下去」</a>，但总的来说也能称得上「拙劣」。在前端，将滑动改为了点击；在后端，玩家的选择与四个评判标准并没有逻辑上的对应关系。</li>
+<li>一个有趣的摹仿反倒是在中国，一个「华农兄弟」粉丝向游戏：<a href="https://www.taptap.tw/app/145214" target="_blank" rel="noopener">「竹鼠：活下去」</a>，但总的来说也能称得上「拙劣」。在前端，将滑动改为了点击；在后端，玩家的选择与四个评判标准并没有逻辑上的对应关系。</li>
 </ul>
 <h3 id="One-More-Thing"><a href="#One-More-Thing" class="headerlink" title="One More Thing"></a>One More Thing</h3><p>在上面的引文中，我刻意的漏掉了下面这段话：</p>
 <blockquote>
@@ -271,10 +271,10 @@
 <p>这和 @notlsd 的游戏观如出一辙，是的，这是一种工具或语法，包罗万象。</p>
 <p><strong>Reigns × Animal Farm</strong> 是什么样子 ？</p>
 <p>George Orwell 的食材配上「中国特色」的调料，用 Reigns 的炊具一顿爆炒，会是什么味道？</p>
-<p><a href="https://indienova.com/g/afcc" target="_blank" rel="external">2019「中国特色动物农场」</a> 敬请期待 ~</p>
+<p><a href="https://indienova.com/g/afcc" target="_blank" rel="noopener">2019「中国特色动物农场」</a> 敬请期待 ~</p>
 <p>推翻独裁猪！</p>
 <p>猪年大吉吧！</p>
-<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">未经特殊说明时，本文的截图来自于上述 GDC 演讲，引文来自于上述展板说明文章<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">@notlsd 正在撰写的一篇文章 Controlled Randomness - One Essiential Part of Gameplay，详尽的讨论了这个问题，完工后链接附于文后评论区<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">「S/L 大法」指在单人游戏中大规模使用 Save / Load 以对抗高难度 A.I.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">为什么 Roguelike 现在受到普遍的欢迎，尤其是在硬核玩家之中？至少 @notlsd 认为，在运算资源和美术资源如此冗余的今天，一个成功的游戏，尤其是成本十分有限的独立游戏，应该回归到 Gameplay 本身。Rogue-like 用极致的随机性创造了 Life-like 的体验，使得游戏中的情感体验总是很充沛<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Reigns 在央美游戏大展展位上的说明文章，基本上是 <a href="%5D(https://www.gamasutra.com/view/news/283967/Game_Design_Deep_Dive_Creating_an_adaptive_narrative_in_Reigns.php">gamasutra 这篇文章</a>) 的翻译。但翻译的质量真的是差强人意中的差强人意，也就勉强能看，一股浓浓的中国大学生赶作业的 Feeling ……<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">最后证实，翻译就是 Google Translate 的机翻。引文翻译经过 @notsld 的大规模修正和润色，部分段落完全重写<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">非算法意义上的，粗略估计，未经计算<a href="#fnref:7" rev="footnote"> ↩</a></span></li></ol></div></div>
+<div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">未经特殊说明时，本文的截图来自于上述 GDC 演讲，引文来自于上述展板说明文章<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">@notlsd 正在撰写的一篇文章 Controlled Randomness - One Essiential Part of Gameplay，详尽的讨论了这个问题，完工后链接附于文后评论区<a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">「S/L 大法」指在单人游戏中大规模使用 Save / Load 以对抗高难度 A.I.<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">为什么 Roguelike 现在受到普遍的欢迎，尤其是在硬核玩家之中？至少 @notlsd 认为，在运算资源和美术资源如此冗余的今天，一个成功的游戏，尤其是成本十分有限的独立游戏，应该回归到 Gameplay 本身。Rogue-like 用极致的随机性创造了 Life-like 的体验，使得游戏中的情感体验总是很充沛<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">Reigns 在央美游戏大展展位上的说明文章，基本上是 <a href="https://www.gamasutra.com/view/news/283967/Game_Design_Deep_Dive_Creating_an_adaptive_narrative_in_Reigns.php" target="_blank" rel="noopener">gamasutra 这篇文章](</a>) 的翻译。但翻译的质量真的是差强人意中的差强人意，也就勉强能看，一股浓浓的中国大学生赶作业的 Feeling ……<a href="#fnref:5" rev="footnote"> ↩</a></span></li><li id="fn:6"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">6.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">最后证实，翻译就是 Google Translate 的机翻。引文翻译经过 @notsld 的大规模修正和润色，部分段落完全重写<a href="#fnref:6" rev="footnote"> ↩</a></span></li><li id="fn:7"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">7.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">非算法意义上的，粗略估计，未经计算<a href="#fnref:7" rev="footnote"> ↩</a></span></li></ol></div></div>
     </div>
 
     
@@ -310,6 +310,10 @@
         <ul>
             
             <li>
+                <a class="footer-post" href="/2019/09/27/macos-external-drive/">MacOS Solution - External Drive Cannot Mount After Plug Off without Eject</a>
+            </li>
+            
+            <li>
                 <a class="footer-post" href="/2019/01/15/reigns-state-machine/">「概率状态机」- 「王权」之下的铁王座</a>
             </li>
             
@@ -337,10 +341,6 @@
                 <a class="footer-post" href="/2018/05/29/japan-1990s-china-2020s/">绕不开的房价：日本的 1990s 与中国的 2020s</a>
             </li>
             
-            <li>
-                <a class="footer-post" href="/2017/07/14/the-fat-and-the-thin/">胖子与瘦子</a>
-            </li>
-            
         </ul>
     </div>
 
@@ -355,10 +355,6 @@
         </li>
         
         <li>
-            <a class="footer-post" href="/categories/技术栈/">技术栈</a>
-        </li>
-        
-        <li>
             <a class="footer-post" href="/categories/搭基建/">搭基建</a>
         </li>
         
@@ -367,7 +363,15 @@
         </li>
         
         <li>
+            <a class="footer-post" href="/categories/技术栈/">技术栈</a>
+        </li>
+        
+        <li>
             <a class="footer-post" href="/categories/万卷书/">万卷书</a>
+        </li>
+        
+        <li>
+            <a class="footer-post" href="/categories/春秋笔/">春秋笔</a>
         </li>
         
         <li>
@@ -376,10 +380,6 @@
         
         <li>
             <a class="footer-post" href="/categories/产品论/">产品论</a>
-        </li>
-        
-        <li>
-            <a class="footer-post" href="/categories/春秋笔/">春秋笔</a>
         </li>
         
         <li>
