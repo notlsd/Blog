@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://notlsd.com/"/>
-  <updated>2019-09-27T08:19:15.187Z</updated>
+  <updated>2020-02-23T03:17:32.925Z</updated>
   <id>http://notlsd.com/</id>
   
   <author>
@@ -17,21 +17,19 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>MacOS Solution - External Drive Cannot Mount After Plug Off without Eject</title>
-    <link href="http://notlsd.com/2019/09/27/macos-external-drive/"/>
-    <id>http://notlsd.com/2019/09/27/macos-external-drive/</id>
-    <published>2019-09-27T07:36:28.000Z</published>
-    <updated>2019-09-27T08:19:15.187Z</updated>
+    <title>人民怕党？党怕人民！</title>
+    <link href="http://notlsd.com/2020/02/23/party-people-relationship/"/>
+    <id>http://notlsd.com/2020/02/23/party-people-relationship/</id>
+    <published>2020-02-23T01:26:17.000Z</published>
+    <updated>2020-02-23T03:17:32.925Z</updated>
     
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>This problem is caused by system utility <strong>fsck</strong> which is abbrevation of <strong>F</strong>ile <strong>S</strong>ystem <strong>C</strong>onsistency Chec<strong>k</strong>, a tool for checking consistency of a file system in Unix and Unix-like operating systems, such as Linux, macOS, and FreeBSD. This Solution is based on <a href="https://apple.stackexchange.com/questions/235309/external-drive-does-not-mount-after-plug-off-without-eject" target="_blank" rel="noopener">This StackExchange Question</a> but with detailed steps.</p><a id="more"></a><h3 id="STEP-1"><a href="#STEP-1" class="headerlink" title="STEP 1"></a>STEP 1</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">sudo pkill -f fsck</span><br></pre></td></tr></table></figure><p>Kill <strong>fsck</strong> process. After doing this, Mac will give you a warning as following, just ignore it. Now you may see your external drive in FINDER.</p><p><img src="/2019/09/27/macos-external-drive/macos-warning.png" alt="img"><span class="imgTitle">img</span></p><h3 id="STEP-2"><a href="#STEP-2" class="headerlink" title="STEP 2"></a>STEP 2</h3><p>Use DISK UTILITY App macOS provide, Click FIRST AID on your external drive. This may take some time, after this, the problem is solved.</p><p>This Sulution is working on macOS Mojave 10.14.6. The external drive is ExFAT format.</p>]]></content>
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>悬在人民头上的达摩克利斯之剑与党的阿喀琉斯之踵</p><a id="more"></a><p>明面上，人民是惧怕党的。</p><p>删贴，封号，喝茶，训诫，煽颠，总有一款适合你。</p><p>党的阿喀琉斯之踵和悬在中国人头上的达摩克利斯之剑</p><p>对所有人生活的自由裁量权</p><p>法治于法制</p><p>法与律的差别</p><p>擅权的第三方  擅权</p><p>地</p><p>暗面上，党才是惧怕人民的。</p><p>当武汉爆发 <em>SARS</em>-<em>CoV</em>-2 的时候，一件令所有人百思不得其解的事情是：</p><blockquote><p>物资一律不许定向捐赠，必须经过红十字会</p></blockquote><ul><li>自顶向下的决策逻辑要比去中心化的自组织缓慢和低效</li><li>郭美美事件后红十字会的信誉已彻底破产</li></ul><p>这背后一定有什么更深层的顾虑，以及一些很有趣的事情</p><p>内涵段子下架</p><p>卡车之友解散</p><p>最神奇的是这个（李克强同学群）</p><p>「中华人民共和国宪法」第二章第三十五条</p><blockquote><p>第三十五条 中华人民共和国公民有言论、出版、集会、结社、游行、示威的自由。</p></blockquote>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;This problem is caused by system utility &lt;strong&gt;fsck&lt;/strong&gt; which is abbrevation of &lt;strong&gt;F&lt;/strong&gt;ile &lt;strong&gt;S&lt;/strong&gt;ystem &lt;strong&gt;C&lt;/strong&gt;onsistency Chec&lt;strong&gt;k&lt;/strong&gt;, a tool for checking consistency of a file system in Unix and Unix-like operating systems, such as Linux, macOS, and FreeBSD. This Solution is based on &lt;a href=&quot;https://apple.stackexchange.com/questions/235309/external-drive-does-not-mount-after-plug-off-without-eject&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;This StackExchange Question&lt;/a&gt; but with detailed steps.&lt;/p&gt;
+      &lt;p&gt;悬在人民头上的达摩克利斯之剑与党的阿喀琉斯之踵&lt;/p&gt;
     
     </summary>
-    
-      <category term="技术栈" scheme="http://notlsd.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
     
     
   </entry>
