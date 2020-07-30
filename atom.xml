@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://notlsd.com/"/>
-  <updated>2020-02-23T03:17:32.925Z</updated>
+  <updated>2019-05-08T05:04:23.000Z</updated>
   <id>http://notlsd.com/</id>
   
   <author>
@@ -15,24 +15,6 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>人民怕党？党怕人民！</title>
-    <link href="http://notlsd.com/2020/02/23/party-people-relationship/"/>
-    <id>http://notlsd.com/2020/02/23/party-people-relationship/</id>
-    <published>2020-02-23T01:26:17.000Z</published>
-    <updated>2020-02-23T03:17:32.925Z</updated>
-    
-    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>悬在人民头上的达摩克利斯之剑与党的阿喀琉斯之踵</p><a id="more"></a><p>明面上，人民是惧怕党的。</p><p>删贴，封号，喝茶，训诫，煽颠，总有一款适合你。</p><p>党的阿喀琉斯之踵和悬在中国人头上的达摩克利斯之剑</p><p>对所有人生活的自由裁量权</p><p>法治于法制</p><p>法与律的差别</p><p>擅权的第三方  擅权</p><p>地</p><p>暗面上，党才是惧怕人民的。</p><p>当武汉爆发 <em>SARS</em>-<em>CoV</em>-2 的时候，一件令所有人百思不得其解的事情是：</p><blockquote><p>物资一律不许定向捐赠，必须经过红十字会</p></blockquote><ul><li>自顶向下的决策逻辑要比去中心化的自组织缓慢和低效</li><li>郭美美事件后红十字会的信誉已彻底破产</li></ul><p>这背后一定有什么更深层的顾虑，以及一些很有趣的事情</p><p>内涵段子下架</p><p>卡车之友解散</p><p>最神奇的是这个（李克强同学群）</p><p>「中华人民共和国宪法」第二章第三十五条</p><blockquote><p>第三十五条 中华人民共和国公民有言论、出版、集会、结社、游行、示威的自由。</p></blockquote>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;悬在人民头上的达摩克利斯之剑与党的阿喀琉斯之踵&lt;/p&gt;
-    
-    </summary>
-    
-    
-  </entry>
   
   <entry>
     <title>「概率状态机」- 「王权」之下的铁王座</title>
@@ -422,6 +404,27 @@
     </summary>
     
       <category term="科学家" scheme="http://notlsd.com/categories/%E7%A7%91%E5%AD%A6%E5%AE%B6/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>利用「正则表达式」进行批量文本替换</title>
+    <link href="http://notlsd.com/2017/05/27/regx-in-massive-text/"/>
+    <id>http://notlsd.com/2017/05/27/regx-in-massive-text/</id>
+    <published>2017-05-27T09:02:43.000Z</published>
+    <updated>2017-06-02T07:05:35.000Z</updated>
+    
+    <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>利用「正则表达式」可以显著的提高文档处理的效率。本文围绕下列例子，简要的介绍了如何通过正则表达式进行文档的快速查找与替换。</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line">查找字符串 ^[►](\D*)(\d+).*</span><br><span class="line"></span><br><span class="line">替换字符串 -&gt; b\2 [label=&quot;\1&quot;];</span><br></pre></td></tr></table></figure><a id="more"></a><p>请注意，「正则表达式」Regular Expression 简称 Regx，是一门博大而深邃的艺术，本文只能算作入门教程的导论<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="本文默认读者知悉基本的计算机文本编码规则。">[1]</span></a></sup> <sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="General Reference [正则表达式30分钟入门教程](http://deerchao.net/tutorials/regex/regex.htm) ">[2]</span></a></sup>。</p><h3 id="最简单的例子-删除多余空行"><a href="#最简单的例子-删除多余空行" class="headerlink" title="最简单的例子 - 删除多余空行"></a>最简单的例子 - 删除多余空行</h3><p>最直接的想法即是查找「换行符」直接删除，如下：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">查找字符串 \n </span><br><span class="line"></span><br><span class="line">替换字符串为空</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>然而，这样是行不通的：</p><blockquote><p>第一行文本</p><p>第二行文本</p><p>第三行文本</p></blockquote><p>经过处理后就成为了：</p><blockquote><p>第一行文本第二行文本第三行文本</p></blockquote><p>正常段落间换行也被删除了。不过，稍加变化即可解决问题：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">查找字符串 ^\n</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>在 Regx 中，<strong>^</strong> 标记行首；<strong>$</strong> 标记行尾。</p><p>上述代码的意思即是查找出现在行首的「换行符」，从而解决了上述问题。</p><h3 id="略微复杂的例子-删除行首行标"><a href="#略微复杂的例子-删除行首行标" class="headerlink" title="略微复杂的例子 - 删除行首行标"></a>略微复杂的例子 - 删除行首行标</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">查找字符串 ^\d+</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>我们已经清楚通过 <strong>^</strong> 可以定位行首，现在新的问题是如何追踪到行标。凡事先问「是什么」，「行标」用自然语言来说，就是「出现在行首的一个或多个数字」。那么在 Regx 中可以用，\d+ 来表示。借此，引入「元字符」和「限定符」的概念，如下表：</p><table><thead><tr><th style="text-align:center">元字符</th><th style="text-align:left">匹配内容</th></tr></thead><tbody><tr><td style="text-align:center">.</td><td style="text-align:left">匹配除换行符以外的任意字符</td></tr><tr><td style="text-align:center">\ w</td><td style="text-align:left">匹配字母或数字或下划线或汉字</td></tr><tr><td style="text-align:center">\ b</td><td style="text-align:left">匹配单词的开始或结束</td></tr><tr><td style="text-align:center">\ s</td><td style="text-align:left">匹配任意的空白符</td></tr><tr><td style="text-align:center">\ d</td><td style="text-align:left">匹配数字</td></tr></tbody></table><table><thead><tr><th style="text-align:center">限定符</th><th style="text-align:left">重复次数</th></tr></thead><tbody><tr><td style="text-align:center">*</td><td style="text-align:left">重复零次或更多次</td></tr><tr><td style="text-align:center">+</td><td style="text-align:left">重复一次或更多次</td></tr><tr><td style="text-align:center">?</td><td style="text-align:left">重复零次或一次</td></tr></tbody></table><h3 id="真实的应用：一堆文本与一个问题"><a href="#真实的应用：一堆文本与一个问题" class="headerlink" title="真实的应用：一堆文本与一个问题"></a>真实的应用：一堆文本与一个问题</h3><p>最近在处理一个超过十万字的 <sup id="fnref:3"><a href="#fn:3" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="OCR - Optical Character Recognition「光学字符识别」，通俗的说，就是扫描件。此外，[ABBYY](www.abbyy.com/en-us/) 真乃 OCR 神器。">[3]</span></a></sup> 文本，需要把它处理为某种计算机可用的格式。里面含有大量的类似于这样的文本：</p><blockquote><p>► 指向 1984 。</p></blockquote><p>需要替换为这个</p><blockquote><p>-&gt; 1984 [label = “ 指向 “];</p></blockquote><p>其中，文本和数字都是任意的。这是个有些复杂的问题，最终解决的办法就是开头的那串复杂的 Regx，如下：</p><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">查找字符串 ^[►](\D*)(\d+).*</span><br><span class="line"></span><br><span class="line">替换字符串 -&gt; b\2 [label=&quot;\1&quot;];</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>除了上述章节已经提及的元素，首先映入眼帘的<sup id="fnref:4"><a href="#fn:4" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="这是「人民教育出版社九年制义务教育语文教科书」课文开头惯用语。">[4]</span></a></sup>，是一堆括号，那么就先来解释括号的意义。</p><ul><li><p>方括号 <strong>[ ]</strong> 指没有预定义的「元字符」集，比方说[►]就是指当匹配到任何一个「 ► 」的时候。同理， [aeiou]指匹配到任何一个元音字母的时候。</p></li><li><p>小括号 <strong>（ ）</strong> 指分组，每个组会被按照次序依次加上序号。替换字符串这里是最简单的应用，</p></li></ul><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">\1 指代 (\D*) 的内容</span><br><span class="line"></span><br><span class="line">\2 指代 (\d+) 的内容</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>显然，Regx 是大小写敏感的。再浏览一遍上面的 Regx，只有一个地方不清除了，<strong>\D</strong> 的意义。现在引入「反义字符」的概念</p><table><thead><tr><th style="text-align:center">反义字符</th><th style="text-align:left">匹配内容</th></tr></thead><tbody><tr><td style="text-align:center">\W</td><td style="text-align:left">匹配任意不是字母，数字，下划线，汉字的字符</td></tr><tr><td style="text-align:center">\B</td><td style="text-align:left">匹配不是单词开头或结束的位置</td></tr><tr><td style="text-align:center">\S</td><td style="text-align:left">匹配任意不是空白符的字符</td></tr><tr><td style="text-align:center">\D</td><td style="text-align:left">匹配任意非数字的字符</td></tr><tr><td style="text-align:center">^x</td><td style="text-align:left">匹配除了x以外的任意字符</td></tr></tbody></table><p>同理 [^aeiou] 匹配除了 a e i o u 这几个字母以外的任意字符。那么，用自然语言解释这一串 Regx 的意义即是：</p><p><strong>查找到行首；匹配 ► ；接着匹配任意数量非数字字符，编为第一组；接着匹配一个或多个数字，编为第二组；匹配任意数量的在本行的任意字符；完</strong></p><h3 id="一只-BUG-与「贪婪模式」"><a href="#一只-BUG-与「贪婪模式」" class="headerlink" title="一只 BUG 与「贪婪模式」"></a>一只 BUG 与「贪婪模式」</h3><figure class="highlight plain"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">查找字符串 ^[►](*)(\d+).*</span><br><span class="line"></span><br></pre></td></tr></table></figure><p>之前处理此问题的时候，用的是上面这个 Regx ，但最后替换的结果令人哭笑不得</p><blockquote><p>-&gt; b4 [label=” 指向198”];</p></blockquote><p>原因如下：</p><blockquote><p>通常当 Regx 中包含能接受重复的限定符时，在使整个 Regx 能得到匹配的前提下，匹配尽可能多的字符。这被称为「贪婪模式」Greedy Mode 。与此对应的称之为「懒惰模式」Lazy Mode 。</p></blockquote><p>这样的话，在「► 指向 1984 。」中，前面的 * 一直取到 8 也就不足为奇了。</p><p>###</p><p>思考题：Unix Command </p><figure class="highlight shell"><table><tr><td class="code"><pre><span class="line"></span><br><span class="line">rm image*[02468].jpg evenImage </span><br><span class="line"></span><br></pre></td></tr></table></figure><p>是什么意思？<sup id="fnref:5"><a href="#fn:5" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="答案：将所有名称为偶数的 jpg 图像移动到同目录下的 evenImage 目录">[5]</span></a></sup></p><h3 id="综上所述"><a href="#综上所述" class="headerlink" title="综上所述"></a>综上所述</h3><p>Regx 也应该可以算作「计算机科学」中的上古神器之一 — 简洁，优雅，烧脑。</p><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">本文默认读者知悉基本的计算机文本编码规则。<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">General Reference <a href="http://deerchao.net/tutorials/regex/regex.htm" target="_blank" rel="noopener">正则表达式30分钟入门教程</a><a href="#fnref:2" rev="footnote"> ↩</a></span></li><li id="fn:3"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">3.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">OCR - Optical Character Recognition「光学字符识别」，通俗的说，就是扫描件。此外，<a href="www.abbyy.com/en-us/">ABBYY</a> 真乃 OCR 神器。<a href="#fnref:3" rev="footnote"> ↩</a></span></li><li id="fn:4"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">4.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">这是「人民教育出版社九年制义务教育语文教科书」课文开头惯用语。<a href="#fnref:4" rev="footnote"> ↩</a></span></li><li id="fn:5"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">5.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">答案：将所有名称为偶数的 jpg 图像移动到同目录下的 evenImage 目录<a href="#fnref:5" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;利用「正则表达式」可以显著的提高文档处理的效率。本文围绕下列例子，简要的介绍了如何通过正则表达式进行文档的快速查找与替换。&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;查找字符串 ^[►](\D*)(\d+).*&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;替换字符串 -&amp;gt; b\2 [label=&amp;quot;\1&amp;quot;];&lt;/span&gt;&lt;br&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;
+    
+    </summary>
+    
+      <category term="技术栈" scheme="http://notlsd.com/categories/%E6%8A%80%E6%9C%AF%E6%A0%88/"/>
     
     
   </entry>
